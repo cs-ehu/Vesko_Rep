@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="interfacebusiness_logic_1_1_application_facade_interface_w_s" kind="interface" language="Java" prot="public">
+    <compoundname>businessLogic::ApplicationFacadeInterfaceWS</compoundname>
+    <derivedcompoundref refid="classbusiness_logic_1_1_facade_implementation_w_s" prot="public" virt="non-virtual">businessLogic.FacadeImplementationWS</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad807cbd5d877e941edc274563e5cefa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva businessLogic.ApplicationFacadeInterfaceWS.createReserva</definition>
+        <argsstring>(Offer offer, Client cliente, Date bookDate, String state)</argsstring>
+        <name>createReserva</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5bbdf1cf4235a84736744f3516ec1dae">createReserva</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+          <declname>offer</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>cliente</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>bookDate</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="28" column="1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0c4ed4fa98351e6aaba6f9769e561abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.ApplicationFacadeInterfaceWS.removeReserva</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>removeReserva</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ae4cb91caac6aed10801d61b70702fd30">removeReserva</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="32" column="1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0e8d2135ef1384a32e74f60bcea55f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer businessLogic.ApplicationFacadeInterfaceWS.createOffer</definition>
+        <argsstring>(RuralHouse ruralHouse, Date firstDay, Date lastDay, float price)</argsstring>
+        <name>createOffer</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ac7b3bdfd0815ea7c787da312de594cce">createOffer</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>ruralHouse</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price</declname>
+        </param>
+        <exceptions> throws <ref refid="classexceptions_1_1_overlapping_offer_exists" kindref="compound">OverlappingOfferExists</ref>, <ref refid="classexceptions_1_1_bad_dates" kindref="compound">BadDates</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="35" column="1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ac2cbd39795e0c171a79ac440698bd859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client businessLogic.ApplicationFacadeInterfaceWS.createClient</definition>
+        <argsstring>(String userName, String password, String telegramId, String cuentaBancaria, String email)</argsstring>
+        <name>createClient</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2c5f0e41c6463d8e5c7d4b89ea3f676f">createClient</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <exceptions> throws <ref refid="classexceptions_1_1_overlapping_client_exists" kindref="compound">OverlappingClientExists</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="39" column="1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3e5553805d4890c9c17cf2ab1b14a2d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner businessLogic.ApplicationFacadeInterfaceWS.createOwner</definition>
+        <argsstring>(String userName, String password, String telegramId, String cuentaBancaria, String email)</argsstring>
+        <name>createOwner</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ad7a2f26be66f4ae4cbc2a4ad89e74e53">createOwner</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <exceptions> throws <ref refid="classexceptions_1_1_overlapping_owner_exist" kindref="compound">OverlappingOwnerExist</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="44" column="1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a482571287e471d0047bc24150f716d72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.ApplicationFacadeInterfaceWS.updateClinetValidation</definition>
+        <argsstring>(Client c)</argsstring>
+        <name>updateClinetValidation</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa1ef9c26fc3278ef6c4170094ed6dcaa">updateClinetValidation</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="49" column="1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a4932653f88b16660fa74ff6356a3f94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.ApplicationFacadeInterfaceWS.updateOwnerValidation</definition>
+        <argsstring>(Owner o)</argsstring>
+        <name>updateOwnerValidation</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a9c3c6f8a2ec5a4d19defc324fc60c523">updateOwnerValidation</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="52" column="1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a624b00ae79c85436420d62cf34a082d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse businessLogic.ApplicationFacadeInterfaceWS.createRuralHouse</definition>
+        <argsstring>(Owner o, String city, String description, String address, String roomsNumber)</argsstring>
+        <name>createRuralHouse</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2df596d357c02b4aef6711526347c951">createRuralHouse</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>roomsNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="55" column="1"/>
+        <referencedby refid="classgui_1_1_set_house_1aa47531b2839fe7b13dbde7fa421b03d6" compoundref="_set_house_8java" startline="47" endline="156">gui.SetHouse.SetHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a553cbfb37ea9f1621ba76ad8308a15da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>Vector&lt;RuralHouse&gt; businessLogic.ApplicationFacadeInterfaceWS.getAllRuralHouses</definition>
+        <argsstring>()</argsstring>
+        <name>getAllRuralHouses</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa6f21ddb40ca6cd752a13e31ff016e7e">getAllRuralHouses</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="59" column="1"/>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1aa5bad8dc44ac91fcd6b5f2b784c66e99" compoundref="_query_availability_g_u_i_8java" startline="69" endline="190">gui.QueryAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ae338a96d039003c64fceb68d667736f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; businessLogic.ApplicationFacadeInterfaceWS.getOffers</definition>
+        <argsstring>(RuralHouse rh, Date firstDay, Date lastDay)</argsstring>
+        <name>getOffers</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7489fb15fdb8206b16daf6ed24fdfea0">getOffers</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="62" column="1"/>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0d69ed91aa71325dedc777f059999e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client businessLogic.ApplicationFacadeInterfaceWS.getClientByUsername</definition>
+        <argsstring>(String user)</argsstring>
+        <name>getClientByUsername</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a49e8bd0f75fee0f774c78f1631509a12">getClientByUsername</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="65" column="1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0f38b3b41794e2ec57b019b89ef255c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner businessLogic.ApplicationFacadeInterfaceWS.getOwnerByUsername</definition>
+        <argsstring>(String user)</argsstring>
+        <name>getOwnerByUsername</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2e7c07eb23b062294ea3f5aaa48285a5">getOwnerByUsername</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="68" column="1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" compoundref="_main_g_u_i_8java" startline="234" endline="237">gui.MainGUI.getMainOwner</referencedby>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad5cf462151e6c43b9088f112eed0ad3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.ApplicationFacadeInterfaceWS.addImageToRH</definition>
+        <argsstring>(byte[] img, Owner owner, RuralHouse rh)</argsstring>
+        <name>addImageToRH</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa05fbf6e32c0939508a542b857dce1d1">addImageToRH</reimplementedby>
+        <param>
+          <type>byte []</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="71" column="1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1aeda86c46b75acfc4befb30f5d0e98e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse businessLogic.ApplicationFacadeInterfaceWS.getRuralHouse</definition>
+        <argsstring>(RuralHouse rh, Owner owner)</argsstring>
+        <name>getRuralHouse</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a22945417275898b39f1fcbdd8961b1cf">getRuralHouse</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="74" column="1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a686ca441b89f52085ef66d00f10c6854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse businessLogic.ApplicationFacadeInterfaceWS.getRuralHousebyHouseNumber</definition>
+        <argsstring>(int num)</argsstring>
+        <name>getRuralHousebyHouseNumber</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4b08e36f8de023cb541f63a5e772e2be">getRuralHousebyHouseNumber</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="77" column="1"/>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a472d0eae303dc4ad989f382bb0632afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.ApplicationFacadeInterfaceWS.removeRuralHouse</definition>
+        <argsstring>(int num)</argsstring>
+        <name>removeRuralHouse</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4d0fe8c220dc334e527a3e7b4cc9edca">removeRuralHouse</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="80" column="1"/>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a8cbc91e14e6abf2d7577ba2c69f4b48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.ApplicationFacadeInterfaceWS.close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aaf150e07dd6d71319c6f2f4bf6be1647">close</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a1ee7d830657be2563a277591c150f273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva businessLogic.ApplicationFacadeInterfaceWS.getReservaByNum</definition>
+        <argsstring>(int n)</argsstring>
+        <name>getReservaByNum</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7b8deff7fb54e2ea7fa884fc13870d6d">getReservaByNum</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="86" column="1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" compoundref="_send_booking_8java" startline="17" endline="38">businessLogic.SendBooking.sendBookToTelegram</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2f7ed5fbb8427eee05fdaa0a0dc9348b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_reserva_offer_rh_owner_container" kindref="compound">ReservaOfferRhOwnerContainer</ref></type>
+        <definition>ReservaOfferRhOwnerContainer businessLogic.ApplicationFacadeInterfaceWS.getReservaOfferRhOwnerContainer</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>getReservaOfferRhOwnerContainer</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2b0b70f214ee9b8e67a2e5373d0c176d">getReservaOfferRhOwnerContainer</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="89" column="1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2d053769d923bd1987f8fd1f875905e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client businessLogic.ApplicationFacadeInterfaceWS.updateClient</definition>
+        <argsstring>(Client c)</argsstring>
+        <name>updateClient</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5918c2957b02255254ae252aabfe3fc1">updateClient</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="92" column="1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1af0ef759ffef69a39428870eada0221cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner businessLogic.ApplicationFacadeInterfaceWS.updateOwner</definition>
+        <argsstring>(Owner o)</argsstring>
+        <name>updateOwner</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a6ee2c273a768beed556dd83d9e5ad035">updateOwner</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="95" column="1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ab07e66746b2cfe14622bdd16c295ce93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classdomain_1_1_reserva_offer_rh_owner_container" kindref="compound">ReservaOfferRhOwnerContainer</ref> &gt;</type>
+        <definition>ArrayList&lt;ReservaOfferRhOwnerContainer&gt; businessLogic.ApplicationFacadeInterfaceWS.getListReservaOfferRhOwnerContainer</definition>
+        <argsstring>(Client c)</argsstring>
+        <name>getListReservaOfferRhOwnerContainer</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a505c977d8d4ab62addb96006535d2912">getListReservaOfferRhOwnerContainer</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="98" column="1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3fd4fdf7b7efaef7ff89ee7273f5be22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_feed_back" kindref="compound">FeedBack</ref></type>
+        <definition>FeedBack businessLogic.ApplicationFacadeInterfaceWS.createFeedBack</definition>
+        <argsstring>(String s, int i, RuralHouse rh)</argsstring>
+        <name>createFeedBack</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a415b0ef5c66ce3bcec46a33750dc469f">createFeedBack</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="101" column="1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0092e0a845b7b23dc504be013ce1958a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.ApplicationFacadeInterfaceWS.setRated</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>setRated</name>
+        <reimplementedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4ed81cb9f24d501da830d80dda086fce">setRated</reimplementedby>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="104" column="1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>businessLogic.FacadeImplementationWS</label>
+        <link refid="classbusiness_logic_1_1_facade_implementation_w_s"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+    </inheritancegraph>
+    <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="26" column="1" bodyfile="src/businessLogic/ApplicationFacadeInterfaceWS.java" bodystart="26" bodyend="105"/>
+    <listofallmembers>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad5cf462151e6c43b9088f112eed0ad3f" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>addImageToRH</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a8cbc91e14e6abf2d7577ba2c69f4b48f" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>close</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ac2cbd39795e0c171a79ac440698bd859" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>createClient</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3fd4fdf7b7efaef7ff89ee7273f5be22" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>createFeedBack</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0e8d2135ef1384a32e74f60bcea55f09" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>createOffer</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3e5553805d4890c9c17cf2ab1b14a2d3" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>createOwner</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad807cbd5d877e941edc274563e5cefa3" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>createReserva</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a624b00ae79c85436420d62cf34a082d7" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>createRuralHouse</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a553cbfb37ea9f1621ba76ad8308a15da" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getAllRuralHouses</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0d69ed91aa71325dedc777f059999e93" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getClientByUsername</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ab07e66746b2cfe14622bdd16c295ce93" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getListReservaOfferRhOwnerContainer</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ae338a96d039003c64fceb68d667736f1" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getOffers</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0f38b3b41794e2ec57b019b89ef255c3" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getOwnerByUsername</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a1ee7d830657be2563a277591c150f273" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getReservaByNum</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2f7ed5fbb8427eee05fdaa0a0dc9348b" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getReservaOfferRhOwnerContainer</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1aeda86c46b75acfc4befb30f5d0e98e7c" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getRuralHouse</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a686ca441b89f52085ef66d00f10c6854" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>getRuralHousebyHouseNumber</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0c4ed4fa98351e6aaba6f9769e561abf" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>removeReserva</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a472d0eae303dc4ad989f382bb0632afc" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>removeRuralHouse</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0092e0a845b7b23dc504be013ce1958a" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>setRated</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2d053769d923bd1987f8fd1f875905e7" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>updateClient</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a482571287e471d0047bc24150f716d72" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>updateClinetValidation</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1af0ef759ffef69a39428870eada0221cd" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>updateOwner</name></member>
+      <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a4932653f88b16660fa74ff6356a3f94b" prot="public" virt="non-virtual"><scope>businessLogic::ApplicationFacadeInterfaceWS</scope><name>updateOwnerValidation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

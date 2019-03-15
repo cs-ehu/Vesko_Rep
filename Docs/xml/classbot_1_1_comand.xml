@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbot_1_1_comand" kind="class" language="Java" prot="public">
+    <compoundname>bot::Comand</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbot_1_1_comand_1af81301705b36922f60e412d324db04e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>bot.Comand.Comand</definition>
+        <argsstring>()</argsstring>
+        <name>Comand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/bot/Comand.java" line="9" column="1" bodyfile="src/bot/Comand.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classbot_1_1_comand_1aaf4d2683bf0d6b6d98344ca9f4071708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void bot.Comand.sendMessageFromTelegramToClient</definition>
+        <argsstring>(long id, String text)</argsstring>
+        <name>sendMessageFromTelegramToClient</name>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/bot/Comand.java" line="13" column="1" bodyfile="src/bot/Comand.java" bodystart="13" bodyend="26"/>
+        <referencedby refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" compoundref="_send_booking_8java" startline="17" endline="38">businessLogic.SendBooking.sendBookToTelegram</referencedby>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/bot/Comand.java" line="7" column="1" bodyfile="src/bot/Comand.java" bodystart="7" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classbot_1_1_comand_1af81301705b36922f60e412d324db04e6" prot="public" virt="non-virtual"><scope>bot::Comand</scope><name>Comand</name></member>
+      <member refid="classbot_1_1_comand_1aaf4d2683bf0d6b6d98344ca9f4071708" prot="public" virt="non-virtual"><scope>bot::Comand</scope><name>sendMessageFromTelegramToClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

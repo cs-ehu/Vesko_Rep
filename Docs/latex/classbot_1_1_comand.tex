@@ -1,0 +1,76 @@
+\hypertarget{classbot_1_1_comand}{}\section{Referencia de la Clase bot.\+Comand}
+\label{classbot_1_1_comand}\index{bot.Comand@{bot.Comand}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbot_1_1_comand_af81301705b36922f60e412d324db04e6}{Comand}} ()
+\item 
+void \mbox{\hyperlink{classbot_1_1_comand_aaf4d2683bf0d6b6d98344ca9f4071708}{send\+Message\+From\+Telegram\+To\+Client}} (long id, String text)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 7 del archivo Comand.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classbot_1_1_comand_af81301705b36922f60e412d324db04e6}\label{classbot_1_1_comand_af81301705b36922f60e412d324db04e6}} 
+\index{bot.Comand@{bot.Comand}!Comand@{Comand}}
+\index{Comand@{Comand}!bot.Comand@{bot.Comand}}
+\subsubsection{\texorpdfstring{Comand()}{Comand()}}
+{\footnotesize\ttfamily bot.\+Comand.\+Comand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 9 del archivo Comand.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9                     \{}
+\DoxyCodeLine{10         \textcolor{comment}{// TODO Auto-generated constructor stub}}
+\DoxyCodeLine{11     \}}
+
+\end{DoxyCode}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classbot_1_1_comand_aaf4d2683bf0d6b6d98344ca9f4071708}\label{classbot_1_1_comand_aaf4d2683bf0d6b6d98344ca9f4071708}} 
+\index{bot.Comand@{bot.Comand}!sendMessageFromTelegramToClient@{sendMessageFromTelegramToClient}}
+\index{sendMessageFromTelegramToClient@{sendMessageFromTelegramToClient}!bot.Comand@{bot.Comand}}
+\subsubsection{\texorpdfstring{sendMessageFromTelegramToClient()}{sendMessageFromTelegramToClient()}}
+{\footnotesize\ttfamily void bot.\+Comand.\+send\+Message\+From\+Telegram\+To\+Client (\begin{DoxyParamCaption}\item[{long}]{id,  }\item[{String}]{text }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 13 del archivo Comand.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13                                                                      \{}
+\DoxyCodeLine{14         }
+\DoxyCodeLine{15             MyBot \mbox{\hyperlink{namespacebot}{bot}} = \textcolor{keyword}{new} MyBot();}
+\DoxyCodeLine{16             SendMessage message = \textcolor{keyword}{new} SendMessage() \textcolor{comment}{// Create a SendMessage object with mandatory fields}}
+\DoxyCodeLine{17                     .setChatId(\textcolor{keywordtype}{id})}
+\DoxyCodeLine{18                     .setText(text);}
+\DoxyCodeLine{19     }
+\DoxyCodeLine{20                     }
+\DoxyCodeLine{21             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{22                 \mbox{\hyperlink{namespacebot}{bot}}.sendMessage(message); \textcolor{comment}{// Call method to send the message}}
+\DoxyCodeLine{23             \} \textcolor{keywordflow}{catch} (TelegramApiException e) \{}
+\DoxyCodeLine{24                 e.printStackTrace();}
+\DoxyCodeLine{25             \}}
+\DoxyCodeLine{26         \}}
+
+\end{DoxyCode}
+
+
+Referenciado por business\+Logic.\+Send\+Booking.\+send\+Book\+To\+Telegram() y gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/bot/\mbox{\hyperlink{_comand_8java}{Comand.\+java}}\end{DoxyCompactItemize}

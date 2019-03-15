@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbot_1_1_my_bot" kind="class" language="Java" prot="public">
+    <compoundname>bot::MyBot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TelegramLongPollingBot</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbot_1_1_my_bot_1a222fe9120fe705ceab16e5dbafaebefd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void bot.MyBot.onUpdateReceived</definition>
+        <argsstring>(Update update)</argsstring>
+        <name>onUpdateReceived</name>
+        <param>
+          <type>Update</type>
+          <declname>update</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/bot/MyBot.java" line="8" column="1" bodyfile="src/bot/MyBot.java" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classbot_1_1_my_bot_1ada827aa5283dc9d85d411114b563c16c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String bot.MyBot.getBotUsername</definition>
+        <argsstring>()</argsstring>
+        <name>getBotUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/bot/MyBot.java" line="13" column="1" bodyfile="src/bot/MyBot.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classbot_1_1_my_bot_1a0cf67098edb3a9a5cf11ff00791db8df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String bot.MyBot.getBotToken</definition>
+        <argsstring>()</argsstring>
+        <name>getBotToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/bot/MyBot.java" line="18" column="1" bodyfile="src/bot/MyBot.java" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="172">
+        <label>bot.MyBot</label>
+        <link refid="classbot_1_1_my_bot"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>TelegramLongPollingBot</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="174">
+        <label>bot.MyBot</label>
+        <link refid="classbot_1_1_my_bot"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>TelegramLongPollingBot</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/bot/MyBot.java" line="6" column="1" bodyfile="src/bot/MyBot.java" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classbot_1_1_my_bot_1a0cf67098edb3a9a5cf11ff00791db8df" prot="public" virt="non-virtual"><scope>bot::MyBot</scope><name>getBotToken</name></member>
+      <member refid="classbot_1_1_my_bot_1ada827aa5283dc9d85d411114b563c16c" prot="public" virt="non-virtual"><scope>bot::MyBot</scope><name>getBotUsername</name></member>
+      <member refid="classbot_1_1_my_bot_1a222fe9120fe705ceab16e5dbafaebefd" prot="public" virt="non-virtual"><scope>bot::MyBot</scope><name>onUpdateReceived</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

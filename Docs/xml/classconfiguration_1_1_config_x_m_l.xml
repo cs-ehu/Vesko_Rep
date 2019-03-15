@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classconfiguration_1_1_config_x_m_l" kind="class" language="Java" prot="public">
+    <compoundname>configuration::ConfigXML</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a8eaef059e5c5b7dc23331ba72c04eb59" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.businessLogicNode</definition>
+        <argsstring></argsstring>
+        <name>businessLogicNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="14" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a6a79b28dd9e0c1c755fef0e7435ec03a" compoundref="_config_x_m_l_8java" startline="147" endline="149">configuration.ConfigXML.getBusinessLogicNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1ac679ff78a18d6f012cb613d8e8c7ac41" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.businessLogicPort</definition>
+        <argsstring></argsstring>
+        <name>businessLogicPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="16" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a7e8cb431bc1e899176ae2891c007f7f3" compoundref="_config_x_m_l_8java" startline="151" endline="153">configuration.ConfigXML.getBusinessLogicPort</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1ad0228d23b69947a3e6ad84db4d893369" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.businessLogicName</definition>
+        <argsstring></argsstring>
+        <name>businessLogicName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="18" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1ad6866b6aee38c74c082135f5dcd743ad" compoundref="_config_x_m_l_8java" startline="155" endline="157">configuration.ConfigXML.getBusinessLogicName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1afaa301de70783638240f5a9a147f615f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.dataBaseOpenMode</definition>
+        <argsstring></argsstring>
+        <name>dataBaseOpenMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="23" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a693787d7818204c9188cb0c03d9423a0" compoundref="_config_x_m_l_8java" startline="163" endline="165">configuration.ConfigXML.getDataBaseOpenMode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1ab30a83d21460a743a7a86955de08da3a" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean configuration.ConfigXML.businessLogicLocal</definition>
+        <argsstring></argsstring>
+        <name>businessLogicLocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="26" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a3055cd4f61151ef6d1c48a5ebf86b33f" compoundref="_config_x_m_l_8java" startline="61" endline="63">configuration.ConfigXML.isBusinessLogicLocal</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a6ca52a37fbb4b0994aeb388df59a275f" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean configuration.ConfigXML.databaseLocal</definition>
+        <argsstring></argsstring>
+        <name>databaseLocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="29" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a2ee9afbde36aa3f5c0d0158a8b5449fb" compoundref="_config_x_m_l_8java" startline="57" endline="59">configuration.ConfigXML.isDatabaseLocal</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a71b31518e099bee7f0eefa043b38d706" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.databaseNode</definition>
+        <argsstring></argsstring>
+        <name>databaseNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="31" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a622fdcb9a55b406b6bc2fa63509dae72" compoundref="_config_x_m_l_8java" startline="167" endline="169">configuration.ConfigXML.getDatabaseNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a3766a24ed4f1ffda3f6af14b90100656" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int configuration.ConfigXML.databasePort</definition>
+        <argsstring></argsstring>
+        <name>databasePort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="33" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1abf4649caafdcfb0b506af7402f09728c" compoundref="_config_x_m_l_8java" startline="44" endline="46">configuration.ConfigXML.getDatabasePort</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a79e9a3b8602620dbb873ba491f47164a" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="35" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a98e53bd841ca5f520af914f96ff2afef" compoundref="_config_x_m_l_8java" startline="48" endline="50">configuration.ConfigXML.getUser</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a719187d1ff6398218cb8f6d7b0f53763" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="37" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a70146fb5f8cda65220413959691e3616" compoundref="_config_x_m_l_8java" startline="52" endline="54">configuration.ConfigXML.getPassword</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a34c81c18f387adacbf595cee3c0229b0" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.locale</definition>
+        <argsstring></argsstring>
+        <name>locale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="39" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a6b861b18eba822ef3a5130a1c3f410b2" compoundref="_config_x_m_l_8java" startline="41" endline="43">configuration.ConfigXML.getLocale</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a421b678aff5893a1927f5257b1becb14" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.dbFilename</definition>
+        <argsstring></argsstring>
+        <name>dbFilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="20" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a403cc4242d937a87dfea24caabaf535d" compoundref="_config_x_m_l_8java" startline="159" endline="161">configuration.ConfigXML.getDbFilename</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classconfiguration_1_1_config_x_m_l_1a7993e8ab35ee8854e832e85bafe85964" prot="private" static="yes" mutable="no">
+        <type><ref refid="classconfiguration_1_1_config_x_m_l" kindref="compound">ConfigXML</ref></type>
+        <definition>ConfigXML configuration.ConfigXML.theInstance</definition>
+        <argsstring></argsstring>
+        <name>theInstance</name>
+        <initializer>= new <ref refid="classconfiguration_1_1_config_x_m_l" kindref="compound">ConfigXML</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="64" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" compoundref="_config_x_m_l_8java" startline="143" endline="145">configuration.ConfigXML.getInstance</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a6b861b18eba822ef3a5130a1c3f410b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getLocale</definition>
+        <argsstring>()</argsstring>
+        <name>getLocale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="41" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="41" bodyend="43"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a34c81c18f387adacbf595cee3c0229b0" compoundref="_config_x_m_l_8java" startline="39">configuration.ConfigXML.locale</references>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1abf4649caafdcfb0b506af7402f09728c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int configuration.ConfigXML.getDatabasePort</definition>
+        <argsstring>()</argsstring>
+        <name>getDatabasePort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="44" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="44" bodyend="46"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a3766a24ed4f1ffda3f6af14b90100656" compoundref="_config_x_m_l_8java" startline="33">configuration.ConfigXML.databasePort</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a98e53bd841ca5f520af914f96ff2afef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getUser</definition>
+        <argsstring>()</argsstring>
+        <name>getUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="48" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="48" bodyend="50"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a79e9a3b8602620dbb873ba491f47164a" compoundref="_config_x_m_l_8java" startline="35">configuration.ConfigXML.user</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a70146fb5f8cda65220413959691e3616" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="52" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="52" bodyend="54"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a719187d1ff6398218cb8f6d7b0f53763" compoundref="_config_x_m_l_8java" startline="37">configuration.ConfigXML.password</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a2ee9afbde36aa3f5c0d0158a8b5449fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean configuration.ConfigXML.isDatabaseLocal</definition>
+        <argsstring>()</argsstring>
+        <name>isDatabaseLocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="57" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="57" bodyend="59"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a6ca52a37fbb4b0994aeb388df59a275f" compoundref="_config_x_m_l_8java" startline="29">configuration.ConfigXML.databaseLocal</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a3055cd4f61151ef6d1c48a5ebf86b33f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean configuration.ConfigXML.isBusinessLogicLocal</definition>
+        <argsstring>()</argsstring>
+        <name>isBusinessLogicLocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="61" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="61" bodyend="63"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ab30a83d21460a743a7a86955de08da3a" compoundref="_config_x_m_l_8java" startline="26">configuration.ConfigXML.businessLogicLocal</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a6a79b28dd9e0c1c755fef0e7435ec03a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getBusinessLogicNode</definition>
+        <argsstring>()</argsstring>
+        <name>getBusinessLogicNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="147" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="147" bodyend="149"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a8eaef059e5c5b7dc23331ba72c04eb59" compoundref="_config_x_m_l_8java" startline="14">configuration.ConfigXML.businessLogicNode</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a7e8cb431bc1e899176ae2891c007f7f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getBusinessLogicPort</definition>
+        <argsstring>()</argsstring>
+        <name>getBusinessLogicPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="151" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="151" bodyend="153"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ac679ff78a18d6f012cb613d8e8c7ac41" compoundref="_config_x_m_l_8java" startline="16">configuration.ConfigXML.businessLogicPort</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1ad6866b6aee38c74c082135f5dcd743ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getBusinessLogicName</definition>
+        <argsstring>()</argsstring>
+        <name>getBusinessLogicName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="155" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="155" bodyend="157"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ad0228d23b69947a3e6ad84db4d893369" compoundref="_config_x_m_l_8java" startline="18">configuration.ConfigXML.businessLogicName</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a403cc4242d937a87dfea24caabaf535d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getDbFilename</definition>
+        <argsstring>()</argsstring>
+        <name>getDbFilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="159" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="159" bodyend="161"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a421b678aff5893a1927f5257b1becb14" compoundref="_config_x_m_l_8java" startline="20">configuration.ConfigXML.dbFilename</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a693787d7818204c9188cb0c03d9423a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getDataBaseOpenMode</definition>
+        <argsstring>()</argsstring>
+        <name>getDataBaseOpenMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="163" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="163" bodyend="165"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1afaa301de70783638240f5a9a147f615f" compoundref="_config_x_m_l_8java" startline="23">configuration.ConfigXML.dataBaseOpenMode</references>
+      </memberdef>
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a622fdcb9a55b406b6bc2fa63509dae72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String configuration.ConfigXML.getDatabaseNode</definition>
+        <argsstring>()</argsstring>
+        <name>getDatabaseNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="167" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="167" bodyend="169"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a71b31518e099bee7f0eefa043b38d706" compoundref="_config_x_m_l_8java" startline="31">configuration.ConfigXML.databaseNode</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>configuration.ConfigXML.ConfigXML</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigXML</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="66" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="66" bodyend="132"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ab30a83d21460a743a7a86955de08da3a" compoundref="_config_x_m_l_8java" startline="26">configuration.ConfigXML.businessLogicLocal</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ad0228d23b69947a3e6ad84db4d893369" compoundref="_config_x_m_l_8java" startline="18">configuration.ConfigXML.businessLogicName</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a8eaef059e5c5b7dc23331ba72c04eb59" compoundref="_config_x_m_l_8java" startline="14">configuration.ConfigXML.businessLogicNode</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ac679ff78a18d6f012cb613d8e8c7ac41" compoundref="_config_x_m_l_8java" startline="16">configuration.ConfigXML.businessLogicPort</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a6ca52a37fbb4b0994aeb388df59a275f" compoundref="_config_x_m_l_8java" startline="29">configuration.ConfigXML.databaseLocal</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a71b31518e099bee7f0eefa043b38d706" compoundref="_config_x_m_l_8java" startline="31">configuration.ConfigXML.databaseNode</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1afaa301de70783638240f5a9a147f615f" compoundref="_config_x_m_l_8java" startline="23">configuration.ConfigXML.dataBaseOpenMode</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a3766a24ed4f1ffda3f6af14b90100656" compoundref="_config_x_m_l_8java" startline="33">configuration.ConfigXML.databasePort</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a421b678aff5893a1927f5257b1becb14" compoundref="_config_x_m_l_8java" startline="20">configuration.ConfigXML.dbFilename</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ae3039f7e5dfe2bfcbb1ab63104b451b2" compoundref="_config_x_m_l_8java" startline="134" endline="141">configuration.ConfigXML.getTagValue</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a34c81c18f387adacbf595cee3c0229b0" compoundref="_config_x_m_l_8java" startline="39">configuration.ConfigXML.locale</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a719187d1ff6398218cb8f6d7b0f53763" compoundref="_config_x_m_l_8java" startline="37">configuration.ConfigXML.password</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a79e9a3b8602620dbb873ba491f47164a" compoundref="_config_x_m_l_8java" startline="35">configuration.ConfigXML.user</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1ae3039f7e5dfe2bfcbb1ab63104b451b2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String configuration.ConfigXML.getTagValue</definition>
+        <argsstring>(String sTag, Element eElement)</argsstring>
+        <name>getTagValue</name>
+        <param>
+          <type>String</type>
+          <declname>sTag</declname>
+        </param>
+        <param>
+          <type>Element</type>
+          <declname>eElement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="134" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="134" bodyend="141"/>
+        <referencedby refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" compoundref="_config_x_m_l_8java" startline="66" endline="132">configuration.ConfigXML.ConfigXML</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classconfiguration_1_1_config_x_m_l" kindref="compound">ConfigXML</ref></type>
+        <definition>static ConfigXML configuration.ConfigXML.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/configuration/ConfigXML.java" line="143" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="143" bodyend="145"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a7993e8ab35ee8854e832e85bafe85964" compoundref="_config_x_m_l_8java" startline="64">configuration.ConfigXML.theInstance</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="38">
+        <label>configuration.ConfigXML</label>
+        <link refid="classconfiguration_1_1_config_x_m_l"/>
+        <childnode refid="38" relation="usage">
+          <edgelabel>theInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/configuration/ConfigXML.java" line="13" column="1" bodyfile="src/configuration/ConfigXML.java" bodystart="13" bodyend="171"/>
+    <listofallmembers>
+      <member refid="classconfiguration_1_1_config_x_m_l_1ab30a83d21460a743a7a86955de08da3a" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>businessLogicLocal</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1ad0228d23b69947a3e6ad84db4d893369" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>businessLogicName</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a8eaef059e5c5b7dc23331ba72c04eb59" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>businessLogicNode</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1ac679ff78a18d6f012cb613d8e8c7ac41" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>businessLogicPort</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>ConfigXML</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a6ca52a37fbb4b0994aeb388df59a275f" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>databaseLocal</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a71b31518e099bee7f0eefa043b38d706" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>databaseNode</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1afaa301de70783638240f5a9a147f615f" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>dataBaseOpenMode</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a3766a24ed4f1ffda3f6af14b90100656" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>databasePort</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a421b678aff5893a1927f5257b1becb14" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>dbFilename</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1ad6866b6aee38c74c082135f5dcd743ad" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getBusinessLogicName</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a6a79b28dd9e0c1c755fef0e7435ec03a" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getBusinessLogicNode</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a7e8cb431bc1e899176ae2891c007f7f3" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getBusinessLogicPort</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a622fdcb9a55b406b6bc2fa63509dae72" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getDatabaseNode</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a693787d7818204c9188cb0c03d9423a0" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getDataBaseOpenMode</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1abf4649caafdcfb0b506af7402f09728c" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getDatabasePort</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a403cc4242d937a87dfea24caabaf535d" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getDbFilename</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getInstance</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a6b861b18eba822ef3a5130a1c3f410b2" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getLocale</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a70146fb5f8cda65220413959691e3616" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getPassword</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1ae3039f7e5dfe2bfcbb1ab63104b451b2" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getTagValue</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a98e53bd841ca5f520af914f96ff2afef" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>getUser</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a3055cd4f61151ef6d1c48a5ebf86b33f" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>isBusinessLogicLocal</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a2ee9afbde36aa3f5c0d0158a8b5449fb" prot="public" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>isDatabaseLocal</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a34c81c18f387adacbf595cee3c0229b0" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>locale</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a719187d1ff6398218cb8f6d7b0f53763" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>password</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a7993e8ab35ee8854e832e85bafe85964" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>theInstance</name></member>
+      <member refid="classconfiguration_1_1_config_x_m_l_1a79e9a3b8602620dbb873ba491f47164a" prot="private" virt="non-virtual"><scope>configuration::ConfigXML</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

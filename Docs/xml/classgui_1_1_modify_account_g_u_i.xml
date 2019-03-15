@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_modify_account_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::ModifyAccountGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1a381fa9bf3fbd1dbbe3166aa501fab1fc" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.ModifyAccountGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="31" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1af8c1603f6af69f39c0d0a29a8aa2b568" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ModifyAccountGUI.txtUsername</definition>
+        <argsstring></argsstring>
+        <name>txtUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="32" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1a589fabddc834cc42a2acaa2ad904ae3f" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ModifyAccountGUI.txtPassword</definition>
+        <argsstring></argsstring>
+        <name>txtPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="33" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1a52839f2a7edd45f9c756f0012e4dc1d6" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ModifyAccountGUI.txtEmail</definition>
+        <argsstring></argsstring>
+        <name>txtEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="34" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1ab28de7ad0595e732310c6d55c763bf5d" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ModifyAccountGUI.txtTelegramId</definition>
+        <argsstring></argsstring>
+        <name>txtTelegramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="35" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1a4ae8a0fdffbec7405e1baf27e485f768" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ModifyAccountGUI.txtBancAccount</definition>
+        <argsstring></argsstring>
+        <name>txtBancAccount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="36" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1aa53f8e44219679688600395a16df9c1f" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.ModifyAccountGUI.rdbtnSendBookVia_1</definition>
+        <argsstring></argsstring>
+        <name>rdbtnSendBookVia_1</name>
+        <initializer>= new JRadioButton(&quot;Send book via Email&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="37" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1a77129e74749dc0b350d05de4f5137c52" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.ModifyAccountGUI.rdbtnSendBookVia</definition>
+        <argsstring></argsstring>
+        <name>rdbtnSendBookVia</name>
+        <initializer>= new JRadioButton(&quot;Send book via Telegram&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="38" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1a5df2167d933511b49e57a083d10f7cb7" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.ModifyAccountGUI.lblNewLabel</definition>
+        <argsstring></argsstring>
+        <name>lblNewLabel</name>
+        <initializer>= new JLabel(&quot;New label&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="39" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1a152e659fd97ffc8f00d87e437dbf53a8" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.ModifyAccountGUI.lblValidationSuccesfully</definition>
+        <argsstring></argsstring>
+        <name>lblValidationSuccesfully</name>
+        <initializer>= new JLabel(&quot;1&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="40" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_account_g_u_i_1aaadd5325f9f2b8ac9cb5d4bbe848d5b8" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.ModifyAccountGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="43" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.ModifyAccountGUI.ModifyAccountGUI</definition>
+        <argsstring>(String type)</argsstring>
+        <name>ModifyAccountGUI</name>
+        <param>
+          <type>String</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="49" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="49" bodyend="203"/>
+        <references refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" compoundref="_main_g_u_i_8java" startline="60">gui.MainGUI.client</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a381fa9bf3fbd1dbbe3166aa501fab1fc" compoundref="_modify_account_g_u_i_8java" startline="31">gui.ModifyAccountGUI.contentPane</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1aaadd5325f9f2b8ac9cb5d4bbe848d5b8" compoundref="_modify_account_g_u_i_8java" startline="43">gui.ModifyAccountGUI.facade</references>
+        <references refid="classdomain_1_1_owner_1a6d24ccea9d518464f4c6185a33ff4c6c" compoundref="_owner_8java" startline="75" endline="77">domain.Owner.getCuentaBancaria</references>
+        <references refid="classdomain_1_1_client_1adeb2b614c2e27afd7e1c1f50ba0a561f" compoundref="_client_8java" startline="114" endline="116">domain.Client.getCuentaBancaria</references>
+        <references refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" compoundref="_owner_8java" startline="83" endline="85">domain.Owner.getEmail</references>
+        <references refid="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" compoundref="_client_8java" startline="98" endline="100">domain.Client.getEmail</references>
+        <references refid="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" compoundref="_owner_8java" startline="123" endline="125">domain.Owner.getPassword</references>
+        <references refid="classdomain_1_1_client_1abc586f272267f9312e1341fef8c5486c" compoundref="_client_8java" startline="130" endline="132">domain.Client.getPassword</references>
+        <references refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" compoundref="_owner_8java" startline="67" endline="69">domain.Owner.getTelegramId</references>
+        <references refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" compoundref="_client_8java" startline="106" endline="108">domain.Client.getTelegramId</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" compoundref="_client_8java" startline="122" endline="124">domain.Client.getUserName</references>
+        <references refid="classdomain_1_1_client_1aac608259550fa807f8de3b1e08d30e77" compoundref="_client_8java" startline="57" endline="59">domain.Client.isSendBookByEmail</references>
+        <references refid="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" compoundref="_owner_8java" startline="51" endline="53">domain.Owner.isSendBookByTelegram</references>
+        <references refid="classdomain_1_1_client_1aa00c95082f42ebd0bcd252ffa7f5b89b" compoundref="_client_8java" startline="65" endline="67">domain.Client.isSendBookByTelegram</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a5df2167d933511b49e57a083d10f7cb7" compoundref="_modify_account_g_u_i_8java" startline="39">gui.ModifyAccountGUI.lblNewLabel</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a152e659fd97ffc8f00d87e437dbf53a8" compoundref="_modify_account_g_u_i_8java" startline="40">gui.ModifyAccountGUI.lblValidationSuccesfully</references>
+        <references refid="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" compoundref="_main_g_u_i_8java" startline="59">gui.MainGUI.owner</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a77129e74749dc0b350d05de4f5137c52" compoundref="_modify_account_g_u_i_8java" startline="38">gui.ModifyAccountGUI.rdbtnSendBookVia</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1aa53f8e44219679688600395a16df9c1f" compoundref="_modify_account_g_u_i_8java" startline="37">gui.ModifyAccountGUI.rdbtnSendBookVia_1</references>
+        <references refid="classdomain_1_1_owner_1a585ddd63f0f59a3198fa98689b07635e" compoundref="_owner_8java" startline="79" endline="81">domain.Owner.setCuentaBancaria</references>
+        <references refid="classdomain_1_1_client_1a02858d702a1b74589412777da82111ca" compoundref="_client_8java" startline="118" endline="120">domain.Client.setCuentaBancaria</references>
+        <references refid="classdomain_1_1_owner_1a021c9e357ca913eb88688a7aaa3e298d" compoundref="_owner_8java" startline="87" endline="89">domain.Owner.setEmail</references>
+        <references refid="classdomain_1_1_client_1a525e1e3b7447d73947fa880f4c836872" compoundref="_client_8java" startline="102" endline="104">domain.Client.setEmail</references>
+        <references refid="classdomain_1_1_owner_1a9b6bea08f2f6af298a4e7af22fc900dc" compoundref="_owner_8java" startline="127" endline="129">domain.Owner.setPassword</references>
+        <references refid="classdomain_1_1_client_1ae13843f725fdfd5d85a3a4176b9ee8a9" compoundref="_client_8java" startline="134" endline="136">domain.Client.setPassword</references>
+        <references refid="classdomain_1_1_client_1acf27654cd7efbc18bb8867a58a272eef" compoundref="_client_8java" startline="61" endline="63">domain.Client.setSendBookByEmail</references>
+        <references refid="classdomain_1_1_owner_1a4541457ba4d275025e6134f9402a6c5e" compoundref="_owner_8java" startline="55" endline="57">domain.Owner.setSendBookByTelegram</references>
+        <references refid="classdomain_1_1_client_1af38389540adb7dba2798d6b9912b220f" compoundref="_client_8java" startline="69" endline="71">domain.Client.setSendBookByTelegram</references>
+        <references refid="classdomain_1_1_owner_1ac024ef11aaf4d4875f421c75365e3c9e" compoundref="_owner_8java" startline="71" endline="73">domain.Owner.setTelegramId</references>
+        <references refid="classdomain_1_1_client_1aa0ab199ddacd36d8feb16cff4c01a506" compoundref="_client_8java" startline="110" endline="112">domain.Client.setTelegramId</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a4ae8a0fdffbec7405e1baf27e485f768" compoundref="_modify_account_g_u_i_8java" startline="36">gui.ModifyAccountGUI.txtBancAccount</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a52839f2a7edd45f9c756f0012e4dc1d6" compoundref="_modify_account_g_u_i_8java" startline="34">gui.ModifyAccountGUI.txtEmail</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a589fabddc834cc42a2acaa2ad904ae3f" compoundref="_modify_account_g_u_i_8java" startline="33">gui.ModifyAccountGUI.txtPassword</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1ab28de7ad0595e732310c6d55c763bf5d" compoundref="_modify_account_g_u_i_8java" startline="35">gui.ModifyAccountGUI.txtTelegramId</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1af8c1603f6af69f39c0d0a29a8aa2b568" compoundref="_modify_account_g_u_i_8java" startline="32">gui.ModifyAccountGUI.txtUsername</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2d053769d923bd1987f8fd1f875905e7">businessLogic.ApplicationFacadeInterfaceWS.updateClient</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1af0ef759ffef69a39428870eada0221cd">businessLogic.ApplicationFacadeInterfaceWS.updateOwner</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</references>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.ModifyAccountGUI.updateTxtFields</definition>
+        <argsstring>(String type)</argsstring>
+        <name>updateTxtFields</name>
+        <param>
+          <type>String</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyAccountGUI.java" line="204" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="204" bodyend="226"/>
+        <references refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" compoundref="_main_g_u_i_8java" startline="60">gui.MainGUI.client</references>
+        <references refid="classdomain_1_1_owner_1a6d24ccea9d518464f4c6185a33ff4c6c" compoundref="_owner_8java" startline="75" endline="77">domain.Owner.getCuentaBancaria</references>
+        <references refid="classdomain_1_1_client_1adeb2b614c2e27afd7e1c1f50ba0a561f" compoundref="_client_8java" startline="114" endline="116">domain.Client.getCuentaBancaria</references>
+        <references refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" compoundref="_owner_8java" startline="83" endline="85">domain.Owner.getEmail</references>
+        <references refid="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" compoundref="_client_8java" startline="98" endline="100">domain.Client.getEmail</references>
+        <references refid="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" compoundref="_owner_8java" startline="123" endline="125">domain.Owner.getPassword</references>
+        <references refid="classdomain_1_1_client_1abc586f272267f9312e1341fef8c5486c" compoundref="_client_8java" startline="130" endline="132">domain.Client.getPassword</references>
+        <references refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" compoundref="_owner_8java" startline="67" endline="69">domain.Owner.getTelegramId</references>
+        <references refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" compoundref="_client_8java" startline="106" endline="108">domain.Client.getTelegramId</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" compoundref="_client_8java" startline="122" endline="124">domain.Client.getUserName</references>
+        <references refid="classdomain_1_1_client_1aac608259550fa807f8de3b1e08d30e77" compoundref="_client_8java" startline="57" endline="59">domain.Client.isSendBookByEmail</references>
+        <references refid="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" compoundref="_owner_8java" startline="51" endline="53">domain.Owner.isSendBookByTelegram</references>
+        <references refid="classdomain_1_1_client_1aa00c95082f42ebd0bcd252ffa7f5b89b" compoundref="_client_8java" startline="65" endline="67">domain.Client.isSendBookByTelegram</references>
+        <references refid="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" compoundref="_main_g_u_i_8java" startline="59">gui.MainGUI.owner</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a77129e74749dc0b350d05de4f5137c52" compoundref="_modify_account_g_u_i_8java" startline="38">gui.ModifyAccountGUI.rdbtnSendBookVia</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1aa53f8e44219679688600395a16df9c1f" compoundref="_modify_account_g_u_i_8java" startline="37">gui.ModifyAccountGUI.rdbtnSendBookVia_1</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a4ae8a0fdffbec7405e1baf27e485f768" compoundref="_modify_account_g_u_i_8java" startline="36">gui.ModifyAccountGUI.txtBancAccount</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a52839f2a7edd45f9c756f0012e4dc1d6" compoundref="_modify_account_g_u_i_8java" startline="34">gui.ModifyAccountGUI.txtEmail</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1a589fabddc834cc42a2acaa2ad904ae3f" compoundref="_modify_account_g_u_i_8java" startline="33">gui.ModifyAccountGUI.txtPassword</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1ab28de7ad0595e732310c6d55c763bf5d" compoundref="_modify_account_g_u_i_8java" startline="35">gui.ModifyAccountGUI.txtTelegramId</references>
+        <references refid="classgui_1_1_modify_account_g_u_i_1af8c1603f6af69f39c0d0a29a8aa2b568" compoundref="_modify_account_g_u_i_8java" startline="32">gui.ModifyAccountGUI.txtUsername</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="149">
+        <label>JFrame</label>
+      </node>
+      <node id="148">
+        <label>gui.ModifyAccountGUI</label>
+        <link refid="classgui_1_1_modify_account_g_u_i"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="155">
+        <label>JPanel</label>
+      </node>
+      <node id="154">
+        <label>JLabel</label>
+      </node>
+      <node id="151">
+        <label>JFrame</label>
+      </node>
+      <node id="150">
+        <label>gui.ModifyAccountGUI</label>
+        <link refid="classgui_1_1_modify_account_g_u_i"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="152" relation="usage">
+          <edgelabel>txtEmail</edgelabel>
+          <edgelabel>txtTelegramId</edgelabel>
+          <edgelabel>txtUsername</edgelabel>
+          <edgelabel>txtPassword</edgelabel>
+          <edgelabel>txtBancAccount</edgelabel>
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="154" relation="usage">
+          <edgelabel>lblValidationSuccesfully</edgelabel>
+          <edgelabel>lblNewLabel</edgelabel>
+        </childnode>
+        <childnode refid="155" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+        <childnode refid="156" relation="usage">
+          <edgelabel>rdbtnSendBookVia</edgelabel>
+          <edgelabel>rdbtnSendBookVia_1</edgelabel>
+        </childnode>
+      </node>
+      <node id="156">
+        <label>JRadioButton</label>
+      </node>
+      <node id="152">
+        <label>JTextField</label>
+      </node>
+      <node id="153">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/ModifyAccountGUI.java" line="29" column="1" bodyfile="src/gui/ModifyAccountGUI.java" bodystart="29" bodyend="227"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a381fa9bf3fbd1dbbe3166aa501fab1fc" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1aaadd5325f9f2b8ac9cb5d4bbe848d5b8" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a5df2167d933511b49e57a083d10f7cb7" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>lblNewLabel</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a152e659fd97ffc8f00d87e437dbf53a8" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>lblValidationSuccesfully</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" prot="public" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>ModifyAccountGUI</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a77129e74749dc0b350d05de4f5137c52" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>rdbtnSendBookVia</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1aa53f8e44219679688600395a16df9c1f" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>rdbtnSendBookVia_1</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a4ae8a0fdffbec7405e1baf27e485f768" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>txtBancAccount</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a52839f2a7edd45f9c756f0012e4dc1d6" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>txtEmail</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1a589fabddc834cc42a2acaa2ad904ae3f" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>txtPassword</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1ab28de7ad0595e732310c6d55c763bf5d" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>txtTelegramId</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1af8c1603f6af69f39c0d0a29a8aa2b568" prot="private" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>txtUsername</name></member>
+      <member refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" prot="public" virt="non-virtual"><scope>gui::ModifyAccountGUI</scope><name>updateTxtFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

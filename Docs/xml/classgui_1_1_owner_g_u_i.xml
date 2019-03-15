@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_owner_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::OwnerGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_owner_g_u_i_1a1e284b6506332a7360b4d3b706de3404" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.OwnerGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/OwnerGUI.java" line="30" column="1" bodyfile="src/gui/OwnerGUI.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" compoundref="_owner_g_u_i_8java" startline="37" endline="142">gui.OwnerGUI.OwnerGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_owner_g_u_i_1adc21b31ee1addb912b73455e4e78d130" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.OwnerGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/OwnerGUI.java" line="31" column="1" bodyfile="src/gui/OwnerGUI.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" compoundref="_owner_g_u_i_8java" startline="37" endline="142">gui.OwnerGUI.OwnerGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.OwnerGUI.OwnerGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OwnerGUI</name>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/OwnerGUI.java" line="37" column="1" bodyfile="src/gui/OwnerGUI.java" bodystart="37" bodyend="142"/>
+        <references refid="classgui_1_1_owner_g_u_i_1a1e284b6506332a7360b4d3b706de3404" compoundref="_owner_g_u_i_8java" startline="30">gui.OwnerGUI.contentPane</references>
+        <references refid="classgui_1_1_owner_g_u_i_1adc21b31ee1addb912b73455e4e78d130" compoundref="_owner_g_u_i_8java" startline="31">gui.OwnerGUI.facade</references>
+        <references refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" compoundref="_main_g_u_i_8java" startline="44" endline="46">gui.MainGUI.getBusinessLogic</references>
+        <references refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" compoundref="_main_g_u_i_8java" startline="234" endline="237">gui.MainGUI.getMainOwner</references>
+        <references refid="classdomain_1_1_owner_1a49e337ac1f7dc0b15c3006c5f08800d7" compoundref="_owner_8java" startline="107" endline="109">domain.Owner.getRhList</references>
+        <references refid="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" compoundref="_main_g_u_i_8java" startline="59">gui.MainGUI.owner</references>
+        <references refid="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" compoundref="_owner_8java" startline="136" endline="147">domain.Owner.toString</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="227">
+        <label>JFrame</label>
+      </node>
+      <node id="226">
+        <label>gui.OwnerGUI</label>
+        <link refid="classgui_1_1_owner_g_u_i"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="231">
+        <label>JPanel</label>
+      </node>
+      <node id="229">
+        <label>JFrame</label>
+      </node>
+      <node id="228">
+        <label>gui.OwnerGUI</label>
+        <link refid="classgui_1_1_owner_g_u_i"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+        <childnode refid="230" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="231" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+      </node>
+      <node id="230">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/OwnerGUI.java" line="28" column="1" bodyfile="src/gui/OwnerGUI.java" bodystart="28" bodyend="143"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_owner_g_u_i_1a1e284b6506332a7360b4d3b706de3404" prot="private" virt="non-virtual"><scope>gui::OwnerGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_owner_g_u_i_1adc21b31ee1addb912b73455e4e78d130" prot="private" virt="non-virtual"><scope>gui::OwnerGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" prot="public" virt="non-virtual"><scope>gui::OwnerGUI</scope><name>OwnerGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

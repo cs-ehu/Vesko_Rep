@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::SendEmail::SMTPAuthenticator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Authenticator</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator_1ac12893bcb04d8840ad1616dd8c7b70de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PasswordAuthentication</type>
+        <definition>PasswordAuthentication businessLogic.SendEmail.SMTPAuthenticator.getPasswordAuthentication</definition>
+        <argsstring>()</argsstring>
+        <name>getPasswordAuthentication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="52" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="52" bodyend="54"/>
+        <references refid="classbusiness_logic_1_1_send_email_1a2e47b8c2228b215b8335c16ba592b95d" compoundref="_send_email_8java" startline="8">businessLogic.SendEmail.senderEmailID</references>
+        <references refid="classbusiness_logic_1_1_send_email_1a0bd45a69289e50c9439e70835c06ff0c" compoundref="_send_email_8java" startline="9">businessLogic.SendEmail.senderPassword</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="342">
+        <label>javax::mail::Authenticator</label>
+      </node>
+      <node id="341">
+        <label>businessLogic.SendEmail.SMTPAuthenticator</label>
+        <link refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator"/>
+        <childnode refid="342" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="344">
+        <label>javax::mail::Authenticator</label>
+      </node>
+      <node id="343">
+        <label>businessLogic.SendEmail.SMTPAuthenticator</label>
+        <link refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/businessLogic/SendEmail.java" line="51" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="51" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator_1ac12893bcb04d8840ad1616dd8c7b70de" prot="public" virt="non-virtual"><scope>businessLogic::SendEmail::SMTPAuthenticator</scope><name>getPasswordAuthentication</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

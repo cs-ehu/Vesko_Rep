@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classexceptions_1_1_overlapping_offer_exists" kind="class" language="Java" prot="public">
+    <compoundname>exceptions::OverlappingOfferExists</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classexceptions_1_1_overlapping_offer_exists_1ab47bd08f41ac7a43204806e53aa1538a" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long exceptions.OverlappingOfferExists.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingOfferExists.java" line="3" column="1" bodyfile="src/exceptions/OverlappingOfferExists.java" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexceptions_1_1_overlapping_offer_exists_1a1ba2d73acc9428e642786973e8b2b6b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.OverlappingOfferExists.OverlappingOfferExists</definition>
+        <argsstring>()</argsstring>
+        <name>OverlappingOfferExists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingOfferExists.java" line="5" column="1" bodyfile="src/exceptions/OverlappingOfferExists.java" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classexceptions_1_1_overlapping_offer_exists_1a053baab9b6c9e1da073098c4cfbcdc45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.OverlappingOfferExists.OverlappingOfferExists</definition>
+        <argsstring>(String s)</argsstring>
+        <name>OverlappingOfferExists</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>This exception is triggered if there exists an overlapping offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingOfferExists.java" line="13" column="1" bodyfile="src/exceptions/OverlappingOfferExists.java" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="214">
+        <label>Exception</label>
+      </node>
+      <node id="213">
+        <label>exceptions.OverlappingOfferExists</label>
+        <link refid="classexceptions_1_1_overlapping_offer_exists"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="216">
+        <label>Exception</label>
+      </node>
+      <node id="215">
+        <label>exceptions.OverlappingOfferExists</label>
+        <link refid="classexceptions_1_1_overlapping_offer_exists"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/exceptions/OverlappingOfferExists.java" line="2" column="1" bodyfile="src/exceptions/OverlappingOfferExists.java" bodystart="2" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classexceptions_1_1_overlapping_offer_exists_1a1ba2d73acc9428e642786973e8b2b6b3" prot="public" virt="non-virtual"><scope>exceptions::OverlappingOfferExists</scope><name>OverlappingOfferExists</name></member>
+      <member refid="classexceptions_1_1_overlapping_offer_exists_1a053baab9b6c9e1da073098c4cfbcdc45" prot="public" virt="non-virtual"><scope>exceptions::OverlappingOfferExists</scope><name>OverlappingOfferExists</name></member>
+      <member refid="classexceptions_1_1_overlapping_offer_exists_1ab47bd08f41ac7a43204806e53aa1538a" prot="private" virt="non-virtual"><scope>exceptions::OverlappingOfferExists</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

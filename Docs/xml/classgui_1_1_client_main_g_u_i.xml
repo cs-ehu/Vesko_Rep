@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_client_main_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::ClientMainGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1ab85e7602a3e65f458b858d0db1640bff" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long gui.ClientMainGUI.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="32" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1af59bb392168b3018e1f449ea153c09eb" prot="private" static="yes" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.ClientMainGUI.appFacadeInterface</definition>
+        <argsstring></argsstring>
+        <name>appFacadeInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="38" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a66e91e37a334a0d931f9a448e032091c" compoundref="_client_main_g_u_i_8java" startline="40" endline="42">gui.ClientMainGUI.getBusinessLogic</referencedby>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1adac6e82dffe9f7df0f185583970bf40f" compoundref="_client_main_g_u_i_8java" startline="44" endline="46">gui.ClientMainGUI.setBussinessLogic</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1a27d9ef1b843aeaa940da60efee19d26c" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.ClientMainGUI.jContentPane</definition>
+        <argsstring></argsstring>
+        <name>jContentPane</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="34" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" compoundref="_client_main_g_u_i_8java" startline="83" endline="116">gui.ClientMainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1ab21293a77c7d7632b6e92c8514793448" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.ClientMainGUI.boton1</definition>
+        <argsstring></argsstring>
+        <name>boton1</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="35" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1a220469f9ef90dc199698d1c3789a772e" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.ClientMainGUI.boton3</definition>
+        <argsstring></argsstring>
+        <name>boton3</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="36" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a45cdcc4e604df9e32eee2aafe21f04f8" compoundref="_client_main_g_u_i_8java" startline="135" endline="149">gui.ClientMainGUI.getBoton3</referencedby>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a6565ab3c45d2d82aeea189e1b4b23c51" compoundref="_client_main_g_u_i_8java" startline="163" endline="167">gui.ClientMainGUI.redibujar</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1a55bab99544dc2947a28f42cc9f32360e" prot="private" static="no" mutable="no">
+        <type>final ButtonGroup</type>
+        <definition>final ButtonGroup gui.ClientMainGUI.buttonGroup</definition>
+        <argsstring></argsstring>
+        <name>buttonGroup</name>
+        <initializer>= new ButtonGroup()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="48" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1ac5e8305b963794fa0fe59e49a87e2581" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.ClientMainGUI.btnLogOut</definition>
+        <argsstring></argsstring>
+        <name>btnLogOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="49" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a314dc209c6b3e908aa9aa22a3fae474d" compoundref="_client_main_g_u_i_8java" startline="168" endline="183">gui.ClientMainGUI.getBtnLogOut</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgui_1_1_client_main_g_u_i_1a3aa18457987ffd805e145460480b360e" prot="protected" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.ClientMainGUI.lblNewLabel</definition>
+        <argsstring></argsstring>
+        <name>lblNewLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="47" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a1bb69b4ad607b46d8642d215812226df" compoundref="_client_main_g_u_i_8java" startline="152" endline="161">gui.ClientMainGUI.getLblNewLabel</referencedby>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a6565ab3c45d2d82aeea189e1b4b23c51" compoundref="_client_main_g_u_i_8java" startline="163" endline="167">gui.ClientMainGUI.redibujar</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1a66e91e37a334a0d931f9a448e032091c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>static ApplicationFacadeInterfaceWS gui.ClientMainGUI.getBusinessLogic</definition>
+        <argsstring>()</argsstring>
+        <name>getBusinessLogic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="40" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="40" bodyend="42"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1af59bb392168b3018e1f449ea153c09eb" compoundref="_client_main_g_u_i_8java" startline="38">gui.ClientMainGUI.appFacadeInterface</references>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a29652761456e31647cfa7f9843878a07" compoundref="_client_main_g_u_i_8java" startline="54" endline="74">gui.ClientMainGUI.ClientMainGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1adac6e82dffe9f7df0f185583970bf40f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gui.ClientMainGUI.setBussinessLogic</definition>
+        <argsstring>(ApplicationFacadeInterfaceWS afi)</argsstring>
+        <name>setBussinessLogic</name>
+        <param>
+          <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+          <declname>afi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="44" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="44" bodyend="46"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1af59bb392168b3018e1f449ea153c09eb" compoundref="_client_main_g_u_i_8java" startline="38">gui.ClientMainGUI.appFacadeInterface</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1a29652761456e31647cfa7f9843878a07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.ClientMainGUI.ClientMainGUI</definition>
+        <argsstring>()</argsstring>
+        <name>ClientMainGUI</name>
+        <briefdescription>
+<para>This is the default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="54" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="54" bodyend="74"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1a66e91e37a334a0d931f9a448e032091c" compoundref="_client_main_g_u_i_8java" startline="40" endline="42">gui.ClientMainGUI.getBusinessLogic</references>
+        <references refid="classgui_1_1_client_main_g_u_i_1ab19f9fe8edbfb9df91d264fddd5caecf" compoundref="_client_main_g_u_i_8java" startline="123" endline="128">gui.ClientMainGUI.initialize</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JPanel</type>
+        <definition>JPanel gui.ClientMainGUI.getJContentPane</definition>
+        <argsstring>()</argsstring>
+        <name>getJContentPane</name>
+        <briefdescription>
+<para>This method initializes jContentPane. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>javax.swing.JPanel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="83" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="83" bodyend="116"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1a45cdcc4e604df9e32eee2aafe21f04f8" compoundref="_client_main_g_u_i_8java" startline="135" endline="149">gui.ClientMainGUI.getBoton3</references>
+        <references refid="classgui_1_1_client_main_g_u_i_1a314dc209c6b3e908aa9aa22a3fae474d" compoundref="_client_main_g_u_i_8java" startline="168" endline="183">gui.ClientMainGUI.getBtnLogOut</references>
+        <references refid="classgui_1_1_client_main_g_u_i_1a1bb69b4ad607b46d8642d215812226df" compoundref="_client_main_g_u_i_8java" startline="152" endline="161">gui.ClientMainGUI.getLblNewLabel</references>
+        <references refid="classgui_1_1_client_main_g_u_i_1a27d9ef1b843aeaa940da60efee19d26c" compoundref="_client_main_g_u_i_8java" startline="34">gui.ClientMainGUI.jContentPane</references>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1ab19f9fe8edbfb9df91d264fddd5caecf" compoundref="_client_main_g_u_i_8java" startline="123" endline="128">gui.ClientMainGUI.initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1ab19f9fe8edbfb9df91d264fddd5caecf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.ClientMainGUI.initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+<para>This method initializes this. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="123" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="123" bodyend="128"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" compoundref="_client_main_g_u_i_8java" startline="83" endline="116">gui.ClientMainGUI.getJContentPane</references>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a29652761456e31647cfa7f9843878a07" compoundref="_client_main_g_u_i_8java" startline="54" endline="74">gui.ClientMainGUI.ClientMainGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1a45cdcc4e604df9e32eee2aafe21f04f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JButton</type>
+        <definition>JButton gui.ClientMainGUI.getBoton3</definition>
+        <argsstring>()</argsstring>
+        <name>getBoton3</name>
+        <briefdescription>
+<para>This method initializes boton3. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>javax.swing.JButton </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="135" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="135" bodyend="149"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1a220469f9ef90dc199698d1c3789a772e" compoundref="_client_main_g_u_i_8java" startline="36">gui.ClientMainGUI.boton3</references>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" compoundref="_client_main_g_u_i_8java" startline="83" endline="116">gui.ClientMainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1a1bb69b4ad607b46d8642d215812226df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JLabel</type>
+        <definition>JLabel gui.ClientMainGUI.getLblNewLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLblNewLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="152" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="152" bodyend="161"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1a3aa18457987ffd805e145460480b360e" compoundref="_client_main_g_u_i_8java" startline="47">gui.ClientMainGUI.lblNewLabel</references>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" compoundref="_client_main_g_u_i_8java" startline="83" endline="116">gui.ClientMainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1a6565ab3c45d2d82aeea189e1b4b23c51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.ClientMainGUI.redibujar</definition>
+        <argsstring>()</argsstring>
+        <name>redibujar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="163" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="163" bodyend="167"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1a220469f9ef90dc199698d1c3789a772e" compoundref="_client_main_g_u_i_8java" startline="36">gui.ClientMainGUI.boton3</references>
+        <references refid="classgui_1_1_client_main_g_u_i_1a3aa18457987ffd805e145460480b360e" compoundref="_client_main_g_u_i_8java" startline="47">gui.ClientMainGUI.lblNewLabel</references>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_client_main_g_u_i_1a314dc209c6b3e908aa9aa22a3fae474d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JButton</type>
+        <definition>JButton gui.ClientMainGUI.getBtnLogOut</definition>
+        <argsstring>()</argsstring>
+        <name>getBtnLogOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientMainGUI.java" line="168" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="168" bodyend="183"/>
+        <references refid="classgui_1_1_client_main_g_u_i_1ac5e8305b963794fa0fe59e49a87e2581" compoundref="_client_main_g_u_i_8java" startline="49">gui.ClientMainGUI.btnLogOut</references>
+        <references refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" compoundref="_main_g_u_i_8java" startline="60">gui.MainGUI.client</references>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" compoundref="_client_main_g_u_i_8java" startline="83" endline="116">gui.ClientMainGUI.getJContentPane</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>JFrame</label>
+      </node>
+      <node id="26">
+        <label>gui.ClientMainGUI</label>
+        <link refid="classgui_1_1_client_main_g_u_i"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>JPanel</label>
+      </node>
+      <node id="31">
+        <label>ButtonGroup</label>
+      </node>
+      <node id="33">
+        <label>JLabel</label>
+      </node>
+      <node id="29">
+        <label>JFrame</label>
+      </node>
+      <node id="28">
+        <label>gui.ClientMainGUI</label>
+        <link refid="classgui_1_1_client_main_g_u_i"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>boton3</edgelabel>
+          <edgelabel>btnLogOut</edgelabel>
+          <edgelabel>boton1</edgelabel>
+        </childnode>
+        <childnode refid="31" relation="usage">
+          <edgelabel>buttonGroup</edgelabel>
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>appFacadeInterface</edgelabel>
+        </childnode>
+        <childnode refid="33" relation="usage">
+          <edgelabel>lblNewLabel</edgelabel>
+        </childnode>
+        <childnode refid="34" relation="usage">
+          <edgelabel>jContentPane</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="30">
+        <label>JButton</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/ClientMainGUI.java" line="30" column="1" bodyfile="src/gui/ClientMainGUI.java" bodystart="30" bodyend="184"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_client_main_g_u_i_1af59bb392168b3018e1f449ea153c09eb" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>appFacadeInterface</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1ab21293a77c7d7632b6e92c8514793448" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>boton1</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a220469f9ef90dc199698d1c3789a772e" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>boton3</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1ac5e8305b963794fa0fe59e49a87e2581" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>btnLogOut</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a55bab99544dc2947a28f42cc9f32360e" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>buttonGroup</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a29652761456e31647cfa7f9843878a07" prot="public" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>ClientMainGUI</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a45cdcc4e604df9e32eee2aafe21f04f8" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>getBoton3</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a314dc209c6b3e908aa9aa22a3fae474d" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>getBtnLogOut</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a66e91e37a334a0d931f9a448e032091c" prot="public" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>getBusinessLogic</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>getJContentPane</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a1bb69b4ad607b46d8642d215812226df" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>getLblNewLabel</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1ab19f9fe8edbfb9df91d264fddd5caecf" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>initialize</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a27d9ef1b843aeaa940da60efee19d26c" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>jContentPane</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a3aa18457987ffd805e145460480b360e" prot="protected" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>lblNewLabel</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1a6565ab3c45d2d82aeea189e1b4b23c51" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>redibujar</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1ab85e7602a3e65f458b858d0db1640bff" prot="private" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>serialVersionUID</name></member>
+      <member refid="classgui_1_1_client_main_g_u_i_1adac6e82dffe9f7df0f185583970bf40f" prot="public" virt="non-virtual"><scope>gui::ClientMainGUI</scope><name>setBussinessLogic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_mis_reservas_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::MisReservasGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a0e75257d07910111e880685dd6453a9e" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.MisReservasGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="35" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a57d28f9e9e4ecff5c08b348934a72bc6" prot="private" static="no" mutable="no">
+        <type>JList</type>
+        <definition>JList gui.MisReservasGUI.list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <initializer>= new JList()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="36" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a29c70d8f7ee208b3f955023be16bbfec" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.MisReservasGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="37" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a7d1ff262cc15c57867d6613100ad54fe" prot="private" static="no" mutable="no">
+        <type>DefaultListModel&lt; <ref refid="classdomain_1_1_reserva_offer_rh_owner_container" kindref="compound">ReservaOfferRhOwnerContainer</ref> &gt;</type>
+        <definition>DefaultListModel&lt;ReservaOfferRhOwnerContainer&gt; gui.MisReservasGUI.model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <initializer>= new DefaultListModel&lt;<ref refid="classdomain_1_1_reserva_offer_rh_owner_container" kindref="compound">ReservaOfferRhOwnerContainer</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="38" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a8901fbadd3ea86c48507ead16452fba5" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.MisReservasGUI.textField</definition>
+        <argsstring></argsstring>
+        <name>textField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="39" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a99d808ceec76346293264ea1a539c3aa" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.MisReservasGUI.btnRemoveOffer</definition>
+        <argsstring></argsstring>
+        <name>btnRemoveOffer</name>
+        <initializer>= new JButton(&quot;Remove Booking&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="40" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a2333042f2b3811fec9fd968b8fd033ba" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.MisReservasGUI.btnNewButton</definition>
+        <argsstring></argsstring>
+        <name>btnNewButton</name>
+        <initializer>= new JButton(&quot;See Photo&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="41" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_mis_reservas_g_u_i_1a3a80cd8bcb066f875ff9e71e462924b8" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton gui.MisReservasGUI.btnFeedBack</definition>
+        <argsstring></argsstring>
+        <name>btnFeedBack</name>
+        <initializer>= new JButton(&quot;Rate Rural House&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="42" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.MisReservasGUI.MisReservasGUI</definition>
+        <argsstring>()</argsstring>
+        <name>MisReservasGUI</name>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MisReservasGUI.java" line="48" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="48" bodyend="152"/>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a3a80cd8bcb066f875ff9e71e462924b8" compoundref="_mis_reservas_g_u_i_8java" startline="42">gui.MisReservasGUI.btnFeedBack</references>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a2333042f2b3811fec9fd968b8fd033ba" compoundref="_mis_reservas_g_u_i_8java" startline="41">gui.MisReservasGUI.btnNewButton</references>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a99d808ceec76346293264ea1a539c3aa" compoundref="_mis_reservas_g_u_i_8java" startline="40">gui.MisReservasGUI.btnRemoveOffer</references>
+        <references refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" compoundref="_main_g_u_i_8java" startline="60">gui.MainGUI.client</references>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a0e75257d07910111e880685dd6453a9e" compoundref="_mis_reservas_g_u_i_8java" startline="35">gui.MisReservasGUI.contentPane</references>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a29c70d8f7ee208b3f955023be16bbfec" compoundref="_mis_reservas_g_u_i_8java" startline="37">gui.MisReservasGUI.facade</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0d69ed91aa71325dedc777f059999e93">businessLogic.ApplicationFacadeInterfaceWS.getClientByUsername</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ab07e66746b2cfe14622bdd16c295ce93">businessLogic.ApplicationFacadeInterfaceWS.getListReservaOfferRhOwnerContainer</references>
+        <references refid="classdomain_1_1_reserva_offer_rh_owner_container_1af4089b377fb75d45f5178ddcb13d244d" compoundref="_reserva_offer_rh_owner_container_8java" startline="32" endline="34">domain.ReservaOfferRhOwnerContainer.getOffer</references>
+        <references refid="classdomain_1_1_reserva_offer_rh_owner_container_1aac4cc25208d928d5a68f72611c64fc3e" compoundref="_reserva_offer_rh_owner_container_8java" startline="24" endline="26">domain.ReservaOfferRhOwnerContainer.getReserva</references>
+        <references refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" compoundref="_offer_8java" startline="70" endline="72">domain.Offer.getRuralHouse</references>
+        <references refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" compoundref="_client_8java" startline="122" endline="124">domain.Client.getUserName</references>
+        <references refid="classdomain_1_1_reserva_1ad4ad501d339fb6accca9de2122201d04" compoundref="_reserva_8java" startline="32">domain.Reserva.isRated</references>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a57d28f9e9e4ecff5c08b348934a72bc6" compoundref="_mis_reservas_g_u_i_8java" startline="36">gui.MisReservasGUI.list</references>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a7d1ff262cc15c57867d6613100ad54fe" compoundref="_mis_reservas_g_u_i_8java" startline="38">gui.MisReservasGUI.model</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0c4ed4fa98351e6aaba6f9769e561abf">businessLogic.ApplicationFacadeInterfaceWS.removeReserva</references>
+        <references refid="classgui_1_1_mis_reservas_g_u_i_1a8901fbadd3ea86c48507ead16452fba5" compoundref="_mis_reservas_g_u_i_8java" startline="39">gui.MisReservasGUI.textField</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="138">
+        <label>gui.MisReservasGUI</label>
+        <link refid="classgui_1_1_mis_reservas_g_u_i"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="147">
+        <label>JPanel</label>
+      </node>
+      <node id="140">
+        <label>gui.MisReservasGUI</label>
+        <link refid="classgui_1_1_mis_reservas_g_u_i"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>btnRemoveOffer</edgelabel>
+          <edgelabel>btnFeedBack</edgelabel>
+          <edgelabel>btnNewButton</edgelabel>
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>textField</edgelabel>
+        </childnode>
+        <childnode refid="145" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="146" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>JFrame</label>
+      </node>
+      <node id="146">
+        <label>JList</label>
+      </node>
+      <node id="144">
+        <label>JTextField</label>
+      </node>
+      <node id="145">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="142">
+        <label>JButton</label>
+      </node>
+      <node id="143">
+        <label>DefaultListModel&lt; domain.ReservaOfferRhOwnerContainer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/MisReservasGUI.java" line="33" column="1" bodyfile="src/gui/MisReservasGUI.java" bodystart="33" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a3a80cd8bcb066f875ff9e71e462924b8" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>btnFeedBack</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a2333042f2b3811fec9fd968b8fd033ba" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>btnNewButton</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a99d808ceec76346293264ea1a539c3aa" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>btnRemoveOffer</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a0e75257d07910111e880685dd6453a9e" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a29c70d8f7ee208b3f955023be16bbfec" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a57d28f9e9e4ecff5c08b348934a72bc6" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>list</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" prot="public" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>MisReservasGUI</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a7d1ff262cc15c57867d6613100ad54fe" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>model</name></member>
+      <member refid="classgui_1_1_mis_reservas_g_u_i_1a8901fbadd3ea86c48507ead16452fba5" prot="private" virt="non-virtual"><scope>gui::MisReservasGUI</scope><name>textField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

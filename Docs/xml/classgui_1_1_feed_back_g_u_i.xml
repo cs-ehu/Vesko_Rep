@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_feed_back_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::FeedBackGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1ae4711a299230e0f571f2b3f56f5eb9ee" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.FeedBackGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="32" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1ad24dea21bb9450474fd58c7dba162f7e" prot="private" static="no" mutable="no">
+        <type>JTextPane</type>
+        <definition>JTextPane gui.FeedBackGUI.textField</definition>
+        <argsstring></argsstring>
+        <name>textField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="33" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1ab9e6f952b77fa96772b8e417245d94bb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gui.FeedBackGUI.grade</definition>
+        <argsstring></argsstring>
+        <name>grade</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="34" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a70a8204a531b922364fdef575045e505" compoundref="_feed_back_g_u_i_8java" startline="158" endline="169">gui.FeedBackGUI.updateStars</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1a401c09b279a8e2369355fd9142284752" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.FeedBackGUI.btnValidate</definition>
+        <argsstring></argsstring>
+        <name>btnValidate</name>
+        <initializer>= new JButton(&quot;Validate&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="35" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a70a8204a531b922364fdef575045e505" compoundref="_feed_back_g_u_i_8java" startline="158" endline="169">gui.FeedBackGUI.updateStars</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1aa98ecf04e9e2c9a78988ad724dcc452f" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.FeedBackGUI.button_5</definition>
+        <argsstring></argsstring>
+        <name>button_5</name>
+        <initializer>= new JButton(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="36" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1a260750f04cc70576dee71a3d2d321559" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.FeedBackGUI.button_4</definition>
+        <argsstring></argsstring>
+        <name>button_4</name>
+        <initializer>= new JButton(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="37" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1aecc5a4dbfd0b1914634b7560af5b665e" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.FeedBackGUI.button_3</definition>
+        <argsstring></argsstring>
+        <name>button_3</name>
+        <initializer>= new JButton(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="38" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1aea4392764854bea3595a730551c76e82" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.FeedBackGUI.button_2</definition>
+        <argsstring></argsstring>
+        <name>button_2</name>
+        <initializer>= new JButton(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="39" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1a4eff111b91a4af9d69b07d239f8c4175" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.FeedBackGUI.button_1</definition>
+        <argsstring></argsstring>
+        <name>button_1</name>
+        <initializer>= new JButton(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="40" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1aebe4840fd7ffe833e3c8976aba4f5dba" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; JButton &gt;</type>
+        <definition>ArrayList&lt;JButton&gt; gui.FeedBackGUI.listb</definition>
+        <argsstring></argsstring>
+        <name>listb</name>
+        <initializer>= new ArrayList&lt;JButton&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="41" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a70a8204a531b922364fdef575045e505" compoundref="_feed_back_g_u_i_8java" startline="158" endline="169">gui.FeedBackGUI.updateStars</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1ae6b839a011e80bf88d8135d3f649f708" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.FeedBackGUI.lblFeedBackStatus</definition>
+        <argsstring></argsstring>
+        <name>lblFeedBackStatus</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="42" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_feed_back_g_u_i_1a62c1845c6e8a5824711746f6bdf7a202" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.FeedBackGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="44" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.FeedBackGUI.FeedBackGUI</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>FeedBackGUI</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="51" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="51" bodyend="157"/>
+        <references refid="classgui_1_1_feed_back_g_u_i_1a401c09b279a8e2369355fd9142284752" compoundref="_feed_back_g_u_i_8java" startline="35">gui.FeedBackGUI.btnValidate</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1a4eff111b91a4af9d69b07d239f8c4175" compoundref="_feed_back_g_u_i_8java" startline="40">gui.FeedBackGUI.button_1</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1aea4392764854bea3595a730551c76e82" compoundref="_feed_back_g_u_i_8java" startline="39">gui.FeedBackGUI.button_2</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1aecc5a4dbfd0b1914634b7560af5b665e" compoundref="_feed_back_g_u_i_8java" startline="38">gui.FeedBackGUI.button_3</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1a260750f04cc70576dee71a3d2d321559" compoundref="_feed_back_g_u_i_8java" startline="37">gui.FeedBackGUI.button_4</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1aa98ecf04e9e2c9a78988ad724dcc452f" compoundref="_feed_back_g_u_i_8java" startline="36">gui.FeedBackGUI.button_5</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1ae4711a299230e0f571f2b3f56f5eb9ee" compoundref="_feed_back_g_u_i_8java" startline="32">gui.FeedBackGUI.contentPane</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3fd4fdf7b7efaef7ff89ee7273f5be22">businessLogic.ApplicationFacadeInterfaceWS.createFeedBack</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1a62c1845c6e8a5824711746f6bdf7a202" compoundref="_feed_back_g_u_i_8java" startline="44">gui.FeedBackGUI.facade</references>
+        <references refid="classdomain_1_1_reserva_1ad1da3466712c5ccaf43cb6f9fe9f5045" compoundref="_reserva_8java" startline="43" endline="45">domain.Reserva.getOffer</references>
+        <references refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" compoundref="_offer_8java" startline="70" endline="72">domain.Offer.getRuralHouse</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1ab9e6f952b77fa96772b8e417245d94bb" compoundref="_feed_back_g_u_i_8java" startline="34">gui.FeedBackGUI.grade</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1ae6b839a011e80bf88d8135d3f649f708" compoundref="_feed_back_g_u_i_8java" startline="42">gui.FeedBackGUI.lblFeedBackStatus</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1aebe4840fd7ffe833e3c8976aba4f5dba" compoundref="_feed_back_g_u_i_8java" startline="41">gui.FeedBackGUI.listb</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0092e0a845b7b23dc504be013ce1958a">businessLogic.ApplicationFacadeInterfaceWS.setRated</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1ad24dea21bb9450474fd58c7dba162f7e" compoundref="_feed_back_g_u_i_8java" startline="33">gui.FeedBackGUI.textField</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1a70a8204a531b922364fdef575045e505" compoundref="_feed_back_g_u_i_8java" startline="158" endline="169">gui.FeedBackGUI.updateStars</references>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_feed_back_g_u_i_1a70a8204a531b922364fdef575045e505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.FeedBackGUI.updateStars</definition>
+        <argsstring>(int i)</argsstring>
+        <name>updateStars</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/FeedBackGUI.java" line="158" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="158" bodyend="169"/>
+        <references refid="classgui_1_1_feed_back_g_u_i_1a401c09b279a8e2369355fd9142284752" compoundref="_feed_back_g_u_i_8java" startline="35">gui.FeedBackGUI.btnValidate</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1ab9e6f952b77fa96772b8e417245d94bb" compoundref="_feed_back_g_u_i_8java" startline="34">gui.FeedBackGUI.grade</references>
+        <references refid="classgui_1_1_feed_back_g_u_i_1aebe4840fd7ffe833e3c8976aba4f5dba" compoundref="_feed_back_g_u_i_8java" startline="41">gui.FeedBackGUI.listb</references>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>JFrame</label>
+      </node>
+      <node id="83">
+        <label>gui.FeedBackGUI</label>
+        <link refid="classgui_1_1_feed_back_g_u_i"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="92">
+        <label>JPanel</label>
+      </node>
+      <node id="91">
+        <label>ArrayList&lt; JButton &gt;</label>
+      </node>
+      <node id="90">
+        <label>JLabel</label>
+      </node>
+      <node id="86">
+        <label>JFrame</label>
+      </node>
+      <node id="89">
+        <label>JTextPane</label>
+      </node>
+      <node id="85">
+        <label>gui.FeedBackGUI</label>
+        <link refid="classgui_1_1_feed_back_g_u_i"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>button_1</edgelabel>
+          <edgelabel>btnValidate</edgelabel>
+          <edgelabel>button_2</edgelabel>
+          <edgelabel>button_3</edgelabel>
+          <edgelabel>button_4</edgelabel>
+          <edgelabel>button_5</edgelabel>
+        </childnode>
+        <childnode refid="88" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>textField</edgelabel>
+        </childnode>
+        <childnode refid="90" relation="usage">
+          <edgelabel>lblFeedBackStatus</edgelabel>
+        </childnode>
+        <childnode refid="91" relation="usage">
+          <edgelabel>listb</edgelabel>
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+      </node>
+      <node id="88">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="87">
+        <label>JButton</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/FeedBackGUI.java" line="30" column="1" bodyfile="src/gui/FeedBackGUI.java" bodystart="30" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_feed_back_g_u_i_1a401c09b279a8e2369355fd9142284752" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>btnValidate</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1a4eff111b91a4af9d69b07d239f8c4175" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>button_1</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1aea4392764854bea3595a730551c76e82" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>button_2</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1aecc5a4dbfd0b1914634b7560af5b665e" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>button_3</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1a260750f04cc70576dee71a3d2d321559" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>button_4</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1aa98ecf04e9e2c9a78988ad724dcc452f" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>button_5</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1ae4711a299230e0f571f2b3f56f5eb9ee" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1a62c1845c6e8a5824711746f6bdf7a202" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" prot="public" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>FeedBackGUI</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1ab9e6f952b77fa96772b8e417245d94bb" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>grade</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1ae6b839a011e80bf88d8135d3f649f708" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>lblFeedBackStatus</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1aebe4840fd7ffe833e3c8976aba4f5dba" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>listb</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1ad24dea21bb9450474fd58c7dba162f7e" prot="private" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>textField</name></member>
+      <member refid="classgui_1_1_feed_back_g_u_i_1a70a8204a531b922364fdef575045e505" prot="public" virt="non-virtual"><scope>gui::FeedBackGUI</scope><name>updateStars</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

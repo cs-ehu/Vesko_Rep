@@ -1,0 +1,880 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kind="interface"><name>businessLogic::ApplicationFacadeInterfaceWS</name>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad807cbd5d877e941edc274563e5cefa3" kind="function"><name>createReserva</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0c4ed4fa98351e6aaba6f9769e561abf" kind="function"><name>removeReserva</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0e8d2135ef1384a32e74f60bcea55f09" kind="function"><name>createOffer</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ac2cbd39795e0c171a79ac440698bd859" kind="function"><name>createClient</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3e5553805d4890c9c17cf2ab1b14a2d3" kind="function"><name>createOwner</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a482571287e471d0047bc24150f716d72" kind="function"><name>updateClinetValidation</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a4932653f88b16660fa74ff6356a3f94b" kind="function"><name>updateOwnerValidation</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a624b00ae79c85436420d62cf34a082d7" kind="function"><name>createRuralHouse</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a553cbfb37ea9f1621ba76ad8308a15da" kind="function"><name>getAllRuralHouses</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ae338a96d039003c64fceb68d667736f1" kind="function"><name>getOffers</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0d69ed91aa71325dedc777f059999e93" kind="function"><name>getClientByUsername</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0f38b3b41794e2ec57b019b89ef255c3" kind="function"><name>getOwnerByUsername</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad5cf462151e6c43b9088f112eed0ad3f" kind="function"><name>addImageToRH</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1aeda86c46b75acfc4befb30f5d0e98e7c" kind="function"><name>getRuralHouse</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a686ca441b89f52085ef66d00f10c6854" kind="function"><name>getRuralHousebyHouseNumber</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a472d0eae303dc4ad989f382bb0632afc" kind="function"><name>removeRuralHouse</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a8cbc91e14e6abf2d7577ba2c69f4b48f" kind="function"><name>close</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a1ee7d830657be2563a277591c150f273" kind="function"><name>getReservaByNum</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2f7ed5fbb8427eee05fdaa0a0dc9348b" kind="function"><name>getReservaOfferRhOwnerContainer</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2d053769d923bd1987f8fd1f875905e7" kind="function"><name>updateClient</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1af0ef759ffef69a39428870eada0221cd" kind="function"><name>updateOwner</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ab07e66746b2cfe14622bdd16c295ce93" kind="function"><name>getListReservaOfferRhOwnerContainer</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3fd4fdf7b7efaef7ff89ee7273f5be22" kind="function"><name>createFeedBack</name></member>
+    <member refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0092e0a845b7b23dc504be013ce1958a" kind="function"><name>setRated</name></member>
+  </compound>
+  <compound refid="classgui_1_1_application_launcher" kind="class"><name>gui::ApplicationLauncher</name>
+    <member refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_bad_dates" kind="class"><name>exceptions::BadDates</name>
+    <member refid="classexceptions_1_1_bad_dates_1a1703e41273cdde53ece45e307839c449" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classexceptions_1_1_bad_dates_1ad4918ff10b5e46df93774ea9087e6d04" kind="function"><name>BadDates</name></member>
+    <member refid="classexceptions_1_1_bad_dates_1a34213c984892e85612e3a2e44220e896" kind="function"><name>BadDates</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_business_logic_server" kind="class"><name>businessLogic::BusinessLogicServer</name>
+    <member refid="classbusiness_logic_1_1_business_logic_server_1a0893f28ccaea8b86f7fe942c6ea3e126" kind="variable"><name>contentPanel</name></member>
+    <member refid="classbusiness_logic_1_1_business_logic_server_1aec137250843e53f480cd28952ca4afd7" kind="variable"><name>textArea</name></member>
+    <member refid="classbusiness_logic_1_1_business_logic_server_1ad1b90ed3ddcce431e7b064bb4a4631ed" kind="variable"><name>server</name></member>
+    <member refid="classbusiness_logic_1_1_business_logic_server_1a474037df64d451baf01fcb6f582cde2a" kind="variable"><name>service</name></member>
+    <member refid="classbusiness_logic_1_1_business_logic_server_1a978c1596ce77baed488f137fc96a4fe8" kind="function"><name>main</name></member>
+    <member refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" kind="function"><name>BusinessLogicServer</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_client" kind="class"><name>domain::Client</name>
+    <member refid="classdomain_1_1_client_1a759c4fe989503ceb29bcefca63177186" kind="variable"><name>userName</name></member>
+    <member refid="classdomain_1_1_client_1ad8c3f3e676480cdf083669c007f1e397" kind="variable"><name>password</name></member>
+    <member refid="classdomain_1_1_client_1a48de873a69fd65be53e47b2cbb2c309d" kind="variable"><name>telegramId</name></member>
+    <member refid="classdomain_1_1_client_1a91e08d53a5af62a7822f25c0741b9828" kind="variable"><name>cuentaBancaria</name></member>
+    <member refid="classdomain_1_1_client_1a47341a6cb46fb5c2c61885669070a939" kind="variable"><name>email</name></member>
+    <member refid="classdomain_1_1_client_1ae4e6d3d763ee52755c66f199270dd420" kind="variable"><name>listaReserva</name></member>
+    <member refid="classdomain_1_1_client_1a1127a9cdf4d8ccff666bec1c9db31e95" kind="variable"><name>validationNumber</name></member>
+    <member refid="classdomain_1_1_client_1a2e70a563bf23fd2be7adc13e997363c8" kind="variable"><name>validated</name></member>
+    <member refid="classdomain_1_1_client_1a7466013d1a12e9d4f7fc739c68bdd238" kind="variable"><name>sendBookByEmail</name></member>
+    <member refid="classdomain_1_1_client_1a303c59a2c1c521a67583268436f3b951" kind="variable"><name>sendBookByTelegram</name></member>
+    <member refid="classdomain_1_1_client_1a9e280dad9c4c0e6dbe0f83186afc765a" kind="function"><name>Client</name></member>
+    <member refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" kind="function"><name>Client</name></member>
+    <member refid="classdomain_1_1_client_1aa1343221f2098ed1fa6c41cec0aa59a4" kind="function"><name>isValidated</name></member>
+    <member refid="classdomain_1_1_client_1aac608259550fa807f8de3b1e08d30e77" kind="function"><name>isSendBookByEmail</name></member>
+    <member refid="classdomain_1_1_client_1acf27654cd7efbc18bb8867a58a272eef" kind="function"><name>setSendBookByEmail</name></member>
+    <member refid="classdomain_1_1_client_1aa00c95082f42ebd0bcd252ffa7f5b89b" kind="function"><name>isSendBookByTelegram</name></member>
+    <member refid="classdomain_1_1_client_1af38389540adb7dba2798d6b9912b220f" kind="function"><name>setSendBookByTelegram</name></member>
+    <member refid="classdomain_1_1_client_1aef4786d9a92347815e4494c8fc0b8bd2" kind="function"><name>setValidated</name></member>
+    <member refid="classdomain_1_1_client_1a423c12788bfb3d265506bad3de79c771" kind="function"><name>getValidationNumber</name></member>
+    <member refid="classdomain_1_1_client_1a0973728bc4625ebdb83feea51d7de519" kind="function"><name>setValidationNumber</name></member>
+    <member refid="classdomain_1_1_client_1aca417158adc1bb7fafe02b8f54265edf" kind="function"><name>addReserva</name></member>
+    <member refid="classdomain_1_1_client_1a1be8ad60fb1d03ec9895640d87ab5576" kind="function"><name>removeReserva</name></member>
+    <member refid="classdomain_1_1_client_1ac8b0f7513cd299b00a0e8cb44a70e3c4" kind="function"><name>getListaReserva</name></member>
+    <member refid="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" kind="function"><name>getEmail</name></member>
+    <member refid="classdomain_1_1_client_1a525e1e3b7447d73947fa880f4c836872" kind="function"><name>setEmail</name></member>
+    <member refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" kind="function"><name>getTelegramId</name></member>
+    <member refid="classdomain_1_1_client_1aa0ab199ddacd36d8feb16cff4c01a506" kind="function"><name>setTelegramId</name></member>
+    <member refid="classdomain_1_1_client_1adeb2b614c2e27afd7e1c1f50ba0a561f" kind="function"><name>getCuentaBancaria</name></member>
+    <member refid="classdomain_1_1_client_1a02858d702a1b74589412777da82111ca" kind="function"><name>setCuentaBancaria</name></member>
+    <member refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" kind="function"><name>getUserName</name></member>
+    <member refid="classdomain_1_1_client_1ad9b344ef61d744d882eba788694aa96f" kind="function"><name>setUserName</name></member>
+    <member refid="classdomain_1_1_client_1abc586f272267f9312e1341fef8c5486c" kind="function"><name>getPassword</name></member>
+    <member refid="classdomain_1_1_client_1ae13843f725fdfd5d85a3a4176b9ee8a9" kind="function"><name>setPassword</name></member>
+    <member refid="classdomain_1_1_client_1a5fc558240fa2d8ee6a87c41d373069fc" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classgui_1_1_client_advanced_search_help" kind="class"><name>gui::ClientAdvancedSearchHelp</name>
+    <member refid="classgui_1_1_client_advanced_search_help_1aa267d5420c219823e71af0e377df9393" kind="variable"><name>contentPanel</name></member>
+    <member refid="classgui_1_1_client_advanced_search_help_1aed5a6c114fbe236919aa65e64491ac2f" kind="function"><name>main</name></member>
+    <member refid="classgui_1_1_client_advanced_search_help_1afec1b2d3d9d873fbb409edab3aef1742" kind="function"><name>ClientAdvancedSearchHelp</name></member>
+  </compound>
+  <compound refid="classgui_1_1_client_main_g_u_i" kind="class"><name>gui::ClientMainGUI</name>
+    <member refid="classgui_1_1_client_main_g_u_i_1ab85e7602a3e65f458b858d0db1640bff" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1af59bb392168b3018e1f449ea153c09eb" kind="variable"><name>appFacadeInterface</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a27d9ef1b843aeaa940da60efee19d26c" kind="variable"><name>jContentPane</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1ab21293a77c7d7632b6e92c8514793448" kind="variable"><name>boton1</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a220469f9ef90dc199698d1c3789a772e" kind="variable"><name>boton3</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a55bab99544dc2947a28f42cc9f32360e" kind="variable"><name>buttonGroup</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1ac5e8305b963794fa0fe59e49a87e2581" kind="variable"><name>btnLogOut</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a3aa18457987ffd805e145460480b360e" kind="variable"><name>lblNewLabel</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a66e91e37a334a0d931f9a448e032091c" kind="function"><name>getBusinessLogic</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1adac6e82dffe9f7df0f185583970bf40f" kind="function"><name>setBussinessLogic</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a29652761456e31647cfa7f9843878a07" kind="function"><name>ClientMainGUI</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a60789fece2ec731726a04b1a48f311c1" kind="function"><name>getJContentPane</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1ab19f9fe8edbfb9df91d264fddd5caecf" kind="function"><name>initialize</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a45cdcc4e604df9e32eee2aafe21f04f8" kind="function"><name>getBoton3</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a1bb69b4ad607b46d8642d215812226df" kind="function"><name>getLblNewLabel</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a6565ab3c45d2d82aeea189e1b4b23c51" kind="function"><name>redibujar</name></member>
+    <member refid="classgui_1_1_client_main_g_u_i_1a314dc209c6b3e908aa9aa22a3fae474d" kind="function"><name>getBtnLogOut</name></member>
+  </compound>
+  <compound refid="classbot_1_1_comand" kind="class"><name>bot::Comand</name>
+    <member refid="classbot_1_1_comand_1af81301705b36922f60e412d324db04e6" kind="function"><name>Comand</name></member>
+    <member refid="classbot_1_1_comand_1aaf4d2683bf0d6b6d98344ca9f4071708" kind="function"><name>sendMessageFromTelegramToClient</name></member>
+  </compound>
+  <compound refid="classconfiguration_1_1_config_x_m_l" kind="class"><name>configuration::ConfigXML</name>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a8eaef059e5c5b7dc23331ba72c04eb59" kind="variable"><name>businessLogicNode</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1ac679ff78a18d6f012cb613d8e8c7ac41" kind="variable"><name>businessLogicPort</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1ad0228d23b69947a3e6ad84db4d893369" kind="variable"><name>businessLogicName</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1afaa301de70783638240f5a9a147f615f" kind="variable"><name>dataBaseOpenMode</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1ab30a83d21460a743a7a86955de08da3a" kind="variable"><name>businessLogicLocal</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a6ca52a37fbb4b0994aeb388df59a275f" kind="variable"><name>databaseLocal</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a71b31518e099bee7f0eefa043b38d706" kind="variable"><name>databaseNode</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a3766a24ed4f1ffda3f6af14b90100656" kind="variable"><name>databasePort</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a79e9a3b8602620dbb873ba491f47164a" kind="variable"><name>user</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a719187d1ff6398218cb8f6d7b0f53763" kind="variable"><name>password</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a34c81c18f387adacbf595cee3c0229b0" kind="variable"><name>locale</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a421b678aff5893a1927f5257b1becb14" kind="variable"><name>dbFilename</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a7993e8ab35ee8854e832e85bafe85964" kind="variable"><name>theInstance</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a6b861b18eba822ef3a5130a1c3f410b2" kind="function"><name>getLocale</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1abf4649caafdcfb0b506af7402f09728c" kind="function"><name>getDatabasePort</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a98e53bd841ca5f520af914f96ff2afef" kind="function"><name>getUser</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a70146fb5f8cda65220413959691e3616" kind="function"><name>getPassword</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a2ee9afbde36aa3f5c0d0158a8b5449fb" kind="function"><name>isDatabaseLocal</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a3055cd4f61151ef6d1c48a5ebf86b33f" kind="function"><name>isBusinessLogicLocal</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a6a79b28dd9e0c1c755fef0e7435ec03a" kind="function"><name>getBusinessLogicNode</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a7e8cb431bc1e899176ae2891c007f7f3" kind="function"><name>getBusinessLogicPort</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1ad6866b6aee38c74c082135f5dcd743ad" kind="function"><name>getBusinessLogicName</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a403cc4242d937a87dfea24caabaf535d" kind="function"><name>getDbFilename</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a693787d7818204c9188cb0c03d9423a0" kind="function"><name>getDataBaseOpenMode</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a622fdcb9a55b406b6bc2fa63509dae72" kind="function"><name>getDatabaseNode</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a0a848755f002c9c252612e188da0fee0" kind="function"><name>ConfigXML</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1ae3039f7e5dfe2bfcbb1ab63104b451b2" kind="function"><name>getTagValue</name></member>
+    <member refid="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="classdata_access_1_1_data_access" kind="class"><name>dataAccess::DataAccess</name>
+    <member refid="classdata_access_1_1_data_access_1aba38e7b60b8d2dc1d112ac7b5e5e4693" kind="variable"><name>fileName</name></member>
+    <member refid="classdata_access_1_1_data_access_1a158d2718ef5a80f4f296b14937cc1775" kind="variable"><name>emf</name></member>
+    <member refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" kind="variable"><name>db</name></member>
+    <member refid="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" kind="variable"><name>c</name></member>
+    <member refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" kind="variable"><name>debuger</name></member>
+    <member refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" kind="function"><name>DataAccess</name></member>
+    <member refid="classdata_access_1_1_data_access_1a660f0677b4ead89efe35c8f8f13c48ec" kind="function"><name>createClient</name></member>
+    <member refid="classdata_access_1_1_data_access_1a786f6a4bbd1f36ee68d8cebfd1ebc626" kind="function"><name>createOwner</name></member>
+    <member refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" kind="function"><name>createReserva</name></member>
+    <member refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" kind="function"><name>createRuralHouse</name></member>
+    <member refid="classdata_access_1_1_data_access_1ac07343daf9aa06679c7b28c082950ab0" kind="function"><name>createOffer</name></member>
+    <member refid="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" kind="function"><name>addImageToRH</name></member>
+    <member refid="classdata_access_1_1_data_access_1ad2661c3e2d7e0550b837b2763456683d" kind="function"><name>getReservaByNum</name></member>
+    <member refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" kind="function"><name>removeReserva</name></member>
+    <member refid="classdata_access_1_1_data_access_1a542a2ce3e970075b63c22b8cefac42ee" kind="function"><name>getOfferByNum</name></member>
+    <member refid="classdata_access_1_1_data_access_1a11f6dae8ff930c2552445dbf4d292268" kind="function"><name>getImagesFromRH</name></member>
+    <member refid="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" kind="function"><name>getRuralHouse</name></member>
+    <member refid="classdata_access_1_1_data_access_1a13b08775ff3b4b3859a7772de6592fb0" kind="function"><name>getAllRuralHouses</name></member>
+    <member refid="classdata_access_1_1_data_access_1ab8f58c04c48032a83b000d6de7f47d4e" kind="function"><name>getOffers</name></member>
+    <member refid="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" kind="function"><name>getClientByUsername</name></member>
+    <member refid="classdata_access_1_1_data_access_1a61836150ad3401ad7e326f263993c7bc" kind="function"><name>getOwnerByUsername</name></member>
+    <member refid="classdata_access_1_1_data_access_1ab6b1332b8bb17a4f65457043247d0b5e" kind="function"><name>existsOverlappingOffer</name></member>
+    <member refid="classdata_access_1_1_data_access_1a0023d35ffec2c84262c6dad259f812ae" kind="function"><name>existClient</name></member>
+    <member refid="classdata_access_1_1_data_access_1a50b55de13fbd4c9848f7c3ee8a57db93" kind="function"><name>existOwner</name></member>
+    <member refid="classdata_access_1_1_data_access_1a652083447d2e9e5fd5b6228bc67a8ca4" kind="function"><name>getRuralHouseByHouseNumber</name></member>
+    <member refid="classdata_access_1_1_data_access_1a3317cddb0e49d7e884f5f89795e20317" kind="function"><name>removeRuralHouse</name></member>
+    <member refid="classdata_access_1_1_data_access_1a58d3d443d0a2f5d74b6240248a257fd5" kind="function"><name>close</name></member>
+    <member refid="classdata_access_1_1_data_access_1ad9bd59be12508bde6bffd40397ed6caa" kind="function"><name>updateClinetValidation</name></member>
+    <member refid="classdata_access_1_1_data_access_1a5ecedf103c63cc76c84c664e29f64f7b" kind="function"><name>updateOwnerValidation</name></member>
+    <member refid="classdata_access_1_1_data_access_1ab4e4324392bb85a0f2a2c209f463d1fa" kind="function"><name>remove2</name></member>
+    <member refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" kind="function"><name>updateClient</name></member>
+    <member refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" kind="function"><name>updateOwner</name></member>
+    <member refid="classdata_access_1_1_data_access_1ab4812e588500fe2483a82a339a21e17a" kind="function"><name>createFeedBack</name></member>
+    <member refid="classdata_access_1_1_data_access_1afe99432043c4bf8bc7032858b51badbf" kind="function"><name>setRated</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_d_b4o_manager_creation_exception" kind="class"><name>exceptions::DB4oManagerCreationException</name>
+    <member refid="classexceptions_1_1_d_b4o_manager_creation_exception_1af611b151185c866376c172feb883428a" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classexceptions_1_1_d_b4o_manager_creation_exception_1a5da5879180740606e8a3f1c2f88f01dc" kind="function"><name>DB4oManagerCreationException</name></member>
+    <member refid="classexceptions_1_1_d_b4o_manager_creation_exception_1a45281047a13292cbee85b6f04547adc5" kind="function"><name>DB4oManagerCreationException</name></member>
+  </compound>
+  <compound refid="classgui_1_1_delete_rural_house" kind="class"><name>gui::DeleteRuralHouse</name>
+    <member refid="classgui_1_1_delete_rural_house_1abca92167d065908e2825a0051315c5fa" kind="variable"><name>contentPanel</name></member>
+    <member refid="classgui_1_1_delete_rural_house_1ad446803b49fe41357f91279c46854c61" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_delete_rural_house_1ac96583ac0943e616bba9d5f39b56f10a" kind="variable"><name>lblTheRuralHouse</name></member>
+    <member refid="classgui_1_1_delete_rural_house_1af2cf09ba446789ead0469867ede22bc7" kind="variable"><name>okButton</name></member>
+    <member refid="classgui_1_1_delete_rural_house_1a342b527007fadd1b9aed35227d31a57f" kind="variable"><name>cancelButton</name></member>
+    <member refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" kind="function"><name>DeleteRuralHouse</name></member>
+    <member refid="classgui_1_1_delete_rural_house_1a3bcff9d21c59de14bd34daf687af6141" kind="function"><name>checkRemove</name></member>
+  </compound>
+  <compound refid="classgui_1_1_display_images_g_u_i" kind="class"><name>gui::DisplayImagesGUI</name>
+    <member refid="classgui_1_1_display_images_g_u_i_1af5565c2bb3ed37878d4812250658e895" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_display_images_g_u_i_1a3f6072ee462364a095f2702fbcb14e17" kind="variable"><name>maxPhotos</name></member>
+    <member refid="classgui_1_1_display_images_g_u_i_1a67ed3018c207bc52f5eceb196b02d74a" kind="variable"><name>actualphoto</name></member>
+    <member refid="classgui_1_1_display_images_g_u_i_1ae5514a460e8af8bc6293278b62791832" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_display_images_g_u_i_1a07b3c804bf0847f00977fac829fb092e" kind="variable"><name>lblActPhoto</name></member>
+    <member refid="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" kind="function"><name>DisplayImagesGUI</name></member>
+  </compound>
+  <compound refid="classgui_1_1_display_ratings_g_u_i" kind="class"><name>gui::DisplayRatingsGUI</name>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1abb465b2b4cdb54123c4b0521838a6d26" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1a4a6b949bc2f095f92c35e11a9b253605" kind="variable"><name>lblCurrent</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1aa8eadb796ab524b992c52893d5aeaf15" kind="variable"><name>lblRate</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1ab2eff35a0e0def7edb919b19c3479495" kind="variable"><name>textPane</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1a46c665c4d59be0fc85e5600d949c0c38" kind="variable"><name>lblMax</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1af22d979904bed66577197633479efb90" kind="variable"><name>lblStatus</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1a008e78563513fe1de284f5012b822b6c" kind="variable"><name>current</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1a4c70177d900d213655a2687879b6b269" kind="variable"><name>max</name></member>
+    <member refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" kind="function"><name>DisplayRatingsGUI</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_facade_implementation_w_s" kind="class"><name>businessLogic::FacadeImplementationWS</name>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5bbdf1cf4235a84736744f3516ec1dae" kind="function"><name>createReserva</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1ae4cb91caac6aed10801d61b70702fd30" kind="function"><name>removeReserva</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1ac7b3bdfd0815ea7c787da312de594cce" kind="function"><name>createOffer</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2c5f0e41c6463d8e5c7d4b89ea3f676f" kind="function"><name>createClient</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1ad7a2f26be66f4ae4cbc2a4ad89e74e53" kind="function"><name>createOwner</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa1ef9c26fc3278ef6c4170094ed6dcaa" kind="function"><name>updateClinetValidation</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a9c3c6f8a2ec5a4d19defc324fc60c523" kind="function"><name>updateOwnerValidation</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2df596d357c02b4aef6711526347c951" kind="function"><name>createRuralHouse</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa6f21ddb40ca6cd752a13e31ff016e7e" kind="function"><name>getAllRuralHouses</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7489fb15fdb8206b16daf6ed24fdfea0" kind="function"><name>getOffers</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a49e8bd0f75fee0f774c78f1631509a12" kind="function"><name>getClientByUsername</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2e7c07eb23b062294ea3f5aaa48285a5" kind="function"><name>getOwnerByUsername</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa05fbf6e32c0939508a542b857dce1d1" kind="function"><name>addImageToRH</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a22945417275898b39f1fcbdd8961b1cf" kind="function"><name>getRuralHouse</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4b08e36f8de023cb541f63a5e772e2be" kind="function"><name>getRuralHousebyHouseNumber</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4d0fe8c220dc334e527a3e7b4cc9edca" kind="function"><name>removeRuralHouse</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1aaf150e07dd6d71319c6f2f4bf6be1647" kind="function"><name>close</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7b8deff7fb54e2ea7fa884fc13870d6d" kind="function"><name>getReservaByNum</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5918c2957b02255254ae252aabfe3fc1" kind="function"><name>updateClient</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a6ee2c273a768beed556dd83d9e5ad035" kind="function"><name>updateOwner</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2b0b70f214ee9b8e67a2e5373d0c176d" kind="function"><name>getReservaOfferRhOwnerContainer</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a505c977d8d4ab62addb96006535d2912" kind="function"><name>getListReservaOfferRhOwnerContainer</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a415b0ef5c66ce3bcec46a33750dc469f" kind="function"><name>createFeedBack</name></member>
+    <member refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4ed81cb9f24d501da830d80dda086fce" kind="function"><name>setRated</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_feed_back" kind="class"><name>domain::FeedBack</name>
+    <member refid="classdomain_1_1_feed_back_1a0d97f3135463e892caddccf3f78f91bf" kind="variable"><name>feedBack</name></member>
+    <member refid="classdomain_1_1_feed_back_1a979ed82b8bc6c40e8447a88f84321751" kind="variable"><name>grade</name></member>
+    <member refid="classdomain_1_1_feed_back_1a4ec8b55bbf07e1a8e5bd00c0a27e13a3" kind="variable"><name>rh</name></member>
+    <member refid="classdomain_1_1_feed_back_1a35a311801c50115ea7fc9685581900b9" kind="function"><name>FeedBack</name></member>
+    <member refid="classdomain_1_1_feed_back_1af677d71a2a42fa66f07889b4e7ace5b3" kind="function"><name>FeedBack</name></member>
+    <member refid="classdomain_1_1_feed_back_1a0298aaa47399d95b96c64b4e1dfa872d" kind="function"><name>getRh</name></member>
+    <member refid="classdomain_1_1_feed_back_1a960c0c38e2c9c79790cc33ed6b9ba769" kind="function"><name>getFeedBack</name></member>
+    <member refid="classdomain_1_1_feed_back_1a0977dab584089e45f38e9a0bd459432d" kind="function"><name>setFeedBack</name></member>
+    <member refid="classdomain_1_1_feed_back_1af85865ec0c8e4dca3f11878326565bfa" kind="function"><name>getGrade</name></member>
+    <member refid="classdomain_1_1_feed_back_1a3b55e08e1969d6f2046bff3b8b1cd4b5" kind="function"><name>setGrade</name></member>
+    <member refid="classdomain_1_1_feed_back_1a2a641d462289be5d0c53c6fcdabc8052" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classgui_1_1_feed_back_g_u_i" kind="class"><name>gui::FeedBackGUI</name>
+    <member refid="classgui_1_1_feed_back_g_u_i_1ae4711a299230e0f571f2b3f56f5eb9ee" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1ad24dea21bb9450474fd58c7dba162f7e" kind="variable"><name>textField</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1ab9e6f952b77fa96772b8e417245d94bb" kind="variable"><name>grade</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1a401c09b279a8e2369355fd9142284752" kind="variable"><name>btnValidate</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1aa98ecf04e9e2c9a78988ad724dcc452f" kind="variable"><name>button_5</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1a260750f04cc70576dee71a3d2d321559" kind="variable"><name>button_4</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1aecc5a4dbfd0b1914634b7560af5b665e" kind="variable"><name>button_3</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1aea4392764854bea3595a730551c76e82" kind="variable"><name>button_2</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1a4eff111b91a4af9d69b07d239f8c4175" kind="variable"><name>button_1</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1aebe4840fd7ffe833e3c8976aba4f5dba" kind="variable"><name>listb</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1ae6b839a011e80bf88d8135d3f649f708" kind="variable"><name>lblFeedBackStatus</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1a62c1845c6e8a5824711746f6bdf7a202" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" kind="function"><name>FeedBackGUI</name></member>
+    <member refid="classgui_1_1_feed_back_g_u_i_1a70a8204a531b922364fdef575045e505" kind="function"><name>updateStars</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_filter_search" kind="class"><name>businessLogic::FilterSearch</name>
+    <member refid="classbusiness_logic_1_1_filter_search_1a515df1bba64c967c9831377e7e7a9579" kind="variable"><name>cal</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a560e1672c146a2afd16156a103f282ef" kind="function"><name>getMaxPrice</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a25565270bec567f6e77b674396f021e7" kind="function"><name>getMinPrice</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a9cf43f80893307e2a79eb1c67ea9463e" kind="function"><name>filterOfferByPrice</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1acaa9148a7aab2c5185a6de377f0773cd" kind="function"><name>filterOfferByRh</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a6c76035ba9f40e420fab31f169a63b89" kind="function"><name>filterByCity</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a067f20824f8badab885b1711f8728c31" kind="function"><name>filterOfferByCity</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a4c7e6a5749fef2162a22047d4d22dded" kind="function"><name>filterOfferByFirstDay</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1ae2b3e3d306b1d2d9645fb6f3b7634420" kind="function"><name>filterOfferByLastDay</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a2efcdd2daef7808679d722f5ab26ced0" kind="function"><name>getAllCity</name></member>
+    <member refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" kind="function"><name>filterOfferByNights</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_generate_validation_code" kind="class"><name>businessLogic::GenerateValidationCode</name>
+    <member refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" kind="variable"><name>validationNumber</name></member>
+    <member refid="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" kind="variable"><name>min</name></member>
+    <member refid="classbusiness_logic_1_1_generate_validation_code_1a1b44dd596967e6ea88216fb4f8474dd0" kind="variable"><name>max</name></member>
+    <member refid="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" kind="function"><name>GenerateValidationCode</name></member>
+    <member refid="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" kind="function"><name>getValidationNumber</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_google_maps_web" kind="class"><name>businessLogic::GoogleMapsWeb</name>
+    <member refid="classbusiness_logic_1_1_google_maps_web_1a1e7bc23fa58751707e425caba2eea1b4" kind="function"><name>browseAddress</name></member>
+  </compound>
+  <compound refid="classgui_1_1_help_telegram" kind="class"><name>gui::HelpTelegram</name>
+    <member refid="classgui_1_1_help_telegram_1add5420f3af5cd44b1e10bd946e8a8906" kind="variable"><name>contentPanel</name></member>
+    <member refid="classgui_1_1_help_telegram_1a61edf978593e59290943e50a2a5ff367" kind="function"><name>main</name></member>
+    <member refid="classgui_1_1_help_telegram_1a74bf844c45b4063a5c7d4956b13af89c" kind="function"><name>HelpTelegram</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_integer_adapter" kind="class"><name>domain::IntegerAdapter</name>
+    <member refid="classdomain_1_1_integer_adapter_1ad2bfc5af140573682dd03906b9264b51" kind="function"><name>unmarshal</name></member>
+    <member refid="classdomain_1_1_integer_adapter_1a407b4872b78e54ed80c9ae597cae2451" kind="function"><name>marshal</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_login" kind="class"><name>businessLogic::Login</name>
+    <member refid="classbusiness_logic_1_1_login_1a64297917a7eea710ed126646401da842" kind="function"><name>Login</name></member>
+    <member refid="classbusiness_logic_1_1_login_1ac9f6613d5985375b441ff00347cafb18" kind="function"><name>doLogin</name></member>
+  </compound>
+  <compound refid="classgui_1_1_login_g_u_i" kind="class"><name>gui::LoginGUI</name>
+    <member refid="classgui_1_1_login_g_u_i_1aa1c9213d05aa2cf70dacbec422774f06" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1acf4a83606449712f7d8e4e09eef07aee" kind="variable"><name>userTextField</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a36a3a8140a1458add6a02dec5c6b4816" kind="variable"><name>passwordField</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a61f34a13877bb80cedba5da01646e587" kind="variable"><name>buttonGroup</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1aead0a4fab3d89616b6b53da28d73789c" kind="variable"><name>btnLogIn</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a1dc66beb3e76f805a9d2ba6c39b896ca" kind="variable"><name>lblRegister</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a575f68f00124a219bbc169d4c62f5f5d" kind="variable"><name>lblIncorrect</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a7b7b08f790b49e4969565f9ba2395f3a" kind="variable"><name>lblDontHaveAn</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a7e8b654313ae594bb8b02f128e2236a3" kind="variable"><name>btnSignIn</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a72713a536f5f8ddc5690c23dd54c987a" kind="variable"><name>lblPassword</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1af689de5c353e75b3523c706407a1bdf2" kind="variable"><name>lblUsername</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a0249903a45a937044e3e40875521b7fd" kind="variable"><name>rdbtnClient</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1ad9b6b69331716f550fb139535ee5963a" kind="variable"><name>rdbtnOwner</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a4abc22d6221d58bce5352dbe85b2d174" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1aa8694a27ad97904f1fb1566a14ab1b2f" kind="variable"><name>btnForgotPassword</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" kind="function"><name>LoginGUI</name></member>
+    <member refid="classgui_1_1_login_g_u_i_1a75dfb4f95ca55f19138783c531c5d02c" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classgui_1_1_main_g_u_i" kind="class"><name>gui::MainGUI</name>
+    <member refid="classgui_1_1_main_g_u_i_1a75dfef8d845a0c8de7a6476c7f7d35e1" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a27d911b7abcbb68661bbd3388cabcab0" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a06836509371b16181fdff6732938b7d3" kind="variable"><name>jContentPane</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1ad619899aca3a67d7a82028de85ddfbcd" kind="variable"><name>boton1</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a4ea50bfcac59d520e64e3fcfdec1457c" kind="variable"><name>boton3</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1ac5a0c08593d1be1d14216cb694dd7941" kind="variable"><name>rdbtnNewRadioButton</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a1aac1b64ce419c18765911c59fe88c19" kind="variable"><name>rdbtnNewRadioButton_1</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1ad3dcb9314fa6097b181df71e981de64e" kind="variable"><name>rdbtnNewRadioButton_2</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a0fee89799e637ac087877c50b36b8fbb" kind="variable"><name>panel</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a111cafa03ab93711fb6e403de89b9f34" kind="variable"><name>buttonGroup</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1af3b413265c0986faec49a4859f97416d" kind="variable"><name>lblLogedInAs</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a0fc72962f06022026150f3d01638f929" kind="variable"><name>lblNewLabel</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a765a67a47cfcc50fd64e1ce0c2571c0d" kind="variable"><name>lblType</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" kind="variable"><name>owner</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" kind="variable"><name>client</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" kind="function"><name>getBusinessLogic</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a306310290095fdaa31a668470fd6380d" kind="function"><name>setBussinessLogic</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a6968ef45452fe10bd544a46d6e099c32" kind="function"><name>MainGUI</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a2659b4cdf4e94d6ffc332f16afc46462" kind="function"><name>initialize</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" kind="function"><name>getJContentPane</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a57ef624d5e53ea6591fdf4dfc776b399" kind="function"><name>getBoton3</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a77a13e7a135020c180cec4b1d73a9cd9" kind="function"><name>getLblNewLabel</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1ace07e2034a9e3c211356c32c3debfa1f" kind="function"><name>getRdbtnNewRadioButton</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a6a97236533457307ac0775a16925c461" kind="function"><name>getRdbtnNewRadioButton_1</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a7214f49eafeafd3bd5b75cc95831dd0b" kind="function"><name>getRdbtnNewRadioButton_2</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" kind="function"><name>getPanel</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" kind="function"><name>redibujar</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a09b875b4f670febbeae0e5fec8ff420d" kind="function"><name>getLblLogedInAs</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1a0a6205c847b5d4138b54f939fc9c3487" kind="function"><name>getLblType</name></member>
+    <member refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" kind="function"><name>getMainOwner</name></member>
+  </compound>
+  <compound refid="classgui_1_1_mis_reservas_g_u_i" kind="class"><name>gui::MisReservasGUI</name>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a0e75257d07910111e880685dd6453a9e" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a57d28f9e9e4ecff5c08b348934a72bc6" kind="variable"><name>list</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a29c70d8f7ee208b3f955023be16bbfec" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a7d1ff262cc15c57867d6613100ad54fe" kind="variable"><name>model</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a8901fbadd3ea86c48507ead16452fba5" kind="variable"><name>textField</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a99d808ceec76346293264ea1a539c3aa" kind="variable"><name>btnRemoveOffer</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a2333042f2b3811fec9fd968b8fd033ba" kind="variable"><name>btnNewButton</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a3a80cd8bcb066f875ff9e71e462924b8" kind="variable"><name>btnFeedBack</name></member>
+    <member refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" kind="function"><name>MisReservasGUI</name></member>
+  </compound>
+  <compound refid="classgui_1_1_modify_account_g_u_i" kind="class"><name>gui::ModifyAccountGUI</name>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a381fa9bf3fbd1dbbe3166aa501fab1fc" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1af8c1603f6af69f39c0d0a29a8aa2b568" kind="variable"><name>txtUsername</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a589fabddc834cc42a2acaa2ad904ae3f" kind="variable"><name>txtPassword</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a52839f2a7edd45f9c756f0012e4dc1d6" kind="variable"><name>txtEmail</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1ab28de7ad0595e732310c6d55c763bf5d" kind="variable"><name>txtTelegramId</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a4ae8a0fdffbec7405e1baf27e485f768" kind="variable"><name>txtBancAccount</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1aa53f8e44219679688600395a16df9c1f" kind="variable"><name>rdbtnSendBookVia_1</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a77129e74749dc0b350d05de4f5137c52" kind="variable"><name>rdbtnSendBookVia</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a5df2167d933511b49e57a083d10f7cb7" kind="variable"><name>lblNewLabel</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a152e659fd97ffc8f00d87e437dbf53a8" kind="variable"><name>lblValidationSuccesfully</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1aaadd5325f9f2b8ac9cb5d4bbe848d5b8" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" kind="function"><name>ModifyAccountGUI</name></member>
+    <member refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" kind="function"><name>updateTxtFields</name></member>
+  </compound>
+  <compound refid="classgui_1_1_modify_house_g_u_i" kind="class"><name>gui::ModifyHouseGUI</name>
+    <member refid="classgui_1_1_modify_house_g_u_i_1a7bb13be5defa74715359f06a41fb5dad" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1a2272c7d4931bdf3dac35d8dc6496978f" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1a126db8210cd615dca1929c2f258ff58c" kind="variable"><name>owner</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1a5c169d1fb8a40277b56fd291a48e97ab" kind="variable"><name>btnUploadFoto</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1a25b4d3da9ad668a5a976faf0d2518ce9" kind="variable"><name>btnSeePhoto</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1ab035400265dc2c288707e9f30fd7414f" kind="variable"><name>btnDeleteRuralHouse</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1ae3c3ed3425d3b0bf7c1b901ae52ddcdf" kind="variable"><name>casas</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1a803e872ae00af5f6fd4b87837a44408c" kind="variable"><name>selectedRH</name></member>
+    <member refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" kind="function"><name>ModifyHouseGUI</name></member>
+  </compound>
+  <compound refid="classbot_1_1_my_bot" kind="class"><name>bot::MyBot</name>
+    <member refid="classbot_1_1_my_bot_1a222fe9120fe705ceab16e5dbafaebefd" kind="function"><name>onUpdateReceived</name></member>
+    <member refid="classbot_1_1_my_bot_1ada827aa5283dc9d85d411114b563c16c" kind="function"><name>getBotUsername</name></member>
+    <member refid="classbot_1_1_my_bot_1a0cf67098edb3a9a5cf11ff00791db8df" kind="function"><name>getBotToken</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_no_exists_client" kind="class"><name>exceptions::NoExistsClient</name>
+    <member refid="classexceptions_1_1_no_exists_client_1a9a6894befcd9b7d9861cf6f96e004406" kind="function"><name>NoExistsClient</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_no_exists_owner" kind="class"><name>exceptions::NoExistsOwner</name>
+    <member refid="classexceptions_1_1_no_exists_owner_1a6deb4cd11cd63e554ad6c3bd290567c5" kind="function"><name>NoExistsOwner</name></member>
+  </compound>
+  <compound refid="classdata_access_1_1_objectdb_manager_server" kind="class"><name>dataAccess::ObjectdbManagerServer</name>
+    <member refid="classdata_access_1_1_objectdb_manager_server_1aecacee957a38daebfb09c8b326497696" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classdata_access_1_1_objectdb_manager_server_1ad26f12e877ed4c593d4444ece4309e6c" kind="variable"><name>contentPanel</name></member>
+    <member refid="classdata_access_1_1_objectdb_manager_server_1ab739ebdf3a077579c9af7a881c620fd4" kind="variable"><name>textArea</name></member>
+    <member refid="classdata_access_1_1_objectdb_manager_server_1af08ecdac594a6dcaa286d9f52087d13f" kind="variable"><name>c</name></member>
+    <member refid="classdata_access_1_1_objectdb_manager_server_1a2e0f5eddf461be78de905ca56e4295f9" kind="function"><name>main</name></member>
+    <member refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" kind="function"><name>ObjectdbManagerServer</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_offer" kind="class"><name>domain::Offer</name>
+    <member refid="classdomain_1_1_offer_1af77beec2989adcfb9b7b7ef399f9b363" kind="variable"><name>offerNumber</name></member>
+    <member refid="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" kind="variable"><name>firstDay</name></member>
+    <member refid="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" kind="variable"><name>lastDay</name></member>
+    <member refid="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" kind="variable"><name>price</name></member>
+    <member refid="classdomain_1_1_offer_1a122573abd92911b25cde7d7e84f488f5" kind="variable"><name>ruralHouse</name></member>
+    <member refid="classdomain_1_1_offer_1a242b39ce62d475bd64ce18aff2bbfe4f" kind="variable"><name>reservaActual</name></member>
+    <member refid="classdomain_1_1_offer_1afe1b48d0d80d84147a51b8dff9dfb50d" kind="variable"><name>booked</name></member>
+    <member refid="classdomain_1_1_offer_1ae82665e8df101e5a20b41dc06f74a789" kind="function"><name>Offer</name></member>
+    <member refid="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" kind="function"><name>Offer</name></member>
+    <member refid="classdomain_1_1_offer_1a41a1c7ea6658ff5e9127ad3d2332ef9c" kind="function"><name>isBooked</name></member>
+    <member refid="classdomain_1_1_offer_1aaeea4dfcf319bd7003aa46054c50594b" kind="function"><name>setReserva</name></member>
+    <member refid="classdomain_1_1_offer_1a89339961be734e54a45fab7867120736" kind="function"><name>getReserva</name></member>
+    <member refid="classdomain_1_1_offer_1a78634284385de3610a3fdc8ef08763fa" kind="function"><name>removeReserva</name></member>
+    <member refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" kind="function"><name>getRuralHouse</name></member>
+    <member refid="classdomain_1_1_offer_1a2050ed4cf76a2a2863d08e89bdf4a7df" kind="function"><name>setRuralHouse</name></member>
+    <member refid="classdomain_1_1_offer_1ab9e27c474ec6819a27eac1847d876c3a" kind="function"><name>getOfferNumber</name></member>
+    <member refid="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" kind="function"><name>getFirstDay</name></member>
+    <member refid="classdomain_1_1_offer_1aca5c8e3d34e700c8e51d1c9a0685e68f" kind="function"><name>setFirstDay</name></member>
+    <member refid="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" kind="function"><name>getLastDay</name></member>
+    <member refid="classdomain_1_1_offer_1a52363278771059c51820160889c2bed1" kind="function"><name>setLastDay</name></member>
+    <member refid="classdomain_1_1_offer_1a4ebf9c6f415709b527e006fdffa3a0c3" kind="function"><name>getPrice</name></member>
+    <member refid="classdomain_1_1_offer_1a8bd526902732e030571b6889c5507f4c" kind="function"><name>setPrice</name></member>
+    <member refid="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" kind="function"><name>toString</name></member>
+    <member refid="classdomain_1_1_offer_1a9e4e8be92a6caa7756cb8277df32c17b" kind="function"><name>toString2</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_offer_can_not_be_booked" kind="class"><name>exceptions::OfferCanNotBeBooked</name>
+    <member refid="classexceptions_1_1_offer_can_not_be_booked_1a0f0deac6a5fe9077f31bd1c90f1b0b59" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classexceptions_1_1_offer_can_not_be_booked_1a113511bf6eedf993448d483ff55cabb0" kind="function"><name>OfferCanNotBeBooked</name></member>
+    <member refid="classexceptions_1_1_offer_can_not_be_booked_1a08f25182868a230f2b49b37483560486" kind="function"><name>OfferCanNotBeBooked</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_overlapping_client_exists" kind="class"><name>exceptions::OverlappingClientExists</name>
+    <member refid="classexceptions_1_1_overlapping_client_exists_1a9e613393e0b8e7a6dfe0ac3ad3b8f923" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classexceptions_1_1_overlapping_client_exists_1a36cf31e2cc8a2122b2fecff9c4ef4c2a" kind="function"><name>OverlappingClientExists</name></member>
+    <member refid="classexceptions_1_1_overlapping_client_exists_1a5ca036cfe73f50425246eac94a7b06f0" kind="function"><name>OverlappingClientExists</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_overlapping_offer_exists" kind="class"><name>exceptions::OverlappingOfferExists</name>
+    <member refid="classexceptions_1_1_overlapping_offer_exists_1ab47bd08f41ac7a43204806e53aa1538a" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classexceptions_1_1_overlapping_offer_exists_1a1ba2d73acc9428e642786973e8b2b6b3" kind="function"><name>OverlappingOfferExists</name></member>
+    <member refid="classexceptions_1_1_overlapping_offer_exists_1a053baab9b6c9e1da073098c4cfbcdc45" kind="function"><name>OverlappingOfferExists</name></member>
+  </compound>
+  <compound refid="classexceptions_1_1_overlapping_owner_exist" kind="class"><name>exceptions::OverlappingOwnerExist</name>
+    <member refid="classexceptions_1_1_overlapping_owner_exist_1a6b81e5ae08ae481fc4ca932285ecdac7" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classexceptions_1_1_overlapping_owner_exist_1a6135a6f0a5fa6f50d1886357e8269d5d" kind="function"><name>OverlappingOwnerExist</name></member>
+    <member refid="classexceptions_1_1_overlapping_owner_exist_1aec7af33ff914f6c8e4452860bdb3298b" kind="function"><name>OverlappingOwnerExist</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_owner" kind="class"><name>domain::Owner</name>
+    <member refid="classdomain_1_1_owner_1aa8031c9e66a0cbd90d84dc6df66a25a3" kind="variable"><name>userName</name></member>
+    <member refid="classdomain_1_1_owner_1af66aee27508c675e6f8cab193f0c215d" kind="variable"><name>password</name></member>
+    <member refid="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" kind="variable"><name>rhList</name></member>
+    <member refid="classdomain_1_1_owner_1a7df022fa9c33f9661d4eac42d113585c" kind="variable"><name>telegramId</name></member>
+    <member refid="classdomain_1_1_owner_1a0c0b7f7134349132b180d90c57181561" kind="variable"><name>cuentaBancaria</name></member>
+    <member refid="classdomain_1_1_owner_1a37fce65d727c0c7d4fbc7d2c2493148c" kind="variable"><name>email</name></member>
+    <member refid="classdomain_1_1_owner_1a9d429221bf395775b4dceafc96a4658b" kind="variable"><name>validationNumber</name></member>
+    <member refid="classdomain_1_1_owner_1adec75a99c7addadf2226be54e9255ca8" kind="variable"><name>validated</name></member>
+    <member refid="classdomain_1_1_owner_1a134e9113c7b9ebcc36663b40d2415089" kind="variable"><name>sendBookByTelegram</name></member>
+    <member refid="classdomain_1_1_owner_1a2938f239b0a7088763c81266146d8f3f" kind="function"><name>Owner</name></member>
+    <member refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" kind="function"><name>Owner</name></member>
+    <member refid="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" kind="function"><name>isSendBookByTelegram</name></member>
+    <member refid="classdomain_1_1_owner_1a4541457ba4d275025e6134f9402a6c5e" kind="function"><name>setSendBookByTelegram</name></member>
+    <member refid="classdomain_1_1_owner_1a1c08ad86ccfe8d47bb7e1e9e8a8126be" kind="function"><name>isValidated</name></member>
+    <member refid="classdomain_1_1_owner_1a6c9df0354092ead37755351953846cbe" kind="function"><name>setValidated</name></member>
+    <member refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" kind="function"><name>getTelegramId</name></member>
+    <member refid="classdomain_1_1_owner_1ac024ef11aaf4d4875f421c75365e3c9e" kind="function"><name>setTelegramId</name></member>
+    <member refid="classdomain_1_1_owner_1a6d24ccea9d518464f4c6185a33ff4c6c" kind="function"><name>getCuentaBancaria</name></member>
+    <member refid="classdomain_1_1_owner_1a585ddd63f0f59a3198fa98689b07635e" kind="function"><name>setCuentaBancaria</name></member>
+    <member refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" kind="function"><name>getEmail</name></member>
+    <member refid="classdomain_1_1_owner_1a021c9e357ca913eb88688a7aaa3e298d" kind="function"><name>setEmail</name></member>
+    <member refid="classdomain_1_1_owner_1a2265630ba75fb938b09b243833117069" kind="function"><name>getValidationNumber</name></member>
+    <member refid="classdomain_1_1_owner_1aeaf0bcfe8dc2183aa6c2e99ded5530c6" kind="function"><name>setValidationNumber</name></member>
+    <member refid="classdomain_1_1_owner_1ab8266177e084a78aaf73947b23a20de8" kind="function"><name>getRhListAsVector</name></member>
+    <member refid="classdomain_1_1_owner_1a49e337ac1f7dc0b15c3006c5f08800d7" kind="function"><name>getRhList</name></member>
+    <member refid="classdomain_1_1_owner_1a01e969e9f1e86c08e90195d6cc01132d" kind="function"><name>addRhList</name></member>
+    <member refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" kind="function"><name>getUserName</name></member>
+    <member refid="classdomain_1_1_owner_1acf8fa109beae1cc607f9e04c051c03e5" kind="function"><name>setUserName</name></member>
+    <member refid="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" kind="function"><name>getPassword</name></member>
+    <member refid="classdomain_1_1_owner_1a9b6bea08f2f6af298a4e7af22fc900dc" kind="function"><name>setPassword</name></member>
+    <member refid="classdomain_1_1_owner_1a520de8a66f25117d263ea4c7cd5f08fa" kind="function"><name>removeRuralHouse</name></member>
+    <member refid="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classgui_1_1_owner_g_u_i" kind="class"><name>gui::OwnerGUI</name>
+    <member refid="classgui_1_1_owner_g_u_i_1a1e284b6506332a7360b4d3b706de3404" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_owner_g_u_i_1adc21b31ee1addb912b73455e4e78d130" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" kind="function"><name>OwnerGUI</name></member>
+  </compound>
+  <compound refid="classgui_1_1_query_availability_client_advaced_g_u_i" kind="class"><name>gui::QueryAvailabilityClientAdvacedGUI</name>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aea7ff513ee078310ff443f0140fdd535" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a608d95691de8bd9b5faeb17a483ea525" kind="variable"><name>jLabel1</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8e949d79027650d99ede8ae5b7c59887" kind="variable"><name>btnEnableFirstDay</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1adf1c51e6e9479b73b5f239eb1af49790" kind="variable"><name>jTextField2</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a342c983ca90829bed5f290c759dc0ca7" kind="variable"><name>jButton1</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae584d0234d4ec79e92a01087c1f34d8f" kind="variable"><name>jButton2</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6ff456ec71a8288c4866eb308477fef9" kind="variable"><name>jCalendar1</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a7612f7358345c96e8c1a338c54a30371" kind="variable"><name>calendar</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a5cfcf4c3e3a783a9089b369a7a80a77c" kind="variable"><name>calendarMio</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aff9fb296abe1a0bfe76a825ad4e75a46" kind="variable"><name>scrollPane</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aadf6bbbf39771a8fe4131b2c04dbfb28" kind="variable"><name>comboBoxRH</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aa33f7209ce08cdbcef6e7e0c83d36b2f" kind="variable"><name>table</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a57b62ad5c71af3f84909da6fa6452e3b" kind="variable"><name>tableModel</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a4de669b611d113ec3d2566c7f52a34ca" kind="variable"><name>labelNoOffers</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1acb5af5a81afce89dce5df2d28c17f18c" kind="variable"><name>columnNames</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1acd2c162465aa814c6fad17b36d0e3d47" kind="variable"><name>lblCity</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae3c0a2ae49819aef2cf667f448686f6f" kind="variable"><name>btnSearch</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a755a3dccd546ef1397ef0889652dd76a" kind="variable"><name>rdbtnRestrictRuralHouse</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4d5a42f1a3c5b1f36444e1903f213f9" kind="variable"><name>buttonGroup</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a5a0c4df2fff9b4342f7036d740f4a6f6" kind="variable"><name>rdbtnCity</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a1e9d6054bfe1c1b27a5a8f7fc6adcd81" kind="variable"><name>rdbtnRuralHouse</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae8664f7594365748b41e753bed1d338d" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ade24d71c6b249058663f4b199c29a317" kind="variable"><name>filter</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a166fd224a2434ae9bfdda92583163825" kind="variable"><name>txtNumberNights</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a1b0029e151744408698185103431652e" kind="variable"><name>list</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ad7253f53e611e8e9eb49d69eda34c3dc" kind="variable"><name>listRh</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a4f921e1a8cb3a5ebf9c3093cc8344932" kind="variable"><name>model</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a65f09bcf200b7c759a0aba2c6d111f50" kind="variable"><name>comboBoxC</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af2ed92b442f0e62618b199a892755429" kind="variable"><name>combomodelc</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af9fbcdbb24f0e8c6bd10078eb1c90527" kind="variable"><name>combomodelrh</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ac84a7f02ee36671fdcf19c79cef949ef" kind="variable"><name>btnEnableLastDay</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a69be3a2280f523fa654142a373a5779c" kind="variable"><name>textPane</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af3e49155b72ba70bc43512f634a4228f" kind="variable"><name>btnSeePhotos</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a518ac2fa95f208a8c9cda2c90b3503d4" kind="variable"><name>maxPrice</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8f3d9f21b9a743c3307e3d329943df48" kind="variable"><name>lblPriceSelected</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6d8d598cf63230a1751701ca290a77d7" kind="variable"><name>current</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ad575bbdc8ef01ae247bcecb682cd281f" kind="variable"><name>btnSeeAddres</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8d6433ba8b1b6feb92be582d0caf09ec" kind="variable"><name>btnFeedBack</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a34bf220de5c36ffeed8d914786fcd68e" kind="function"><name>QueryAvailabilityClientAdvacedGUI</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" kind="function"><name>jbInit</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6c5498e5cb22fdb11570d0f794f465ab" kind="function"><name>jButton2_actionPerformed</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a777c1d1163abf2060b78efaaf6ec56a0" kind="function"><name>trim</name></member>
+    <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" kind="function"><name>jButton1_actionPerformed</name></member>
+  </compound>
+  <compound refid="classgui_1_1_query_availability_g_u_i" kind="class"><name>gui::QueryAvailabilityGUI</name>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a38c879a8197de97530ee71ac78f95acc" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a78193c8fc1d276556b8bf6588c8b001d" kind="variable"><name>jLabel1</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1af08ae2b6de897ece4fc97bca2985be79" kind="variable"><name>jLabel2</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a66e9188aba0953b1351d11ff8019583c" kind="variable"><name>jTextField2</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1ad0e46911f17f831ea3b90dd9c789cd69" kind="variable"><name>jLabel3</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a330893db57be56c4b286eae0fe93392f" kind="variable"><name>jTextField3</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a91b2e2bb1209a1c5ed740ee6d36e61d5" kind="variable"><name>jButton1</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a23f23d77b23f7647d5dbbc3ced262a35" kind="variable"><name>jButton2</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1ad49fbf793d6741017c225cdb8c990e57" kind="variable"><name>jCalendar1</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a094aec8eab55dfacb616cb54f9a1176e" kind="variable"><name>calendarMio</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a95ee33d80af86f083141251d710c8aa3" kind="variable"><name>jLabel4</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a897b97b35fa12333a40c1f043ae8568c" kind="variable"><name>scrollPane</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a5989d89c6130766901bc7f67969c8593" kind="variable"><name>comboBox</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a2e6528d7f7770e0944180aff2a4379a7" kind="variable"><name>table</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a15b4031f3c2de96f0c28c9405a9f2f0d" kind="variable"><name>tableModel</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1abff167ce816f1e66d905be0a65c6c6b8" kind="variable"><name>labelNoOffers</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1af7a80f63b92c4e0d8727753c61d0f87f" kind="variable"><name>columnNames</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a098dc51a0df6dd658bdd9a70231cbe3b" kind="function"><name>QueryAvailabilityGUI</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1aa5bad8dc44ac91fcd6b5f2b784c66e99" kind="function"><name>jbInit</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1aeeb46d43eeea68c2d4f256a93cb648c6" kind="function"><name>jButton2_actionPerformed</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1ad6c1dfe2f2ac01aefd76483edc1d20a6" kind="function"><name>jTextField3_focusLost</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1a1b9d107fe9049a6291e09f3c87c96b02" kind="function"><name>trim</name></member>
+    <member refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" kind="function"><name>jButton1_actionPerformed</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_reserva" kind="class"><name>domain::Reserva</name>
+    <member refid="classdomain_1_1_reserva_1a94a6ee6bd5c3aea150f3977c8a7cf1f0" kind="variable"><name>offer</name></member>
+    <member refid="classdomain_1_1_reserva_1a27d9c46e38154c94ce6095a9bd60bbd3" kind="variable"><name>numResrva</name></member>
+    <member refid="classdomain_1_1_reserva_1a2e519e6a41cf08679b9c9f6a4540a454" kind="variable"><name>cliente</name></member>
+    <member refid="classdomain_1_1_reserva_1a6a00db7ede45d4548224d99d8f42256b" kind="variable"><name>bookDate</name></member>
+    <member refid="classdomain_1_1_reserva_1ad4ad501d339fb6accca9de2122201d04" kind="variable"><name>isRated</name></member>
+    <member refid="classdomain_1_1_reserva_1acb289875e54f0b223b7ab92c47e3ea86" kind="function"><name>Reserva</name></member>
+    <member refid="classdomain_1_1_reserva_1a920a05fbd4ec288b6f5b8e0b5ad6e345" kind="function"><name>Reserva</name></member>
+    <member refid="classdomain_1_1_reserva_1ad1da3466712c5ccaf43cb6f9fe9f5045" kind="function"><name>getOffer</name></member>
+    <member refid="classdomain_1_1_reserva_1a9a1a3d154e412bd3556f95d7dbb56934" kind="function"><name>isRated</name></member>
+    <member refid="classdomain_1_1_reserva_1a60d958be9830f0e8fd70e2bac91ebc21" kind="function"><name>setRated</name></member>
+    <member refid="classdomain_1_1_reserva_1addf9b41e3387ad37e88c9ee807b476b0" kind="function"><name>setOffer</name></member>
+    <member refid="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" kind="function"><name>getNumResrva</name></member>
+    <member refid="classdomain_1_1_reserva_1a5477a4cf0cdf65b011a1c6ce51422854" kind="function"><name>setNumResrva</name></member>
+    <member refid="classdomain_1_1_reserva_1ac66925fa2326619705c487e27eef46bb" kind="function"><name>getCliente</name></member>
+    <member refid="classdomain_1_1_reserva_1a2c7d97df7fcf50e792c841675017abcc" kind="function"><name>setCliente</name></member>
+    <member refid="classdomain_1_1_reserva_1a76865b5232d8cd5e282083b32359dbc6" kind="function"><name>getBookDate</name></member>
+    <member refid="classdomain_1_1_reserva_1ab31aa9624b551e748e01a461c8e6030e" kind="function"><name>setBookDate</name></member>
+    <member refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" kind="function"><name>toString2</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_reserva_offer_rh_owner_container" kind="class"><name>domain::ReservaOfferRhOwnerContainer</name>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1afcbc4f46e44afcfe5f441462b8628198" kind="variable"><name>reserva</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1ad8659a141937db6a13a2afc94ee10302" kind="variable"><name>offer</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a96ee8f1952c3b10e5ca8cbf71fdf95cf" kind="variable"><name>rh</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a6d643c4ac5605393774d6a69886d7c3d" kind="variable"><name>owner</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a8dd8e74751c3687311a3dc879bf4ec1c" kind="function"><name>ReservaOfferRhOwnerContainer</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1ad9d429d5bde3581517b0029a825aefb6" kind="function"><name>ReservaOfferRhOwnerContainer</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1aac4cc25208d928d5a68f72611c64fc3e" kind="function"><name>getReserva</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a756c562dcce796edc2fc9a6c395fac80" kind="function"><name>setReserva</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1af4089b377fb75d45f5178ddcb13d244d" kind="function"><name>getOffer</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a9bde23e4776b3ab5f1a3ca0c2383eec1" kind="function"><name>setOffer</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1ae420b93f550cdc6ce38e896b1371e051" kind="function"><name>getRh</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a99a20474815a9663239605aa3b5ca2ce" kind="function"><name>setRh</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a910d36a8ee7f6bcdd7611ec046e91fce" kind="function"><name>getOwner</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a90dec9bd67969de90e8c99877a810323" kind="function"><name>setOwner</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a784483e076f918173509251d9b88bd4f" kind="function"><name>toString</name></member>
+    <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a44dfc6ad7f9d01332112f4cf9a07dc4c" kind="function"><name>toStringOfferRh</name></member>
+  </compound>
+  <compound refid="classdomain_1_1_rural_house" kind="class"><name>domain::RuralHouse</name>
+    <member refid="classdomain_1_1_rural_house_1a985b2c72e90db2433da073e99c581cdc" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" kind="variable"><name>houseNumber</name></member>
+    <member refid="classdomain_1_1_rural_house_1afdc9d7b70bcc6baa94cae033a5684f0e" kind="variable"><name>description</name></member>
+    <member refid="classdomain_1_1_rural_house_1a4ac1bd1de58f97487abbcb8dc27a8077" kind="variable"><name>city</name></member>
+    <member refid="classdomain_1_1_rural_house_1a6ba346c74cb3404ca6d04a2ebae730d3" kind="variable"><name>address</name></member>
+    <member refid="classdomain_1_1_rural_house_1a1cda0eff05ad06090ac37a259fdad562" kind="variable"><name>roomsNumber</name></member>
+    <member refid="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" kind="variable"><name>images</name></member>
+    <member refid="classdomain_1_1_rural_house_1ab7cf574fe34e0feacd2f748682163281" kind="variable"><name>owner</name></member>
+    <member refid="classdomain_1_1_rural_house_1a9ea6b00b3801e89619b93ba995b0ec32" kind="variable"><name>listaFeedBack</name></member>
+    <member refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" kind="variable"><name>offers</name></member>
+    <member refid="classdomain_1_1_rural_house_1a5e1f42ad6b3992bfc5fdece628455552" kind="function"><name>RuralHouse</name></member>
+    <member refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" kind="function"><name>RuralHouse</name></member>
+    <member refid="classdomain_1_1_rural_house_1a4660dbd4e788ded7496bc96e4e29a47b" kind="function"><name>addFeedBack</name></member>
+    <member refid="classdomain_1_1_rural_house_1a2d672423144d413d9f4b94b9676af0b1" kind="function"><name>getListaFeedBack</name></member>
+    <member refid="classdomain_1_1_rural_house_1ae653409c7556fa8b3ccabd0c17604666" kind="function"><name>getOffers</name></member>
+    <member refid="classdomain_1_1_rural_house_1a1e5ccf38c0d875763f2e9120e36e412b" kind="function"><name>getOwner</name></member>
+    <member refid="classdomain_1_1_rural_house_1a58145b223941d498d3d7eaa8b2696115" kind="function"><name>setOwner</name></member>
+    <member refid="classdomain_1_1_rural_house_1aa1acd38c652785b83bd4601d7ea5c761" kind="function"><name>getImages</name></member>
+    <member refid="classdomain_1_1_rural_house_1a0d4787f58507c40f9474f2bec0a1250a" kind="function"><name>addImage</name></member>
+    <member refid="classdomain_1_1_rural_house_1aef9348ba3130b35de8e234672eec76cc" kind="function"><name>setImages</name></member>
+    <member refid="classdomain_1_1_rural_house_1a970dabd2796ee789c4feb2cef8fe2df3" kind="function"><name>getAddress</name></member>
+    <member refid="classdomain_1_1_rural_house_1a446d24e82bd8abae3be75e39f66bfe57" kind="function"><name>setAddress</name></member>
+    <member refid="classdomain_1_1_rural_house_1a3d0d3fd77f1e271f1af5793ad77f6792" kind="function"><name>getRoomsNumber</name></member>
+    <member refid="classdomain_1_1_rural_house_1aacf83147c21f7a3c50e883822039ecab" kind="function"><name>setRoomsNumber</name></member>
+    <member refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" kind="function"><name>getHouseNumber</name></member>
+    <member refid="classdomain_1_1_rural_house_1afae7f7702581e18517472b1faa29273d" kind="function"><name>setHouseNumber</name></member>
+    <member refid="classdomain_1_1_rural_house_1a21b3359aa62984046a4da490fe8895e1" kind="function"><name>getDescription</name></member>
+    <member refid="classdomain_1_1_rural_house_1aff9ad2c8f775b473256233e9c26456f1" kind="function"><name>setDescription</name></member>
+    <member refid="classdomain_1_1_rural_house_1a67a45aa0b441b32d455d58c4a42446f1" kind="function"><name>getCity</name></member>
+    <member refid="classdomain_1_1_rural_house_1a04f87e3266ab2b0d9b42bb8f947d6172" kind="function"><name>setCity</name></member>
+    <member refid="classdomain_1_1_rural_house_1a58e17e08a7b28a75bc1b8e3d6ac01764" kind="function"><name>createOffer</name></member>
+    <member refid="classdomain_1_1_rural_house_1a23272d170821f464d6b07595303c283e" kind="function"><name>hashCode</name></member>
+    <member refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" kind="function"><name>toString</name></member>
+    <member refid="classdomain_1_1_rural_house_1a10df7233cd8c6c42ed2d530b5357f64e" kind="function"><name>toString1</name></member>
+    <member refid="classdomain_1_1_rural_house_1a92f3f1fa5d605f34e95f4e4175ef2629" kind="function"><name>equals</name></member>
+    <member refid="classdomain_1_1_rural_house_1abe770c8a0fbcfed83a358d84bacd66f7" kind="function"><name>getOffers</name></member>
+    <member refid="classdomain_1_1_rural_house_1ac5596b06728d8bf377993088520fbc9e" kind="function"><name>overlapsWith</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_send_booking" kind="class"><name>businessLogic::SendBooking</name>
+    <member refid="classbusiness_logic_1_1_send_booking_1af72d9f080959b6b8922117248935620d" kind="function"><name>SendBooking</name></member>
+    <member refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" kind="function"><name>sendBookToTelegram</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_send_email" kind="class"><name>businessLogic::SendEmail</name>
+    <member refid="classbusiness_logic_1_1_send_email_1a2e47b8c2228b215b8335c16ba592b95d" kind="variable"><name>senderEmailID</name></member>
+    <member refid="classbusiness_logic_1_1_send_email_1a0bd45a69289e50c9439e70835c06ff0c" kind="variable"><name>senderPassword</name></member>
+    <member refid="classbusiness_logic_1_1_send_email_1a1c140265f179e199fc4d20fb3ebc81b6" kind="variable"><name>emailSMTPserver</name></member>
+    <member refid="classbusiness_logic_1_1_send_email_1a1c99e22d5e9634a278914e9183c644a9" kind="variable"><name>emailServerPort</name></member>
+    <member refid="classbusiness_logic_1_1_send_email_1ac77f915d22477cea3ca986da4acffbbc" kind="variable"><name>receiverEmailID</name></member>
+    <member refid="classbusiness_logic_1_1_send_email_1ae03ffb4b828745d6f4cec012064760fe" kind="variable"><name>emailSubject</name></member>
+    <member refid="classbusiness_logic_1_1_send_email_1abd4287e31ab6595894df6a666bc09bfd" kind="variable"><name>emailBody</name></member>
+    <member refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" kind="function"><name>SendEmail</name></member>
+  </compound>
+  <compound refid="classgui_1_1_set_availability_g_u_i" kind="class"><name>gui::SetAvailabilityGUI</name>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a2ac5c9f0315a16b755fd41ce36871808" kind="variable"><name>serialVersionUID</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a759205843282f8c868c459aa46c17e33" kind="variable"><name>jComboBox1</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a99e5f2918949b5f2a6efa15b7127efe0" kind="variable"><name>jLabel1</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a43fadd92c137066f726495f6de29a145" kind="variable"><name>jLabel2</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a6e664193569e01789e9ccc37fa132c2a" kind="variable"><name>jTextField1</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a260839d8134a704462036f00e61a334b" kind="variable"><name>jLabel3</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1aa31fe6946000ac1d5a01e7beb2ed4c84" kind="variable"><name>jTextField2</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a6969d8917d158a3fa66153ccea58d2d5" kind="variable"><name>jLabel4</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a6a62e691d6ed16e056c13d321e077d00" kind="variable"><name>jTextField3</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1ab2d139775a7efa35d9ed682e2e12f73f" kind="variable"><name>jButton1</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a63c6223a835c93552a03023371a639c1" kind="variable"><name>jCalendar1</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1adb69766fbc914bb6e0fd934557e3e291" kind="variable"><name>jCalendar2</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a51ab1c21f362c9f5c76028af1378b45a" kind="variable"><name>calendarInicio</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a5e2c23ae26a24b06dc19e8b2c9233807" kind="variable"><name>calendarFin</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1aae752324eac2634daf58978458c780cd" kind="variable"><name>jButton2</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1adaff504659254070536d646b331e2e5f" kind="variable"><name>jLabel5</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a1f6f638242c97025fc857440f6669918" kind="variable"><name>lblNewLabel</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a02f2fb2b0ea2556d734c4f066d396f44" kind="variable"><name>o</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a8ca9854f982f38653c058c2d5fae0110" kind="variable"><name>rhs</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1af95034b6b6816249cfe637bd01f40738" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a4222ca741f88236a6bf90ee6719dc2d1" kind="function"><name>SetAvailabilityGUI</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" kind="function"><name>jbInit</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a7c4086581e82a57cf4753001fe147884" kind="function"><name>trim</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" kind="function"><name>jButton1_actionPerformed</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a8b6b121580714af5fbe8aff6de5d18d6" kind="function"><name>jButton2_actionPerformed</name></member>
+    <member refid="classgui_1_1_set_availability_g_u_i_1a01ddacea68e2ac12e3d8421b8c1ba183" kind="function"><name>jTextField3_focusLost</name></member>
+  </compound>
+  <compound refid="classgui_1_1_set_house" kind="class"><name>gui::SetHouse</name>
+    <member refid="classgui_1_1_set_house_1a634e8201d87551eed6e180a40699e110" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_set_house_1ac7f5a3fa4bb474d1ef8949df7c1a1395" kind="variable"><name>textCity</name></member>
+    <member refid="classgui_1_1_set_house_1a54e03877cc31fe5cbc2513094e7fcc3d" kind="variable"><name>textDescription</name></member>
+    <member refid="classgui_1_1_set_house_1a13f738cdb6c7310f7001d6799d7a6065" kind="variable"><name>btnBack</name></member>
+    <member refid="classgui_1_1_set_house_1a51e87586b716545419f9b105039baba7" kind="variable"><name>btnNewButton</name></member>
+    <member refid="classgui_1_1_set_house_1ac2825921a399582ec53017704b5bf65f" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_set_house_1a7aed946e97375e1948b4ca8829a2e3a1" kind="variable"><name>lblMessage</name></member>
+    <member refid="classgui_1_1_set_house_1a56c1015ff2ee4e195c0ab8af428b438e" kind="variable"><name>lblRoomNumber</name></member>
+    <member refid="classgui_1_1_set_house_1ad76075de3f61a56b63db0a9c49b7f9a3" kind="variable"><name>lblAddress</name></member>
+    <member refid="classgui_1_1_set_house_1a34af222b11f96409a6b8124b9f86ca68" kind="variable"><name>textRoomNumber</name></member>
+    <member refid="classgui_1_1_set_house_1aa98697a65302143d8d090c3593fd4f86" kind="variable"><name>textAddress</name></member>
+    <member refid="classgui_1_1_set_house_1aa47531b2839fe7b13dbde7fa421b03d6" kind="function"><name>SetHouse</name></member>
+    <member refid="classgui_1_1_set_house_1ab46856159d04bd7c4f843417413107f3" kind="function"><name>getTags</name></member>
+  </compound>
+  <compound refid="classgui_1_1_sign_in" kind="class"><name>gui::SignIn</name>
+    <member refid="classgui_1_1_sign_in_1a0661fb8f7c58f5389415b3c24c3385bd" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_sign_in_1aff14593606bb17dcdf89b2f2a6699f43" kind="variable"><name>userTextField</name></member>
+    <member refid="classgui_1_1_sign_in_1a3334294c202619a0e673c162f0d5b280" kind="variable"><name>passwordField</name></member>
+    <member refid="classgui_1_1_sign_in_1a4aa7ecbf60495c3f44fba7979783990a" kind="variable"><name>textEmail</name></member>
+    <member refid="classgui_1_1_sign_in_1a8a864d56fe9adba78e852b99fabf7e57" kind="variable"><name>textCuentaBancaria</name></member>
+    <member refid="classgui_1_1_sign_in_1a9162a721d6af763ff401522b6749cd88" kind="variable"><name>textTelegramId</name></member>
+    <member refid="classgui_1_1_sign_in_1afbdae1f60f065dd2b577301caa6926c0" kind="variable"><name>buttonGroup</name></member>
+    <member refid="classgui_1_1_sign_in_1acf11e0c6e73a74d0b4bcd5cc84a64f2a" kind="variable"><name>rdbtnClient</name></member>
+    <member refid="classgui_1_1_sign_in_1a4b8b426bb66155e4c5ff3fc71d6fab73" kind="variable"><name>rdbtnOwner</name></member>
+    <member refid="classgui_1_1_sign_in_1a91128d3298a69d4306a3435d9f5002c6" kind="variable"><name>lblRegister</name></member>
+    <member refid="classgui_1_1_sign_in_1a1333e1c41f2354e4bab8acdeeafef7b0" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" kind="function"><name>SignIn</name></member>
+    <member refid="classgui_1_1_sign_in_1a2724645e64ebe7854d178aa92f0950bb" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator" kind="class"><name>businessLogic::SendEmail::SMTPAuthenticator</name>
+    <member refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator_1ac12893bcb04d8840ad1616dd8c7b70de" kind="function"><name>getPasswordAuthentication</name></member>
+  </compound>
+  <compound refid="classgui_1_1_validation_g_u_i" kind="class"><name>gui::ValidationGUI</name>
+    <member refid="classgui_1_1_validation_g_u_i_1aef9acb4c0cb38c01fbf8ea562474335a" kind="variable"><name>contentPane</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1a0b6679a6247a162176dadd092fbd9bd2" kind="variable"><name>textValidation</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1aa8db43a7c80fcde4ced14b40c8a92920" kind="variable"><name>txtType</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1a5d0148dc1550e58e9497c1897189c07c" kind="variable"><name>txtUsername</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1a1908256eb6e291cba709b035ec08333a" kind="variable"><name>buttonGroup</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1a863272c906d3d0db5e2d015d0793fe0a" kind="variable"><name>rdbtnEmail</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1a440c0ddbf9342ed8d877847800ab4182" kind="variable"><name>rdbtnTelegram</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1ae54db9df71d22bf4b59706bdab55511b" kind="variable"><name>lblStatus</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1af2cb3e3d7bab33150dca01f640cdb824" kind="variable"><name>facade</name></member>
+    <member refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" kind="function"><name>ValidationGUI</name></member>
+  </compound>
+  <compound refid="classgui_1_1_validation_mesage" kind="class"><name>gui::ValidationMesage</name>
+    <member refid="classgui_1_1_validation_mesage_1a6c81a55b78329c6ac3e6f31b11e5e966" kind="variable"><name>contentPanel</name></member>
+    <member refid="classgui_1_1_validation_mesage_1a376d97c710f1ae16d6c7b8ebdb68fc84" kind="function"><name>main</name></member>
+    <member refid="classgui_1_1_validation_mesage_1a647fd86859f2d4c283aaf6ce04075179" kind="function"><name>ValidationMesage</name></member>
+  </compound>
+  <compound refid="namespacebot" kind="namespace"><name>bot</name>
+  </compound>
+  <compound refid="namespacebusiness_logic" kind="namespace"><name>businessLogic</name>
+  </compound>
+  <compound refid="namespaceconfiguration" kind="namespace"><name>configuration</name>
+  </compound>
+  <compound refid="namespacedata_access" kind="namespace"><name>dataAccess</name>
+  </compound>
+  <compound refid="namespacedomain" kind="namespace"><name>domain</name>
+  </compound>
+  <compound refid="namespaceexceptions" kind="namespace"><name>exceptions</name>
+  </compound>
+  <compound refid="namespacegui" kind="namespace"><name>gui</name>
+  </compound>
+  <compound refid="namespacejava_1_1awt" kind="namespace"><name>java::awt</name>
+  </compound>
+  <compound refid="namespacejava_1_1awt_1_1event" kind="namespace"><name>java::awt::event</name>
+  </compound>
+  <compound refid="namespacejava_1_1beans" kind="namespace"><name>java::beans</name>
+  </compound>
+  <compound refid="namespacejava_1_1io" kind="namespace"><name>java::io</name>
+  </compound>
+  <compound refid="namespacejava_1_1util" kind="namespace"><name>java::util</name>
+  </compound>
+  <compound refid="namespacejavax_1_1mail" kind="namespace"><name>javax::mail</name>
+  </compound>
+  <compound refid="namespacejavax_1_1mail_1_1internet" kind="namespace"><name>javax::mail::internet</name>
+  </compound>
+  <compound refid="namespacejavax_1_1persistence" kind="namespace"><name>javax::persistence</name>
+  </compound>
+  <compound refid="namespacejavax_1_1swing" kind="namespace"><name>javax::swing</name>
+  </compound>
+  <compound refid="_comand_8java" kind="file"><name>Comand.java</name>
+  </compound>
+  <compound refid="_my_bot_8java" kind="file"><name>MyBot.java</name>
+  </compound>
+  <compound refid="_application_facade_interface_w_s_8java" kind="file"><name>ApplicationFacadeInterfaceWS.java</name>
+  </compound>
+  <compound refid="_business_logic_server_8java" kind="file"><name>BusinessLogicServer.java</name>
+  </compound>
+  <compound refid="_facade_implementation_w_s_8java" kind="file"><name>FacadeImplementationWS.java</name>
+  </compound>
+  <compound refid="_filter_search_8java" kind="file"><name>FilterSearch.java</name>
+  </compound>
+  <compound refid="_generate_validation_code_8java" kind="file"><name>GenerateValidationCode.java</name>
+  </compound>
+  <compound refid="_google_maps_web_8java" kind="file"><name>GoogleMapsWeb.java</name>
+  </compound>
+  <compound refid="_login_8java" kind="file"><name>Login.java</name>
+  </compound>
+  <compound refid="_send_booking_8java" kind="file"><name>SendBooking.java</name>
+  </compound>
+  <compound refid="_send_email_8java" kind="file"><name>SendEmail.java</name>
+  </compound>
+  <compound refid="_config_x_m_l_8java" kind="file"><name>ConfigXML.java</name>
+  </compound>
+  <compound refid="_data_access_8java" kind="file"><name>DataAccess.java</name>
+  </compound>
+  <compound refid="_objectdb_manager_server_8java" kind="file"><name>ObjectdbManagerServer.java</name>
+  </compound>
+  <compound refid="_client_8java" kind="file"><name>Client.java</name>
+  </compound>
+  <compound refid="_feed_back_8java" kind="file"><name>FeedBack.java</name>
+  </compound>
+  <compound refid="_integer_adapter_8java" kind="file"><name>IntegerAdapter.java</name>
+  </compound>
+  <compound refid="_offer_8java" kind="file"><name>Offer.java</name>
+  </compound>
+  <compound refid="_owner_8java" kind="file"><name>Owner.java</name>
+  </compound>
+  <compound refid="_reserva_8java" kind="file"><name>Reserva.java</name>
+  </compound>
+  <compound refid="_reserva_offer_rh_owner_container_8java" kind="file"><name>ReservaOfferRhOwnerContainer.java</name>
+  </compound>
+  <compound refid="_rural_house_8java" kind="file"><name>RuralHouse.java</name>
+  </compound>
+  <compound refid="_bad_dates_8java" kind="file"><name>BadDates.java</name>
+  </compound>
+  <compound refid="_d_b4o_manager_creation_exception_8java" kind="file"><name>DB4oManagerCreationException.java</name>
+  </compound>
+  <compound refid="_no_exists_client_8java" kind="file"><name>NoExistsClient.java</name>
+  </compound>
+  <compound refid="_no_exists_owner_8java" kind="file"><name>NoExistsOwner.java</name>
+  </compound>
+  <compound refid="_offer_can_not_be_booked_8java" kind="file"><name>OfferCanNotBeBooked.java</name>
+  </compound>
+  <compound refid="_overlapping_client_exists_8java" kind="file"><name>OverlappingClientExists.java</name>
+  </compound>
+  <compound refid="_overlapping_offer_exists_8java" kind="file"><name>OverlappingOfferExists.java</name>
+  </compound>
+  <compound refid="_overlapping_owner_exist_8java" kind="file"><name>OverlappingOwnerExist.java</name>
+  </compound>
+  <compound refid="_application_launcher_8java" kind="file"><name>ApplicationLauncher.java</name>
+  </compound>
+  <compound refid="_client_advanced_search_help_8java" kind="file"><name>ClientAdvancedSearchHelp.java</name>
+  </compound>
+  <compound refid="_client_main_g_u_i_8java" kind="file"><name>ClientMainGUI.java</name>
+  </compound>
+  <compound refid="_delete_rural_house_8java" kind="file"><name>DeleteRuralHouse.java</name>
+  </compound>
+  <compound refid="_display_images_g_u_i_8java" kind="file"><name>DisplayImagesGUI.java</name>
+  </compound>
+  <compound refid="_display_ratings_g_u_i_8java" kind="file"><name>DisplayRatingsGUI.java</name>
+  </compound>
+  <compound refid="_feed_back_g_u_i_8java" kind="file"><name>FeedBackGUI.java</name>
+  </compound>
+  <compound refid="_help_telegram_8java" kind="file"><name>HelpTelegram.java</name>
+  </compound>
+  <compound refid="_login_g_u_i_8java" kind="file"><name>LoginGUI.java</name>
+  </compound>
+  <compound refid="_main_g_u_i_8java" kind="file"><name>MainGUI.java</name>
+  </compound>
+  <compound refid="_mis_reservas_g_u_i_8java" kind="file"><name>MisReservasGUI.java</name>
+  </compound>
+  <compound refid="_modify_account_g_u_i_8java" kind="file"><name>ModifyAccountGUI.java</name>
+  </compound>
+  <compound refid="_modify_house_g_u_i_8java" kind="file"><name>ModifyHouseGUI.java</name>
+  </compound>
+  <compound refid="_owner_g_u_i_8java" kind="file"><name>OwnerGUI.java</name>
+  </compound>
+  <compound refid="_query_availability_client_advaced_g_u_i_8java" kind="file"><name>QueryAvailabilityClientAdvacedGUI.java</name>
+  </compound>
+  <compound refid="_query_availability_g_u_i_8java" kind="file"><name>QueryAvailabilityGUI.java</name>
+  </compound>
+  <compound refid="_set_availability_g_u_i_8java" kind="file"><name>SetAvailabilityGUI.java</name>
+  </compound>
+  <compound refid="_set_house_8java" kind="file"><name>SetHouse.java</name>
+  </compound>
+  <compound refid="_sign_in_8java" kind="file"><name>SignIn.java</name>
+  </compound>
+  <compound refid="_validation_g_u_i_8java" kind="file"><name>ValidationGUI.java</name>
+  </compound>
+  <compound refid="_validation_mesage_8java" kind="file"><name>ValidationMesage.java</name>
+  </compound>
+  <compound refid="dir_29d667bb07f05bb7400afdc76794b290" kind="dir"><name>src/bot</name>
+  </compound>
+  <compound refid="dir_108520459aa9d4bb59b3b177709be0f6" kind="dir"><name>src/businessLogic</name>
+  </compound>
+  <compound refid="dir_4939e1535a9c78a4a46737b61ec76827" kind="dir"><name>src/configuration</name>
+  </compound>
+  <compound refid="dir_4c6382d940b8114a9f3b254bc8169ae4" kind="dir"><name>src/dataAccess</name>
+  </compound>
+  <compound refid="dir_59e154daa71ab644ff60a4d6c4d01bbf" kind="dir"><name>src/domain</name>
+  </compound>
+  <compound refid="dir_6e33d6500a76933db4361f663e54ab12" kind="dir"><name>src/exceptions</name>
+  </compound>
+  <compound refid="dir_99d0482cf009f9d97a0877749b817f19" kind="dir"><name>src/gui</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classexceptions_1_1_no_exists_client" kind="class" language="Java" prot="public">
+    <compoundname>exceptions::NoExistsClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexceptions_1_1_no_exists_client_1a9a6894befcd9b7d9861cf6f96e004406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.NoExistsClient.NoExistsClient</definition>
+        <argsstring>()</argsstring>
+        <name>NoExistsClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/NoExistsClient.java" line="4" column="1" bodyfile="src/exceptions/NoExistsClient.java" bodystart="4" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="177">
+        <label>Exception</label>
+      </node>
+      <node id="176">
+        <label>exceptions.NoExistsClient</label>
+        <link refid="classexceptions_1_1_no_exists_client"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="179">
+        <label>Exception</label>
+      </node>
+      <node id="178">
+        <label>exceptions.NoExistsClient</label>
+        <link refid="classexceptions_1_1_no_exists_client"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/exceptions/NoExistsClient.java" line="3" column="1" bodyfile="src/exceptions/NoExistsClient.java" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="classexceptions_1_1_no_exists_client_1a9a6894befcd9b7d9861cf6f96e004406" prot="public" virt="non-virtual"><scope>exceptions::NoExistsClient</scope><name>NoExistsClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

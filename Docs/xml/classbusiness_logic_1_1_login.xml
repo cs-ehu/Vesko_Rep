@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_login" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::Login</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_login_1a64297917a7eea710ed126646401da842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>businessLogic.Login.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/Login.java" line="9" column="1" bodyfile="src/businessLogic/Login.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_login_1ac9f6613d5985375b441ff00347cafb18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean businessLogic.Login.doLogin</definition>
+        <argsstring>(String username, String password, String type)</argsstring>
+        <name>doLogin</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>type</declname>
+        </param>
+        <exceptions> throws <ref refid="classexceptions_1_1_no_exists_client" kindref="compound">NoExistsClient</ref>,<ref refid="classexceptions_1_1_no_exists_owner" kindref="compound">NoExistsOwner</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/Login.java" line="12" column="1" bodyfile="src/businessLogic/Login.java" bodystart="12" bodyend="30"/>
+        <references refid="classbusiness_logic_1_1_facade_implementation_w_s_1a49e8bd0f75fee0f774c78f1631509a12" compoundref="_facade_implementation_w_s_8java" startline="132" endline="138">businessLogic.FacadeImplementationWS.getClientByUsername</references>
+        <references refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2e7c07eb23b062294ea3f5aaa48285a5" compoundref="_facade_implementation_w_s_8java" startline="141" endline="147">businessLogic.FacadeImplementationWS.getOwnerByUsername</references>
+        <references refid="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" compoundref="_owner_8java" startline="123" endline="125">domain.Owner.getPassword</references>
+        <references refid="classdomain_1_1_client_1abc586f272267f9312e1341fef8c5486c" compoundref="_client_8java" startline="130" endline="132">domain.Client.getPassword</references>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/businessLogic/Login.java" line="7" column="1" bodyfile="src/businessLogic/Login.java" bodystart="7" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_login_1ac9f6613d5985375b441ff00347cafb18" prot="public" virt="non-virtual"><scope>businessLogic::Login</scope><name>doLogin</name></member>
+      <member refid="classbusiness_logic_1_1_login_1a64297917a7eea710ed126646401da842" prot="public" virt="non-virtual"><scope>businessLogic::Login</scope><name>Login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

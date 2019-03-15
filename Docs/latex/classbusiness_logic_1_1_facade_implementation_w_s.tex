@@ -1,0 +1,774 @@
+\hypertarget{classbusiness_logic_1_1_facade_implementation_w_s}{}\section{Referencia de la Clase business\+Logic.\+Facade\+Implementation\+WS}
+\label{classbusiness_logic_1_1_facade_implementation_w_s}\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+Diagrama de herencias de business\+Logic.\+Facade\+Implementation\+WS\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbusiness_logic_1_1_facade_implementation_w_s}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a5bbdf1cf4235a84736744f3516ec1dae}{create\+Reserva}} (\mbox{\hyperlink{classdomain_1_1_offer}{Offer}} offer, \mbox{\hyperlink{classdomain_1_1_client}{Client}} cliente, Date book\+Date, String state)
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_ae4cb91caac6aed10801d61b70702fd30}{remove\+Reserva}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\item 
+\mbox{\hyperlink{classdomain_1_1_offer}{Offer}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_ac7b3bdfd0815ea7c787da312de594cce}{create\+Offer}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rural\+House, Date first\+Day, Date last\+Day, float price)  throws Overlapping\+Offer\+Exists, Bad\+Dates 
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2c5f0e41c6463d8e5c7d4b89ea3f676f}{create\+Client}} (String user\+Name, String password, String telegram\+Id, String cuenta\+Bancaria, String email)  throws Overlapping\+Client\+Exists 
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_ad7a2f26be66f4ae4cbc2a4ad89e74e53}{create\+Owner}} (String user\+Name, String password, String telegram\+Id, String cuenta\+Bancaria, String email)  throws Overlapping\+Owner\+Exist 
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aa1ef9c26fc3278ef6c4170094ed6dcaa}{update\+Clinet\+Validation}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} c)
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a9c3c6f8a2ec5a4d19defc324fc60c523}{update\+Owner\+Validation}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2df596d357c02b4aef6711526347c951}{create\+Rural\+House}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o, String city, String description, String address, String rooms\+Number)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aa6f21ddb40ca6cd752a13e31ff016e7e}{get\+All\+Rural\+Houses}} ()
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a7489fb15fdb8206b16daf6ed24fdfea0}{get\+Offers}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, Date first\+Day, Date last\+Day)
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a49e8bd0f75fee0f774c78f1631509a12}{get\+Client\+By\+Username}} (String user)
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2e7c07eb23b062294ea3f5aaa48285a5}{get\+Owner\+By\+Username}} (String user)
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aa05fbf6e32c0939508a542b857dce1d1}{add\+Image\+To\+RH}} (byte\mbox{[}$\,$\mbox{]} img, \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} owner, \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a22945417275898b39f1fcbdd8961b1cf}{get\+Rural\+House}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} owner)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a4b08e36f8de023cb541f63a5e772e2be}{get\+Rural\+Houseby\+House\+Number}} (int num)
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a4d0fe8c220dc334e527a3e7b4cc9edca}{remove\+Rural\+House}} (int num)
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aaf150e07dd6d71319c6f2f4bf6be1647}{close}} ()
+\item 
+\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a7b8deff7fb54e2ea7fa884fc13870d6d}{get\+Reserva\+By\+Num}} (int n)
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a5918c2957b02255254ae252aabfe3fc1}{update\+Client}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} c)
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a6ee2c273a768beed556dd83d9e5ad035}{update\+Owner}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o)
+\item 
+\mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2b0b70f214ee9b8e67a2e5373d0c176d}{get\+Reserva\+Offer\+Rh\+Owner\+Container}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a505c977d8d4ab62addb96006535d2912}{get\+List\+Reserva\+Offer\+Rh\+Owner\+Container}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} c)
+\item 
+\mbox{\hyperlink{classdomain_1_1_feed_back}{Feed\+Back}} \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a415b0ef5c66ce3bcec46a33750dc469f}{create\+Feed\+Back}} (String s, int i, \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a4ed81cb9f24d501da830d80dda086fce}{set\+Rated}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 31 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_aa05fbf6e32c0939508a542b857dce1d1}\label{classbusiness_logic_1_1_facade_implementation_w_s_aa05fbf6e32c0939508a542b857dce1d1}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!addImageToRH@{addImageToRH}}
+\index{addImageToRH@{addImageToRH}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{addImageToRH()}{addImageToRH()}}
+{\footnotesize\ttfamily void business\+Logic.\+Facade\+Implementation\+W\+S.\+add\+Image\+To\+RH (\begin{DoxyParamCaption}\item[{byte \mbox{[}$\,$\mbox{]}}]{img,  }\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{owner,  }\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad5cf462151e6c43b9088f112eed0ad3f}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 150 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{150                                                                      \{}
+\DoxyCodeLine{151         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{152         dbManager.addImageToRH(img, rh, owner);}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{154         dbManager.close();}
+\DoxyCodeLine{155     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+add\+Image\+To\+R\+H() y data\+Access.\+Data\+Access.\+close().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_aaf150e07dd6d71319c6f2f4bf6be1647}\label{classbusiness_logic_1_1_facade_implementation_w_s_aaf150e07dd6d71319c6f2f4bf6be1647}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!close@{close}}
+\index{close@{close}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void business\+Logic.\+Facade\+Implementation\+W\+S.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a8cbc91e14e6abf2d7577ba2c69f4b48f}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 183 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{183                         \{}
+\DoxyCodeLine{184         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{185         dbManager.close();}
+\DoxyCodeLine{186     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a2c5f0e41c6463d8e5c7d4b89ea3f676f}\label{classbusiness_logic_1_1_facade_implementation_w_s_a2c5f0e41c6463d8e5c7d4b89ea3f676f}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!createClient@{createClient}}
+\index{createClient@{createClient}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{createClient()}{createClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Client (\begin{DoxyParamCaption}\item[{String}]{user\+Name,  }\item[{String}]{password,  }\item[{String}]{telegram\+Id,  }\item[{String}]{cuenta\+Bancaria,  }\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_client_exists}{Overlapping\+Client\+Exists}}}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ac2cbd39795e0c171a79ac440698bd859}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 67 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{69                                            \{}
+\DoxyCodeLine{70         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{71         Client c = dbManager.createClient(userName, password, telegramId,}
+\DoxyCodeLine{72                 cuentaBancaria, email);}
+\DoxyCodeLine{73         dbManager.close();}
+\DoxyCodeLine{74         \textcolor{keywordflow}{return} c;}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+create\+Client().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a415b0ef5c66ce3bcec46a33750dc469f}\label{classbusiness_logic_1_1_facade_implementation_w_s_a415b0ef5c66ce3bcec46a33750dc469f}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!createFeedBack@{createFeedBack}}
+\index{createFeedBack@{createFeedBack}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{createFeedBack()}{createFeedBack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_feed_back}{Feed\+Back}} business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Feed\+Back (\begin{DoxyParamCaption}\item[{String}]{s,  }\item[{int}]{i,  }\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3fd4fdf7b7efaef7ff89ee7273f5be22}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 228 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{228                                                                    \{}
+\DoxyCodeLine{229         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{230         FeedBack fb = dbManager.createFeedBack(i, s, rh);}
+\DoxyCodeLine{231         dbManager.close();}
+\DoxyCodeLine{232         \textcolor{keywordflow}{return} fb;}
+\DoxyCodeLine{233     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+create\+Feed\+Back().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_ac7b3bdfd0815ea7c787da312de594cce}\label{classbusiness_logic_1_1_facade_implementation_w_s_ac7b3bdfd0815ea7c787da312de594cce}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!createOffer@{createOffer}}
+\index{createOffer@{createOffer}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{createOffer()}{createOffer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Offer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rural\+House,  }\item[{Date}]{first\+Day,  }\item[{Date}]{last\+Day,  }\item[{float}]{price }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_offer_exists}{Overlapping\+Offer\+Exists}}, \mbox{\hyperlink{classexceptions_1_1_bad_dates}{Bad\+Dates}}}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0e8d2135ef1384a32e74f60bcea55f09}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 47 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48                                                                                \{}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{51         Offer o = \textcolor{keyword}{null};}
+\DoxyCodeLine{52         \textcolor{keywordflow}{if} (firstDay.compareTo(lastDay) >= 0) \{}
+\DoxyCodeLine{53             dbManager.close();}
+\DoxyCodeLine{54             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} BadDates();}
+\DoxyCodeLine{55         \}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57         \textcolor{keywordtype}{boolean} b = dbManager.existsOverlappingOffer(ruralHouse, firstDay,}
+\DoxyCodeLine{58                 lastDay);}
+\DoxyCodeLine{59         \textcolor{keywordflow}{if} (!b)}
+\DoxyCodeLine{60             o = dbManager.createOffer(ruralHouse, firstDay, lastDay, price);}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62         dbManager.close();}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64         \textcolor{keywordflow}{return} o;}
+\DoxyCodeLine{65     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close(), data\+Access.\+Data\+Access.\+create\+Offer() y data\+Access.\+Data\+Access.\+exists\+Overlapping\+Offer().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_ad7a2f26be66f4ae4cbc2a4ad89e74e53}\label{classbusiness_logic_1_1_facade_implementation_w_s_ad7a2f26be66f4ae4cbc2a4ad89e74e53}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!createOwner@{createOwner}}
+\index{createOwner@{createOwner}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{createOwner()}{createOwner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Owner (\begin{DoxyParamCaption}\item[{String}]{user\+Name,  }\item[{String}]{password,  }\item[{String}]{telegram\+Id,  }\item[{String}]{cuenta\+Bancaria,  }\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_owner_exist}{Overlapping\+Owner\+Exist}}}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3e5553805d4890c9c17cf2ab1b14a2d3}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 78 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{80                                          \{}
+\DoxyCodeLine{81         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{82         Owner o = dbManager.createOwner(userName, password, telegramId,}
+\DoxyCodeLine{83                 cuentaBancaria, email);}
+\DoxyCodeLine{84         dbManager.close();}
+\DoxyCodeLine{85         \textcolor{keywordflow}{return} o;}
+\DoxyCodeLine{86     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+create\+Owner().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a5bbdf1cf4235a84736744f3516ec1dae}\label{classbusiness_logic_1_1_facade_implementation_w_s_a5bbdf1cf4235a84736744f3516ec1dae}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!createReserva@{createReserva}}
+\index{createReserva@{createReserva}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{createReserva()}{createReserva()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}}]{offer,  }\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{cliente,  }\item[{Date}]{book\+Date,  }\item[{String}]{state }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad807cbd5d877e941edc274563e5cefa3}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 33 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34                           \{}
+\DoxyCodeLine{35         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{36         Reserva r = dbManager.createReserva(offer, cliente, bookDate);}
+\DoxyCodeLine{37         dbManager.close();}
+\DoxyCodeLine{38         \textcolor{keywordflow}{return} r;}
+\DoxyCodeLine{39     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+create\+Reserva().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a2df596d357c02b4aef6711526347c951}\label{classbusiness_logic_1_1_facade_implementation_w_s_a2df596d357c02b4aef6711526347c951}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!createRuralHouse@{createRuralHouse}}
+\index{createRuralHouse@{createRuralHouse}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{createRuralHouse()}{createRuralHouse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Rural\+House (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o,  }\item[{String}]{city,  }\item[{String}]{description,  }\item[{String}]{address,  }\item[{String}]{rooms\+Number }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a624b00ae79c85436420d62cf34a082d7}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 100 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{101                                                                     \{}
+\DoxyCodeLine{102         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{103         RuralHouse rh = dbManager.createRuralHouse(o, city, description,}
+\DoxyCodeLine{104                 address, roomsNumber);}
+\DoxyCodeLine{105         dbManager.close();}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{107         \textcolor{keywordflow}{return} rh;}
+\DoxyCodeLine{108     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+create\+Rural\+House().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_aa6f21ddb40ca6cd752a13e31ff016e7e}\label{classbusiness_logic_1_1_facade_implementation_w_s_aa6f21ddb40ca6cd752a13e31ff016e7e}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getAllRuralHouses@{getAllRuralHouses}}
+\index{getAllRuralHouses@{getAllRuralHouses}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getAllRuralHouses()}{getAllRuralHouses()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}$>$ business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+All\+Rural\+Houses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a553cbfb37ea9f1621ba76ad8308a15da}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 111 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{111                                                   \{}
+\DoxyCodeLine{112         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{114         Vector<RuralHouse> ruralHouses = dbManager.getAllRuralHouses();}
+\DoxyCodeLine{115         dbManager.close();}
+\DoxyCodeLine{116         \textcolor{keywordflow}{return} ruralHouses;}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{118     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+get\+All\+Rural\+Houses().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a49e8bd0f75fee0f774c78f1631509a12}\label{classbusiness_logic_1_1_facade_implementation_w_s_a49e8bd0f75fee0f774c78f1631509a12}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getClientByUsername@{getClientByUsername}}
+\index{getClientByUsername@{getClientByUsername}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getClientByUsername()}{getClientByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Client\+By\+Username (\begin{DoxyParamCaption}\item[{String}]{user }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0d69ed91aa71325dedc777f059999e93}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 132 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{132                                                    \{}
+\DoxyCodeLine{133         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{134         Client c = dbManager.getClientByUsername(user);}
+\DoxyCodeLine{135         dbManager.close();}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{137         \textcolor{keywordflow}{return} c;}
+\DoxyCodeLine{138     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+get\+Client\+By\+Username().
+
+
+
+Referenciado por business\+Logic.\+Login.\+do\+Login().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a505c977d8d4ab62addb96006535d2912}\label{classbusiness_logic_1_1_facade_implementation_w_s_a505c977d8d4ab62addb96006535d2912}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getListReservaOfferRhOwnerContainer@{getListReservaOfferRhOwnerContainer}}
+\index{getListReservaOfferRhOwnerContainer@{getListReservaOfferRhOwnerContainer}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getListReservaOfferRhOwnerContainer()}{getListReservaOfferRhOwnerContainer()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}}$>$ business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+List\+Reserva\+Offer\+Rh\+Owner\+Container (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ab07e66746b2cfe14622bdd16c295ce93}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 215 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{216                       \{}
+\DoxyCodeLine{217         Client c1 = \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a49e8bd0f75fee0f774c78f1631509a12}{getClientByUsername}}(c.getUserName());}
+\DoxyCodeLine{218         ArrayList<ReservaOfferRhOwnerContainer> listROC = \textcolor{keyword}{new} ArrayList<ReservaOfferRhOwnerContainer>();}
+\DoxyCodeLine{219         Iterator<Reserva> it = c1.getListaReserva().iterator();}
+\DoxyCodeLine{220         \textcolor{keywordflow}{while} (it.hasNext()) \{}
+\DoxyCodeLine{221             Reserva r = it.next();}
+\DoxyCodeLine{222             Reserva r1 = \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a7b8deff7fb54e2ea7fa884fc13870d6d}{getReservaByNum}}(r.getNumResrva());}
+\DoxyCodeLine{223             listROC.add(\textcolor{keyword}{new} ReservaOfferRhOwnerContainer(r1));}
+\DoxyCodeLine{224         \}}
+\DoxyCodeLine{225         \textcolor{keywordflow}{return} listROC;}
+\DoxyCodeLine{226     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Client.\+get\+Lista\+Reserva(), domain.\+Reserva.\+get\+Num\+Resrva() y domain.\+Client.\+get\+User\+Name().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a7489fb15fdb8206b16daf6ed24fdfea0}\label{classbusiness_logic_1_1_facade_implementation_w_s_a7489fb15fdb8206b16daf6ed24fdfea0}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getOffers@{getOffers}}
+\index{getOffers@{getOffers}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getOffers()}{getOffers()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Offers (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{Date}]{first\+Day,  }\item[{Date}]{last\+Day }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ae338a96d039003c64fceb68d667736f1}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 121 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{121                                                                                \{}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{123         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{124         Vector<Offer> offers = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{125         offers = dbManager.getOffers(rh, firstDay, lastDay);}
+\DoxyCodeLine{126         dbManager.close();}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{128         \textcolor{keywordflow}{return} offers;}
+\DoxyCodeLine{129     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+get\+Offers().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a2e7c07eb23b062294ea3f5aaa48285a5}\label{classbusiness_logic_1_1_facade_implementation_w_s_a2e7c07eb23b062294ea3f5aaa48285a5}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getOwnerByUsername@{getOwnerByUsername}}
+\index{getOwnerByUsername@{getOwnerByUsername}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getOwnerByUsername()}{getOwnerByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Owner\+By\+Username (\begin{DoxyParamCaption}\item[{String}]{user }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0f38b3b41794e2ec57b019b89ef255c3}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 141 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{141                                                  \{}
+\DoxyCodeLine{142         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{143         Owner o = dbManager.getOwnerByUsername(user);}
+\DoxyCodeLine{144         dbManager.close();}
+\DoxyCodeLine{145 }
+\DoxyCodeLine{146         \textcolor{keywordflow}{return} o;}
+\DoxyCodeLine{147     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+get\+Owner\+By\+Username().
+
+
+
+Referenciado por business\+Logic.\+Login.\+do\+Login().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a7b8deff7fb54e2ea7fa884fc13870d6d}\label{classbusiness_logic_1_1_facade_implementation_w_s_a7b8deff7fb54e2ea7fa884fc13870d6d}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getReservaByNum@{getReservaByNum}}
+\index{getReservaByNum@{getReservaByNum}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getReservaByNum()}{getReservaByNum()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Reserva\+By\+Num (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a1ee7d830657be2563a277591c150f273}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 189 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{189                                          \{}
+\DoxyCodeLine{190         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{191         Reserva r1 =dbManager.getReservaByNum(n);}
+\DoxyCodeLine{192         dbManager.close();}
+\DoxyCodeLine{193         \textcolor{keywordflow}{return} r1;}
+\DoxyCodeLine{194     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+get\+Reserva\+By\+Num().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a2b0b70f214ee9b8e67a2e5373d0c176d}\label{classbusiness_logic_1_1_facade_implementation_w_s_a2b0b70f214ee9b8e67a2e5373d0c176d}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getReservaOfferRhOwnerContainer@{getReservaOfferRhOwnerContainer}}
+\index{getReservaOfferRhOwnerContainer@{getReservaOfferRhOwnerContainer}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getReservaOfferRhOwnerContainer()}{getReservaOfferRhOwnerContainer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}} business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Reserva\+Offer\+Rh\+Owner\+Container (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2f7ed5fbb8427eee05fdaa0a0dc9348b}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 209 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{209                                                                                   \{}
+\DoxyCodeLine{210         Reserva r1=\mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a7b8deff7fb54e2ea7fa884fc13870d6d}{getReservaByNum}}(r.getNumResrva());}
+\DoxyCodeLine{211         \textcolor{keywordflow}{return} \textcolor{keyword}{new} ReservaOfferRhOwnerContainer(r1);}
+\DoxyCodeLine{212     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Reserva.\+get\+Num\+Resrva().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a22945417275898b39f1fcbdd8961b1cf}\label{classbusiness_logic_1_1_facade_implementation_w_s_a22945417275898b39f1fcbdd8961b1cf}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getRuralHouse@{getRuralHouse}}
+\index{getRuralHouse@{getRuralHouse}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getRuralHouse()}{getRuralHouse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Rural\+House (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{owner }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_aeda86c46b75acfc4befb30f5d0e98e7c}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 158 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{158                                                                 \{}
+\DoxyCodeLine{159         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{160         RuralHouse rhouse = dbManager.getRuralHouse(owner, rh);}
+\DoxyCodeLine{161 }
+\DoxyCodeLine{162         dbManager.close();}
+\DoxyCodeLine{163         \textcolor{keywordflow}{return} rhouse;}
+\DoxyCodeLine{164     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+get\+Rural\+House().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a4b08e36f8de023cb541f63a5e772e2be}\label{classbusiness_logic_1_1_facade_implementation_w_s_a4b08e36f8de023cb541f63a5e772e2be}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!getRuralHousebyHouseNumber@{getRuralHousebyHouseNumber}}
+\index{getRuralHousebyHouseNumber@{getRuralHousebyHouseNumber}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{getRuralHousebyHouseNumber()}{getRuralHousebyHouseNumber()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Rural\+Houseby\+House\+Number (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a686ca441b89f52085ef66d00f10c6854}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 167 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{167                                                           \{}
+\DoxyCodeLine{168         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{169         RuralHouse rhouse = dbManager.getRuralHouseByHouseNumber(num);}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{171         dbManager.close();}
+\DoxyCodeLine{172         \textcolor{keywordflow}{return} rhouse;}
+\DoxyCodeLine{173     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+get\+Rural\+House\+By\+House\+Number().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_ae4cb91caac6aed10801d61b70702fd30}\label{classbusiness_logic_1_1_facade_implementation_w_s_ae4cb91caac6aed10801d61b70702fd30}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!removeReserva@{removeReserva}}
+\index{removeReserva@{removeReserva}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{removeReserva()}{removeReserva()}}
+{\footnotesize\ttfamily void business\+Logic.\+Facade\+Implementation\+W\+S.\+remove\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0c4ed4fa98351e6aaba6f9769e561abf}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 41 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41                                          \{}
+\DoxyCodeLine{42         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{43         dbManager.removeReserva(r);}
+\DoxyCodeLine{44         dbManager.close();}
+\DoxyCodeLine{45     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+remove\+Reserva().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a4d0fe8c220dc334e527a3e7b4cc9edca}\label{classbusiness_logic_1_1_facade_implementation_w_s_a4d0fe8c220dc334e527a3e7b4cc9edca}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!removeRuralHouse@{removeRuralHouse}}
+\index{removeRuralHouse@{removeRuralHouse}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{removeRuralHouse()}{removeRuralHouse()}}
+{\footnotesize\ttfamily void business\+Logic.\+Facade\+Implementation\+W\+S.\+remove\+Rural\+House (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a472d0eae303dc4ad989f382bb0632afc}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 176 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{176                                           \{}
+\DoxyCodeLine{177         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{178         dbManager.removeRuralHouse(num);}
+\DoxyCodeLine{179         dbManager.close();}
+\DoxyCodeLine{180     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+remove\+Rural\+House().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a4ed81cb9f24d501da830d80dda086fce}\label{classbusiness_logic_1_1_facade_implementation_w_s_a4ed81cb9f24d501da830d80dda086fce}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!setRated@{setRated}}
+\index{setRated@{setRated}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{setRated()}{setRated()}}
+{\footnotesize\ttfamily void business\+Logic.\+Facade\+Implementation\+W\+S.\+set\+Rated (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0092e0a845b7b23dc504be013ce1958a}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 235 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{235                                     \{}
+\DoxyCodeLine{236         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{237         dbManager.setRated(r);}
+\DoxyCodeLine{238         dbManager.close();}
+\DoxyCodeLine{239     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+set\+Rated().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a5918c2957b02255254ae252aabfe3fc1}\label{classbusiness_logic_1_1_facade_implementation_w_s_a5918c2957b02255254ae252aabfe3fc1}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!updateClient@{updateClient}}
+\index{updateClient@{updateClient}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{updateClient()}{updateClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2d053769d923bd1987f8fd1f875905e7}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 196 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{196                                         \{}
+\DoxyCodeLine{197         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{198         Client c1 = dbManager.updateClient(c);}
+\DoxyCodeLine{199         dbManager.close();}
+\DoxyCodeLine{200         \textcolor{keywordflow}{return} c1;}
+\DoxyCodeLine{201     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+update\+Client().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_aa1ef9c26fc3278ef6c4170094ed6dcaa}\label{classbusiness_logic_1_1_facade_implementation_w_s_aa1ef9c26fc3278ef6c4170094ed6dcaa}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!updateClinetValidation@{updateClinetValidation}}
+\index{updateClinetValidation@{updateClinetValidation}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{updateClinetValidation()}{updateClinetValidation()}}
+{\footnotesize\ttfamily void business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Clinet\+Validation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a482571287e471d0047bc24150f716d72}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 88 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{88                                                  \{}
+\DoxyCodeLine{89         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{90         dbManager.updateClinetValidation(c);}
+\DoxyCodeLine{91     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+update\+Clinet\+Validation().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a6ee2c273a768beed556dd83d9e5ad035}\label{classbusiness_logic_1_1_facade_implementation_w_s_a6ee2c273a768beed556dd83d9e5ad035}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!updateOwner@{updateOwner}}
+\index{updateOwner@{updateOwner}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{updateOwner()}{updateOwner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Owner (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_af0ef759ffef69a39428870eada0221cd}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 203 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{203                                      \{}
+\DoxyCodeLine{204         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{205         Owner o1 = dbManager.updateOwner(o);}
+\DoxyCodeLine{206         dbManager.close();}
+\DoxyCodeLine{207         \textcolor{keywordflow}{return} o1;}
+\DoxyCodeLine{208     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+update\+Owner().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_facade_implementation_w_s_a9c3c6f8a2ec5a4d19defc324fc60c523}\label{classbusiness_logic_1_1_facade_implementation_w_s_a9c3c6f8a2ec5a4d19defc324fc60c523}} 
+\index{businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}!updateOwnerValidation@{updateOwnerValidation}}
+\index{updateOwnerValidation@{updateOwnerValidation}!businessLogic.FacadeImplementationWS@{businessLogic.FacadeImplementationWS}}
+\subsubsection{\texorpdfstring{updateOwnerValidation()}{updateOwnerValidation()}}
+{\footnotesize\ttfamily void business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Owner\+Validation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o }\end{DoxyParamCaption})}
+
+
+
+Implementa \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a4932653f88b16660fa74ff6356a3f94b}{business\+Logic.\+Application\+Facade\+Interface\+WS}}.
+
+
+
+Definición en la línea 94 del archivo Facade\+Implementation\+W\+S.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{94                                                \{}
+\DoxyCodeLine{95         DataAccess dbManager = \textcolor{keyword}{new} DataAccess();}
+\DoxyCodeLine{96         dbManager.updateOwnerValidation(o);}
+\DoxyCodeLine{97     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+update\+Owner\+Validation().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/business\+Logic/\mbox{\hyperlink{_facade_implementation_w_s_8java}{Facade\+Implementation\+W\+S.\+java}}\end{DoxyCompactItemize}

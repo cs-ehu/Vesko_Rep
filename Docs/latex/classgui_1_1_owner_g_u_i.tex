@@ -1,0 +1,194 @@
+\hypertarget{classgui_1_1_owner_g_u_i}{}\section{Referencia de la Clase gui.\+Owner\+G\+UI}
+\label{classgui_1_1_owner_g_u_i}\index{gui.OwnerGUI@{gui.OwnerGUI}}
+Diagrama de herencias de gui.\+Owner\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_owner_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_owner_g_u_i_ae4efc071e5f519db154b9fc128239e89}{Owner\+G\+UI}} ()
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{content\+Pane}}
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_owner_g_u_i_adc21b31ee1addb912b73455e4e78d130}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 28 del archivo Owner\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_owner_g_u_i_ae4efc071e5f519db154b9fc128239e89}\label{classgui_1_1_owner_g_u_i_ae4efc071e5f519db154b9fc128239e89}} 
+\index{gui.OwnerGUI@{gui.OwnerGUI}!OwnerGUI@{OwnerGUI}}
+\index{OwnerGUI@{OwnerGUI}!gui.OwnerGUI@{gui.OwnerGUI}}
+\subsubsection{\texorpdfstring{OwnerGUI()}{OwnerGUI()}}
+{\footnotesize\ttfamily gui.\+Owner\+G\+U\+I.\+Owner\+G\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 37 del archivo Owner\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{37                       \{}
+\DoxyCodeLine{38         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{39         setBounds(100, 100, 497, 477);}
+\DoxyCodeLine{40         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{41         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{42         setContentPane(\mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}});}
+\DoxyCodeLine{43         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{44         }
+\DoxyCodeLine{45         JPanel panel = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{46         panel.setBounds(0, 0, 0, 0);}
+\DoxyCodeLine{47         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(panel);}
+\DoxyCodeLine{48         }
+\DoxyCodeLine{49         JRadioButton radioButton = \textcolor{keyword}{new} JRadioButton(\textcolor{stringliteral}{"Euskara"});}
+\DoxyCodeLine{50         panel.add(radioButton);}
+\DoxyCodeLine{51         }
+\DoxyCodeLine{52         JRadioButton radioButton\_1 = \textcolor{keyword}{new} JRadioButton(\textcolor{stringliteral}{"Castellano"});}
+\DoxyCodeLine{53         panel.add(radioButton\_1);}
+\DoxyCodeLine{54         }
+\DoxyCodeLine{55         JRadioButton radioButton\_2 = \textcolor{keyword}{new} JRadioButton(\textcolor{stringliteral}{"English"});}
+\DoxyCodeLine{56         panel.add(radioButton\_2);}
+\DoxyCodeLine{57         }
+\DoxyCodeLine{58         JButton button = \textcolor{keyword}{new} JButton();}
+\DoxyCodeLine{59         button.setBounds(0, 0, 0, 0);}
+\DoxyCodeLine{60         button.setText(\textcolor{stringliteral}{"Query Availability"});}
+\DoxyCodeLine{61         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(button);}
+\DoxyCodeLine{62         }
+\DoxyCodeLine{63         JLabel label = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Select Option"});}
+\DoxyCodeLine{64         label.setBounds(0, 0, 0, 0);}
+\DoxyCodeLine{65         label.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{66         label.setForeground(Color.BLACK);}
+\DoxyCodeLine{67         label.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{68         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(label);}
+\DoxyCodeLine{69         }
+\DoxyCodeLine{70         JLabel label\_1 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Select Option"});}
+\DoxyCodeLine{71         label\_1.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{72         label\_1.setForeground(Color.BLACK);}
+\DoxyCodeLine{73         label\_1.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{74         label\_1.setBounds(0, 0, 477, 60);}
+\DoxyCodeLine{75         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(label\_1);}
+\DoxyCodeLine{76         }
+\DoxyCodeLine{77         JButton btnLogOut = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Log out"});}
+\DoxyCodeLine{78         btnLogOut.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{79             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{80                 dispose();}
+\DoxyCodeLine{81                 MainGUI a = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{82                 a.owner=\textcolor{keyword}{null};}
+\DoxyCodeLine{83                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{84             \}}
+\DoxyCodeLine{85         \});}
+\DoxyCodeLine{86         btnLogOut.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 15));}
+\DoxyCodeLine{87         btnLogOut.setBounds(181, 368, 144, 49);}
+\DoxyCodeLine{88         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(btnLogOut);}
+\DoxyCodeLine{89         }
+\DoxyCodeLine{90         JButton btnSetAvailiability = \textcolor{keyword}{new} JButton();}
+\DoxyCodeLine{91         btnSetAvailiability.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{92             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{93                 dispose();}
+\DoxyCodeLine{94                 MainGUI main = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{95                 Owner owner = main.getMainOwner();}
+\DoxyCodeLine{96                 ApplicationFacadeInterfaceWS \mbox{\hyperlink{classgui_1_1_owner_g_u_i_adc21b31ee1addb912b73455e4e78d130}{facade}}=MainGUI.getBusinessLogic();}
+\DoxyCodeLine{97                 ArrayList<RuralHouse>rhs = owner.getRhList();}
+\DoxyCodeLine{98                 JFrame a = \textcolor{keyword}{new} SetAvailabilityGUI(rhs,owner);}
+\DoxyCodeLine{99                 owner.toString();}
+\DoxyCodeLine{100                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{101             \}}
+\DoxyCodeLine{102         \});}
+\DoxyCodeLine{103         btnSetAvailiability.setText(\textcolor{stringliteral}{"Set Availability"});}
+\DoxyCodeLine{104         btnSetAvailiability.setBounds(0, 55, 477, 60);}
+\DoxyCodeLine{105         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(btnSetAvailiability);}
+\DoxyCodeLine{106         }
+\DoxyCodeLine{107         JButton btnSetHouse = \textcolor{keyword}{new} JButton();}
+\DoxyCodeLine{108         btnSetHouse.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{109             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{110                 dispose();}
+\DoxyCodeLine{111                 JFrame a = \textcolor{keyword}{new} SetHouse();}
+\DoxyCodeLine{112                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{113             \}}
+\DoxyCodeLine{114         \});}
+\DoxyCodeLine{115         btnSetHouse.setText(\textcolor{stringliteral}{"Set House"});}
+\DoxyCodeLine{116         btnSetHouse.setBounds(0, 116, 477, 60);}
+\DoxyCodeLine{117         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(btnSetHouse);}
+\DoxyCodeLine{118         }
+\DoxyCodeLine{119         JButton btnModifyHouse = \textcolor{keyword}{new} JButton();}
+\DoxyCodeLine{120         btnModifyHouse.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{121             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{122                 ModifyHouseGUI a = \textcolor{keyword}{new} ModifyHouseGUI();}
+\DoxyCodeLine{123                 dispose();}
+\DoxyCodeLine{124                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{125             \}}
+\DoxyCodeLine{126         \});}
+\DoxyCodeLine{127         btnModifyHouse.setText(\textcolor{stringliteral}{"Modify House"});}
+\DoxyCodeLine{128         btnModifyHouse.setBounds(0, 178, 477, 60);}
+\DoxyCodeLine{129         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(btnModifyHouse);}
+\DoxyCodeLine{130         }
+\DoxyCodeLine{131         JButton button\_1 = \textcolor{keyword}{new} JButton();}
+\DoxyCodeLine{132         button\_1.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{133             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{134                 ModifyAccountGUI a = \textcolor{keyword}{new} ModifyAccountGUI(\textcolor{stringliteral}{"Owner"});}
+\DoxyCodeLine{135                 dispose();}
+\DoxyCodeLine{136                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{137             \}}
+\DoxyCodeLine{138         \});}
+\DoxyCodeLine{139         button\_1.setText(\textcolor{stringliteral}{"Modify Account "});}
+\DoxyCodeLine{140         button\_1.setBounds(0, 270, 477, 60);}
+\DoxyCodeLine{141         \mbox{\hyperlink{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}{contentPane}}.add(button\_1);}
+\DoxyCodeLine{142     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Owner\+G\+U\+I.\+content\+Pane, gui.\+Owner\+G\+U\+I.\+facade, gui.\+Main\+G\+U\+I.\+get\+Business\+Logic(), gui.\+Main\+G\+U\+I.\+get\+Main\+Owner(), domain.\+Owner.\+get\+Rh\+List(), gui.\+Main\+G\+U\+I.\+owner y domain.\+Owner.\+to\+String().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}\label{classgui_1_1_owner_g_u_i_a1e284b6506332a7360b4d3b706de3404}} 
+\index{gui.OwnerGUI@{gui.OwnerGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.OwnerGUI@{gui.OwnerGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Owner\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 30 del archivo Owner\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Owner\+G\+U\+I.\+Owner\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_owner_g_u_i_adc21b31ee1addb912b73455e4e78d130}\label{classgui_1_1_owner_g_u_i_adc21b31ee1addb912b73455e4e78d130}} 
+\index{gui.OwnerGUI@{gui.OwnerGUI}!facade@{facade}}
+\index{facade@{facade}!gui.OwnerGUI@{gui.OwnerGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Owner\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 31 del archivo Owner\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Owner\+G\+U\+I.\+Owner\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_owner_g_u_i_8java}{Owner\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_d_b4o_manager_creation_exception_8java" kind="file" language="Java">
+    <compoundname>DB4oManagerCreationException.java</compoundname>
+    <innerclass refid="classexceptions_1_1_d_b4o_manager_creation_exception" prot="public">exceptions::DB4oManagerCreationException</innerclass>
+    <innernamespace refid="namespaceexceptions">exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">exceptions;</highlight></codeline>
+<codeline lineno="2" refid="classexceptions_1_1_d_b4o_manager_creation_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexceptions_1_1_d_b4o_manager_creation_exception" kindref="compound">DB4oManagerCreationException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="3" refid="classexceptions_1_1_d_b4o_manager_creation_exception_1af611b151185c866376c172feb883428a" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_d_b4o_manager_creation_exception_1af611b151185c866376c172feb883428a" kindref="member">serialVersionUID</ref><sp/>=<sp/>1L;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="5" refid="classexceptions_1_1_d_b4o_manager_creation_exception_1a5da5879180740606e8a3f1c2f88f01dc" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_d_b4o_manager_creation_exception_1a5da5879180740606e8a3f1c2f88f01dc" kindref="member">DB4oManagerCreationException</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13" refid="classexceptions_1_1_d_b4o_manager_creation_exception_1a45281047a13292cbee85b6f04547adc5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_d_b4o_manager_creation_exception_1a45281047a13292cbee85b6f04547adc5" kindref="member">DB4oManagerCreationException</ref>(String<sp/>s)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>super(s);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/exceptions/DB4oManagerCreationException.java"/>
+  </compounddef>
+</doxygen>

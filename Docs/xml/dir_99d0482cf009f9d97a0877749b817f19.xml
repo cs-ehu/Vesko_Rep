@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_99d0482cf009f9d97a0877749b817f19" kind="dir">
+    <compoundname>src/gui</compoundname>
+    <innerfile refid="_application_launcher_8java">ApplicationLauncher.java</innerfile>
+    <innerfile refid="_client_advanced_search_help_8java">ClientAdvancedSearchHelp.java</innerfile>
+    <innerfile refid="_client_main_g_u_i_8java">ClientMainGUI.java</innerfile>
+    <innerfile refid="_delete_rural_house_8java">DeleteRuralHouse.java</innerfile>
+    <innerfile refid="_display_images_g_u_i_8java">DisplayImagesGUI.java</innerfile>
+    <innerfile refid="_display_ratings_g_u_i_8java">DisplayRatingsGUI.java</innerfile>
+    <innerfile refid="_feed_back_g_u_i_8java">FeedBackGUI.java</innerfile>
+    <innerfile refid="_help_telegram_8java">HelpTelegram.java</innerfile>
+    <innerfile refid="_login_g_u_i_8java">LoginGUI.java</innerfile>
+    <innerfile refid="_main_g_u_i_8java">MainGUI.java</innerfile>
+    <innerfile refid="_mis_reservas_g_u_i_8java">MisReservasGUI.java</innerfile>
+    <innerfile refid="_modify_account_g_u_i_8java">ModifyAccountGUI.java</innerfile>
+    <innerfile refid="_modify_house_g_u_i_8java">ModifyHouseGUI.java</innerfile>
+    <innerfile refid="_owner_g_u_i_8java">OwnerGUI.java</innerfile>
+    <innerfile refid="_query_availability_client_advaced_g_u_i_8java">QueryAvailabilityClientAdvacedGUI.java</innerfile>
+    <innerfile refid="_query_availability_g_u_i_8java">QueryAvailabilityGUI.java</innerfile>
+    <innerfile refid="_set_availability_g_u_i_8java">SetAvailabilityGUI.java</innerfile>
+    <innerfile refid="_set_house_8java">SetHouse.java</innerfile>
+    <innerfile refid="_sign_in_8java">SignIn.java</innerfile>
+    <innerfile refid="_validation_g_u_i_8java">ValidationGUI.java</innerfile>
+    <innerfile refid="_validation_mesage_8java">ValidationMesage.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/gui/"/>
+  </compounddef>
+</doxygen>

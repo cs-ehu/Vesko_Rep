@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacedomain" kind="namespace" language="Java">
+    <compoundname>domain</compoundname>
+    <innerclass refid="classdomain_1_1_client" prot="public">domain::Client</innerclass>
+    <innerclass refid="classdomain_1_1_feed_back" prot="public">domain::FeedBack</innerclass>
+    <innerclass refid="classdomain_1_1_integer_adapter" prot="public">domain::IntegerAdapter</innerclass>
+    <innerclass refid="classdomain_1_1_offer" prot="public">domain::Offer</innerclass>
+    <innerclass refid="classdomain_1_1_owner" prot="public">domain::Owner</innerclass>
+    <innerclass refid="classdomain_1_1_reserva" prot="public">domain::Reserva</innerclass>
+    <innerclass refid="classdomain_1_1_reserva_offer_rh_owner_container" prot="public">domain::ReservaOfferRhOwnerContainer</innerclass>
+    <innerclass refid="classdomain_1_1_rural_house" prot="public">domain::RuralHouse</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/domain/Client.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

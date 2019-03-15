@@ -1,0 +1,265 @@
+\hypertarget{classgui_1_1_display_ratings_g_u_i}{}\section{Referencia de la Clase gui.\+Display\+Ratings\+G\+UI}
+\label{classgui_1_1_display_ratings_g_u_i}\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+Diagrama de herencias de gui.\+Display\+Ratings\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_display_ratings_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a5cd86dd9480c8d64c1d2865a8c4e3af5}{Display\+Ratings\+G\+UI}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{content\+Pane}}
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4a6b949bc2f095f92c35e11a9b253605}{lbl\+Current}} = new J\+Label(\char`\"{}0\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_aa8eadb796ab524b992c52893d5aeaf15}{lbl\+Rate}} = new J\+Label(\char`\"{}\char`\"{})
+\item 
+J\+Text\+Pane \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}{text\+Pane}} = new J\+Text\+Pane()
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a46c665c4d59be0fc85e5600d949c0c38}{lbl\+Max}} = new J\+Label(\char`\"{}5\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_af22d979904bed66577197633479efb90}{lbl\+Status}} = new J\+Label(\char`\"{}\char`\"{})
+\item 
+int \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}} =0
+\item 
+int \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4c70177d900d213655a2687879b6b269}{max}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 19 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_a5cd86dd9480c8d64c1d2865a8c4e3af5}\label{classgui_1_1_display_ratings_g_u_i_a5cd86dd9480c8d64c1d2865a8c4e3af5}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!DisplayRatingsGUI@{DisplayRatingsGUI}}
+\index{DisplayRatingsGUI@{DisplayRatingsGUI}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{DisplayRatingsGUI()}{DisplayRatingsGUI()}}
+{\footnotesize\ttfamily gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+UI (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 35 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{35                                             \{}
+\DoxyCodeLine{36         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4c70177d900d213655a2687879b6b269}{max}}=rh.getListaFeedBack().size();}
+\DoxyCodeLine{37         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a46c665c4d59be0fc85e5600d949c0c38}{lblMax}}.setText(\textcolor{keyword}{new} StringBuilder().append(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4c70177d900d213655a2687879b6b269}{max}}).toString());}
+\DoxyCodeLine{38         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{39         setBounds(100, 100, 450, 339);}
+\DoxyCodeLine{40         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{41         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{42         setContentPane(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}});}
+\DoxyCodeLine{43         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{44         }
+\DoxyCodeLine{45         JLabel lblNewLabel = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Rate"});}
+\DoxyCodeLine{46         lblNewLabel.setBounds(12, 13, 79, 16);}
+\DoxyCodeLine{47         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(lblNewLabel);}
+\DoxyCodeLine{48         }
+\DoxyCodeLine{49         JLabel lblComent = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Comment"});}
+\DoxyCodeLine{50         lblComent.setBounds(12, 65, 56, 16);}
+\DoxyCodeLine{51         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(lblComent);}
+\DoxyCodeLine{52         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}{textPane}}.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{53         }
+\DoxyCodeLine{54         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}{textPane}}.setBounds(12, 92, 408, 86);}
+\DoxyCodeLine{55         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}{textPane}});}
+\DoxyCodeLine{56         }
+\DoxyCodeLine{57         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_aa8eadb796ab524b992c52893d5aeaf15}{lblRate}}.setBounds(50, 13, 56, 16);}
+\DoxyCodeLine{58         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_aa8eadb796ab524b992c52893d5aeaf15}{lblRate}});}
+\DoxyCodeLine{59         }
+\DoxyCodeLine{60         JButton btnPrev = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Previous"});}
+\DoxyCodeLine{61         btnPrev.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{62             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{63                 FeedBack fb = rh.getListaFeedBack().get(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}});}
+\DoxyCodeLine{64                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}--;}
+\DoxyCodeLine{65                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}{textPane}}.setText(fb.getFeedBack());}
+\DoxyCodeLine{66                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_aa8eadb796ab524b992c52893d5aeaf15}{lblRate}}.setText(\textcolor{keyword}{new} StringBuilder().append(fb.getGrade()).toString());}
+\DoxyCodeLine{67                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4a6b949bc2f095f92c35e11a9b253605}{lblCurrent}}.setText(\textcolor{keyword}{new} StringBuilder().append(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}).toString());}
+\DoxyCodeLine{68                 \textcolor{keywordflow}{if}(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}==0)\{}
+\DoxyCodeLine{69                     \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}=\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4c70177d900d213655a2687879b6b269}{max}};}
+\DoxyCodeLine{70                 \}}
+\DoxyCodeLine{71             \}}
+\DoxyCodeLine{72         \});}
+\DoxyCodeLine{73         btnPrev.setBounds(12, 215, 97, 32);}
+\DoxyCodeLine{74         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(btnPrev);}
+\DoxyCodeLine{75         }
+\DoxyCodeLine{76         JButton btnNext = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Next"});}
+\DoxyCodeLine{77         btnNext.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{78             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{79                 FeedBack fb = rh.getListaFeedBack().get(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}});}
+\DoxyCodeLine{80                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}++;}
+\DoxyCodeLine{81                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}{textPane}}.setText(fb.getFeedBack());}
+\DoxyCodeLine{82                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_aa8eadb796ab524b992c52893d5aeaf15}{lblRate}}.setText(\textcolor{keyword}{new} StringBuilder().append(fb.getGrade()).toString());}
+\DoxyCodeLine{83                 \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4a6b949bc2f095f92c35e11a9b253605}{lblCurrent}}.setText(\textcolor{keyword}{new} StringBuilder().append(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}).toString());}
+\DoxyCodeLine{84                 \textcolor{keywordflow}{if}(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}==\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4c70177d900d213655a2687879b6b269}{max}})\{}
+\DoxyCodeLine{85                     \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}{current}}=0;}
+\DoxyCodeLine{86                 \}}
+\DoxyCodeLine{87             \}}
+\DoxyCodeLine{88         \});}
+\DoxyCodeLine{89         btnNext.setBounds(121, 215, 97, 32);}
+\DoxyCodeLine{90         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(btnNext);}
+\DoxyCodeLine{91         }
+\DoxyCodeLine{92         JLabel label = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"/"});}
+\DoxyCodeLine{93         label.setBounds(364, 13, 56, 16);}
+\DoxyCodeLine{94         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(label);}
+\DoxyCodeLine{95         }
+\DoxyCodeLine{96         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4a6b949bc2f095f92c35e11a9b253605}{lblCurrent}}.setBounds(347, 13, 56, 16);}
+\DoxyCodeLine{97         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a4a6b949bc2f095f92c35e11a9b253605}{lblCurrent}});}
+\DoxyCodeLine{98         }
+\DoxyCodeLine{99         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a46c665c4d59be0fc85e5600d949c0c38}{lblMax}}.setBounds(376, 13, 56, 16);}
+\DoxyCodeLine{100         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_a46c665c4d59be0fc85e5600d949c0c38}{lblMax}});}
+\DoxyCodeLine{101         }
+\DoxyCodeLine{102         JButton button = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{103         button.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{104             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{105                 dispose();}
+\DoxyCodeLine{106                 QueryAvailabilityClientAdvacedGUI a = \textcolor{keyword}{new} QueryAvailabilityClientAdvacedGUI();}
+\DoxyCodeLine{107                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{108             \}}
+\DoxyCodeLine{109         \});}
+\DoxyCodeLine{110         button.setBounds(323, 215, 97, 32);}
+\DoxyCodeLine{111         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(button);}
+\DoxyCodeLine{112         }
+\DoxyCodeLine{113         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_af22d979904bed66577197633479efb90}{lblStatus}}.setBounds(12, 263, 408, 16);}
+\DoxyCodeLine{114         \mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_display_ratings_g_u_i_af22d979904bed66577197633479efb90}{lblStatus}});}
+\DoxyCodeLine{115     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Display\+Ratings\+G\+U\+I.\+content\+Pane, gui.\+Display\+Ratings\+G\+U\+I.\+current, domain.\+Feed\+Back.\+get\+Feed\+Back(), domain.\+Feed\+Back.\+get\+Grade(), domain.\+Rural\+House.\+get\+Lista\+Feed\+Back(), gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Current, gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Max, gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Rate, gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Status, gui.\+Display\+Ratings\+G\+U\+I.\+max y gui.\+Display\+Ratings\+G\+U\+I.\+text\+Pane.
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}\label{classgui_1_1_display_ratings_g_u_i_abb465b2b4cdb54123c4b0521838a6d26}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Display\+Ratings\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 21 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}\label{classgui_1_1_display_ratings_g_u_i_a008e78563513fe1de284f5012b822b6c}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!current@{current}}
+\index{current@{current}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{current}{current}}
+{\footnotesize\ttfamily int gui.\+Display\+Ratings\+G\+U\+I.\+current =0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 27 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_a4a6b949bc2f095f92c35e11a9b253605}\label{classgui_1_1_display_ratings_g_u_i_a4a6b949bc2f095f92c35e11a9b253605}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!lblCurrent@{lblCurrent}}
+\index{lblCurrent@{lblCurrent}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{lblCurrent}{lblCurrent}}
+{\footnotesize\ttfamily J\+Label gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Current = new J\+Label(\char`\"{}0\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 22 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_a46c665c4d59be0fc85e5600d949c0c38}\label{classgui_1_1_display_ratings_g_u_i_a46c665c4d59be0fc85e5600d949c0c38}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!lblMax@{lblMax}}
+\index{lblMax@{lblMax}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{lblMax}{lblMax}}
+{\footnotesize\ttfamily J\+Label gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Max = new J\+Label(\char`\"{}5\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 25 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_aa8eadb796ab524b992c52893d5aeaf15}\label{classgui_1_1_display_ratings_g_u_i_aa8eadb796ab524b992c52893d5aeaf15}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!lblRate@{lblRate}}
+\index{lblRate@{lblRate}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{lblRate}{lblRate}}
+{\footnotesize\ttfamily J\+Label gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Rate = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 23 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_af22d979904bed66577197633479efb90}\label{classgui_1_1_display_ratings_g_u_i_af22d979904bed66577197633479efb90}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!lblStatus@{lblStatus}}
+\index{lblStatus@{lblStatus}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{lblStatus}{lblStatus}}
+{\footnotesize\ttfamily J\+Label gui.\+Display\+Ratings\+G\+U\+I.\+lbl\+Status = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 26 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_a4c70177d900d213655a2687879b6b269}\label{classgui_1_1_display_ratings_g_u_i_a4c70177d900d213655a2687879b6b269}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!max@{max}}
+\index{max@{max}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{max}{max}}
+{\footnotesize\ttfamily int gui.\+Display\+Ratings\+G\+U\+I.\+max\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 28 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}\label{classgui_1_1_display_ratings_g_u_i_ab2eff35a0e0def7edb919b19c3479495}} 
+\index{gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}!textPane@{textPane}}
+\index{textPane@{textPane}!gui.DisplayRatingsGUI@{gui.DisplayRatingsGUI}}
+\subsubsection{\texorpdfstring{textPane}{textPane}}
+{\footnotesize\ttfamily J\+Text\+Pane gui.\+Display\+Ratings\+G\+U\+I.\+text\+Pane = new J\+Text\+Pane()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 24 del archivo Display\+Ratings\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Ratings\+G\+U\+I.\+Display\+Ratings\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_display_ratings_g_u_i_8java}{Display\+Ratings\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

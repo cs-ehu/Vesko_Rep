@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_query_availability_client_advaced_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::QueryAvailabilityClientAdvacedGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1aea7ff513ee078310ff443f0140fdd535" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long gui.QueryAvailabilityClientAdvacedGUI.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="35" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a608d95691de8bd9b5faeb17a483ea525" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.QueryAvailabilityClientAdvacedGUI.jLabel1</definition>
+        <argsstring></argsstring>
+        <name>jLabel1</name>
+        <initializer>= new JLabel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="37" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a8e949d79027650d99ede8ae5b7c59887" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.QueryAvailabilityClientAdvacedGUI.btnEnableFirstDay</definition>
+        <argsstring></argsstring>
+        <name>btnEnableFirstDay</name>
+        <initializer>= new JButton()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="38" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1adf1c51e6e9479b73b5f239eb1af49790" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.QueryAvailabilityClientAdvacedGUI.jTextField2</definition>
+        <argsstring></argsstring>
+        <name>jTextField2</name>
+        <initializer>= new JTextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="39" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a342c983ca90829bed5f290c759dc0ca7" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.QueryAvailabilityClientAdvacedGUI.jButton1</definition>
+        <argsstring></argsstring>
+        <name>jButton1</name>
+        <initializer>= new JButton()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="40" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ae584d0234d4ec79e92a01087c1f34d8f" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.QueryAvailabilityClientAdvacedGUI.jButton2</definition>
+        <argsstring></argsstring>
+        <name>jButton2</name>
+        <initializer>= new JButton()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="41" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a6ff456ec71a8288c4866eb308477fef9" prot="private" static="no" mutable="no">
+        <type>JCalendar</type>
+        <definition>JCalendar gui.QueryAvailabilityClientAdvacedGUI.jCalendar1</definition>
+        <argsstring></argsstring>
+        <name>jCalendar1</name>
+        <initializer>= new JCalendar()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="44" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a7612f7358345c96e8c1a338c54a30371" prot="private" static="no" mutable="no">
+        <type>JCalendar</type>
+        <definition>JCalendar gui.QueryAvailabilityClientAdvacedGUI.calendar</definition>
+        <argsstring></argsstring>
+        <name>calendar</name>
+        <initializer>= new JCalendar()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="45" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a777c1d1163abf2060b78efaaf6ec56a0" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="523" endline="532">gui.QueryAvailabilityClientAdvacedGUI.trim</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a5cfcf4c3e3a783a9089b369a7a80a77c" prot="private" static="no" mutable="no">
+        <type>Calendar</type>
+        <definition>Calendar gui.QueryAvailabilityClientAdvacedGUI.calendarMio</definition>
+        <argsstring></argsstring>
+        <name>calendarMio</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="47" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1aff9fb296abe1a0bfe76a825ad4e75a46" prot="private" static="no" mutable="no">
+        <type>JScrollPane</type>
+        <definition>JScrollPane gui.QueryAvailabilityClientAdvacedGUI.scrollPane</definition>
+        <argsstring></argsstring>
+        <name>scrollPane</name>
+        <initializer>= new JScrollPane()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="48" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1aadf6bbbf39771a8fe4131b2c04dbfb28" prot="private" static="no" mutable="no">
+        <type>JComboBox&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>JComboBox&lt;RuralHouse&gt; gui.QueryAvailabilityClientAdvacedGUI.comboBoxRH</definition>
+        <argsstring></argsstring>
+        <name>comboBoxRH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="49" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1aa33f7209ce08cdbcef6e7e0c83d36b2f" prot="private" static="no" mutable="no">
+        <type>JTable</type>
+        <definition>JTable gui.QueryAvailabilityClientAdvacedGUI.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="50" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a57b62ad5c71af3f84909da6fa6452e3b" prot="private" static="no" mutable="no">
+        <type>DefaultTableModel</type>
+        <definition>DefaultTableModel gui.QueryAvailabilityClientAdvacedGUI.tableModel</definition>
+        <argsstring></argsstring>
+        <name>tableModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="51" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a4de669b611d113ec3d2566c7f52a34ca" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel gui.QueryAvailabilityClientAdvacedGUI.labelNoOffers</definition>
+        <argsstring></argsstring>
+        <name>labelNoOffers</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="52" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1acb5af5a81afce89dce5df2d28c17f18c" prot="private" static="no" mutable="no">
+        <type>String []</type>
+        <definition>String [] gui.QueryAvailabilityClientAdvacedGUI.columnNames</definition>
+        <argsstring></argsstring>
+        <name>columnNames</name>
+        <initializer>= new String[] {
+		  ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;OfferN&quot;), 
+		  ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;RuralHouse&quot;), 
+		  ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;FirstDay&quot;), 
+		  ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;LastDay&quot;), 
+		  ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Price&quot;) 
+  	}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="53" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="53" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1acd2c162465aa814c6fad17b36d0e3d47" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel gui.QueryAvailabilityClientAdvacedGUI.lblCity</definition>
+        <argsstring></argsstring>
+        <name>lblCity</name>
+        <initializer>= new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.lblCity.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="60" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ae3c0a2ae49819aef2cf667f448686f6f" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton gui.QueryAvailabilityClientAdvacedGUI.btnSearch</definition>
+        <argsstring></argsstring>
+        <name>btnSearch</name>
+        <initializer>= new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.btnSearch.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="61" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a755a3dccd546ef1397ef0889652dd76a" prot="private" static="no" mutable="no">
+        <type>final JRadioButton</type>
+        <definition>final JRadioButton gui.QueryAvailabilityClientAdvacedGUI.rdbtnRestrictRuralHouse</definition>
+        <argsstring></argsstring>
+        <name>rdbtnRestrictRuralHouse</name>
+        <initializer>= new JRadioButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.rdbtnRestrictRuralHouse.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="62" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4d5a42f1a3c5b1f36444e1903f213f9" prot="private" static="no" mutable="no">
+        <type>final ButtonGroup</type>
+        <definition>final ButtonGroup gui.QueryAvailabilityClientAdvacedGUI.buttonGroup</definition>
+        <argsstring></argsstring>
+        <name>buttonGroup</name>
+        <initializer>= new ButtonGroup()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="63" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a5a0c4df2fff9b4342f7036d740f4a6f6" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.QueryAvailabilityClientAdvacedGUI.rdbtnCity</definition>
+        <argsstring></argsstring>
+        <name>rdbtnCity</name>
+        <initializer>= new JRadioButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.radioButton.arg0&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="64" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a1e9d6054bfe1c1b27a5a8f7fc6adcd81" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.QueryAvailabilityClientAdvacedGUI.rdbtnRuralHouse</definition>
+        <argsstring></argsstring>
+        <name>rdbtnRuralHouse</name>
+        <initializer>= new JRadioButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.rdbtnNewRadioButton.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="65" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="65" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ae8664f7594365748b41e753bed1d338d" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.QueryAvailabilityClientAdvacedGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="66" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ade24d71c6b249058663f4b199c29a317" prot="private" static="no" mutable="no">
+        <type><ref refid="classbusiness_logic_1_1_filter_search" kindref="compound">FilterSearch</ref></type>
+        <definition>FilterSearch gui.QueryAvailabilityClientAdvacedGUI.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <initializer>= new <ref refid="classbusiness_logic_1_1_filter_search" kindref="compound">FilterSearch</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="67" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a166fd224a2434ae9bfdda92583163825" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.QueryAvailabilityClientAdvacedGUI.txtNumberNights</definition>
+        <argsstring></argsstring>
+        <name>txtNumberNights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="68" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="68" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a1b0029e151744408698185103431652e" prot="private" static="no" mutable="no">
+        <type>JList&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>JList&lt;Offer&gt; gui.QueryAvailabilityClientAdvacedGUI.list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <initializer>= new JList&lt;<ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="69" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="69" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ad7253f53e611e8e9eb49d69eda34c3dc" prot="private" static="no" mutable="no">
+        <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>Vector&lt;RuralHouse&gt; gui.QueryAvailabilityClientAdvacedGUI.listRh</definition>
+        <argsstring></argsstring>
+        <name>listRh</name>
+        <initializer>= facade.getAllRuralHouses()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="70" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="70" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a4f921e1a8cb3a5ebf9c3093cc8344932" prot="private" static="no" mutable="no">
+        <type>DefaultListModel&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>DefaultListModel&lt;Offer&gt; gui.QueryAvailabilityClientAdvacedGUI.model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <initializer>= new DefaultListModel&lt;<ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="71" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="71" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a65f09bcf200b7c759a0aba2c6d111f50" prot="private" static="no" mutable="no">
+        <type>JComboBox</type>
+        <definition>JComboBox gui.QueryAvailabilityClientAdvacedGUI.comboBoxC</definition>
+        <argsstring></argsstring>
+        <name>comboBoxC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="72" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="72" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1af2ed92b442f0e62618b199a892755429" prot="private" static="no" mutable="no">
+        <type>DefaultComboBoxModel&lt; String &gt;</type>
+        <definition>DefaultComboBoxModel&lt;String&gt; gui.QueryAvailabilityClientAdvacedGUI.combomodelc</definition>
+        <argsstring></argsstring>
+        <name>combomodelc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="73" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="73" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1af9fbcdbb24f0e8c6bd10078eb1c90527" prot="private" static="no" mutable="no">
+        <type>DefaultComboBoxModel&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>DefaultComboBoxModel&lt;RuralHouse&gt; gui.QueryAvailabilityClientAdvacedGUI.combomodelrh</definition>
+        <argsstring></argsstring>
+        <name>combomodelrh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="74" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="74" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ac84a7f02ee36671fdcf19c79cef949ef" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton gui.QueryAvailabilityClientAdvacedGUI.btnEnableLastDay</definition>
+        <argsstring></argsstring>
+        <name>btnEnableLastDay</name>
+        <initializer>= new JButton()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="75" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="75" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a69be3a2280f523fa654142a373a5779c" prot="private" static="no" mutable="no">
+        <type>JTextPane</type>
+        <definition>JTextPane gui.QueryAvailabilityClientAdvacedGUI.textPane</definition>
+        <argsstring></argsstring>
+        <name>textPane</name>
+        <initializer>= new JTextPane()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="76" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="76" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1af3e49155b72ba70bc43512f634a4228f" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton gui.QueryAvailabilityClientAdvacedGUI.btnSeePhotos</definition>
+        <argsstring></argsstring>
+        <name>btnSeePhotos</name>
+        <initializer>= new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.btnNewButton.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="77" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="77" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a518ac2fa95f208a8c9cda2c90b3503d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gui.QueryAvailabilityClientAdvacedGUI.maxPrice</definition>
+        <argsstring></argsstring>
+        <name>maxPrice</name>
+        <initializer>=-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="78" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="78" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a8f3d9f21b9a743c3307e3d329943df48" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel gui.QueryAvailabilityClientAdvacedGUI.lblPriceSelected</definition>
+        <argsstring></argsstring>
+        <name>lblPriceSelected</name>
+        <initializer>= new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.label.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="79" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="79" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a6d8d598cf63230a1751701ca290a77d7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gui.QueryAvailabilityClientAdvacedGUI.current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <initializer>= <ref refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a518ac2fa95f208a8c9cda2c90b3503d4" kindref="member">maxPrice</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="80" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ad575bbdc8ef01ae247bcecb682cd281f" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.QueryAvailabilityClientAdvacedGUI.btnSeeAddres</definition>
+        <argsstring></argsstring>
+        <name>btnSeeAddres</name>
+        <initializer>= new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.btnSeeAddres.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="81" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a8d6433ba8b1b6feb92be582d0caf09ec" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton gui.QueryAvailabilityClientAdvacedGUI.btnFeedBack</definition>
+        <argsstring></argsstring>
+        <name>btnFeedBack</name>
+        <initializer>= new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;QueryAvailabilityClientAdvacedGUI.btnFeedBack.text&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="82" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="82" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a34bf220de5c36ffeed8d914786fcd68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.QueryAvailabilityClientAdvacedGUI.QueryAvailabilityClientAdvacedGUI</definition>
+        <argsstring>()</argsstring>
+        <name>QueryAvailabilityClientAdvacedGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="86" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="86" bodyend="105"/>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.QueryAvailabilityClientAdvacedGUI.jbInit</definition>
+        <argsstring>()</argsstring>
+        <name>jbInit</name>
+        <exceptions> throws Exception   </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="107" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="107" bodyend="515"/>
+        <references refid="classbusiness_logic_1_1_google_maps_web_1a1e7bc23fa58751707e425caba2eea1b4" compoundref="_google_maps_web_8java" startline="10" endline="17">businessLogic.GoogleMapsWeb.browseAddress</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8e949d79027650d99ede8ae5b7c59887" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="38">gui.QueryAvailabilityClientAdvacedGUI.btnEnableFirstDay</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ac84a7f02ee36671fdcf19c79cef949ef" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="75">gui.QueryAvailabilityClientAdvacedGUI.btnEnableLastDay</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8d6433ba8b1b6feb92be582d0caf09ec" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="82">gui.QueryAvailabilityClientAdvacedGUI.btnFeedBack</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae3c0a2ae49819aef2cf667f448686f6f" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="61">gui.QueryAvailabilityClientAdvacedGUI.btnSearch</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ad575bbdc8ef01ae247bcecb682cd281f" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="81">gui.QueryAvailabilityClientAdvacedGUI.btnSeeAddres</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af3e49155b72ba70bc43512f634a4228f" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="77">gui.QueryAvailabilityClientAdvacedGUI.btnSeePhotos</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4d5a42f1a3c5b1f36444e1903f213f9" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="63">gui.QueryAvailabilityClientAdvacedGUI.buttonGroup</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a7612f7358345c96e8c1a338c54a30371" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="45">gui.QueryAvailabilityClientAdvacedGUI.calendar</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a5cfcf4c3e3a783a9089b369a7a80a77c" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="47">gui.QueryAvailabilityClientAdvacedGUI.calendarMio</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1acb5af5a81afce89dce5df2d28c17f18c" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="53">gui.QueryAvailabilityClientAdvacedGUI.columnNames</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a65f09bcf200b7c759a0aba2c6d111f50" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="72">gui.QueryAvailabilityClientAdvacedGUI.comboBoxC</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aadf6bbbf39771a8fe4131b2c04dbfb28" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="49">gui.QueryAvailabilityClientAdvacedGUI.comboBoxRH</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af2ed92b442f0e62618b199a892755429" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="73">gui.QueryAvailabilityClientAdvacedGUI.combomodelc</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af9fbcdbb24f0e8c6bd10078eb1c90527" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="74">gui.QueryAvailabilityClientAdvacedGUI.combomodelrh</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6d8d598cf63230a1751701ca290a77d7" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="80">gui.QueryAvailabilityClientAdvacedGUI.current</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae8664f7594365748b41e753bed1d338d" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="66">gui.QueryAvailabilityClientAdvacedGUI.facade</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ade24d71c6b249058663f4b199c29a317" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="67">gui.QueryAvailabilityClientAdvacedGUI.filter</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1a6c76035ba9f40e420fab31f169a63b89" compoundref="_filter_search_8java" startline="63" endline="73">businessLogic.FilterSearch.filterByCity</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1a067f20824f8badab885b1711f8728c31" compoundref="_filter_search_8java" startline="74" endline="81">businessLogic.FilterSearch.filterOfferByCity</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1a4c7e6a5749fef2162a22047d4d22dded" compoundref="_filter_search_8java" startline="84" endline="93">businessLogic.FilterSearch.filterOfferByFirstDay</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1ae2b3e3d306b1d2d9645fb6f3b7634420" compoundref="_filter_search_8java" startline="94" endline="103">businessLogic.FilterSearch.filterOfferByLastDay</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" compoundref="_filter_search_8java" startline="114" endline="154">businessLogic.FilterSearch.filterOfferByNights</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1a9cf43f80893307e2a79eb1c67ea9463e" compoundref="_filter_search_8java" startline="43" endline="51">businessLogic.FilterSearch.filterOfferByPrice</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1acaa9148a7aab2c5185a6de377f0773cd" compoundref="_filter_search_8java" startline="53" endline="61">businessLogic.FilterSearch.filterOfferByRh</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1a2efcdd2daef7808679d722f5ab26ced0" compoundref="_filter_search_8java" startline="104" endline="112">businessLogic.FilterSearch.getAllCity</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a553cbfb37ea9f1621ba76ad8308a15da">businessLogic.ApplicationFacadeInterfaceWS.getAllRuralHouses</references>
+        <references refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" compoundref="_main_g_u_i_8java" startline="44" endline="46">gui.MainGUI.getBusinessLogic</references>
+        <references refid="classbusiness_logic_1_1_filter_search_1a560e1672c146a2afd16156a103f282ef" compoundref="_filter_search_8java" startline="16" endline="28">businessLogic.FilterSearch.getMaxPrice</references>
+        <references refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" compoundref="_offer_8java" startline="70" endline="72">domain.Offer.getRuralHouse</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a342c983ca90829bed5f290c759dc0ca7" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="40">gui.QueryAvailabilityClientAdvacedGUI.jButton1</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae584d0234d4ec79e92a01087c1f34d8f" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="41">gui.QueryAvailabilityClientAdvacedGUI.jButton2</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6c5498e5cb22fdb11570d0f794f465ab" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="517" endline="522">gui.QueryAvailabilityClientAdvacedGUI.jButton2_actionPerformed</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6ff456ec71a8288c4866eb308477fef9" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="44">gui.QueryAvailabilityClientAdvacedGUI.jCalendar1</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a608d95691de8bd9b5faeb17a483ea525" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="37">gui.QueryAvailabilityClientAdvacedGUI.jLabel1</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1adf1c51e6e9479b73b5f239eb1af49790" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="39">gui.QueryAvailabilityClientAdvacedGUI.jTextField2</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a4de669b611d113ec3d2566c7f52a34ca" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="52">gui.QueryAvailabilityClientAdvacedGUI.labelNoOffers</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1acd2c162465aa814c6fad17b36d0e3d47" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="60">gui.QueryAvailabilityClientAdvacedGUI.lblCity</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8f3d9f21b9a743c3307e3d329943df48" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="79">gui.QueryAvailabilityClientAdvacedGUI.lblPriceSelected</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a1b0029e151744408698185103431652e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="69">gui.QueryAvailabilityClientAdvacedGUI.list</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ad7253f53e611e8e9eb49d69eda34c3dc" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="70">gui.QueryAvailabilityClientAdvacedGUI.listRh</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a518ac2fa95f208a8c9cda2c90b3503d4" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="78">gui.QueryAvailabilityClientAdvacedGUI.maxPrice</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a4f921e1a8cb3a5ebf9c3093cc8344932" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="71">gui.QueryAvailabilityClientAdvacedGUI.model</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a5a0c4df2fff9b4342f7036d740f4a6f6" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="64">gui.QueryAvailabilityClientAdvacedGUI.rdbtnCity</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a755a3dccd546ef1397ef0889652dd76a" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="62">gui.QueryAvailabilityClientAdvacedGUI.rdbtnRestrictRuralHouse</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a1e9d6054bfe1c1b27a5a8f7fc6adcd81" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="65">gui.QueryAvailabilityClientAdvacedGUI.rdbtnRuralHouse</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aff9fb296abe1a0bfe76a825ad4e75a46" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="48">gui.QueryAvailabilityClientAdvacedGUI.scrollPane</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aa33f7209ce08cdbcef6e7e0c83d36b2f" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="50">gui.QueryAvailabilityClientAdvacedGUI.table</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a57b62ad5c71af3f84909da6fa6452e3b" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="51">gui.QueryAvailabilityClientAdvacedGUI.tableModel</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a69be3a2280f523fa654142a373a5779c" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="76">gui.QueryAvailabilityClientAdvacedGUI.textPane</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a777c1d1163abf2060b78efaaf6ec56a0" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="523" endline="532">gui.QueryAvailabilityClientAdvacedGUI.trim</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a166fd224a2434ae9bfdda92583163825" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="68">gui.QueryAvailabilityClientAdvacedGUI.txtNumberNights</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a34bf220de5c36ffeed8d914786fcd68e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="86" endline="105">gui.QueryAvailabilityClientAdvacedGUI.QueryAvailabilityClientAdvacedGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a6c5498e5cb22fdb11570d0f794f465ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.QueryAvailabilityClientAdvacedGUI.jButton2_actionPerformed</definition>
+        <argsstring>(ActionEvent e)</argsstring>
+        <name>jButton2_actionPerformed</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="517" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="517" bodyend="522"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_query_availability_client_advaced_g_u_i_1a777c1d1163abf2060b78efaaf6ec56a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date gui.QueryAvailabilityClientAdvacedGUI.trim</definition>
+        <argsstring>(Date date)</argsstring>
+        <name>trim</name>
+        <param>
+          <type>Date</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="523" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="523" bodyend="532"/>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a7612f7358345c96e8c1a338c54a30371" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="45">gui.QueryAvailabilityClientAdvacedGUI.calendar</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</definition>
+        <argsstring>(ActionEvent e)</argsstring>
+        <name>jButton1_actionPerformed</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="534" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="534" bodyend="580"/>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a7612f7358345c96e8c1a338c54a30371" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="45">gui.QueryAvailabilityClientAdvacedGUI.calendar</references>
+        <references refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" compoundref="_main_g_u_i_8java" startline="60">gui.MainGUI.client</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad807cbd5d877e941edc274563e5cefa3">businessLogic.ApplicationFacadeInterfaceWS.createReserva</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae8664f7594365748b41e753bed1d338d" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="66">gui.QueryAvailabilityClientAdvacedGUI.facade</references>
+        <references refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" compoundref="_owner_8java" startline="83" endline="85">domain.Owner.getEmail</references>
+        <references refid="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" compoundref="_client_8java" startline="98" endline="100">domain.Client.getEmail</references>
+        <references refid="classdomain_1_1_reserva_offer_rh_owner_container_1a910d36a8ee7f6bcdd7611ec046e91fce" compoundref="_reserva_offer_rh_owner_container_8java" startline="48" endline="50">domain.ReservaOfferRhOwnerContainer.getOwner</references>
+        <references refid="classdomain_1_1_reserva_offer_rh_owner_container_1aac4cc25208d928d5a68f72611c64fc3e" compoundref="_reserva_offer_rh_owner_container_8java" startline="24" endline="26">domain.ReservaOfferRhOwnerContainer.getReserva</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a2f7ed5fbb8427eee05fdaa0a0dc9348b">businessLogic.ApplicationFacadeInterfaceWS.getReservaOfferRhOwnerContainer</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" compoundref="_client_8java" startline="122" endline="124">domain.Client.getUserName</references>
+        <references refid="classdomain_1_1_client_1aac608259550fa807f8de3b1e08d30e77" compoundref="_client_8java" startline="57" endline="59">domain.Client.isSendBookByEmail</references>
+        <references refid="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" compoundref="_owner_8java" startline="51" endline="53">domain.Owner.isSendBookByTelegram</references>
+        <references refid="classdomain_1_1_client_1aa00c95082f42ebd0bcd252ffa7f5b89b" compoundref="_client_8java" startline="65" endline="67">domain.Client.isSendBookByTelegram</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a1b0029e151744408698185103431652e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="69">gui.QueryAvailabilityClientAdvacedGUI.list</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a4f921e1a8cb3a5ebf9c3093cc8344932" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="71">gui.QueryAvailabilityClientAdvacedGUI.model</references>
+        <references refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" compoundref="_send_booking_8java" startline="17" endline="38">businessLogic.SendBooking.sendBookToTelegram</references>
+        <references refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a69be3a2280f523fa654142a373a5779c" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="76">gui.QueryAvailabilityClientAdvacedGUI.textPane</references>
+        <references refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="232">
+        <label>gui.QueryAvailabilityClientAdvacedGUI</label>
+        <link refid="classgui_1_1_query_availability_client_advaced_g_u_i"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="241">
+        <label>Vector&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="248">
+        <label>JComboBox</label>
+      </node>
+      <node id="252">
+        <label>DefaultListModel&lt; domain.Offer &gt;</label>
+      </node>
+      <node id="243">
+        <label>ButtonGroup</label>
+      </node>
+      <node id="249">
+        <label>JLabel</label>
+      </node>
+      <node id="242">
+        <label>Calendar</label>
+      </node>
+      <node id="251">
+        <label>DefaultComboBoxModel&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="234">
+        <label>gui.QueryAvailabilityClientAdvacedGUI</label>
+        <link refid="classgui_1_1_query_availability_client_advaced_g_u_i"/>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+        <childnode refid="236" relation="usage">
+          <edgelabel>combomodelc</edgelabel>
+        </childnode>
+        <childnode refid="237" relation="usage">
+          <edgelabel>jButton1</edgelabel>
+          <edgelabel>btnEnableFirstDay</edgelabel>
+          <edgelabel>jButton2</edgelabel>
+          <edgelabel>btnFeedBack</edgelabel>
+          <edgelabel>btnSeeAddres</edgelabel>
+          <edgelabel>btnSeePhotos</edgelabel>
+          <edgelabel>btnEnableLastDay</edgelabel>
+          <edgelabel>btnSearch</edgelabel>
+        </childnode>
+        <childnode refid="238" relation="usage">
+          <edgelabel>comboBoxRH</edgelabel>
+        </childnode>
+        <childnode refid="239" relation="usage">
+          <edgelabel>jTextField2</edgelabel>
+          <edgelabel>txtNumberNights</edgelabel>
+        </childnode>
+        <childnode refid="240" relation="usage">
+          <edgelabel>calendar</edgelabel>
+          <edgelabel>jCalendar1</edgelabel>
+        </childnode>
+        <childnode refid="241" relation="usage">
+          <edgelabel>listRh</edgelabel>
+        </childnode>
+        <childnode refid="242" relation="usage">
+          <edgelabel>calendarMio</edgelabel>
+        </childnode>
+        <childnode refid="243" relation="usage">
+          <edgelabel>buttonGroup</edgelabel>
+        </childnode>
+        <childnode refid="244" relation="usage">
+          <edgelabel>filter</edgelabel>
+        </childnode>
+        <childnode refid="245" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="246" relation="usage">
+          <edgelabel>textPane</edgelabel>
+        </childnode>
+        <childnode refid="247" relation="usage">
+          <edgelabel>tableModel</edgelabel>
+        </childnode>
+        <childnode refid="248" relation="usage">
+          <edgelabel>comboBoxC</edgelabel>
+        </childnode>
+        <childnode refid="249" relation="usage">
+          <edgelabel>labelNoOffers</edgelabel>
+          <edgelabel>lblCity</edgelabel>
+          <edgelabel>lblPriceSelected</edgelabel>
+          <edgelabel>jLabel1</edgelabel>
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+        <childnode refid="251" relation="usage">
+          <edgelabel>combomodelrh</edgelabel>
+        </childnode>
+        <childnode refid="252" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="253" relation="usage">
+          <edgelabel>rdbtnCity</edgelabel>
+          <edgelabel>rdbtnRestrictRuralHouse</edgelabel>
+          <edgelabel>rdbtnRuralHouse</edgelabel>
+        </childnode>
+      </node>
+      <node id="235">
+        <label>JFrame</label>
+      </node>
+      <node id="246">
+        <label>JTextPane</label>
+      </node>
+      <node id="253">
+        <label>JRadioButton</label>
+      </node>
+      <node id="240">
+        <label>JCalendar</label>
+      </node>
+      <node id="236">
+        <label>DefaultComboBoxModel&lt; String &gt;</label>
+      </node>
+      <node id="250">
+        <label>JList&lt; domain.Offer &gt;</label>
+      </node>
+      <node id="239">
+        <label>JTextField</label>
+      </node>
+      <node id="238">
+        <label>JComboBox&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="244">
+        <label>businessLogic.FilterSearch</label>
+        <link refid="classbusiness_logic_1_1_filter_search"/>
+        <childnode refid="242" relation="usage">
+          <edgelabel>cal</edgelabel>
+        </childnode>
+      </node>
+      <node id="245">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="237">
+        <label>JButton</label>
+      </node>
+      <node id="247">
+        <label>DefaultTableModel</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/QueryAvailabilityClientAdvacedGUI.java" line="34" column="1" bodyfile="src/gui/QueryAvailabilityClientAdvacedGUI.java" bodystart="34" bodyend="581"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8e949d79027650d99ede8ae5b7c59887" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>btnEnableFirstDay</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ac84a7f02ee36671fdcf19c79cef949ef" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>btnEnableLastDay</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8d6433ba8b1b6feb92be582d0caf09ec" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>btnFeedBack</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae3c0a2ae49819aef2cf667f448686f6f" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>btnSearch</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ad575bbdc8ef01ae247bcecb682cd281f" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>btnSeeAddres</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af3e49155b72ba70bc43512f634a4228f" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>btnSeePhotos</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4d5a42f1a3c5b1f36444e1903f213f9" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>buttonGroup</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a7612f7358345c96e8c1a338c54a30371" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>calendar</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a5cfcf4c3e3a783a9089b369a7a80a77c" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>calendarMio</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1acb5af5a81afce89dce5df2d28c17f18c" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>columnNames</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a65f09bcf200b7c759a0aba2c6d111f50" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>comboBoxC</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aadf6bbbf39771a8fe4131b2c04dbfb28" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>comboBoxRH</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af2ed92b442f0e62618b199a892755429" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>combomodelc</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1af9fbcdbb24f0e8c6bd10078eb1c90527" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>combomodelrh</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6d8d598cf63230a1751701ca290a77d7" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>current</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae8664f7594365748b41e753bed1d338d" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ade24d71c6b249058663f4b199c29a317" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>filter</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jbInit</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a342c983ca90829bed5f290c759dc0ca7" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jButton1</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jButton1_actionPerformed</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae584d0234d4ec79e92a01087c1f34d8f" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jButton2</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6c5498e5cb22fdb11570d0f794f465ab" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jButton2_actionPerformed</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a6ff456ec71a8288c4866eb308477fef9" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jCalendar1</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a608d95691de8bd9b5faeb17a483ea525" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jLabel1</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1adf1c51e6e9479b73b5f239eb1af49790" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>jTextField2</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a4de669b611d113ec3d2566c7f52a34ca" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>labelNoOffers</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1acd2c162465aa814c6fad17b36d0e3d47" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>lblCity</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a8f3d9f21b9a743c3307e3d329943df48" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>lblPriceSelected</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a1b0029e151744408698185103431652e" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>list</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ad7253f53e611e8e9eb49d69eda34c3dc" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>listRh</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a518ac2fa95f208a8c9cda2c90b3503d4" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>maxPrice</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a4f921e1a8cb3a5ebf9c3093cc8344932" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>model</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a34bf220de5c36ffeed8d914786fcd68e" prot="public" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>QueryAvailabilityClientAdvacedGUI</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a5a0c4df2fff9b4342f7036d740f4a6f6" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>rdbtnCity</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a755a3dccd546ef1397ef0889652dd76a" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>rdbtnRestrictRuralHouse</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a1e9d6054bfe1c1b27a5a8f7fc6adcd81" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>rdbtnRuralHouse</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aff9fb296abe1a0bfe76a825ad4e75a46" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>scrollPane</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aea7ff513ee078310ff443f0140fdd535" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>serialVersionUID</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1aa33f7209ce08cdbcef6e7e0c83d36b2f" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>table</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a57b62ad5c71af3f84909da6fa6452e3b" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>tableModel</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a69be3a2280f523fa654142a373a5779c" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>textPane</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a777c1d1163abf2060b78efaaf6ec56a0" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>trim</name></member>
+      <member refid="classgui_1_1_query_availability_client_advaced_g_u_i_1a166fd224a2434ae9bfdda92583163825" prot="private" virt="non-virtual"><scope>gui::QueryAvailabilityClientAdvacedGUI</scope><name>txtNumberNights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

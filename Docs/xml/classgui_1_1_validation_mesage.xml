@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_validation_mesage" kind="class" language="Java" prot="public">
+    <compoundname>gui::ValidationMesage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_validation_mesage_1a6c81a55b78329c6ac3e6f31b11e5e966" prot="private" static="no" mutable="no">
+        <type>final JPanel</type>
+        <definition>final JPanel gui.ValidationMesage.contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <initializer>= new JPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationMesage.java" line="18" column="1" bodyfile="src/gui/ValidationMesage.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_mesage_1a647fd86859f2d4c283aaf6ce04075179" compoundref="_validation_mesage_8java" startline="36" endline="67">gui.ValidationMesage.ValidationMesage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgui_1_1_validation_mesage_1a376d97c710f1ae16d6c7b8ebdb68fc84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gui.ValidationMesage.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Launch the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationMesage.java" line="23" column="1" bodyfile="src/gui/ValidationMesage.java" bodystart="23" bodyend="31"/>
+        <references refid="classgui_1_1_validation_mesage_1a647fd86859f2d4c283aaf6ce04075179" compoundref="_validation_mesage_8java" startline="36" endline="67">gui.ValidationMesage.ValidationMesage</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_validation_mesage_1a647fd86859f2d4c283aaf6ce04075179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.ValidationMesage.ValidationMesage</definition>
+        <argsstring>()</argsstring>
+        <name>ValidationMesage</name>
+        <briefdescription>
+<para>Create the dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationMesage.java" line="36" column="1" bodyfile="src/gui/ValidationMesage.java" bodystart="36" bodyend="67"/>
+        <references refid="classgui_1_1_validation_mesage_1a6c81a55b78329c6ac3e6f31b11e5e966" compoundref="_validation_mesage_8java" startline="18">gui.ValidationMesage.contentPanel</references>
+        <referencedby refid="classgui_1_1_validation_mesage_1a376d97c710f1ae16d6c7b8ebdb68fc84" compoundref="_validation_mesage_8java" startline="23" endline="31">gui.ValidationMesage.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="355">
+        <label>gui.ValidationMesage</label>
+        <link refid="classgui_1_1_validation_mesage"/>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>JDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="359">
+        <label>JPanel</label>
+      </node>
+      <node id="357">
+        <label>gui.ValidationMesage</label>
+        <link refid="classgui_1_1_validation_mesage"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+        <childnode refid="359" relation="usage">
+          <edgelabel>contentPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="358">
+        <label>JDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/ValidationMesage.java" line="16" column="1" bodyfile="src/gui/ValidationMesage.java" bodystart="16" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_validation_mesage_1a6c81a55b78329c6ac3e6f31b11e5e966" prot="private" virt="non-virtual"><scope>gui::ValidationMesage</scope><name>contentPanel</name></member>
+      <member refid="classgui_1_1_validation_mesage_1a376d97c710f1ae16d6c7b8ebdb68fc84" prot="public" virt="non-virtual"><scope>gui::ValidationMesage</scope><name>main</name></member>
+      <member refid="classgui_1_1_validation_mesage_1a647fd86859f2d4c283aaf6ce04075179" prot="public" virt="non-virtual"><scope>gui::ValidationMesage</scope><name>ValidationMesage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

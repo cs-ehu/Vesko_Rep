@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacegui" kind="namespace" language="Java">
+    <compoundname>gui</compoundname>
+    <innerclass refid="classgui_1_1_application_launcher" prot="public">gui::ApplicationLauncher</innerclass>
+    <innerclass refid="classgui_1_1_client_advanced_search_help" prot="public">gui::ClientAdvancedSearchHelp</innerclass>
+    <innerclass refid="classgui_1_1_client_main_g_u_i" prot="public">gui::ClientMainGUI</innerclass>
+    <innerclass refid="classgui_1_1_delete_rural_house" prot="public">gui::DeleteRuralHouse</innerclass>
+    <innerclass refid="classgui_1_1_display_images_g_u_i" prot="public">gui::DisplayImagesGUI</innerclass>
+    <innerclass refid="classgui_1_1_display_ratings_g_u_i" prot="public">gui::DisplayRatingsGUI</innerclass>
+    <innerclass refid="classgui_1_1_feed_back_g_u_i" prot="public">gui::FeedBackGUI</innerclass>
+    <innerclass refid="classgui_1_1_help_telegram" prot="public">gui::HelpTelegram</innerclass>
+    <innerclass refid="classgui_1_1_login_g_u_i" prot="public">gui::LoginGUI</innerclass>
+    <innerclass refid="classgui_1_1_main_g_u_i" prot="public">gui::MainGUI</innerclass>
+    <innerclass refid="classgui_1_1_mis_reservas_g_u_i" prot="public">gui::MisReservasGUI</innerclass>
+    <innerclass refid="classgui_1_1_modify_account_g_u_i" prot="public">gui::ModifyAccountGUI</innerclass>
+    <innerclass refid="classgui_1_1_modify_house_g_u_i" prot="public">gui::ModifyHouseGUI</innerclass>
+    <innerclass refid="classgui_1_1_owner_g_u_i" prot="public">gui::OwnerGUI</innerclass>
+    <innerclass refid="classgui_1_1_query_availability_client_advaced_g_u_i" prot="public">gui::QueryAvailabilityClientAdvacedGUI</innerclass>
+    <innerclass refid="classgui_1_1_query_availability_g_u_i" prot="public">gui::QueryAvailabilityGUI</innerclass>
+    <innerclass refid="classgui_1_1_set_availability_g_u_i" prot="public">gui::SetAvailabilityGUI</innerclass>
+    <innerclass refid="classgui_1_1_set_house" prot="public">gui::SetHouse</innerclass>
+    <innerclass refid="classgui_1_1_sign_in" prot="public">gui::SignIn</innerclass>
+    <innerclass refid="classgui_1_1_validation_g_u_i" prot="public">gui::ValidationGUI</innerclass>
+    <innerclass refid="classgui_1_1_validation_mesage" prot="public">gui::ValidationMesage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/gui/ApplicationLauncher.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

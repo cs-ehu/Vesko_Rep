@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_generate_validation_code" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::GenerateValidationCode</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int businessLogic.GenerateValidationCode.validationNumber</definition>
+        <argsstring></argsstring>
+        <name>validationNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/GenerateValidationCode.java" line="7" column="1" bodyfile="src/businessLogic/GenerateValidationCode.java" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" compoundref="_generate_validation_code_8java" startline="11" endline="14">businessLogic.GenerateValidationCode.GenerateValidationCode</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" compoundref="_generate_validation_code_8java" startline="16" endline="18">businessLogic.GenerateValidationCode.getValidationNumber</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int businessLogic.GenerateValidationCode.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/GenerateValidationCode.java" line="8" column="1" bodyfile="src/businessLogic/GenerateValidationCode.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" compoundref="_generate_validation_code_8java" startline="11" endline="14">businessLogic.GenerateValidationCode.GenerateValidationCode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_generate_validation_code_1a1b44dd596967e6ea88216fb4f8474dd0" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int businessLogic.GenerateValidationCode.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <initializer>= 9999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/GenerateValidationCode.java" line="9" column="1" bodyfile="src/businessLogic/GenerateValidationCode.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" compoundref="_generate_validation_code_8java" startline="11" endline="14">businessLogic.GenerateValidationCode.GenerateValidationCode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>businessLogic.GenerateValidationCode.GenerateValidationCode</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateValidationCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/GenerateValidationCode.java" line="11" column="1" bodyfile="src/businessLogic/GenerateValidationCode.java" bodystart="11" bodyend="14"/>
+        <references refid="classbusiness_logic_1_1_generate_validation_code_1a1b44dd596967e6ea88216fb4f8474dd0" compoundref="_generate_validation_code_8java" startline="9">businessLogic.GenerateValidationCode.max</references>
+        <references refid="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" compoundref="_generate_validation_code_8java" startline="8">businessLogic.GenerateValidationCode.min</references>
+        <references refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" compoundref="_generate_validation_code_8java" startline="7">businessLogic.GenerateValidationCode.validationNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int businessLogic.GenerateValidationCode.getValidationNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getValidationNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/GenerateValidationCode.java" line="16" column="1" bodyfile="src/businessLogic/GenerateValidationCode.java" bodystart="16" bodyend="18"/>
+        <references refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" compoundref="_generate_validation_code_8java" startline="7">businessLogic.GenerateValidationCode.validationNumber</references>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/businessLogic/GenerateValidationCode.java" line="5" column="1" bodyfile="src/businessLogic/GenerateValidationCode.java" bodystart="5" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" prot="public" virt="non-virtual"><scope>businessLogic::GenerateValidationCode</scope><name>GenerateValidationCode</name></member>
+      <member refid="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" prot="public" virt="non-virtual"><scope>businessLogic::GenerateValidationCode</scope><name>getValidationNumber</name></member>
+      <member refid="classbusiness_logic_1_1_generate_validation_code_1a1b44dd596967e6ea88216fb4f8474dd0" prot="private" virt="non-virtual"><scope>businessLogic::GenerateValidationCode</scope><name>max</name></member>
+      <member refid="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" prot="private" virt="non-virtual"><scope>businessLogic::GenerateValidationCode</scope><name>min</name></member>
+      <member refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" prot="private" virt="non-virtual"><scope>businessLogic::GenerateValidationCode</scope><name>validationNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

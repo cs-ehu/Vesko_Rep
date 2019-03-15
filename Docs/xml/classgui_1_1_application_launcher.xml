@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_application_launcher" kind="class" language="Java" prot="public">
+    <compoundname>gui::ApplicationLauncher</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gui.ApplicationLauncher.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ApplicationLauncher.java" line="22" column="1" bodyfile="src/gui/ApplicationLauncher.java" bodystart="22" bodyend="86"/>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ad6866b6aee38c74c082135f5dcd743ad" compoundref="_config_x_m_l_8java" startline="155" endline="157">configuration.ConfigXML.getBusinessLogicName</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a6a79b28dd9e0c1c755fef0e7435ec03a" compoundref="_config_x_m_l_8java" startline="147" endline="149">configuration.ConfigXML.getBusinessLogicNode</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a7e8cb431bc1e899176ae2891c007f7f3" compoundref="_config_x_m_l_8java" startline="151" endline="153">configuration.ConfigXML.getBusinessLogicPort</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" compoundref="_config_x_m_l_8java" startline="143" endline="145">configuration.ConfigXML.getInstance</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a6b861b18eba822ef3a5130a1c3f410b2" compoundref="_config_x_m_l_8java" startline="41" endline="43">configuration.ConfigXML.getLocale</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a3055cd4f61151ef6d1c48a5ebf86b33f" compoundref="_config_x_m_l_8java" startline="61" endline="63">configuration.ConfigXML.isBusinessLogicLocal</references>
+        <references refid="classgui_1_1_main_g_u_i_1a0fc72962f06022026150f3d01638f929" compoundref="_main_g_u_i_8java" startline="51">gui.MainGUI.lblNewLabel</references>
+        <references refid="classgui_1_1_main_g_u_i_1a306310290095fdaa31a668470fd6380d" compoundref="_main_g_u_i_8java" startline="48" endline="50">gui.MainGUI.setBussinessLogic</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/gui/ApplicationLauncher.java" line="18" column="1" bodyfile="src/gui/ApplicationLauncher.java" bodystart="18" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" prot="public" virt="non-virtual"><scope>gui::ApplicationLauncher</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

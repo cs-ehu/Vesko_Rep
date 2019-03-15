@@ -1,0 +1,147 @@
+\hypertarget{classgui_1_1_validation_mesage}{}\section{Referencia de la Clase gui.\+Validation\+Mesage}
+\label{classgui_1_1_validation_mesage}\index{gui.ValidationMesage@{gui.ValidationMesage}}
+Diagrama de herencias de gui.\+Validation\+Mesage\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_validation_mesage}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_validation_mesage_a647fd86859f2d4c283aaf6ce04075179}{Validation\+Mesage}} ()
+\begin{DoxyCompactList}\small\item\em Create the dialog. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classgui_1_1_validation_mesage_a376d97c710f1ae16d6c7b8ebdb68fc84}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\begin{DoxyCompactList}\small\item\em Launch the application. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+final J\+Panel \mbox{\hyperlink{classgui_1_1_validation_mesage_a6c81a55b78329c6ac3e6f31b11e5e966}{content\+Panel}} = new J\+Panel()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 16 del archivo Validation\+Mesage.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_validation_mesage_a647fd86859f2d4c283aaf6ce04075179}\label{classgui_1_1_validation_mesage_a647fd86859f2d4c283aaf6ce04075179}} 
+\index{gui.ValidationMesage@{gui.ValidationMesage}!ValidationMesage@{ValidationMesage}}
+\index{ValidationMesage@{ValidationMesage}!gui.ValidationMesage@{gui.ValidationMesage}}
+\subsubsection{\texorpdfstring{ValidationMesage()}{ValidationMesage()}}
+{\footnotesize\ttfamily gui.\+Validation\+Mesage.\+Validation\+Mesage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the dialog. 
+
+
+
+Definición en la línea 36 del archivo Validation\+Mesage.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{36                               \{}
+\DoxyCodeLine{37         setBounds(100, 100, 450, 149);}
+\DoxyCodeLine{38         getContentPane().setLayout(\textcolor{keyword}{new} BorderLayout());}
+\DoxyCodeLine{39         \mbox{\hyperlink{classgui_1_1_validation_mesage_a6c81a55b78329c6ac3e6f31b11e5e966}{contentPanel}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{40         getContentPane().add(\mbox{\hyperlink{classgui_1_1_validation_mesage_a6c81a55b78329c6ac3e6f31b11e5e966}{contentPanel}}, BorderLayout.CENTER);}
+\DoxyCodeLine{41         \mbox{\hyperlink{classgui_1_1_validation_mesage_a6c81a55b78329c6ac3e6f31b11e5e966}{contentPanel}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{42         \{}
+\DoxyCodeLine{43             JLabel lblValidationSuccesfully = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Validation succesfully"});}
+\DoxyCodeLine{44             lblValidationSuccesfully.setForeground(\textcolor{keyword}{new} Color(0, 128, 0));}
+\DoxyCodeLine{45             lblValidationSuccesfully.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 15));}
+\DoxyCodeLine{46             lblValidationSuccesfully.setBounds(122, 26, 205, 16);}
+\DoxyCodeLine{47             \mbox{\hyperlink{classgui_1_1_validation_mesage_a6c81a55b78329c6ac3e6f31b11e5e966}{contentPanel}}.add(lblValidationSuccesfully);}
+\DoxyCodeLine{48         \}}
+\DoxyCodeLine{49         \{}
+\DoxyCodeLine{50             JPanel buttonPane = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{51             buttonPane.setLayout(\textcolor{keyword}{new} FlowLayout(FlowLayout.RIGHT));}
+\DoxyCodeLine{52             getContentPane().add(buttonPane, BorderLayout.SOUTH);}
+\DoxyCodeLine{53             \{}
+\DoxyCodeLine{54                 JButton okButton = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"OK"});}
+\DoxyCodeLine{55                 okButton.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{56                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{57                         dispose();}
+\DoxyCodeLine{58                         LoginGUI a = \textcolor{keyword}{new} LoginGUI();}
+\DoxyCodeLine{59                         a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{60                     \}}
+\DoxyCodeLine{61                 \});}
+\DoxyCodeLine{62                 okButton.setActionCommand(\textcolor{stringliteral}{"OK"});}
+\DoxyCodeLine{63                 buttonPane.add(okButton);}
+\DoxyCodeLine{64                 getRootPane().setDefaultButton(okButton);}
+\DoxyCodeLine{65             \}}
+\DoxyCodeLine{66         \}}
+\DoxyCodeLine{67     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Validation\+Mesage.\+content\+Panel.
+
+
+
+Referenciado por gui.\+Validation\+Mesage.\+main().
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_validation_mesage_a376d97c710f1ae16d6c7b8ebdb68fc84}\label{classgui_1_1_validation_mesage_a376d97c710f1ae16d6c7b8ebdb68fc84}} 
+\index{gui.ValidationMesage@{gui.ValidationMesage}!main@{main}}
+\index{main@{main}!gui.ValidationMesage@{gui.ValidationMesage}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void gui.\+Validation\+Mesage.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Launch the application. 
+
+
+
+Definición en la línea 23 del archivo Validation\+Mesage.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23                                            \{}
+\DoxyCodeLine{24         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{25             \mbox{\hyperlink{classgui_1_1_validation_mesage_a647fd86859f2d4c283aaf6ce04075179}{ValidationMesage}} dialog = \textcolor{keyword}{new} \mbox{\hyperlink{classgui_1_1_validation_mesage_a647fd86859f2d4c283aaf6ce04075179}{ValidationMesage}}();}
+\DoxyCodeLine{26             dialog.setDefaultCloseOperation(JDialog.DISPOSE\_ON\_CLOSE);}
+\DoxyCodeLine{27             dialog.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{28         \} \textcolor{keywordflow}{catch} (Exception e) \{}
+\DoxyCodeLine{29             e.printStackTrace();}
+\DoxyCodeLine{30         \}}
+\DoxyCodeLine{31     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Validation\+Mesage.\+Validation\+Mesage().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_validation_mesage_a6c81a55b78329c6ac3e6f31b11e5e966}\label{classgui_1_1_validation_mesage_a6c81a55b78329c6ac3e6f31b11e5e966}} 
+\index{gui.ValidationMesage@{gui.ValidationMesage}!contentPanel@{contentPanel}}
+\index{contentPanel@{contentPanel}!gui.ValidationMesage@{gui.ValidationMesage}}
+\subsubsection{\texorpdfstring{contentPanel}{contentPanel}}
+{\footnotesize\ttfamily final J\+Panel gui.\+Validation\+Mesage.\+content\+Panel = new J\+Panel()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 18 del archivo Validation\+Mesage.\+java.
+
+
+
+Referenciado por gui.\+Validation\+Mesage.\+Validation\+Mesage().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_validation_mesage_8java}{Validation\+Mesage.\+java}}\end{DoxyCompactItemize}

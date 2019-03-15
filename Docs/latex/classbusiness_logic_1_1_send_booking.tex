@@ -1,0 +1,101 @@
+\hypertarget{classbusiness_logic_1_1_send_booking}{}\section{Referencia de la Clase business\+Logic.\+Send\+Booking}
+\label{classbusiness_logic_1_1_send_booking}\index{businessLogic.SendBooking@{businessLogic.SendBooking}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbusiness_logic_1_1_send_booking_af72d9f080959b6b8922117248935620d}{Send\+Booking}} ()
+\item 
+void \mbox{\hyperlink{classbusiness_logic_1_1_send_booking_a9ddf5d7d1e27b3720a3bfefe4a377bbb}{send\+Book\+To\+Telegram}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} c, \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o, \mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r, String type)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 8 del archivo Send\+Booking.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_booking_af72d9f080959b6b8922117248935620d}\label{classbusiness_logic_1_1_send_booking_af72d9f080959b6b8922117248935620d}} 
+\index{businessLogic.SendBooking@{businessLogic.SendBooking}!SendBooking@{SendBooking}}
+\index{SendBooking@{SendBooking}!businessLogic.SendBooking@{businessLogic.SendBooking}}
+\subsubsection{\texorpdfstring{SendBooking()}{SendBooking()}}
+{\footnotesize\ttfamily business\+Logic.\+Send\+Booking.\+Send\+Booking (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 10 del archivo Send\+Booking.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10                          \{}
+\DoxyCodeLine{11         \textcolor{comment}{// TODO Auto-generated constructor stub}}
+\DoxyCodeLine{12     \}}
+
+\end{DoxyCode}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_booking_a9ddf5d7d1e27b3720a3bfefe4a377bbb}\label{classbusiness_logic_1_1_send_booking_a9ddf5d7d1e27b3720a3bfefe4a377bbb}} 
+\index{businessLogic.SendBooking@{businessLogic.SendBooking}!sendBookToTelegram@{sendBookToTelegram}}
+\index{sendBookToTelegram@{sendBookToTelegram}!businessLogic.SendBooking@{businessLogic.SendBooking}}
+\subsubsection{\texorpdfstring{sendBookToTelegram()}{sendBookToTelegram()}}
+{\footnotesize\ttfamily void business\+Logic.\+Send\+Booking.\+send\+Book\+To\+Telegram (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c,  }\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o,  }\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r,  }\item[{String}]{type }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 17 del archivo Send\+Booking.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{17                                                                             \{}
+\DoxyCodeLine{18         ApplicationFacadeInterfaceWS facade = \textcolor{keyword}{new} FacadeImplementationWS();}
+\DoxyCodeLine{19         Reserva reserva = facade.getReservaByNum(r.getNumResrva());}
+\DoxyCodeLine{20     \textcolor{keywordflow}{if}(type.equals(\textcolor{stringliteral}{"Client"}))\{}
+\DoxyCodeLine{21         Long \textcolor{keywordtype}{id} = Long.parseLong(c.getTelegramId());}
+\DoxyCodeLine{22         Comand cmd  = \textcolor{keyword}{new} Comand();}
+\DoxyCodeLine{23         StringBuilder sb = \textcolor{keyword}{new} StringBuilder();}
+\DoxyCodeLine{24         sb.append(\textcolor{stringliteral}{"Acabas de realizar la siguiente reserva : \(\backslash\)n"});}
+\DoxyCodeLine{25         sb.append(reserva.toString2()+\textcolor{stringliteral}{"\(\backslash\)n"});}
+\DoxyCodeLine{26         sb.append(\textcolor{stringliteral}{"Gracias por utilizar nuestra aplicaci�n
+        cmd.sendMessageFromTelegramToClient(id, sb.toString());
+    \}
+    else if(type.equals("Owner"))\{
+        Long id = Long.parseLong(o.getTelegramId());
+        Comand cmd  = new Comand();
+        StringBuilder sb = new StringBuilder();
+        sb.append("Acaban de realizar la siguiente reserva de tu casa : \(\backslash\)n");
+        sb.append(reserva.toString2()+"\(\backslash\)n");
+        cmd.sendMessageFromTelegramToClient(id, sb.toString());
+    \}
+        
+    \}
+"});}
+\DoxyCodeLine{27         cmd.sendMessageFromTelegramToClient(\textcolor{keywordtype}{id}, sb.toString());}
+\DoxyCodeLine{28     \}}
+\DoxyCodeLine{29     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(type.equals(\textcolor{stringliteral}{"Owner"}))\{}
+\DoxyCodeLine{30         Long \textcolor{keywordtype}{id} = Long.parseLong(o.getTelegramId());}
+\DoxyCodeLine{31         Comand cmd  = \textcolor{keyword}{new} Comand();}
+\DoxyCodeLine{32         StringBuilder sb = \textcolor{keyword}{new} StringBuilder();}
+\DoxyCodeLine{33         sb.append(\textcolor{stringliteral}{"Acaban de realizar la siguiente reserva de tu casa : \(\backslash\)n"});}
+\DoxyCodeLine{34         sb.append(reserva.toString2()+\textcolor{stringliteral}{"\(\backslash\)n"});}
+\DoxyCodeLine{35         cmd.sendMessageFromTelegramToClient(\textcolor{keywordtype}{id}, sb.toString());}
+\DoxyCodeLine{36     \}}
+\DoxyCodeLine{37         }
+\DoxyCodeLine{38     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Reserva.\+get\+Num\+Resrva(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Reserva\+By\+Num(), domain.\+Owner.\+get\+Telegram\+Id(), domain.\+Client.\+get\+Telegram\+Id(), bot.\+Comand.\+send\+Message\+From\+Telegram\+To\+Client() y domain.\+Reserva.\+to\+String2().
+
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+j\+Button1\+\_\+action\+Performed().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/business\+Logic/\mbox{\hyperlink{_send_booking_8java}{Send\+Booking.\+java}}\end{DoxyCompactItemize}

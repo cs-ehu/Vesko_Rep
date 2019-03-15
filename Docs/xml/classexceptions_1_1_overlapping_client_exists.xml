@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classexceptions_1_1_overlapping_client_exists" kind="class" language="Java" prot="public">
+    <compoundname>exceptions::OverlappingClientExists</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classexceptions_1_1_overlapping_client_exists_1a9e613393e0b8e7a6dfe0ac3ad3b8f923" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long exceptions.OverlappingClientExists.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingClientExists.java" line="4" column="1" bodyfile="src/exceptions/OverlappingClientExists.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexceptions_1_1_overlapping_client_exists_1a36cf31e2cc8a2122b2fecff9c4ef4c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.OverlappingClientExists.OverlappingClientExists</definition>
+        <argsstring>()</argsstring>
+        <name>OverlappingClientExists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingClientExists.java" line="6" column="1" bodyfile="src/exceptions/OverlappingClientExists.java" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classexceptions_1_1_overlapping_client_exists_1a5ca036cfe73f50425246eac94a7b06f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.OverlappingClientExists.OverlappingClientExists</definition>
+        <argsstring>(String s)</argsstring>
+        <name>OverlappingClientExists</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingClientExists.java" line="10" column="1" bodyfile="src/exceptions/OverlappingClientExists.java" bodystart="10" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="210">
+        <label>Exception</label>
+      </node>
+      <node id="209">
+        <label>exceptions.OverlappingClientExists</label>
+        <link refid="classexceptions_1_1_overlapping_client_exists"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="212">
+        <label>Exception</label>
+      </node>
+      <node id="211">
+        <label>exceptions.OverlappingClientExists</label>
+        <link refid="classexceptions_1_1_overlapping_client_exists"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/exceptions/OverlappingClientExists.java" line="3" column="1" bodyfile="src/exceptions/OverlappingClientExists.java" bodystart="3" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classexceptions_1_1_overlapping_client_exists_1a36cf31e2cc8a2122b2fecff9c4ef4c2a" prot="public" virt="non-virtual"><scope>exceptions::OverlappingClientExists</scope><name>OverlappingClientExists</name></member>
+      <member refid="classexceptions_1_1_overlapping_client_exists_1a5ca036cfe73f50425246eac94a7b06f0" prot="public" virt="non-virtual"><scope>exceptions::OverlappingClientExists</scope><name>OverlappingClientExists</name></member>
+      <member refid="classexceptions_1_1_overlapping_client_exists_1a9e613393e0b8e7a6dfe0ac3ad3b8f923" prot="private" virt="non-virtual"><scope>exceptions::OverlappingClientExists</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

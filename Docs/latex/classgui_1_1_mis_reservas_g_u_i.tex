@@ -1,0 +1,289 @@
+\hypertarget{classgui_1_1_mis_reservas_g_u_i}{}\section{Referencia de la Clase gui.\+Mis\+Reservas\+G\+UI}
+\label{classgui_1_1_mis_reservas_g_u_i}\index{gui.MisReservasGUI@{gui.MisReservasGUI}}
+Diagrama de herencias de gui.\+Mis\+Reservas\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_mis_reservas_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a1ebc31bd1d49fb416e11887848fe61b3}{Mis\+Reservas\+G\+UI}} ()
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{content\+Pane}}
+\item 
+J\+List \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}} = new J\+List()
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a29c70d8f7ee208b3f955023be16bbfec}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\item 
+Default\+List\+Model$<$ \mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}} $>$ \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}{model}} = new Default\+List\+Model$<$\mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}}$>$()
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{text\+Field}}
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}{btn\+Remove\+Offer}} = new J\+Button(\char`\"{}Remove Booking\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a2333042f2b3811fec9fd968b8fd033ba}{btn\+New\+Button}} = new J\+Button(\char`\"{}See Photo\char`\"{})
+\item 
+final J\+Button \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a3a80cd8bcb066f875ff9e71e462924b8}{btn\+Feed\+Back}} = new J\+Button(\char`\"{}Rate Rural House\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 33 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a1ebc31bd1d49fb416e11887848fe61b3}\label{classgui_1_1_mis_reservas_g_u_i_a1ebc31bd1d49fb416e11887848fe61b3}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!MisReservasGUI@{MisReservasGUI}}
+\index{MisReservasGUI@{MisReservasGUI}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{MisReservasGUI()}{MisReservasGUI()}}
+{\footnotesize\ttfamily gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 48 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48                             \{}
+\DoxyCodeLine{49         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{50         setBounds(100, 100, 649, 437);}
+\DoxyCodeLine{51         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{52         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{53         setContentPane(\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}});}
+\DoxyCodeLine{54         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{55         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{56         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setForeground(\textcolor{keyword}{new} Color(0, 0, 0));}
+\DoxyCodeLine{57         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{58         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setBounds(12, 355, 360, 22);}
+\DoxyCodeLine{59         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}});}
+\DoxyCodeLine{60         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setColumns(10);      }
+\DoxyCodeLine{61         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}}.setBackground(SystemColor.controlHighlight);}
+\DoxyCodeLine{62         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}}.setBounds(12, 46, 607, 240);}
+\DoxyCodeLine{63         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}});}
+\DoxyCodeLine{64         MainGUI a = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{65         Client c = \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a29c70d8f7ee208b3f955023be16bbfec}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0d69ed91aa71325dedc777f059999e93}{getClientByUsername}}(a.client.getUserName());}
+\DoxyCodeLine{66         \textcolor{keywordflow}{for} (ReservaOfferRhOwnerContainer rohoc : \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a29c70d8f7ee208b3f955023be16bbfec}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ab07e66746b2cfe14622bdd16c295ce93}{getListReservaOfferRhOwnerContainer}}(c))\{}
+\DoxyCodeLine{67             \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}{model}}.addElement(rohoc);}
+\DoxyCodeLine{68         \}}
+\DoxyCodeLine{69         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}{model}}.isEmpty())\{}
+\DoxyCodeLine{70             \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setForeground(\textcolor{keyword}{new} Color(0, 0, 0));}
+\DoxyCodeLine{71             \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setText(\textcolor{stringliteral}{"There are no booked offers"});}
+\DoxyCodeLine{72             \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}{btnRemoveOffer}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{73             \}}
+\DoxyCodeLine{74         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}}.setModel(\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}{model}});}
+\DoxyCodeLine{75         }
+\DoxyCodeLine{76         }
+\DoxyCodeLine{77         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}{btnRemoveOffer}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{78             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{79                 ReservaOfferRhOwnerContainer r = (ReservaOfferRhOwnerContainer) \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}}.getSelectedValue();}
+\DoxyCodeLine{80                 \textcolor{keywordflow}{if} (r==\textcolor{keyword}{null})\{}
+\DoxyCodeLine{81                     \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setForeground(\textcolor{keyword}{new} Color(220, 20, 60));}
+\DoxyCodeLine{82                     \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setText(\textcolor{stringliteral}{"No booking selected"});}
+\DoxyCodeLine{83                 \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{84                 \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}{model}}.removeElement(r);}
+\DoxyCodeLine{85                 \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a29c70d8f7ee208b3f955023be16bbfec}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0c4ed4fa98351e6aaba6f9769e561abf}{removeReserva}}(r.getReserva());}
+\DoxyCodeLine{86                 \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setForeground(\textcolor{keyword}{new} Color(34, 139, 34));}
+\DoxyCodeLine{87                 \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setText(\textcolor{stringliteral}{"Removed Successfully"});}
+\DoxyCodeLine{88                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}{model}}.isEmpty())\{}
+\DoxyCodeLine{89                 \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setForeground(\textcolor{keyword}{new} Color(0, 0, 0));}
+\DoxyCodeLine{90                 \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setText(\textcolor{stringliteral}{"There are no booked offers"});}
+\DoxyCodeLine{91                 \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}{btnRemoveOffer}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{92                 \}}
+\DoxyCodeLine{93             \}}
+\DoxyCodeLine{94                 \}}
+\DoxyCodeLine{95             }
+\DoxyCodeLine{96         \});}
+\DoxyCodeLine{97         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}{btnRemoveOffer}}.setBounds(12, 299, 141, 34);}
+\DoxyCodeLine{98         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}{btnRemoveOffer}});}
+\DoxyCodeLine{99         }
+\DoxyCodeLine{100         JButton btnBack = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{101         btnBack.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{102             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{103                 dispose();}
+\DoxyCodeLine{104                 ClientMainGUI a = \textcolor{keyword}{new} ClientMainGUI();}
+\DoxyCodeLine{105                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{106             \}}
+\DoxyCodeLine{107         \});}
+\DoxyCodeLine{108         btnBack.setBounds(384, 346, 235, 34);}
+\DoxyCodeLine{109         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.add(btnBack);}
+\DoxyCodeLine{110         }
+\DoxyCodeLine{111         JLabel lblMyBookinngs = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"My Bookings"});}
+\DoxyCodeLine{112         lblMyBookinngs.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 18));}
+\DoxyCodeLine{113         lblMyBookinngs.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{114         lblMyBookinngs.setBounds(98, 13, 408, 28);}
+\DoxyCodeLine{115         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.add(lblMyBookinngs);}
+\DoxyCodeLine{116         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a2333042f2b3811fec9fd968b8fd033ba}{btnNewButton}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{117             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{118                 \textcolor{keywordflow}{try}\{}
+\DoxyCodeLine{119                     ReservaOfferRhOwnerContainer r = (ReservaOfferRhOwnerContainer)\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}}.getSelectedValue();}
+\DoxyCodeLine{120                 Offer o = r.getOffer();}
+\DoxyCodeLine{121                 \textcolor{keywordflow}{if} (o!=\textcolor{keyword}{null})\{}
+\DoxyCodeLine{122                     DisplayImagesGUI a = \textcolor{keyword}{new} DisplayImagesGUI(o.getRuralHouse(),1);}
+\DoxyCodeLine{123                     dispose();}
+\DoxyCodeLine{124                     a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{125                 \}}
+\DoxyCodeLine{126                 \}\textcolor{keywordflow}{catch}(NullPointerException e1)\{}
+\DoxyCodeLine{127                     \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setText(\textcolor{stringliteral}{"Select your Booking first"});}
+\DoxyCodeLine{128                 \}}
+\DoxyCodeLine{129 }
+\DoxyCodeLine{130             \}}
+\DoxyCodeLine{131             }
+\DoxyCodeLine{132         \});}
+\DoxyCodeLine{133         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a2333042f2b3811fec9fd968b8fd033ba}{btnNewButton}}.setBounds(165, 299, 151, 34);}
+\DoxyCodeLine{134         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a2333042f2b3811fec9fd968b8fd033ba}{btnNewButton}});}
+\DoxyCodeLine{135         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a3a80cd8bcb066f875ff9e71e462924b8}{btnFeedBack}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{136             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{137                 ReservaOfferRhOwnerContainer r = (ReservaOfferRhOwnerContainer)\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}{list}}.getSelectedValue();}
+\DoxyCodeLine{138                 \textcolor{keywordflow}{if}(!r.getReserva().isRated())\{}
+\DoxyCodeLine{139                 dispose();}
+\DoxyCodeLine{140                 FeedBackGUI a = \textcolor{keyword}{new} FeedBackGUI(r.getReserva());}
+\DoxyCodeLine{141                 a.setVisible(\textcolor{keyword}{true});\}}
+\DoxyCodeLine{142                 \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{143                     \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}{textField}}.setText(\textcolor{stringliteral}{"You aready rated this Rural House"});}
+\DoxyCodeLine{144                 \}}
+\DoxyCodeLine{145             \}}
+\DoxyCodeLine{146         \});}
+\DoxyCodeLine{147         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a3a80cd8bcb066f875ff9e71e462924b8}{btnFeedBack}}.setBounds(333, 299, 286, 34);}
+\DoxyCodeLine{148         }
+\DoxyCodeLine{149         \mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_mis_reservas_g_u_i_a3a80cd8bcb066f875ff9e71e462924b8}{btnFeedBack}});}
+\DoxyCodeLine{150         }
+\DoxyCodeLine{151         }
+\DoxyCodeLine{152     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Mis\+Reservas\+G\+U\+I.\+btn\+Feed\+Back, gui.\+Mis\+Reservas\+G\+U\+I.\+btn\+New\+Button, gui.\+Mis\+Reservas\+G\+U\+I.\+btn\+Remove\+Offer, gui.\+Main\+G\+U\+I.\+client, gui.\+Mis\+Reservas\+G\+U\+I.\+content\+Pane, gui.\+Mis\+Reservas\+G\+U\+I.\+facade, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Client\+By\+Username(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+List\+Reserva\+Offer\+Rh\+Owner\+Container(), domain.\+Reserva\+Offer\+Rh\+Owner\+Container.\+get\+Offer(), domain.\+Reserva\+Offer\+Rh\+Owner\+Container.\+get\+Reserva(), domain.\+Offer.\+get\+Rural\+House(), domain.\+Client.\+get\+User\+Name(), domain.\+Reserva.\+is\+Rated, gui.\+Mis\+Reservas\+G\+U\+I.\+list, gui.\+Mis\+Reservas\+G\+U\+I.\+model, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+remove\+Reserva() y gui.\+Mis\+Reservas\+G\+U\+I.\+text\+Field.
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a3a80cd8bcb066f875ff9e71e462924b8}\label{classgui_1_1_mis_reservas_g_u_i_a3a80cd8bcb066f875ff9e71e462924b8}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!btnFeedBack@{btnFeedBack}}
+\index{btnFeedBack@{btnFeedBack}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{btnFeedBack}{btnFeedBack}}
+{\footnotesize\ttfamily final J\+Button gui.\+Mis\+Reservas\+G\+U\+I.\+btn\+Feed\+Back = new J\+Button(\char`\"{}Rate Rural House\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 42 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a2333042f2b3811fec9fd968b8fd033ba}\label{classgui_1_1_mis_reservas_g_u_i_a2333042f2b3811fec9fd968b8fd033ba}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!btnNewButton@{btnNewButton}}
+\index{btnNewButton@{btnNewButton}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{btnNewButton}{btnNewButton}}
+{\footnotesize\ttfamily J\+Button gui.\+Mis\+Reservas\+G\+U\+I.\+btn\+New\+Button = new J\+Button(\char`\"{}See Photo\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 41 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}\label{classgui_1_1_mis_reservas_g_u_i_a99d808ceec76346293264ea1a539c3aa}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!btnRemoveOffer@{btnRemoveOffer}}
+\index{btnRemoveOffer@{btnRemoveOffer}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{btnRemoveOffer}{btnRemoveOffer}}
+{\footnotesize\ttfamily J\+Button gui.\+Mis\+Reservas\+G\+U\+I.\+btn\+Remove\+Offer = new J\+Button(\char`\"{}Remove Booking\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 40 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}\label{classgui_1_1_mis_reservas_g_u_i_a0e75257d07910111e880685dd6453a9e}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Mis\+Reservas\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a29c70d8f7ee208b3f955023be16bbfec}\label{classgui_1_1_mis_reservas_g_u_i_a29c70d8f7ee208b3f955023be16bbfec}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!facade@{facade}}
+\index{facade@{facade}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Mis\+Reservas\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 37 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}\label{classgui_1_1_mis_reservas_g_u_i_a57d28f9e9e4ecff5c08b348934a72bc6}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!list@{list}}
+\index{list@{list}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{list}{list}}
+{\footnotesize\ttfamily J\+List gui.\+Mis\+Reservas\+G\+U\+I.\+list = new J\+List()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}\label{classgui_1_1_mis_reservas_g_u_i_a7d1ff262cc15c57867d6613100ad54fe}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!model@{model}}
+\index{model@{model}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{model}{model}}
+{\footnotesize\ttfamily Default\+List\+Model$<$\mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}}$>$ gui.\+Mis\+Reservas\+G\+U\+I.\+model = new Default\+List\+Model$<$\mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}\label{classgui_1_1_mis_reservas_g_u_i_a8901fbadd3ea86c48507ead16452fba5}} 
+\index{gui.MisReservasGUI@{gui.MisReservasGUI}!textField@{textField}}
+\index{textField@{textField}!gui.MisReservasGUI@{gui.MisReservasGUI}}
+\subsubsection{\texorpdfstring{textField}{textField}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Mis\+Reservas\+G\+U\+I.\+text\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Mis\+Reservas\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_mis_reservas_g_u_i_8java}{Mis\+Reservas\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

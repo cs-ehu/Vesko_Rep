@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classexceptions_1_1_no_exists_owner" kind="class" language="Java" prot="public">
+    <compoundname>exceptions::NoExistsOwner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexceptions_1_1_no_exists_owner_1a6deb4cd11cd63e554ad6c3bd290567c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.NoExistsOwner.NoExistsOwner</definition>
+        <argsstring>()</argsstring>
+        <name>NoExistsOwner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/NoExistsOwner.java" line="4" column="1" bodyfile="src/exceptions/NoExistsOwner.java" bodystart="4" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="181">
+        <label>Exception</label>
+      </node>
+      <node id="180">
+        <label>exceptions.NoExistsOwner</label>
+        <link refid="classexceptions_1_1_no_exists_owner"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="183">
+        <label>Exception</label>
+      </node>
+      <node id="182">
+        <label>exceptions.NoExistsOwner</label>
+        <link refid="classexceptions_1_1_no_exists_owner"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/exceptions/NoExistsOwner.java" line="3" column="1" bodyfile="src/exceptions/NoExistsOwner.java" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="classexceptions_1_1_no_exists_owner_1a6deb4cd11cd63e554ad6c3bd290567c5" prot="public" virt="non-virtual"><scope>exceptions::NoExistsOwner</scope><name>NoExistsOwner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

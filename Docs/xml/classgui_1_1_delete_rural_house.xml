@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_delete_rural_house" kind="class" language="Java" prot="public">
+    <compoundname>gui::DeleteRuralHouse</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_delete_rural_house_1abca92167d065908e2825a0051315c5fa" prot="private" static="no" mutable="no">
+        <type>final JPanel</type>
+        <definition>final JPanel gui.DeleteRuralHouse.contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <initializer>= new JPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DeleteRuralHouse.java" line="34" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_delete_rural_house_1ad446803b49fe41357f91279c46854c61" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.DeleteRuralHouse.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DeleteRuralHouse.java" line="35" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_delete_rural_house_1ac96583ac0943e616bba9d5f39b56f10a" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.DeleteRuralHouse.lblTheRuralHouse</definition>
+        <argsstring></argsstring>
+        <name>lblTheRuralHouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DeleteRuralHouse.java" line="36" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_delete_rural_house_1af2cf09ba446789ead0469867ede22bc7" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.DeleteRuralHouse.okButton</definition>
+        <argsstring></argsstring>
+        <name>okButton</name>
+        <initializer>= new JButton(&quot;Yes&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DeleteRuralHouse.java" line="38" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_delete_rural_house_1a342b527007fadd1b9aed35227d31a57f" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.DeleteRuralHouse.cancelButton</definition>
+        <argsstring></argsstring>
+        <name>cancelButton</name>
+        <initializer>= new JButton(&quot;No&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DeleteRuralHouse.java" line="39" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.DeleteRuralHouse.DeleteRuralHouse</definition>
+        <argsstring>(int num)</argsstring>
+        <name>DeleteRuralHouse</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Create the dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DeleteRuralHouse.java" line="44" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="44" bodyend="113"/>
+        <references refid="classgui_1_1_delete_rural_house_1a342b527007fadd1b9aed35227d31a57f" compoundref="_delete_rural_house_8java" startline="39">gui.DeleteRuralHouse.cancelButton</references>
+        <references refid="classgui_1_1_delete_rural_house_1a3bcff9d21c59de14bd34daf687af6141" compoundref="_delete_rural_house_8java" startline="115" endline="122">gui.DeleteRuralHouse.checkRemove</references>
+        <references refid="classgui_1_1_delete_rural_house_1abca92167d065908e2825a0051315c5fa" compoundref="_delete_rural_house_8java" startline="34">gui.DeleteRuralHouse.contentPanel</references>
+        <references refid="classgui_1_1_delete_rural_house_1ad446803b49fe41357f91279c46854c61" compoundref="_delete_rural_house_8java" startline="35">gui.DeleteRuralHouse.facade</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a686ca441b89f52085ef66d00f10c6854">businessLogic.ApplicationFacadeInterfaceWS.getRuralHousebyHouseNumber</references>
+        <references refid="classgui_1_1_delete_rural_house_1ac96583ac0943e616bba9d5f39b56f10a" compoundref="_delete_rural_house_8java" startline="36">gui.DeleteRuralHouse.lblTheRuralHouse</references>
+        <references refid="classgui_1_1_delete_rural_house_1af2cf09ba446789ead0469867ede22bc7" compoundref="_delete_rural_house_8java" startline="38">gui.DeleteRuralHouse.okButton</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a472d0eae303dc4ad989f382bb0632afc">businessLogic.ApplicationFacadeInterfaceWS.removeRuralHouse</references>
+        <references refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" compoundref="_rural_house_8java" startline="159" endline="163">domain.RuralHouse.toString</references>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_delete_rural_house_1a3bcff9d21c59de14bd34daf687af6141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean gui.DeleteRuralHouse.checkRemove</definition>
+        <argsstring>(RuralHouse rh)</argsstring>
+        <name>checkRemove</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DeleteRuralHouse.java" line="115" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="115" bodyend="122"/>
+        <references refid="classdomain_1_1_rural_house_1ae653409c7556fa8b3ccabd0c17604666" compoundref="_rural_house_8java" startline="67" endline="69">domain.RuralHouse.getOffers</references>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="48">
+        <label>gui.DeleteRuralHouse</label>
+        <link refid="classgui_1_1_delete_rural_house"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>JDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="55">
+        <label>JPanel</label>
+      </node>
+      <node id="54">
+        <label>JLabel</label>
+      </node>
+      <node id="50">
+        <label>gui.DeleteRuralHouse</label>
+        <link refid="classgui_1_1_delete_rural_house"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>okButton</edgelabel>
+          <edgelabel>cancelButton</edgelabel>
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>lblTheRuralHouse</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>contentPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>JDialog</label>
+      </node>
+      <node id="53">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="52">
+        <label>JButton</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/DeleteRuralHouse.java" line="32" column="1" bodyfile="src/gui/DeleteRuralHouse.java" bodystart="32" bodyend="123"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_delete_rural_house_1a342b527007fadd1b9aed35227d31a57f" prot="private" virt="non-virtual"><scope>gui::DeleteRuralHouse</scope><name>cancelButton</name></member>
+      <member refid="classgui_1_1_delete_rural_house_1a3bcff9d21c59de14bd34daf687af6141" prot="public" virt="non-virtual"><scope>gui::DeleteRuralHouse</scope><name>checkRemove</name></member>
+      <member refid="classgui_1_1_delete_rural_house_1abca92167d065908e2825a0051315c5fa" prot="private" virt="non-virtual"><scope>gui::DeleteRuralHouse</scope><name>contentPanel</name></member>
+      <member refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" prot="public" virt="non-virtual"><scope>gui::DeleteRuralHouse</scope><name>DeleteRuralHouse</name></member>
+      <member refid="classgui_1_1_delete_rural_house_1ad446803b49fe41357f91279c46854c61" prot="private" virt="non-virtual"><scope>gui::DeleteRuralHouse</scope><name>facade</name></member>
+      <member refid="classgui_1_1_delete_rural_house_1ac96583ac0943e616bba9d5f39b56f10a" prot="private" virt="non-virtual"><scope>gui::DeleteRuralHouse</scope><name>lblTheRuralHouse</name></member>
+      <member refid="classgui_1_1_delete_rural_house_1af2cf09ba446789ead0469867ede22bc7" prot="private" virt="non-virtual"><scope>gui::DeleteRuralHouse</scope><name>okButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

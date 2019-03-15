@@ -1,0 +1,235 @@
+\hypertarget{classgui_1_1_display_images_g_u_i}{}\section{Referencia de la Clase gui.\+Display\+Images\+G\+UI}
+\label{classgui_1_1_display_images_g_u_i}\index{gui.DisplayImagesGUI@{gui.DisplayImagesGUI}}
+Diagrama de herencias de gui.\+Display\+Images\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_display_images_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_aec52199fa3d22a15985d9b80ecc09934}{Display\+Images\+G\+UI}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, int from)
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{content\+Pane}}
+\item 
+int \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{max\+Photos}}
+\item 
+int \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}} =0
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_ae5514a460e8af8bc6293278b62791832}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a07b3c804bf0847f00977fac829fb092e}{lbl\+Act\+Photo}} = new J\+Label(\char`\"{}\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 29 del archivo Display\+Images\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_display_images_g_u_i_aec52199fa3d22a15985d9b80ecc09934}\label{classgui_1_1_display_images_g_u_i_aec52199fa3d22a15985d9b80ecc09934}} 
+\index{gui.DisplayImagesGUI@{gui.DisplayImagesGUI}!DisplayImagesGUI@{DisplayImagesGUI}}
+\index{DisplayImagesGUI@{DisplayImagesGUI}!gui.DisplayImagesGUI@{gui.DisplayImagesGUI}}
+\subsubsection{\texorpdfstring{DisplayImagesGUI()}{DisplayImagesGUI()}}
+{\footnotesize\ttfamily gui.\+Display\+Images\+G\+U\+I.\+Display\+Images\+G\+UI (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{int}]{from }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em selected\+RH} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 42 del archivo Display\+Images\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{42                                                      \{}
+\DoxyCodeLine{43         }
+\DoxyCodeLine{44         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{45         setBounds(100, 100, 1500, 900);}
+\DoxyCodeLine{46         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{47         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{48         setContentPane(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}});}
+\DoxyCodeLine{49         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{50         }
+\DoxyCodeLine{51         JLabel lblImg = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{""});}
+\DoxyCodeLine{52         lblImg.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{53         lblImg.setBounds(12, 13, 1458, 753);}
+\DoxyCodeLine{54         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}}.add(lblImg);}
+\DoxyCodeLine{55         }
+\DoxyCodeLine{56         JPanel panel = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{57         panel.setBounds(443, 779, 596, 61);}
+\DoxyCodeLine{58         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}}.add(panel);}
+\DoxyCodeLine{59         panel.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{60         }
+\DoxyCodeLine{61         JButton btnNextImage = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Next Image"});}
+\DoxyCodeLine{62         btnNextImage.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{63             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{64                 \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}}=rh.getImages().size();}
+\DoxyCodeLine{65                 \textcolor{keywordflow}{if}(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}}==0)\{}
+\DoxyCodeLine{66                     lblImg.setText(\textcolor{stringliteral}{"There are no images for this Rural House yet"});}
+\DoxyCodeLine{67                 \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{68                 \textcolor{keywordtype}{byte}[] bytes = rh.getImages().get(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}});}
+\DoxyCodeLine{69                 \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a07b3c804bf0847f00977fac829fb092e}{lblActPhoto}}.setText(\textcolor{stringliteral}{"Photo: "}+(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}}+1)+\textcolor{stringliteral}{"/"}+\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}});}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71                     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}}<\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}}-1)\{}
+\DoxyCodeLine{72                         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}}++;}
+\DoxyCodeLine{73                     \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{74                         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}}=0;}
+\DoxyCodeLine{75                     \}}
+\DoxyCodeLine{76                 \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{77                     BufferedImage imag = ImageIO.read(\textcolor{keyword}{new} ByteArrayInputStream(bytes));}
+\DoxyCodeLine{78                     lblImg.setIcon(\textcolor{keyword}{new} ImageIcon(imag));}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80                 \} \textcolor{keywordflow}{catch} (IOException e1) \{}
+\DoxyCodeLine{81                 System.out.println(\textcolor{stringliteral}{"error"});}
+\DoxyCodeLine{82                 \}}
+\DoxyCodeLine{83             \}\}}
+\DoxyCodeLine{84         \});}
+\DoxyCodeLine{85         btnNextImage.setBounds(314, 0, 167, 61);}
+\DoxyCodeLine{86         panel.add(btnNextImage);}
+\DoxyCodeLine{87         }
+\DoxyCodeLine{88         JButton btnPreviousImage = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Previous Image"});}
+\DoxyCodeLine{89         btnPreviousImage.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{90             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{91                 \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}}=rh.getImages().size();}
+\DoxyCodeLine{92                 \textcolor{keywordflow}{if}(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}}==0)\{}
+\DoxyCodeLine{93                     lblImg.setText(\textcolor{stringliteral}{"There are no images for this Rural House yet"});}
+\DoxyCodeLine{94                 \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{95                 \textcolor{keywordtype}{byte}[] bytes = rh.getImages().get(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}});}
+\DoxyCodeLine{96                 \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a07b3c804bf0847f00977fac829fb092e}{lblActPhoto}}.setText(\textcolor{stringliteral}{"Photo: "}+(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}}+1)+\textcolor{stringliteral}{"/"}+\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}});}
+\DoxyCodeLine{97                 System.out.println(\textcolor{stringliteral}{"valor "} +\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}});}
+\DoxyCodeLine{98                     \textcolor{keywordflow}{if} (0<\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}})\{}
+\DoxyCodeLine{99                         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}}--;}
+\DoxyCodeLine{100                     \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{101                         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}{actualphoto}}=\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}{maxPhotos}}-1;}
+\DoxyCodeLine{102                     \}}
+\DoxyCodeLine{103                 \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{104                     BufferedImage imag = ImageIO.read(\textcolor{keyword}{new} ByteArrayInputStream(bytes));}
+\DoxyCodeLine{105                     lblImg.setIcon(\textcolor{keyword}{new} ImageIcon(imag));}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{107                 \} \textcolor{keywordflow}{catch} (IOException e1) \{}
+\DoxyCodeLine{108                 System.out.println(\textcolor{stringliteral}{"error"});}
+\DoxyCodeLine{109                 \}}
+\DoxyCodeLine{110             \}}
+\DoxyCodeLine{111             \}}
+\DoxyCodeLine{112         \});}
+\DoxyCodeLine{113         btnPreviousImage.setBounds(149, 0, 167, 61);}
+\DoxyCodeLine{114         panel.add(btnPreviousImage);}
+\DoxyCodeLine{115         }
+\DoxyCodeLine{116         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a07b3c804bf0847f00977fac829fb092e}{lblActPhoto}}.setBounds(708, 762, 101, 16);}
+\DoxyCodeLine{117         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_display_images_g_u_i_a07b3c804bf0847f00977fac829fb092e}{lblActPhoto}});}
+\DoxyCodeLine{118         }
+\DoxyCodeLine{119         JButton btnNewButton = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"}); }
+\DoxyCodeLine{120         btnNewButton.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{121             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{122                 \textcolor{keywordflow}{if} (from==0)\{   \textcolor{comment}{//advancedGUI}}
+\DoxyCodeLine{123                     QueryAvailabilityClientAdvacedGUI a = \textcolor{keyword}{new} QueryAvailabilityClientAdvacedGUI();}
+\DoxyCodeLine{124                     a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{125                 \}}
+\DoxyCodeLine{126                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (from == 1)\{    \textcolor{comment}{//MisReservas}}
+\DoxyCodeLine{127                     MisReservasGUI a = \textcolor{keyword}{new} MisReservasGUI();}
+\DoxyCodeLine{128                     a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{129                 \}}
+\DoxyCodeLine{130                 \textcolor{keywordflow}{else}\{           \textcolor{comment}{// ModifyHouse}}
+\DoxyCodeLine{131                     ModifyHouseGUI a = \textcolor{keyword}{new} ModifyHouseGUI();}
+\DoxyCodeLine{132                     a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{133                 \}}
+\DoxyCodeLine{134                 dispose();}
+\DoxyCodeLine{135             \}}
+\DoxyCodeLine{136         \});}
+\DoxyCodeLine{137         btnNewButton.setBounds(55, 779, 152, 61);}
+\DoxyCodeLine{138         \mbox{\hyperlink{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}{contentPane}}.add(btnNewButton);}
+\DoxyCodeLine{139     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Display\+Images\+G\+U\+I.\+actualphoto, gui.\+Display\+Images\+G\+U\+I.\+content\+Pane, domain.\+Rural\+House.\+get\+Images(), gui.\+Display\+Images\+G\+U\+I.\+lbl\+Act\+Photo y gui.\+Display\+Images\+G\+U\+I.\+max\+Photos.
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}\label{classgui_1_1_display_images_g_u_i_a67ed3018c207bc52f5eceb196b02d74a}} 
+\index{gui.DisplayImagesGUI@{gui.DisplayImagesGUI}!actualphoto@{actualphoto}}
+\index{actualphoto@{actualphoto}!gui.DisplayImagesGUI@{gui.DisplayImagesGUI}}
+\subsubsection{\texorpdfstring{actualphoto}{actualphoto}}
+{\footnotesize\ttfamily int gui.\+Display\+Images\+G\+U\+I.\+actualphoto =0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Display\+Images\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Images\+G\+U\+I.\+Display\+Images\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}\label{classgui_1_1_display_images_g_u_i_af5565c2bb3ed37878d4812250658e895}} 
+\index{gui.DisplayImagesGUI@{gui.DisplayImagesGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.DisplayImagesGUI@{gui.DisplayImagesGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Display\+Images\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 31 del archivo Display\+Images\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Images\+G\+U\+I.\+Display\+Images\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_images_g_u_i_ae5514a460e8af8bc6293278b62791832}\label{classgui_1_1_display_images_g_u_i_ae5514a460e8af8bc6293278b62791832}} 
+\index{gui.DisplayImagesGUI@{gui.DisplayImagesGUI}!facade@{facade}}
+\index{facade@{facade}!gui.DisplayImagesGUI@{gui.DisplayImagesGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Display\+Images\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Display\+Images\+G\+U\+I.\+java.
+
+\mbox{\Hypertarget{classgui_1_1_display_images_g_u_i_a07b3c804bf0847f00977fac829fb092e}\label{classgui_1_1_display_images_g_u_i_a07b3c804bf0847f00977fac829fb092e}} 
+\index{gui.DisplayImagesGUI@{gui.DisplayImagesGUI}!lblActPhoto@{lblActPhoto}}
+\index{lblActPhoto@{lblActPhoto}!gui.DisplayImagesGUI@{gui.DisplayImagesGUI}}
+\subsubsection{\texorpdfstring{lblActPhoto}{lblActPhoto}}
+{\footnotesize\ttfamily J\+Label gui.\+Display\+Images\+G\+U\+I.\+lbl\+Act\+Photo = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Display\+Images\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Images\+G\+U\+I.\+Display\+Images\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}\label{classgui_1_1_display_images_g_u_i_a3f6072ee462364a095f2702fbcb14e17}} 
+\index{gui.DisplayImagesGUI@{gui.DisplayImagesGUI}!maxPhotos@{maxPhotos}}
+\index{maxPhotos@{maxPhotos}!gui.DisplayImagesGUI@{gui.DisplayImagesGUI}}
+\subsubsection{\texorpdfstring{maxPhotos}{maxPhotos}}
+{\footnotesize\ttfamily int gui.\+Display\+Images\+G\+U\+I.\+max\+Photos\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 33 del archivo Display\+Images\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Display\+Images\+G\+U\+I.\+Display\+Images\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_display_images_g_u_i_8java}{Display\+Images\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

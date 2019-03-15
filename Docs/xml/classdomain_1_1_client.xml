@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_client" kind="class" language="Java" prot="public">
+    <compoundname>domain::Client</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_client_1a759c4fe989503ceb29bcefca63177186" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Client.userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="22" column="1" bodyfile="src/domain/Client.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" compoundref="_client_8java" startline="122" endline="124">domain.Client.getUserName</referencedby>
+        <referencedby refid="classdomain_1_1_client_1ad9b344ef61d744d882eba788694aa96f" compoundref="_client_8java" startline="126" endline="128">domain.Client.setUserName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1ad8c3f3e676480cdf083669c007f1e397" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Client.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="23" column="1" bodyfile="src/domain/Client.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1abc586f272267f9312e1341fef8c5486c" compoundref="_client_8java" startline="130" endline="132">domain.Client.getPassword</referencedby>
+        <referencedby refid="classdomain_1_1_client_1ae13843f725fdfd5d85a3a4176b9ee8a9" compoundref="_client_8java" startline="134" endline="136">domain.Client.setPassword</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1a48de873a69fd65be53e47b2cbb2c309d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Client.telegramId</definition>
+        <argsstring></argsstring>
+        <name>telegramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="24" column="1" bodyfile="src/domain/Client.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" compoundref="_client_8java" startline="106" endline="108">domain.Client.getTelegramId</referencedby>
+        <referencedby refid="classdomain_1_1_client_1aa0ab199ddacd36d8feb16cff4c01a506" compoundref="_client_8java" startline="110" endline="112">domain.Client.setTelegramId</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1a91e08d53a5af62a7822f25c0741b9828" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Client.cuentaBancaria</definition>
+        <argsstring></argsstring>
+        <name>cuentaBancaria</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="25" column="1" bodyfile="src/domain/Client.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1adeb2b614c2e27afd7e1c1f50ba0a561f" compoundref="_client_8java" startline="114" endline="116">domain.Client.getCuentaBancaria</referencedby>
+        <referencedby refid="classdomain_1_1_client_1a02858d702a1b74589412777da82111ca" compoundref="_client_8java" startline="118" endline="120">domain.Client.setCuentaBancaria</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1a47341a6cb46fb5c2c61885669070a939" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Client.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="26" column="1" bodyfile="src/domain/Client.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" compoundref="_client_8java" startline="98" endline="100">domain.Client.getEmail</referencedby>
+        <referencedby refid="classdomain_1_1_client_1a525e1e3b7447d73947fa880f4c836872" compoundref="_client_8java" startline="102" endline="104">domain.Client.setEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1ae4e6d3d763ee52755c66f199270dd420" prot="private" static="no" mutable="no">
+        <type>Vector&lt; <ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref> &gt;</type>
+        <definition>Vector&lt;Reserva&gt; domain.Client.listaReserva</definition>
+        <argsstring></argsstring>
+        <name>listaReserva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="29" column="1" bodyfile="src/domain/Client.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1aca417158adc1bb7fafe02b8f54265edf" compoundref="_client_8java" startline="86" endline="88">domain.Client.addReserva</referencedby>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1ac8b0f7513cd299b00a0e8cb44a70e3c4" compoundref="_client_8java" startline="94" endline="96">domain.Client.getListaReserva</referencedby>
+        <referencedby refid="classdomain_1_1_client_1a1be8ad60fb1d03ec9895640d87ab5576" compoundref="_client_8java" startline="90" endline="92">domain.Client.removeReserva</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1a1127a9cdf4d8ccff666bec1c9db31e95" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int domain.Client.validationNumber</definition>
+        <argsstring></argsstring>
+        <name>validationNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="30" column="1" bodyfile="src/domain/Client.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1a423c12788bfb3d265506bad3de79c771" compoundref="_client_8java" startline="78" endline="80">domain.Client.getValidationNumber</referencedby>
+        <referencedby refid="classdomain_1_1_client_1a0973728bc4625ebdb83feea51d7de519" compoundref="_client_8java" startline="82" endline="84">domain.Client.setValidationNumber</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1a2e70a563bf23fd2be7adc13e997363c8" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean domain.Client.validated</definition>
+        <argsstring></argsstring>
+        <name>validated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="31" column="1" bodyfile="src/domain/Client.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1aa1343221f2098ed1fa6c41cec0aa59a4" compoundref="_client_8java" startline="53" endline="55">domain.Client.isValidated</referencedby>
+        <referencedby refid="classdomain_1_1_client_1aef4786d9a92347815e4494c8fc0b8bd2" compoundref="_client_8java" startline="73" endline="75">domain.Client.setValidated</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1a7466013d1a12e9d4f7fc739c68bdd238" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean domain.Client.sendBookByEmail</definition>
+        <argsstring></argsstring>
+        <name>sendBookByEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="32" column="1" bodyfile="src/domain/Client.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1aac608259550fa807f8de3b1e08d30e77" compoundref="_client_8java" startline="57" endline="59">domain.Client.isSendBookByEmail</referencedby>
+        <referencedby refid="classdomain_1_1_client_1acf27654cd7efbc18bb8867a58a272eef" compoundref="_client_8java" startline="61" endline="63">domain.Client.setSendBookByEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_client_1a303c59a2c1c521a67583268436f3b951" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean domain.Client.sendBookByTelegram</definition>
+        <argsstring></argsstring>
+        <name>sendBookByTelegram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="33" column="1" bodyfile="src/domain/Client.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" compoundref="_client_8java" startline="37" endline="51">domain.Client.Client</referencedby>
+        <referencedby refid="classdomain_1_1_client_1aa00c95082f42ebd0bcd252ffa7f5b89b" compoundref="_client_8java" startline="65" endline="67">domain.Client.isSendBookByTelegram</referencedby>
+        <referencedby refid="classdomain_1_1_client_1af38389540adb7dba2798d6b9912b220f" compoundref="_client_8java" startline="69" endline="71">domain.Client.setSendBookByTelegram</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_client_1a9e280dad9c4c0e6dbe0f83186afc765a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Client.Client</definition>
+        <argsstring>()</argsstring>
+        <name>Client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="35" column="1" bodyfile="src/domain/Client.java" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Client.Client</definition>
+        <argsstring>(String userName, String password, String telegramId, String cuentaBancaria, String email)</argsstring>
+        <name>Client</name>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="37" column="1" bodyfile="src/domain/Client.java" bodystart="37" bodyend="51"/>
+        <references refid="classdomain_1_1_client_1a91e08d53a5af62a7822f25c0741b9828" compoundref="_client_8java" startline="25">domain.Client.cuentaBancaria</references>
+        <references refid="classdomain_1_1_client_1a47341a6cb46fb5c2c61885669070a939" compoundref="_client_8java" startline="26">domain.Client.email</references>
+        <references refid="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" compoundref="_generate_validation_code_8java" startline="16" endline="18">businessLogic.GenerateValidationCode.getValidationNumber</references>
+        <references refid="classdomain_1_1_client_1ae4e6d3d763ee52755c66f199270dd420" compoundref="_client_8java" startline="29">domain.Client.listaReserva</references>
+        <references refid="classdomain_1_1_client_1ad8c3f3e676480cdf083669c007f1e397" compoundref="_client_8java" startline="23">domain.Client.password</references>
+        <references refid="classdomain_1_1_client_1a7466013d1a12e9d4f7fc739c68bdd238" compoundref="_client_8java" startline="32">domain.Client.sendBookByEmail</references>
+        <references refid="classdomain_1_1_client_1a303c59a2c1c521a67583268436f3b951" compoundref="_client_8java" startline="33">domain.Client.sendBookByTelegram</references>
+        <references refid="classdomain_1_1_client_1a48de873a69fd65be53e47b2cbb2c309d" compoundref="_client_8java" startline="24">domain.Client.telegramId</references>
+        <references refid="classdomain_1_1_client_1a759c4fe989503ceb29bcefca63177186" compoundref="_client_8java" startline="22">domain.Client.userName</references>
+        <references refid="classdomain_1_1_client_1a2e70a563bf23fd2be7adc13e997363c8" compoundref="_client_8java" startline="31">domain.Client.validated</references>
+        <references refid="classdomain_1_1_client_1a1127a9cdf4d8ccff666bec1c9db31e95" compoundref="_client_8java" startline="30">domain.Client.validationNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1aa1343221f2098ed1fa6c41cec0aa59a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.Client.isValidated</definition>
+        <argsstring>()</argsstring>
+        <name>isValidated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="53" column="1" bodyfile="src/domain/Client.java" bodystart="53" bodyend="55"/>
+        <references refid="classdomain_1_1_client_1a2e70a563bf23fd2be7adc13e997363c8" compoundref="_client_8java" startline="31">domain.Client.validated</references>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1aac608259550fa807f8de3b1e08d30e77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.Client.isSendBookByEmail</definition>
+        <argsstring>()</argsstring>
+        <name>isSendBookByEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="57" column="1" bodyfile="src/domain/Client.java" bodystart="57" bodyend="59"/>
+        <references refid="classdomain_1_1_client_1a7466013d1a12e9d4f7fc739c68bdd238" compoundref="_client_8java" startline="32">domain.Client.sendBookByEmail</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1acf27654cd7efbc18bb8867a58a272eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setSendBookByEmail</definition>
+        <argsstring>(boolean sendBookByEmail)</argsstring>
+        <name>setSendBookByEmail</name>
+        <param>
+          <type>boolean</type>
+          <declname>sendBookByEmail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="61" column="1" bodyfile="src/domain/Client.java" bodystart="61" bodyend="63"/>
+        <references refid="classdomain_1_1_client_1a7466013d1a12e9d4f7fc739c68bdd238" compoundref="_client_8java" startline="32">domain.Client.sendBookByEmail</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1aa00c95082f42ebd0bcd252ffa7f5b89b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.Client.isSendBookByTelegram</definition>
+        <argsstring>()</argsstring>
+        <name>isSendBookByTelegram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="65" column="1" bodyfile="src/domain/Client.java" bodystart="65" bodyend="67"/>
+        <references refid="classdomain_1_1_client_1a303c59a2c1c521a67583268436f3b951" compoundref="_client_8java" startline="33">domain.Client.sendBookByTelegram</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1af38389540adb7dba2798d6b9912b220f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setSendBookByTelegram</definition>
+        <argsstring>(boolean sendBookByTelegram)</argsstring>
+        <name>setSendBookByTelegram</name>
+        <param>
+          <type>boolean</type>
+          <declname>sendBookByTelegram</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="69" column="1" bodyfile="src/domain/Client.java" bodystart="69" bodyend="71"/>
+        <references refid="classdomain_1_1_client_1a303c59a2c1c521a67583268436f3b951" compoundref="_client_8java" startline="33">domain.Client.sendBookByTelegram</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1aef4786d9a92347815e4494c8fc0b8bd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setValidated</definition>
+        <argsstring>(boolean validated)</argsstring>
+        <name>setValidated</name>
+        <param>
+          <type>boolean</type>
+          <declname>validated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="73" column="1" bodyfile="src/domain/Client.java" bodystart="73" bodyend="75"/>
+        <references refid="classdomain_1_1_client_1a2e70a563bf23fd2be7adc13e997363c8" compoundref="_client_8java" startline="31">domain.Client.validated</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ad9bd59be12508bde6bffd40397ed6caa" compoundref="_data_access_8java" startline="369" endline="375">dataAccess.DataAccess.updateClinetValidation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1a423c12788bfb3d265506bad3de79c771" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int domain.Client.getValidationNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getValidationNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="78" column="1" bodyfile="src/domain/Client.java" bodystart="78" bodyend="80"/>
+        <references refid="classdomain_1_1_client_1a1127a9cdf4d8ccff666bec1c9db31e95" compoundref="_client_8java" startline="30">domain.Client.validationNumber</references>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1a0973728bc4625ebdb83feea51d7de519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setValidationNumber</definition>
+        <argsstring>(int validationNumber)</argsstring>
+        <name>setValidationNumber</name>
+        <param>
+          <type>int</type>
+          <declname>validationNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="82" column="1" bodyfile="src/domain/Client.java" bodystart="82" bodyend="84"/>
+        <references refid="classdomain_1_1_client_1a1127a9cdf4d8ccff666bec1c9db31e95" compoundref="_client_8java" startline="30">domain.Client.validationNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1aca417158adc1bb7fafe02b8f54265edf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.addReserva</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>addReserva</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="86" column="1" bodyfile="src/domain/Client.java" bodystart="86" bodyend="88"/>
+        <references refid="classdomain_1_1_client_1ae4e6d3d763ee52755c66f199270dd420" compoundref="_client_8java" startline="29">domain.Client.listaReserva</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1a1be8ad60fb1d03ec9895640d87ab5576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.removeReserva</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>removeReserva</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="90" column="1" bodyfile="src/domain/Client.java" bodystart="90" bodyend="92"/>
+        <references refid="classdomain_1_1_client_1ae4e6d3d763ee52755c66f199270dd420" compoundref="_client_8java" startline="29">domain.Client.listaReserva</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1ac8b0f7513cd299b00a0e8cb44a70e3c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref> &gt;</type>
+        <definition>Vector&lt;Reserva&gt; domain.Client.getListaReserva</definition>
+        <argsstring>()</argsstring>
+        <name>getListaReserva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="94" column="1" bodyfile="src/domain/Client.java" bodystart="94" bodyend="96"/>
+        <references refid="classdomain_1_1_client_1ae4e6d3d763ee52755c66f199270dd420" compoundref="_client_8java" startline="29">domain.Client.listaReserva</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a505c977d8d4ab62addb96006535d2912" compoundref="_facade_implementation_w_s_8java" startline="215" endline="226">businessLogic.FacadeImplementationWS.getListReservaOfferRhOwnerContainer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Client.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="98" column="1" bodyfile="src/domain/Client.java" bodystart="98" bodyend="100"/>
+        <references refid="classdomain_1_1_client_1a47341a6cb46fb5c2c61885669070a939" compoundref="_client_8java" startline="26">domain.Client.email</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1a525e1e3b7447d73947fa880f4c836872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="102" column="1" bodyfile="src/domain/Client.java" bodystart="102" bodyend="104"/>
+        <references refid="classdomain_1_1_client_1a47341a6cb46fb5c2c61885669070a939" compoundref="_client_8java" startline="26">domain.Client.email</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Client.getTelegramId</definition>
+        <argsstring>()</argsstring>
+        <name>getTelegramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="106" column="1" bodyfile="src/domain/Client.java" bodystart="106" bodyend="108"/>
+        <references refid="classdomain_1_1_client_1a48de873a69fd65be53e47b2cbb2c309d" compoundref="_client_8java" startline="24">domain.Client.telegramId</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" compoundref="_send_booking_8java" startline="17" endline="38">businessLogic.SendBooking.sendBookToTelegram</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1aa0ab199ddacd36d8feb16cff4c01a506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setTelegramId</definition>
+        <argsstring>(String telegramId)</argsstring>
+        <name>setTelegramId</name>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="110" column="1" bodyfile="src/domain/Client.java" bodystart="110" bodyend="112"/>
+        <references refid="classdomain_1_1_client_1a48de873a69fd65be53e47b2cbb2c309d" compoundref="_client_8java" startline="24">domain.Client.telegramId</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1adeb2b614c2e27afd7e1c1f50ba0a561f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Client.getCuentaBancaria</definition>
+        <argsstring>()</argsstring>
+        <name>getCuentaBancaria</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="114" column="1" bodyfile="src/domain/Client.java" bodystart="114" bodyend="116"/>
+        <references refid="classdomain_1_1_client_1a91e08d53a5af62a7822f25c0741b9828" compoundref="_client_8java" startline="25">domain.Client.cuentaBancaria</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1a02858d702a1b74589412777da82111ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setCuentaBancaria</definition>
+        <argsstring>(String cuentaBancaria)</argsstring>
+        <name>setCuentaBancaria</name>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="118" column="1" bodyfile="src/domain/Client.java" bodystart="118" bodyend="120"/>
+        <references refid="classdomain_1_1_client_1a91e08d53a5af62a7822f25c0741b9828" compoundref="_client_8java" startline="25">domain.Client.cuentaBancaria</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Client.getUserName</definition>
+        <argsstring>()</argsstring>
+        <name>getUserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="122" column="1" bodyfile="src/domain/Client.java" bodystart="122" bodyend="124"/>
+        <references refid="classdomain_1_1_client_1a759c4fe989503ceb29bcefca63177186" compoundref="_client_8java" startline="22">domain.Client.userName</references>
+        <referencedby refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" compoundref="_data_access_8java" startline="122" endline="134">dataAccess.DataAccess.createReserva</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a505c977d8d4ab62addb96006535d2912" compoundref="_facade_implementation_w_s_8java" startline="215" endline="226">businessLogic.FacadeImplementationWS.getListReservaOfferRhOwnerContainer</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1ad9b344ef61d744d882eba788694aa96f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setUserName</definition>
+        <argsstring>(String userName)</argsstring>
+        <name>setUserName</name>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="126" column="1" bodyfile="src/domain/Client.java" bodystart="126" bodyend="128"/>
+        <references refid="classdomain_1_1_client_1a759c4fe989503ceb29bcefca63177186" compoundref="_client_8java" startline="22">domain.Client.userName</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1abc586f272267f9312e1341fef8c5486c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Client.getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="130" column="1" bodyfile="src/domain/Client.java" bodystart="130" bodyend="132"/>
+        <references refid="classdomain_1_1_client_1ad8c3f3e676480cdf083669c007f1e397" compoundref="_client_8java" startline="23">domain.Client.password</references>
+        <referencedby refid="classbusiness_logic_1_1_login_1ac9f6613d5985375b441ff00347cafb18" compoundref="_login_8java" startline="12" endline="30">businessLogic.Login.doLogin</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1ae13843f725fdfd5d85a3a4176b9ee8a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Client.setPassword</definition>
+        <argsstring>(String password)</argsstring>
+        <name>setPassword</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="134" column="1" bodyfile="src/domain/Client.java" bodystart="134" bodyend="136"/>
+        <references refid="classdomain_1_1_client_1ad8c3f3e676480cdf083669c007f1e397" compoundref="_client_8java" startline="23">domain.Client.password</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_client_1a5fc558240fa2d8ee6a87c41d373069fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Client.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Client.java" line="139" column="1" bodyfile="src/domain/Client.java" bodystart="139" bodyend="146"/>
+        <referencedby refid="classdata_access_1_1_data_access_1a660f0677b4ead89efe35c8f8f13c48ec" compoundref="_data_access_8java" startline="78" endline="93">dataAccess.DataAccess.createClient</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" compoundref="_data_access_8java" startline="286" endline="299">dataAccess.DataAccess.getClientByUsername</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>domain.Client</label>
+        <link refid="classdomain_1_1_client"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Serializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>Vector&lt; domain.Reserva &gt;</label>
+      </node>
+      <node id="18">
+        <label>domain.Client</label>
+        <link refid="classdomain_1_1_client"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>listaReserva</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Serializable</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/Client.java" line="19" column="1" bodyfile="src/domain/Client.java" bodystart="19" bodyend="148"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_client_1aca417158adc1bb7fafe02b8f54265edf" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>addReserva</name></member>
+      <member refid="classdomain_1_1_client_1a9e280dad9c4c0e6dbe0f83186afc765a" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>Client</name></member>
+      <member refid="classdomain_1_1_client_1ae7bf8adbac66187df5b6a5dfd22fba86" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>Client</name></member>
+      <member refid="classdomain_1_1_client_1a91e08d53a5af62a7822f25c0741b9828" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>cuentaBancaria</name></member>
+      <member refid="classdomain_1_1_client_1a47341a6cb46fb5c2c61885669070a939" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>email</name></member>
+      <member refid="classdomain_1_1_client_1adeb2b614c2e27afd7e1c1f50ba0a561f" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>getCuentaBancaria</name></member>
+      <member refid="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>getEmail</name></member>
+      <member refid="classdomain_1_1_client_1ac8b0f7513cd299b00a0e8cb44a70e3c4" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>getListaReserva</name></member>
+      <member refid="classdomain_1_1_client_1abc586f272267f9312e1341fef8c5486c" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>getPassword</name></member>
+      <member refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>getTelegramId</name></member>
+      <member refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>getUserName</name></member>
+      <member refid="classdomain_1_1_client_1a423c12788bfb3d265506bad3de79c771" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>getValidationNumber</name></member>
+      <member refid="classdomain_1_1_client_1aac608259550fa807f8de3b1e08d30e77" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>isSendBookByEmail</name></member>
+      <member refid="classdomain_1_1_client_1aa00c95082f42ebd0bcd252ffa7f5b89b" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>isSendBookByTelegram</name></member>
+      <member refid="classdomain_1_1_client_1aa1343221f2098ed1fa6c41cec0aa59a4" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>isValidated</name></member>
+      <member refid="classdomain_1_1_client_1ae4e6d3d763ee52755c66f199270dd420" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>listaReserva</name></member>
+      <member refid="classdomain_1_1_client_1ad8c3f3e676480cdf083669c007f1e397" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>password</name></member>
+      <member refid="classdomain_1_1_client_1a1be8ad60fb1d03ec9895640d87ab5576" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>removeReserva</name></member>
+      <member refid="classdomain_1_1_client_1a7466013d1a12e9d4f7fc739c68bdd238" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>sendBookByEmail</name></member>
+      <member refid="classdomain_1_1_client_1a303c59a2c1c521a67583268436f3b951" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>sendBookByTelegram</name></member>
+      <member refid="classdomain_1_1_client_1a02858d702a1b74589412777da82111ca" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setCuentaBancaria</name></member>
+      <member refid="classdomain_1_1_client_1a525e1e3b7447d73947fa880f4c836872" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setEmail</name></member>
+      <member refid="classdomain_1_1_client_1ae13843f725fdfd5d85a3a4176b9ee8a9" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setPassword</name></member>
+      <member refid="classdomain_1_1_client_1acf27654cd7efbc18bb8867a58a272eef" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setSendBookByEmail</name></member>
+      <member refid="classdomain_1_1_client_1af38389540adb7dba2798d6b9912b220f" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setSendBookByTelegram</name></member>
+      <member refid="classdomain_1_1_client_1aa0ab199ddacd36d8feb16cff4c01a506" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setTelegramId</name></member>
+      <member refid="classdomain_1_1_client_1ad9b344ef61d744d882eba788694aa96f" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setUserName</name></member>
+      <member refid="classdomain_1_1_client_1aef4786d9a92347815e4494c8fc0b8bd2" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setValidated</name></member>
+      <member refid="classdomain_1_1_client_1a0973728bc4625ebdb83feea51d7de519" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>setValidationNumber</name></member>
+      <member refid="classdomain_1_1_client_1a48de873a69fd65be53e47b2cbb2c309d" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>telegramId</name></member>
+      <member refid="classdomain_1_1_client_1a5fc558240fa2d8ee6a87c41d373069fc" prot="public" virt="non-virtual"><scope>domain::Client</scope><name>toString</name></member>
+      <member refid="classdomain_1_1_client_1a759c4fe989503ceb29bcefca63177186" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>userName</name></member>
+      <member refid="classdomain_1_1_client_1a2e70a563bf23fd2be7adc13e997363c8" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>validated</name></member>
+      <member refid="classdomain_1_1_client_1a1127a9cdf4d8ccff666bec1c9db31e95" prot="private" virt="non-virtual"><scope>domain::Client</scope><name>validationNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

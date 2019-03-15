@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_modify_house_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::ModifyHouseGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1a7bb13be5defa74715359f06a41fb5dad" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.ModifyHouseGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="38" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1a2272c7d4931bdf3dac35d8dc6496978f" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.ModifyHouseGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="39" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1a126db8210cd615dca1929c2f258ff58c" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner gui.ModifyHouseGUI.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="40" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1a5c169d1fb8a40277b56fd291a48e97ab" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.ModifyHouseGUI.btnUploadFoto</definition>
+        <argsstring></argsstring>
+        <name>btnUploadFoto</name>
+        <initializer>= new JButton(&quot;Upload Photo&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="43" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1a25b4d3da9ad668a5a976faf0d2518ce9" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.ModifyHouseGUI.btnSeePhoto</definition>
+        <argsstring></argsstring>
+        <name>btnSeePhoto</name>
+        <initializer>= new JButton(&quot;See Photo&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="44" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1ab035400265dc2c288707e9f30fd7414f" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.ModifyHouseGUI.btnDeleteRuralHouse</definition>
+        <argsstring></argsstring>
+        <name>btnDeleteRuralHouse</name>
+        <initializer>= new JButton(&quot;Delete Rural House&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="45" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1ae3c3ed3425d3b0bf7c1b901ae52ddcdf" prot="private" static="no" mutable="no">
+        <type>DefaultComboBoxModel&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>DefaultComboBoxModel&lt;RuralHouse&gt; gui.ModifyHouseGUI.casas</definition>
+        <argsstring></argsstring>
+        <name>casas</name>
+        <initializer>= new DefaultComboBoxModel&lt;<ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="46" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgui_1_1_modify_house_g_u_i_1a803e872ae00af5f6fd4b87837a44408c" prot="protected" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse gui.ModifyHouseGUI.selectedRH</definition>
+        <argsstring></argsstring>
+        <name>selectedRH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="41" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.ModifyHouseGUI.ModifyHouseGUI</definition>
+        <argsstring>()</argsstring>
+        <name>ModifyHouseGUI</name>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ModifyHouseGUI.java" line="51" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="51" bodyend="157"/>
+        <references refid="classdomain_1_1_rural_house_1a0d4787f58507c40f9474f2bec0a1250a" compoundref="_rural_house_8java" startline="83" endline="87">domain.RuralHouse.addImage</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ad5cf462151e6c43b9088f112eed0ad3f">businessLogic.ApplicationFacadeInterfaceWS.addImageToRH</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1ab035400265dc2c288707e9f30fd7414f" compoundref="_modify_house_g_u_i_8java" startline="45">gui.ModifyHouseGUI.btnDeleteRuralHouse</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1a25b4d3da9ad668a5a976faf0d2518ce9" compoundref="_modify_house_g_u_i_8java" startline="44">gui.ModifyHouseGUI.btnSeePhoto</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1a5c169d1fb8a40277b56fd291a48e97ab" compoundref="_modify_house_g_u_i_8java" startline="43">gui.ModifyHouseGUI.btnUploadFoto</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1ae3c3ed3425d3b0bf7c1b901ae52ddcdf" compoundref="_modify_house_g_u_i_8java" startline="46">gui.ModifyHouseGUI.casas</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1a7bb13be5defa74715359f06a41fb5dad" compoundref="_modify_house_g_u_i_8java" startline="38">gui.ModifyHouseGUI.contentPane</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1a2272c7d4931bdf3dac35d8dc6496978f" compoundref="_modify_house_g_u_i_8java" startline="39">gui.ModifyHouseGUI.facade</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <references refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" compoundref="_main_g_u_i_8java" startline="234" endline="237">gui.MainGUI.getMainOwner</references>
+        <references refid="classdomain_1_1_owner_1a49e337ac1f7dc0b15c3006c5f08800d7" compoundref="_owner_8java" startline="107" endline="109">domain.Owner.getRhList</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1aeda86c46b75acfc4befb30f5d0e98e7c">businessLogic.ApplicationFacadeInterfaceWS.getRuralHouse</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1a126db8210cd615dca1929c2f258ff58c" compoundref="_modify_house_g_u_i_8java" startline="40">gui.ModifyHouseGUI.owner</references>
+        <references refid="classgui_1_1_modify_house_g_u_i_1a803e872ae00af5f6fd4b87837a44408c" compoundref="_modify_house_g_u_i_8java" startline="41">gui.ModifyHouseGUI.selectedRH</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="157">
+        <label>gui.ModifyHouseGUI</label>
+        <link refid="classgui_1_1_modify_house_g_u_i"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="170">
+        <label>JPanel</label>
+      </node>
+      <node id="159">
+        <label>gui.ModifyHouseGUI</label>
+        <link refid="classgui_1_1_modify_house_g_u_i"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+        <childnode refid="161" relation="usage">
+          <edgelabel>btnSeePhoto</edgelabel>
+          <edgelabel>btnUploadFoto</edgelabel>
+          <edgelabel>btnDeleteRuralHouse</edgelabel>
+        </childnode>
+        <childnode refid="162" relation="usage">
+          <edgelabel>selectedRH</edgelabel>
+        </childnode>
+        <childnode refid="164" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="170" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>casas</edgelabel>
+        </childnode>
+      </node>
+      <node id="167">
+        <label>Vector&lt; domain.FeedBack &gt;</label>
+      </node>
+      <node id="162">
+        <label>domain.RuralHouse</label>
+        <link refid="classdomain_1_1_rural_house"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+        <childnode refid="164" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="166" relation="usage">
+          <edgelabel>offers</edgelabel>
+        </childnode>
+        <childnode refid="167" relation="usage">
+          <edgelabel>listaFeedBack</edgelabel>
+        </childnode>
+        <childnode refid="168" relation="usage">
+          <edgelabel>images</edgelabel>
+        </childnode>
+      </node>
+      <node id="171">
+        <label>DefaultComboBoxModel&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="163">
+        <label>Serializable</label>
+      </node>
+      <node id="160">
+        <label>JFrame</label>
+      </node>
+      <node id="164">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+        <childnode refid="165" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="165">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="168">
+        <label>Vector&lt; byte[]&gt;</label>
+      </node>
+      <node id="169">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="161">
+        <label>JButton</label>
+      </node>
+      <node id="166">
+        <label>Vector&lt; domain.Offer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/ModifyHouseGUI.java" line="36" column="1" bodyfile="src/gui/ModifyHouseGUI.java" bodystart="36" bodyend="158"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_modify_house_g_u_i_1ab035400265dc2c288707e9f30fd7414f" prot="private" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>btnDeleteRuralHouse</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1a25b4d3da9ad668a5a976faf0d2518ce9" prot="private" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>btnSeePhoto</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1a5c169d1fb8a40277b56fd291a48e97ab" prot="private" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>btnUploadFoto</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1ae3c3ed3425d3b0bf7c1b901ae52ddcdf" prot="private" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>casas</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1a7bb13be5defa74715359f06a41fb5dad" prot="private" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1a2272c7d4931bdf3dac35d8dc6496978f" prot="private" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" prot="public" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>ModifyHouseGUI</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1a126db8210cd615dca1929c2f258ff58c" prot="private" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>owner</name></member>
+      <member refid="classgui_1_1_modify_house_g_u_i_1a803e872ae00af5f6fd4b87837a44408c" prot="protected" virt="non-virtual"><scope>gui::ModifyHouseGUI</scope><name>selectedRH</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

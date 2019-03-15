@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_display_images_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::DisplayImagesGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_display_images_g_u_i_1af5565c2bb3ed37878d4812250658e895" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.DisplayImagesGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayImagesGUI.java" line="31" column="1" bodyfile="src/gui/DisplayImagesGUI.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" compoundref="_display_images_g_u_i_8java" startline="42" endline="139">gui.DisplayImagesGUI.DisplayImagesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_images_g_u_i_1a3f6072ee462364a095f2702fbcb14e17" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gui.DisplayImagesGUI.maxPhotos</definition>
+        <argsstring></argsstring>
+        <name>maxPhotos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayImagesGUI.java" line="33" column="1" bodyfile="src/gui/DisplayImagesGUI.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" compoundref="_display_images_g_u_i_8java" startline="42" endline="139">gui.DisplayImagesGUI.DisplayImagesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_images_g_u_i_1a67ed3018c207bc52f5eceb196b02d74a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gui.DisplayImagesGUI.actualphoto</definition>
+        <argsstring></argsstring>
+        <name>actualphoto</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayImagesGUI.java" line="34" column="1" bodyfile="src/gui/DisplayImagesGUI.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" compoundref="_display_images_g_u_i_8java" startline="42" endline="139">gui.DisplayImagesGUI.DisplayImagesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_images_g_u_i_1ae5514a460e8af8bc6293278b62791832" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.DisplayImagesGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayImagesGUI.java" line="35" column="1" bodyfile="src/gui/DisplayImagesGUI.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_images_g_u_i_1a07b3c804bf0847f00977fac829fb092e" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.DisplayImagesGUI.lblActPhoto</definition>
+        <argsstring></argsstring>
+        <name>lblActPhoto</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayImagesGUI.java" line="36" column="1" bodyfile="src/gui/DisplayImagesGUI.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" compoundref="_display_images_g_u_i_8java" startline="42" endline="139">gui.DisplayImagesGUI.DisplayImagesGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.DisplayImagesGUI.DisplayImagesGUI</definition>
+        <argsstring>(RuralHouse rh, int from)</argsstring>
+        <name>DisplayImagesGUI</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedRH</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayImagesGUI.java" line="42" column="1" bodyfile="src/gui/DisplayImagesGUI.java" bodystart="42" bodyend="139"/>
+        <references refid="classgui_1_1_display_images_g_u_i_1a67ed3018c207bc52f5eceb196b02d74a" compoundref="_display_images_g_u_i_8java" startline="34">gui.DisplayImagesGUI.actualphoto</references>
+        <references refid="classgui_1_1_display_images_g_u_i_1af5565c2bb3ed37878d4812250658e895" compoundref="_display_images_g_u_i_8java" startline="31">gui.DisplayImagesGUI.contentPane</references>
+        <references refid="classdomain_1_1_rural_house_1aa1acd38c652785b83bd4601d7ea5c761" compoundref="_rural_house_8java" startline="79" endline="81">domain.RuralHouse.getImages</references>
+        <references refid="classgui_1_1_display_images_g_u_i_1a07b3c804bf0847f00977fac829fb092e" compoundref="_display_images_g_u_i_8java" startline="36">gui.DisplayImagesGUI.lblActPhoto</references>
+        <references refid="classgui_1_1_display_images_g_u_i_1a3f6072ee462364a095f2702fbcb14e17" compoundref="_display_images_g_u_i_8java" startline="33">gui.DisplayImagesGUI.maxPhotos</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>gui.DisplayImagesGUI</label>
+        <link refid="classgui_1_1_display_images_g_u_i"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="62">
+        <label>JPanel</label>
+      </node>
+      <node id="61">
+        <label>JLabel</label>
+      </node>
+      <node id="58">
+        <label>gui.DisplayImagesGUI</label>
+        <link refid="classgui_1_1_display_images_g_u_i"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>lblActPhoto</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+      </node>
+      <node id="59">
+        <label>JFrame</label>
+      </node>
+      <node id="60">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/DisplayImagesGUI.java" line="29" column="1" bodyfile="src/gui/DisplayImagesGUI.java" bodystart="29" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_display_images_g_u_i_1a67ed3018c207bc52f5eceb196b02d74a" prot="private" virt="non-virtual"><scope>gui::DisplayImagesGUI</scope><name>actualphoto</name></member>
+      <member refid="classgui_1_1_display_images_g_u_i_1af5565c2bb3ed37878d4812250658e895" prot="private" virt="non-virtual"><scope>gui::DisplayImagesGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" prot="public" virt="non-virtual"><scope>gui::DisplayImagesGUI</scope><name>DisplayImagesGUI</name></member>
+      <member refid="classgui_1_1_display_images_g_u_i_1ae5514a460e8af8bc6293278b62791832" prot="private" virt="non-virtual"><scope>gui::DisplayImagesGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_display_images_g_u_i_1a07b3c804bf0847f00977fac829fb092e" prot="private" virt="non-virtual"><scope>gui::DisplayImagesGUI</scope><name>lblActPhoto</name></member>
+      <member refid="classgui_1_1_display_images_g_u_i_1a3f6072ee462364a095f2702fbcb14e17" prot="private" virt="non-virtual"><scope>gui::DisplayImagesGUI</scope><name>maxPhotos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

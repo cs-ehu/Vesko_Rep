@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_offer_can_not_be_booked_8java" kind="file" language="Java">
+    <compoundname>OfferCanNotBeBooked.java</compoundname>
+    <innerclass refid="classexceptions_1_1_offer_can_not_be_booked" prot="public">exceptions::OfferCanNotBeBooked</innerclass>
+    <innernamespace refid="namespaceexceptions">exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">exceptions;</highlight></codeline>
+<codeline lineno="2" refid="classexceptions_1_1_offer_can_not_be_booked" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexceptions_1_1_offer_can_not_be_booked" kindref="compound">OfferCanNotBeBooked</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="3" refid="classexceptions_1_1_offer_can_not_be_booked_1a0f0deac6a5fe9077f31bd1c90f1b0b59" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_offer_can_not_be_booked_1a0f0deac6a5fe9077f31bd1c90f1b0b59" kindref="member">serialVersionUID</ref><sp/>=<sp/>1L;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="5" refid="classexceptions_1_1_offer_can_not_be_booked_1a113511bf6eedf993448d483ff55cabb0" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_offer_can_not_be_booked_1a113511bf6eedf993448d483ff55cabb0" kindref="member">OfferCanNotBeBooked</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13" refid="classexceptions_1_1_offer_can_not_be_booked_1a08f25182868a230f2b49b37483560486" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_offer_can_not_be_booked_1a08f25182868a230f2b49b37483560486" kindref="member">OfferCanNotBeBooked</ref>(String<sp/>s)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>super(s);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/exceptions/OfferCanNotBeBooked.java"/>
+  </compounddef>
+</doxygen>

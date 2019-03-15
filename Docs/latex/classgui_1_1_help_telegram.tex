@@ -1,0 +1,147 @@
+\hypertarget{classgui_1_1_help_telegram}{}\section{Referencia de la Clase gui.\+Help\+Telegram}
+\label{classgui_1_1_help_telegram}\index{gui.HelpTelegram@{gui.HelpTelegram}}
+Diagrama de herencias de gui.\+Help\+Telegram\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_help_telegram}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_help_telegram_a74bf844c45b4063a5c7d4956b13af89c}{Help\+Telegram}} ()
+\begin{DoxyCompactList}\small\item\em Create the dialog. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classgui_1_1_help_telegram_a61edf978593e59290943e50a2a5ff367}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\begin{DoxyCompactList}\small\item\em Launch the application. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+final J\+Panel \mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{content\+Panel}} = new J\+Panel()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 14 del archivo Help\+Telegram.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_help_telegram_a74bf844c45b4063a5c7d4956b13af89c}\label{classgui_1_1_help_telegram_a74bf844c45b4063a5c7d4956b13af89c}} 
+\index{gui.HelpTelegram@{gui.HelpTelegram}!HelpTelegram@{HelpTelegram}}
+\index{HelpTelegram@{HelpTelegram}!gui.HelpTelegram@{gui.HelpTelegram}}
+\subsubsection{\texorpdfstring{HelpTelegram()}{HelpTelegram()}}
+{\footnotesize\ttfamily gui.\+Help\+Telegram.\+Help\+Telegram (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the dialog. 
+
+
+
+Definición en la línea 34 del archivo Help\+Telegram.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34                           \{}
+\DoxyCodeLine{35         setTitle(\textcolor{stringliteral}{"Help"});}
+\DoxyCodeLine{36         setBounds(100, 100, 515, 285);}
+\DoxyCodeLine{37         getContentPane().setLayout(\textcolor{keyword}{new} BorderLayout());}
+\DoxyCodeLine{38         \mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{contentPanel}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{39         getContentPane().add(\mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{contentPanel}}, BorderLayout.CENTER);}
+\DoxyCodeLine{40         \mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{contentPanel}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{41         }
+\DoxyCodeLine{42         JTextArea txtrG = \textcolor{keyword}{new} JTextArea();}
+\DoxyCodeLine{43         txtrG.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{44         txtrG.setText(\textcolor{stringliteral}{"1. Go to telegram app\(\backslash\)r\(\backslash\)n2. Search the following contact: @userinfobot\(\backslash\)r\(\backslash\)n3. Send the following message to @userinfobot: /start\(\backslash\)r\(\backslash\)n4. @userinfobot will reply with your id.\(\backslash\)r\(\backslash\)n\(\backslash\)r\(\backslash\)n"});}
+\DoxyCodeLine{45         txtrG.setBounds(12, 29, 473, 76);}
+\DoxyCodeLine{46         \mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{contentPanel}}.add(txtrG);}
+\DoxyCodeLine{47         \{}
+\DoxyCodeLine{48             JTextArea txtrGoTo = \textcolor{keyword}{new} JTextArea();}
+\DoxyCodeLine{49             txtrGoTo.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{50             txtrGoTo.setText(\textcolor{stringliteral}{"1. Go to telegram app\(\backslash\)r\(\backslash\)n2. Search the following contact: @Scrum\_v2Bot\(\backslash\)r\(\backslash\)n3. Send the following message to @Scrum\_v2Bot: /start\(\backslash\)r\(\backslash\)n4. Your account now is shyncronized "});}
+\DoxyCodeLine{51             txtrGoTo.setBounds(12, 152, 473, 76);}
+\DoxyCodeLine{52             \mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{contentPanel}}.add(txtrGoTo);}
+\DoxyCodeLine{53         \}}
+\DoxyCodeLine{54         }
+\DoxyCodeLine{55         JLabel lblHowDoI = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"How do I shyncronize my account with telegram"});}
+\DoxyCodeLine{56         lblHowDoI.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{57         lblHowDoI.setBounds(12, 137, 497, 16);}
+\DoxyCodeLine{58         \mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{contentPanel}}.add(lblHowDoI);}
+\DoxyCodeLine{59         \{}
+\DoxyCodeLine{60             JLabel lblNewLabel = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"How do i get my telegram id ?"});}
+\DoxyCodeLine{61             lblNewLabel.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{62             lblNewLabel.setBounds(12, 8, 352, 27);}
+\DoxyCodeLine{63             \mbox{\hyperlink{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}{contentPanel}}.add(lblNewLabel);}
+\DoxyCodeLine{64         \}}
+\DoxyCodeLine{65     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Help\+Telegram.\+content\+Panel.
+
+
+
+Referenciado por gui.\+Help\+Telegram.\+main().
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_help_telegram_a61edf978593e59290943e50a2a5ff367}\label{classgui_1_1_help_telegram_a61edf978593e59290943e50a2a5ff367}} 
+\index{gui.HelpTelegram@{gui.HelpTelegram}!main@{main}}
+\index{main@{main}!gui.HelpTelegram@{gui.HelpTelegram}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void gui.\+Help\+Telegram.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Launch the application. 
+
+
+
+Definición en la línea 21 del archivo Help\+Telegram.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{21                                            \{}
+\DoxyCodeLine{22         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{23             \mbox{\hyperlink{classgui_1_1_help_telegram_a74bf844c45b4063a5c7d4956b13af89c}{HelpTelegram}} dialog = \textcolor{keyword}{new} \mbox{\hyperlink{classgui_1_1_help_telegram_a74bf844c45b4063a5c7d4956b13af89c}{HelpTelegram}}();}
+\DoxyCodeLine{24             dialog.setDefaultCloseOperation(JDialog.DISPOSE\_ON\_CLOSE);}
+\DoxyCodeLine{25             dialog.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{26         \} \textcolor{keywordflow}{catch} (Exception e) \{}
+\DoxyCodeLine{27             e.printStackTrace();}
+\DoxyCodeLine{28         \}}
+\DoxyCodeLine{29     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Help\+Telegram.\+Help\+Telegram().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}\label{classgui_1_1_help_telegram_add5420f3af5cd44b1e10bd946e8a8906}} 
+\index{gui.HelpTelegram@{gui.HelpTelegram}!contentPanel@{contentPanel}}
+\index{contentPanel@{contentPanel}!gui.HelpTelegram@{gui.HelpTelegram}}
+\subsubsection{\texorpdfstring{contentPanel}{contentPanel}}
+{\footnotesize\ttfamily final J\+Panel gui.\+Help\+Telegram.\+content\+Panel = new J\+Panel()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 16 del archivo Help\+Telegram.\+java.
+
+
+
+Referenciado por gui.\+Help\+Telegram.\+Help\+Telegram().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_help_telegram_8java}{Help\+Telegram.\+java}}\end{DoxyCompactItemize}

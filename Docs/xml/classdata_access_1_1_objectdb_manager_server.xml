@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdata_access_1_1_objectdb_manager_server" kind="class" language="Java" prot="public">
+    <compoundname>dataAccess::ObjectdbManagerServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classdata_access_1_1_objectdb_manager_server_1aecacee957a38daebfb09c8b326497696" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long dataAccess.ObjectdbManagerServer.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/ObjectdbManagerServer.java" line="31" column="1" bodyfile="src/dataAccess/ObjectdbManagerServer.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdata_access_1_1_objectdb_manager_server_1ad26f12e877ed4c593d4444ece4309e6c" prot="private" static="no" mutable="no">
+        <type>final JPanel</type>
+        <definition>final JPanel dataAccess.ObjectdbManagerServer.contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <initializer>= new JPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/ObjectdbManagerServer.java" line="32" column="1" bodyfile="src/dataAccess/ObjectdbManagerServer.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classdata_access_1_1_objectdb_manager_server_1ab739ebdf3a077579c9af7a881c620fd4" prot="package" static="no" mutable="no">
+        <type>JTextArea</type>
+        <definition>JTextArea dataAccess.ObjectdbManagerServer.textArea</definition>
+        <argsstring></argsstring>
+        <name>textArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/ObjectdbManagerServer.java" line="33" column="1" bodyfile="src/dataAccess/ObjectdbManagerServer.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdata_access_1_1_objectdb_manager_server_1af08ecdac594a6dcaa286d9f52087d13f" prot="package" static="no" mutable="no">
+        <type><ref refid="classconfiguration_1_1_config_x_m_l" kindref="compound">ConfigXML</ref></type>
+        <definition>ConfigXML dataAccess.ObjectdbManagerServer.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/ObjectdbManagerServer.java" line="34" column="1" bodyfile="src/dataAccess/ObjectdbManagerServer.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdata_access_1_1_objectdb_manager_server_1a2e0f5eddf461be78de905ca56e4295f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void dataAccess.ObjectdbManagerServer.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Launch the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/ObjectdbManagerServer.java" line="40" column="1" bodyfile="src/dataAccess/ObjectdbManagerServer.java" bodystart="40" bodyend="48"/>
+        <references refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" compoundref="_objectdb_manager_server_8java" startline="53" endline="124">dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>dataAccess.ObjectdbManagerServer.ObjectdbManagerServer</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectdbManagerServer</name>
+        <briefdescription>
+<para>Create the dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/ObjectdbManagerServer.java" line="53" column="1" bodyfile="src/dataAccess/ObjectdbManagerServer.java" bodystart="53" bodyend="124"/>
+        <references refid="classdata_access_1_1_objectdb_manager_server_1af08ecdac594a6dcaa286d9f52087d13f" compoundref="_objectdb_manager_server_8java" startline="34">dataAccess.ObjectdbManagerServer.c</references>
+        <references refid="classdata_access_1_1_objectdb_manager_server_1ad26f12e877ed4c593d4444ece4309e6c" compoundref="_objectdb_manager_server_8java" startline="32">dataAccess.ObjectdbManagerServer.contentPanel</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1abf4649caafdcfb0b506af7402f09728c" compoundref="_config_x_m_l_8java" startline="44" endline="46">configuration.ConfigXML.getDatabasePort</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" compoundref="_config_x_m_l_8java" startline="143" endline="145">configuration.ConfigXML.getInstance</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a98e53bd841ca5f520af914f96ff2afef" compoundref="_config_x_m_l_8java" startline="48" endline="50">configuration.ConfigXML.getUser</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a2ee9afbde36aa3f5c0d0158a8b5449fb" compoundref="_config_x_m_l_8java" startline="57" endline="59">configuration.ConfigXML.isDatabaseLocal</references>
+        <references refid="classdata_access_1_1_objectdb_manager_server_1ab739ebdf3a077579c9af7a881c620fd4" compoundref="_objectdb_manager_server_8java" startline="33">dataAccess.ObjectdbManagerServer.textArea</references>
+        <referencedby refid="classdata_access_1_1_objectdb_manager_server_1a2e0f5eddf461be78de905ca56e4295f9" compoundref="_objectdb_manager_server_8java" startline="40" endline="48">dataAccess.ObjectdbManagerServer.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="184">
+        <label>dataAccess.ObjectdbManagerServer</label>
+        <link refid="classdata_access_1_1_objectdb_manager_server"/>
+        <childnode refid="185" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>JDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="190">
+        <label>JPanel</label>
+      </node>
+      <node id="189">
+        <label>JTextArea</label>
+      </node>
+      <node id="186">
+        <label>dataAccess.ObjectdbManagerServer</label>
+        <link refid="classdata_access_1_1_objectdb_manager_server"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+        <childnode refid="188" relation="usage">
+          <edgelabel>c</edgelabel>
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>textArea</edgelabel>
+        </childnode>
+        <childnode refid="190" relation="usage">
+          <edgelabel>contentPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="187">
+        <label>JDialog</label>
+      </node>
+      <node id="188">
+        <label>configuration.ConfigXML</label>
+        <link refid="classconfiguration_1_1_config_x_m_l"/>
+        <childnode refid="188" relation="usage">
+          <edgelabel>theInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/dataAccess/ObjectdbManagerServer.java" line="26" column="1" bodyfile="src/dataAccess/ObjectdbManagerServer.java" bodystart="26" bodyend="125"/>
+    <listofallmembers>
+      <member refid="classdata_access_1_1_objectdb_manager_server_1af08ecdac594a6dcaa286d9f52087d13f" prot="package" virt="non-virtual"><scope>dataAccess::ObjectdbManagerServer</scope><name>c</name></member>
+      <member refid="classdata_access_1_1_objectdb_manager_server_1ad26f12e877ed4c593d4444ece4309e6c" prot="private" virt="non-virtual"><scope>dataAccess::ObjectdbManagerServer</scope><name>contentPanel</name></member>
+      <member refid="classdata_access_1_1_objectdb_manager_server_1a2e0f5eddf461be78de905ca56e4295f9" prot="public" virt="non-virtual"><scope>dataAccess::ObjectdbManagerServer</scope><name>main</name></member>
+      <member refid="classdata_access_1_1_objectdb_manager_server_1a6aac62b0bbbebbb54d3105d5820c0061" prot="public" virt="non-virtual"><scope>dataAccess::ObjectdbManagerServer</scope><name>ObjectdbManagerServer</name></member>
+      <member refid="classdata_access_1_1_objectdb_manager_server_1aecacee957a38daebfb09c8b326497696" prot="private" virt="non-virtual"><scope>dataAccess::ObjectdbManagerServer</scope><name>serialVersionUID</name></member>
+      <member refid="classdata_access_1_1_objectdb_manager_server_1ab739ebdf3a077579c9af7a881c620fd4" prot="package" virt="non-virtual"><scope>dataAccess::ObjectdbManagerServer</scope><name>textArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

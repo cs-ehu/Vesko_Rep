@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_owner" kind="class" language="Java" prot="public">
+    <compoundname>domain::Owner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_owner_1aa8031c9e66a0cbd90d84dc6df66a25a3" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Owner.userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="22" column="1" bodyfile="src/domain/Owner.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1acf8fa109beae1cc607f9e04c051c03e5" compoundref="_owner_8java" startline="119" endline="121">domain.Owner.setUserName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1af66aee27508c675e6f8cab193f0c215d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Owner.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="23" column="1" bodyfile="src/domain/Owner.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" compoundref="_owner_8java" startline="123" endline="125">domain.Owner.getPassword</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1a9b6bea08f2f6af298a4e7af22fc900dc" compoundref="_owner_8java" startline="127" endline="129">domain.Owner.setPassword</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>ArrayList&lt;RuralHouse&gt; domain.Owner.rhList</definition>
+        <argsstring></argsstring>
+        <name>rhList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="25" column="1" bodyfile="src/domain/Owner.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a49e337ac1f7dc0b15c3006c5f08800d7" compoundref="_owner_8java" startline="107" endline="109">domain.Owner.getRhList</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1ab8266177e084a78aaf73947b23a20de8" compoundref="_owner_8java" startline="99" endline="105">domain.Owner.getRhListAsVector</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1a520de8a66f25117d263ea4c7cd5f08fa" compoundref="_owner_8java" startline="131" endline="133">domain.Owner.removeRuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" compoundref="_owner_8java" startline="136" endline="147">domain.Owner.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1a7df022fa9c33f9661d4eac42d113585c" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Owner.telegramId</definition>
+        <argsstring></argsstring>
+        <name>telegramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="26" column="1" bodyfile="src/domain/Owner.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" compoundref="_owner_8java" startline="67" endline="69">domain.Owner.getTelegramId</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1ac024ef11aaf4d4875f421c75365e3c9e" compoundref="_owner_8java" startline="71" endline="73">domain.Owner.setTelegramId</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1a0c0b7f7134349132b180d90c57181561" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Owner.cuentaBancaria</definition>
+        <argsstring></argsstring>
+        <name>cuentaBancaria</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="27" column="1" bodyfile="src/domain/Owner.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a6d24ccea9d518464f4c6185a33ff4c6c" compoundref="_owner_8java" startline="75" endline="77">domain.Owner.getCuentaBancaria</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1a585ddd63f0f59a3198fa98689b07635e" compoundref="_owner_8java" startline="79" endline="81">domain.Owner.setCuentaBancaria</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1a37fce65d727c0c7d4fbc7d2c2493148c" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.Owner.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="28" column="1" bodyfile="src/domain/Owner.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" compoundref="_owner_8java" startline="83" endline="85">domain.Owner.getEmail</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1a021c9e357ca913eb88688a7aaa3e298d" compoundref="_owner_8java" startline="87" endline="89">domain.Owner.setEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1a9d429221bf395775b4dceafc96a4658b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int domain.Owner.validationNumber</definition>
+        <argsstring></argsstring>
+        <name>validationNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="29" column="1" bodyfile="src/domain/Owner.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a2265630ba75fb938b09b243833117069" compoundref="_owner_8java" startline="91" endline="93">domain.Owner.getValidationNumber</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aeaf0bcfe8dc2183aa6c2e99ded5530c6" compoundref="_owner_8java" startline="95" endline="97">domain.Owner.setValidationNumber</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1adec75a99c7addadf2226be54e9255ca8" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean domain.Owner.validated</definition>
+        <argsstring></argsstring>
+        <name>validated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="30" column="1" bodyfile="src/domain/Owner.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a1c08ad86ccfe8d47bb7e1e9e8a8126be" compoundref="_owner_8java" startline="59" endline="61">domain.Owner.isValidated</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1a6c9df0354092ead37755351953846cbe" compoundref="_owner_8java" startline="63" endline="65">domain.Owner.setValidated</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_owner_1a134e9113c7b9ebcc36663b40d2415089" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean domain.Owner.sendBookByTelegram</definition>
+        <argsstring></argsstring>
+        <name>sendBookByTelegram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="31" column="1" bodyfile="src/domain/Owner.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" compoundref="_owner_8java" startline="51" endline="53">domain.Owner.isSendBookByTelegram</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" compoundref="_owner_8java" startline="36" endline="49">domain.Owner.Owner</referencedby>
+        <referencedby refid="classdomain_1_1_owner_1a4541457ba4d275025e6134f9402a6c5e" compoundref="_owner_8java" startline="55" endline="57">domain.Owner.setSendBookByTelegram</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_owner_1a2938f239b0a7088763c81266146d8f3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Owner.Owner</definition>
+        <argsstring>()</argsstring>
+        <name>Owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="33" column="1" bodyfile="src/domain/Owner.java" bodystart="33" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Owner.Owner</definition>
+        <argsstring>(String userName, String password, String telegramId, String cuentaBancaria, String email)</argsstring>
+        <name>Owner</name>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="36" column="1" bodyfile="src/domain/Owner.java" bodystart="36" bodyend="49"/>
+        <references refid="classdomain_1_1_owner_1a0c0b7f7134349132b180d90c57181561" compoundref="_owner_8java" startline="27">domain.Owner.cuentaBancaria</references>
+        <references refid="classdomain_1_1_owner_1a37fce65d727c0c7d4fbc7d2c2493148c" compoundref="_owner_8java" startline="28">domain.Owner.email</references>
+        <references refid="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" compoundref="_generate_validation_code_8java" startline="16" endline="18">businessLogic.GenerateValidationCode.getValidationNumber</references>
+        <references refid="classdomain_1_1_owner_1af66aee27508c675e6f8cab193f0c215d" compoundref="_owner_8java" startline="23">domain.Owner.password</references>
+        <references refid="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" compoundref="_owner_8java" startline="25">domain.Owner.rhList</references>
+        <references refid="classdomain_1_1_owner_1a134e9113c7b9ebcc36663b40d2415089" compoundref="_owner_8java" startline="31">domain.Owner.sendBookByTelegram</references>
+        <references refid="classdomain_1_1_owner_1a7df022fa9c33f9661d4eac42d113585c" compoundref="_owner_8java" startline="26">domain.Owner.telegramId</references>
+        <references refid="classdomain_1_1_owner_1aa8031c9e66a0cbd90d84dc6df66a25a3" compoundref="_owner_8java" startline="22">domain.Owner.userName</references>
+        <references refid="classdomain_1_1_owner_1adec75a99c7addadf2226be54e9255ca8" compoundref="_owner_8java" startline="30">domain.Owner.validated</references>
+        <references refid="classdomain_1_1_owner_1a9d429221bf395775b4dceafc96a4658b" compoundref="_owner_8java" startline="29">domain.Owner.validationNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.Owner.isSendBookByTelegram</definition>
+        <argsstring>()</argsstring>
+        <name>isSendBookByTelegram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="51" column="1" bodyfile="src/domain/Owner.java" bodystart="51" bodyend="53"/>
+        <references refid="classdomain_1_1_owner_1a134e9113c7b9ebcc36663b40d2415089" compoundref="_owner_8java" startline="31">domain.Owner.sendBookByTelegram</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a4541457ba4d275025e6134f9402a6c5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setSendBookByTelegram</definition>
+        <argsstring>(boolean sendBookByTelegram)</argsstring>
+        <name>setSendBookByTelegram</name>
+        <param>
+          <type>boolean</type>
+          <declname>sendBookByTelegram</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="55" column="1" bodyfile="src/domain/Owner.java" bodystart="55" bodyend="57"/>
+        <references refid="classdomain_1_1_owner_1a134e9113c7b9ebcc36663b40d2415089" compoundref="_owner_8java" startline="31">domain.Owner.sendBookByTelegram</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a1c08ad86ccfe8d47bb7e1e9e8a8126be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.Owner.isValidated</definition>
+        <argsstring>()</argsstring>
+        <name>isValidated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="59" column="1" bodyfile="src/domain/Owner.java" bodystart="59" bodyend="61"/>
+        <references refid="classdomain_1_1_owner_1adec75a99c7addadf2226be54e9255ca8" compoundref="_owner_8java" startline="30">domain.Owner.validated</references>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a6c9df0354092ead37755351953846cbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setValidated</definition>
+        <argsstring>(boolean validated)</argsstring>
+        <name>setValidated</name>
+        <param>
+          <type>boolean</type>
+          <declname>validated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="63" column="1" bodyfile="src/domain/Owner.java" bodystart="63" bodyend="65"/>
+        <references refid="classdomain_1_1_owner_1adec75a99c7addadf2226be54e9255ca8" compoundref="_owner_8java" startline="30">domain.Owner.validated</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a5ecedf103c63cc76c84c664e29f64f7b" compoundref="_data_access_8java" startline="377" endline="383">dataAccess.DataAccess.updateOwnerValidation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Owner.getTelegramId</definition>
+        <argsstring>()</argsstring>
+        <name>getTelegramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="67" column="1" bodyfile="src/domain/Owner.java" bodystart="67" bodyend="69"/>
+        <references refid="classdomain_1_1_owner_1a7df022fa9c33f9661d4eac42d113585c" compoundref="_owner_8java" startline="26">domain.Owner.telegramId</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" compoundref="_send_booking_8java" startline="17" endline="38">businessLogic.SendBooking.sendBookToTelegram</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1ac024ef11aaf4d4875f421c75365e3c9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setTelegramId</definition>
+        <argsstring>(String telegramId)</argsstring>
+        <name>setTelegramId</name>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="71" column="1" bodyfile="src/domain/Owner.java" bodystart="71" bodyend="73"/>
+        <references refid="classdomain_1_1_owner_1a7df022fa9c33f9661d4eac42d113585c" compoundref="_owner_8java" startline="26">domain.Owner.telegramId</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a6d24ccea9d518464f4c6185a33ff4c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Owner.getCuentaBancaria</definition>
+        <argsstring>()</argsstring>
+        <name>getCuentaBancaria</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="75" column="1" bodyfile="src/domain/Owner.java" bodystart="75" bodyend="77"/>
+        <references refid="classdomain_1_1_owner_1a0c0b7f7134349132b180d90c57181561" compoundref="_owner_8java" startline="27">domain.Owner.cuentaBancaria</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a585ddd63f0f59a3198fa98689b07635e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setCuentaBancaria</definition>
+        <argsstring>(String cuentaBancaria)</argsstring>
+        <name>setCuentaBancaria</name>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="79" column="1" bodyfile="src/domain/Owner.java" bodystart="79" bodyend="81"/>
+        <references refid="classdomain_1_1_owner_1a0c0b7f7134349132b180d90c57181561" compoundref="_owner_8java" startline="27">domain.Owner.cuentaBancaria</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Owner.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="83" column="1" bodyfile="src/domain/Owner.java" bodystart="83" bodyend="85"/>
+        <references refid="classdomain_1_1_owner_1a37fce65d727c0c7d4fbc7d2c2493148c" compoundref="_owner_8java" startline="28">domain.Owner.email</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a021c9e357ca913eb88688a7aaa3e298d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="87" column="1" bodyfile="src/domain/Owner.java" bodystart="87" bodyend="89"/>
+        <references refid="classdomain_1_1_owner_1a37fce65d727c0c7d4fbc7d2c2493148c" compoundref="_owner_8java" startline="28">domain.Owner.email</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a2265630ba75fb938b09b243833117069" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int domain.Owner.getValidationNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getValidationNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="91" column="1" bodyfile="src/domain/Owner.java" bodystart="91" bodyend="93"/>
+        <references refid="classdomain_1_1_owner_1a9d429221bf395775b4dceafc96a4658b" compoundref="_owner_8java" startline="29">domain.Owner.validationNumber</references>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1aeaf0bcfe8dc2183aa6c2e99ded5530c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setValidationNumber</definition>
+        <argsstring>(int validationNumber)</argsstring>
+        <name>setValidationNumber</name>
+        <param>
+          <type>int</type>
+          <declname>validationNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="95" column="1" bodyfile="src/domain/Owner.java" bodystart="95" bodyend="97"/>
+        <references refid="classdomain_1_1_owner_1a9d429221bf395775b4dceafc96a4658b" compoundref="_owner_8java" startline="29">domain.Owner.validationNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1ab8266177e084a78aaf73947b23a20de8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>Vector&lt;RuralHouse&gt; domain.Owner.getRhListAsVector</definition>
+        <argsstring>()</argsstring>
+        <name>getRhListAsVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="99" column="1" bodyfile="src/domain/Owner.java" bodystart="99" bodyend="105"/>
+        <references refid="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" compoundref="_owner_8java" startline="25">domain.Owner.rhList</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a49e337ac1f7dc0b15c3006c5f08800d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>ArrayList&lt;RuralHouse&gt; domain.Owner.getRhList</definition>
+        <argsstring>()</argsstring>
+        <name>getRhList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="107" column="1" bodyfile="src/domain/Owner.java" bodystart="107" bodyend="109"/>
+        <references refid="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" compoundref="_owner_8java" startline="25">domain.Owner.rhList</references>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+        <referencedby refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" compoundref="_owner_g_u_i_8java" startline="37" endline="142">gui.OwnerGUI.OwnerGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a01e969e9f1e86c08e90195d6cc01132d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.addRhList</definition>
+        <argsstring>(RuralHouse rh)</argsstring>
+        <name>addRhList</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="111" column="1" bodyfile="src/domain/Owner.java" bodystart="111" bodyend="113"/>
+        <referencedby refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" compoundref="_data_access_8java" startline="148" endline="162">dataAccess.DataAccess.createRuralHouse</referencedby>
+        <referencedby refid="classgui_1_1_set_house_1aa47531b2839fe7b13dbde7fa421b03d6" compoundref="_set_house_8java" startline="47" endline="156">gui.SetHouse.SetHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Owner.getUserName</definition>
+        <argsstring>()</argsstring>
+        <name>getUserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="115" column="1" bodyfile="src/domain/Owner.java" bodystart="115" bodyend="117"/>
+        <references refid="classdomain_1_1_owner_1aa8031c9e66a0cbd90d84dc6df66a25a3" compoundref="_owner_8java" startline="22">domain.Owner.userName</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" compoundref="_data_access_8java" startline="148" endline="162">dataAccess.DataAccess.createRuralHouse</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" compoundref="_main_g_u_i_8java" startline="234" endline="237">gui.MainGUI.getMainOwner</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a5ecedf103c63cc76c84c664e29f64f7b" compoundref="_data_access_8java" startline="377" endline="383">dataAccess.DataAccess.updateOwnerValidation</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1acf8fa109beae1cc607f9e04c051c03e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setUserName</definition>
+        <argsstring>(String userName)</argsstring>
+        <name>setUserName</name>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="119" column="1" bodyfile="src/domain/Owner.java" bodystart="119" bodyend="121"/>
+        <references refid="classdomain_1_1_owner_1aa8031c9e66a0cbd90d84dc6df66a25a3" compoundref="_owner_8java" startline="22">domain.Owner.userName</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Owner.getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="123" column="1" bodyfile="src/domain/Owner.java" bodystart="123" bodyend="125"/>
+        <references refid="classdomain_1_1_owner_1af66aee27508c675e6f8cab193f0c215d" compoundref="_owner_8java" startline="23">domain.Owner.password</references>
+        <referencedby refid="classbusiness_logic_1_1_login_1ac9f6613d5985375b441ff00347cafb18" compoundref="_login_8java" startline="12" endline="30">businessLogic.Login.doLogin</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a9b6bea08f2f6af298a4e7af22fc900dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.setPassword</definition>
+        <argsstring>(String password)</argsstring>
+        <name>setPassword</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="127" column="1" bodyfile="src/domain/Owner.java" bodystart="127" bodyend="129"/>
+        <references refid="classdomain_1_1_owner_1af66aee27508c675e6f8cab193f0c215d" compoundref="_owner_8java" startline="23">domain.Owner.password</references>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1a520de8a66f25117d263ea4c7cd5f08fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Owner.removeRuralHouse</definition>
+        <argsstring>(RuralHouse rh)</argsstring>
+        <name>removeRuralHouse</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="131" column="1" bodyfile="src/domain/Owner.java" bodystart="131" bodyend="133"/>
+        <references refid="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" compoundref="_owner_8java" startline="25">domain.Owner.rhList</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a3317cddb0e49d7e884f5f89795e20317" compoundref="_data_access_8java" startline="354" endline="362">dataAccess.DataAccess.removeRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Owner.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Owner.java" line="136" column="1" bodyfile="src/domain/Owner.java" bodystart="136" bodyend="147"/>
+        <references refid="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" compoundref="_owner_8java" startline="25">domain.Owner.rhList</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a786f6a4bbd1f36ee68d8cebfd1ebc626" compoundref="_data_access_8java" startline="105" endline="120">dataAccess.DataAccess.createOwner</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" compoundref="_data_access_8java" startline="148" endline="162">dataAccess.DataAccess.createRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a61836150ad3401ad7e326f263993c7bc" compoundref="_data_access_8java" startline="307" endline="318">dataAccess.DataAccess.getOwnerByUsername</referencedby>
+        <referencedby refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" compoundref="_owner_g_u_i_8java" startline="37" endline="142">gui.OwnerGUI.OwnerGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="222">
+        <label>Serializable</label>
+      </node>
+      <node id="221">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="222" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="224">
+        <label>Serializable</label>
+      </node>
+      <node id="223">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+        <childnode refid="225" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="225">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/Owner.java" line="19" column="1" bodyfile="src/domain/Owner.java" bodystart="19" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_owner_1a01e969e9f1e86c08e90195d6cc01132d" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>addRhList</name></member>
+      <member refid="classdomain_1_1_owner_1a0c0b7f7134349132b180d90c57181561" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>cuentaBancaria</name></member>
+      <member refid="classdomain_1_1_owner_1a37fce65d727c0c7d4fbc7d2c2493148c" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>email</name></member>
+      <member refid="classdomain_1_1_owner_1a6d24ccea9d518464f4c6185a33ff4c6c" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getCuentaBancaria</name></member>
+      <member refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getEmail</name></member>
+      <member refid="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getPassword</name></member>
+      <member refid="classdomain_1_1_owner_1a49e337ac1f7dc0b15c3006c5f08800d7" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getRhList</name></member>
+      <member refid="classdomain_1_1_owner_1ab8266177e084a78aaf73947b23a20de8" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getRhListAsVector</name></member>
+      <member refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getTelegramId</name></member>
+      <member refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getUserName</name></member>
+      <member refid="classdomain_1_1_owner_1a2265630ba75fb938b09b243833117069" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>getValidationNumber</name></member>
+      <member refid="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>isSendBookByTelegram</name></member>
+      <member refid="classdomain_1_1_owner_1a1c08ad86ccfe8d47bb7e1e9e8a8126be" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>isValidated</name></member>
+      <member refid="classdomain_1_1_owner_1a2938f239b0a7088763c81266146d8f3f" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>Owner</name></member>
+      <member refid="classdomain_1_1_owner_1aacd09c8566d1377947340a67f78017de" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>Owner</name></member>
+      <member refid="classdomain_1_1_owner_1af66aee27508c675e6f8cab193f0c215d" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>password</name></member>
+      <member refid="classdomain_1_1_owner_1a520de8a66f25117d263ea4c7cd5f08fa" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>removeRuralHouse</name></member>
+      <member refid="classdomain_1_1_owner_1afcb9d273bad9eff1c21fcc0f8be6611a" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>rhList</name></member>
+      <member refid="classdomain_1_1_owner_1a134e9113c7b9ebcc36663b40d2415089" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>sendBookByTelegram</name></member>
+      <member refid="classdomain_1_1_owner_1a585ddd63f0f59a3198fa98689b07635e" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setCuentaBancaria</name></member>
+      <member refid="classdomain_1_1_owner_1a021c9e357ca913eb88688a7aaa3e298d" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setEmail</name></member>
+      <member refid="classdomain_1_1_owner_1a9b6bea08f2f6af298a4e7af22fc900dc" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setPassword</name></member>
+      <member refid="classdomain_1_1_owner_1a4541457ba4d275025e6134f9402a6c5e" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setSendBookByTelegram</name></member>
+      <member refid="classdomain_1_1_owner_1ac024ef11aaf4d4875f421c75365e3c9e" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setTelegramId</name></member>
+      <member refid="classdomain_1_1_owner_1acf8fa109beae1cc607f9e04c051c03e5" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setUserName</name></member>
+      <member refid="classdomain_1_1_owner_1a6c9df0354092ead37755351953846cbe" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setValidated</name></member>
+      <member refid="classdomain_1_1_owner_1aeaf0bcfe8dc2183aa6c2e99ded5530c6" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>setValidationNumber</name></member>
+      <member refid="classdomain_1_1_owner_1a7df022fa9c33f9661d4eac42d113585c" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>telegramId</name></member>
+      <member refid="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" prot="public" virt="non-virtual"><scope>domain::Owner</scope><name>toString</name></member>
+      <member refid="classdomain_1_1_owner_1aa8031c9e66a0cbd90d84dc6df66a25a3" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>userName</name></member>
+      <member refid="classdomain_1_1_owner_1adec75a99c7addadf2226be54e9255ca8" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>validated</name></member>
+      <member refid="classdomain_1_1_owner_1a9d429221bf395775b4dceafc96a4658b" prot="private" virt="non-virtual"><scope>domain::Owner</scope><name>validationNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

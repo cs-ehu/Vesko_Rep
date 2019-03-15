@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Rural House 2017: Fichero Fuente src/domain/ReservaOfferRhOwnerContainer.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Thehoth-Seo-Seo-web-code.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Rural House 2017
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto_Java_realizado_en_2017_en_IS</div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_reserva_offer_rh_owner_container_8java_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">ReservaOfferRhOwnerContainer.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_reserva_offer_rh_owner_container_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>domain;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> javax.xml.bind.annotation.XmlAccessType;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">import</span> javax.xml.bind.annotation.XmlAccessorType;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;@XmlAccessorType(XmlAccessType.FIELD)</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html">    7</a></span>&#160;public class <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html">ReservaOfferRhOwnerContainer</a> {</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#afcbc4f46e44afcfe5f441462b8628198">    8</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="classdomain_1_1_reserva.html">Reserva</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#afcbc4f46e44afcfe5f441462b8628198">reserva</a>;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#ad8659a141937db6a13a2afc94ee10302">    9</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="classdomain_1_1_offer.html">Offer</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#ad8659a141937db6a13a2afc94ee10302">offer</a>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a96ee8f1952c3b10e5ca8cbf71fdf95cf">   10</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="classdomain_1_1_rural_house.html">RuralHouse</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a96ee8f1952c3b10e5ca8cbf71fdf95cf">rh</a>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a6d643c4ac5605393774d6a69886d7c3d">   11</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="classdomain_1_1_owner.html">Owner</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a6d643c4ac5605393774d6a69886d7c3d">owner</a>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a8dd8e74751c3687311a3dc879bf4ec1c">   13</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a8dd8e74751c3687311a3dc879bf4ec1c">ReservaOfferRhOwnerContainer</a>(<a class="code" href="classdomain_1_1_reserva.html">Reserva</a> r) {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        this.reserva = r;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        offer = r.<a class="code" href="classdomain_1_1_reserva.html#ad1da3466712c5ccaf43cb6f9fe9f5045">getOffer</a>();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        rh = offer.<a class="code" href="classdomain_1_1_offer.html#a3804f5f9ad3a3bf380e55389ccfa9dba">getRuralHouse</a>();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        owner = rh.<a class="code" href="classdomain_1_1_rural_house.html#a1e5ccf38c0d875763f2e9120e36e412b">getOwner</a>();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#ad9d429d5bde3581517b0029a825aefb6">   20</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#ad9d429d5bde3581517b0029a825aefb6">ReservaOfferRhOwnerContainer</a>() {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#aac4cc25208d928d5a68f72611c64fc3e">   24</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classdomain_1_1_reserva.html">Reserva</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#aac4cc25208d928d5a68f72611c64fc3e">getReserva</a>() {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">return</span> reserva;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a756c562dcce796edc2fc9a6c395fac80">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a756c562dcce796edc2fc9a6c395fac80">setReserva</a>(<a class="code" href="classdomain_1_1_reserva.html">Reserva</a> reserva) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        this.reserva = reserva;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#af4089b377fb75d45f5178ddcb13d244d">   32</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classdomain_1_1_offer.html">Offer</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#af4089b377fb75d45f5178ddcb13d244d">getOffer</a>() {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> offer;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a9bde23e4776b3ab5f1a3ca0c2383eec1">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a9bde23e4776b3ab5f1a3ca0c2383eec1">setOffer</a>(<a class="code" href="classdomain_1_1_offer.html">Offer</a> offer) {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        this.offer = offer;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#ae420b93f550cdc6ce38e896b1371e051">   40</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classdomain_1_1_rural_house.html">RuralHouse</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#ae420b93f550cdc6ce38e896b1371e051">getRh</a>() {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> rh;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a99a20474815a9663239605aa3b5ca2ce">   44</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a99a20474815a9663239605aa3b5ca2ce">setRh</a>(<a class="code" href="classdomain_1_1_rural_house.html">RuralHouse</a> rh) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        this.rh = rh;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a910d36a8ee7f6bcdd7611ec046e91fce">   48</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classdomain_1_1_owner.html">Owner</a> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a910d36a8ee7f6bcdd7611ec046e91fce">getOwner</a>() {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> owner;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a90dec9bd67969de90e8c99877a810323">   52</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a90dec9bd67969de90e8c99877a810323">setOwner</a>(<a class="code" href="classdomain_1_1_owner.html">Owner</a> owner) {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        this.owner = owner;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div><div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a784483e076f918173509251d9b88bd4f">   55</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a784483e076f918173509251d9b88bd4f">toString</a> (){</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">return</span> offer+<span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div><div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a44dfc6ad7f9d01332112f4cf9a07dc4c">   58</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classdomain_1_1_reserva_offer_rh_owner_container.html#a44dfc6ad7f9d01332112f4cf9a07dc4c">toStringOfferRh</a> (){</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> offer+<span class="stringliteral">&quot; &quot;</span> + rh+<span class="stringliteral">&quot; &quot;</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div><div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a8dd8e74751c3687311a3dc879bf4ec1c"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a8dd8e74751c3687311a3dc879bf4ec1c">domain.ReservaOfferRhOwnerContainer.ReservaOfferRhOwnerContainer</a></div><div class="ttdeci">ReservaOfferRhOwnerContainer(Reserva r)</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00013">ReservaOfferRhOwnerContainer.java:13</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a910d36a8ee7f6bcdd7611ec046e91fce"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a910d36a8ee7f6bcdd7611ec046e91fce">domain.ReservaOfferRhOwnerContainer.getOwner</a></div><div class="ttdeci">Owner getOwner()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00048">ReservaOfferRhOwnerContainer.java:48</a></div></div>
+<div class="ttc" id="classdomain_1_1_rural_house_html"><div class="ttname"><a href="classdomain_1_1_rural_house.html">domain.RuralHouse</a></div><div class="ttdef"><b>Definition:</b> <a href="_rural_house_8java_source.html#l00019">RuralHouse.java:19</a></div></div>
+<div class="ttc" id="classdomain_1_1_rural_house_html_a1e5ccf38c0d875763f2e9120e36e412b"><div class="ttname"><a href="classdomain_1_1_rural_house.html#a1e5ccf38c0d875763f2e9120e36e412b">domain.RuralHouse.getOwner</a></div><div class="ttdeci">Owner getOwner()</div><div class="ttdef"><b>Definition:</b> <a href="_rural_house_8java_source.html#l00071">RuralHouse.java:71</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a9bde23e4776b3ab5f1a3ca0c2383eec1"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a9bde23e4776b3ab5f1a3ca0c2383eec1">domain.ReservaOfferRhOwnerContainer.setOffer</a></div><div class="ttdeci">void setOffer(Offer offer)</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00036">ReservaOfferRhOwnerContainer.java:36</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_ad9d429d5bde3581517b0029a825aefb6"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#ad9d429d5bde3581517b0029a825aefb6">domain.ReservaOfferRhOwnerContainer.ReservaOfferRhOwnerContainer</a></div><div class="ttdeci">ReservaOfferRhOwnerContainer()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00020">ReservaOfferRhOwnerContainer.java:20</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_aac4cc25208d928d5a68f72611c64fc3e"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#aac4cc25208d928d5a68f72611c64fc3e">domain.ReservaOfferRhOwnerContainer.getReserva</a></div><div class="ttdeci">Reserva getReserva()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00024">ReservaOfferRhOwnerContainer.java:24</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_html_ad1da3466712c5ccaf43cb6f9fe9f5045"><div class="ttname"><a href="classdomain_1_1_reserva.html#ad1da3466712c5ccaf43cb6f9fe9f5045">domain.Reserva.getOffer</a></div><div class="ttdeci">Offer getOffer()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_8java_source.html#l00043">Reserva.java:43</a></div></div>
+<div class="ttc" id="classdomain_1_1_offer_html"><div class="ttname"><a href="classdomain_1_1_offer.html">domain.Offer</a></div><div class="ttdef"><b>Definition:</b> <a href="_offer_8java_source.html#l00022">Offer.java:22</a></div></div>
+<div class="ttc" id="classdomain_1_1_offer_html_a3804f5f9ad3a3bf380e55389ccfa9dba"><div class="ttname"><a href="classdomain_1_1_offer.html#a3804f5f9ad3a3bf380e55389ccfa9dba">domain.Offer.getRuralHouse</a></div><div class="ttdeci">RuralHouse getRuralHouse()</div><div class="ttdoc">Get the house number of the offer.</div><div class="ttdef"><b>Definition:</b> <a href="_offer_8java_source.html#l00070">Offer.java:70</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a90dec9bd67969de90e8c99877a810323"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a90dec9bd67969de90e8c99877a810323">domain.ReservaOfferRhOwnerContainer.setOwner</a></div><div class="ttdeci">void setOwner(Owner owner)</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00052">ReservaOfferRhOwnerContainer.java:52</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a756c562dcce796edc2fc9a6c395fac80"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a756c562dcce796edc2fc9a6c395fac80">domain.ReservaOfferRhOwnerContainer.setReserva</a></div><div class="ttdeci">void setReserva(Reserva reserva)</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00028">ReservaOfferRhOwnerContainer.java:28</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a784483e076f918173509251d9b88bd4f"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a784483e076f918173509251d9b88bd4f">domain.ReservaOfferRhOwnerContainer.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00055">ReservaOfferRhOwnerContainer.java:55</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_html"><div class="ttname"><a href="classdomain_1_1_reserva.html">domain.Reserva</a></div><div class="ttdef"><b>Definition:</b> <a href="_reserva_8java_source.html#l00020">Reserva.java:20</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html">domain.ReservaOfferRhOwnerContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00007">ReservaOfferRhOwnerContainer.java:7</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_ae420b93f550cdc6ce38e896b1371e051"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#ae420b93f550cdc6ce38e896b1371e051">domain.ReservaOfferRhOwnerContainer.getRh</a></div><div class="ttdeci">RuralHouse getRh()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00040">ReservaOfferRhOwnerContainer.java:40</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a96ee8f1952c3b10e5ca8cbf71fdf95cf"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a96ee8f1952c3b10e5ca8cbf71fdf95cf">domain.ReservaOfferRhOwnerContainer.rh</a></div><div class="ttdeci">RuralHouse rh</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00010">ReservaOfferRhOwnerContainer.java:10</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a6d643c4ac5605393774d6a69886d7c3d"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a6d643c4ac5605393774d6a69886d7c3d">domain.ReservaOfferRhOwnerContainer.owner</a></div><div class="ttdeci">Owner owner</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00011">ReservaOfferRhOwnerContainer.java:11</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_ad8659a141937db6a13a2afc94ee10302"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#ad8659a141937db6a13a2afc94ee10302">domain.ReservaOfferRhOwnerContainer.offer</a></div><div class="ttdeci">Offer offer</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00009">ReservaOfferRhOwnerContainer.java:9</a></div></div>
+<div class="ttc" id="classdomain_1_1_owner_html"><div class="ttname"><a href="classdomain_1_1_owner.html">domain.Owner</a></div><div class="ttdef"><b>Definition:</b> <a href="_owner_8java_source.html#l00019">Owner.java:19</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_af4089b377fb75d45f5178ddcb13d244d"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#af4089b377fb75d45f5178ddcb13d244d">domain.ReservaOfferRhOwnerContainer.getOffer</a></div><div class="ttdeci">Offer getOffer()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00032">ReservaOfferRhOwnerContainer.java:32</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_afcbc4f46e44afcfe5f441462b8628198"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#afcbc4f46e44afcfe5f441462b8628198">domain.ReservaOfferRhOwnerContainer.reserva</a></div><div class="ttdeci">Reserva reserva</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00008">ReservaOfferRhOwnerContainer.java:8</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a99a20474815a9663239605aa3b5ca2ce"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a99a20474815a9663239605aa3b5ca2ce">domain.ReservaOfferRhOwnerContainer.setRh</a></div><div class="ttdeci">void setRh(RuralHouse rh)</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00044">ReservaOfferRhOwnerContainer.java:44</a></div></div>
+<div class="ttc" id="classdomain_1_1_reserva_offer_rh_owner_container_html_a44dfc6ad7f9d01332112f4cf9a07dc4c"><div class="ttname"><a href="classdomain_1_1_reserva_offer_rh_owner_container.html#a44dfc6ad7f9d01332112f4cf9a07dc4c">domain.ReservaOfferRhOwnerContainer.toStringOfferRh</a></div><div class="ttdeci">String toStringOfferRh()</div><div class="ttdef"><b>Definition:</b> <a href="_reserva_offer_rh_owner_container_8java_source.html#l00058">ReservaOfferRhOwnerContainer.java:58</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_59e154daa71ab644ff60a4d6c4d01bbf.html">domain</a></li><li class="navelem"><a class="el" href="_reserva_offer_rh_owner_container_8java.html">ReservaOfferRhOwnerContainer.java</a></li>
+    <li class="footer">Generado el Martes, 12 de Marzo de 2019 11:45:54 para Rural House 2017 por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

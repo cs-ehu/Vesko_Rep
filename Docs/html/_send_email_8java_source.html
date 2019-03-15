@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Rural House 2017: Fichero Fuente src/businessLogic/SendEmail.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Thehoth-Seo-Seo-web-code.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Rural House 2017
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto_Java_realizado_en_2017_en_IS</div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_send_email_8java_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">SendEmail.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_send_email_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>businessLogic;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> javax.mail.*;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">import</span> javax.mail.internet.*;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">import</span> java.util.*;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html">    7</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classbusiness_logic_1_1_send_email.html">SendEmail</a> {</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#a2e47b8c2228b215b8335c16ba592b95d">    8</a></span>&#160;    <span class="keyword">final</span> String <a class="code" href="classbusiness_logic_1_1_send_email.html#a2e47b8c2228b215b8335c16ba592b95d">senderEmailID</a> = <span class="stringliteral">&quot;gausitos@gmail.com&quot;</span>;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#a0bd45a69289e50c9439e70835c06ff0c">    9</a></span>&#160;    <span class="keyword">final</span> String <a class="code" href="classbusiness_logic_1_1_send_email.html#a0bd45a69289e50c9439e70835c06ff0c">senderPassword</a> = <span class="stringliteral">&quot;haritz97&quot;</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#a1c140265f179e199fc4d20fb3ebc81b6">   10</a></span>&#160;    <span class="keyword">final</span> String <a class="code" href="classbusiness_logic_1_1_send_email.html#a1c140265f179e199fc4d20fb3ebc81b6">emailSMTPserver</a> = <span class="stringliteral">&quot;smtp.gmail.com&quot;</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#a1c99e22d5e9634a278914e9183c644a9">   11</a></span>&#160;    <span class="keyword">final</span> String <a class="code" href="classbusiness_logic_1_1_send_email.html#a1c99e22d5e9634a278914e9183c644a9">emailServerPort</a> = <span class="stringliteral">&quot;465&quot;</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#ac77f915d22477cea3ca986da4acffbbc">   12</a></span>&#160;    String <a class="code" href="classbusiness_logic_1_1_send_email.html#ac77f915d22477cea3ca986da4acffbbc">receiverEmailID</a> = <span class="stringliteral">&quot;haritz1997@gmail.com&quot;</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#ae03ffb4b828745d6f4cec012064760fe">   13</a></span>&#160;    <span class="keyword">static</span> String <a class="code" href="classbusiness_logic_1_1_send_email.html#ae03ffb4b828745d6f4cec012064760fe">emailSubject</a> = <span class="stringliteral">&quot;Test Mail&quot;</span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#abd4287e31ab6595894df6a666bc09bfd">   14</a></span>&#160;    <span class="keyword">static</span> String <a class="code" href="classbusiness_logic_1_1_send_email.html#abd4287e31ab6595894df6a666bc09bfd">emailBody</a> = <span class="stringliteral">&quot;:)&quot;</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email.html#ad544aa16db4f9e424ad3db5e8af40bb4">   16</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classbusiness_logic_1_1_send_email.html#ad544aa16db4f9e424ad3db5e8af40bb4">SendEmail</a>(String <a class="code" href="classbusiness_logic_1_1_send_email.html#ac77f915d22477cea3ca986da4acffbbc">receiverEmailID</a>, String Subject, String Body) { <span class="comment">// Receiver</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                            <span class="comment">// Email</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                            <span class="comment">// Address</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        this.receiverEmailID = <a class="code" href="classbusiness_logic_1_1_send_email.html#ac77f915d22477cea3ca986da4acffbbc">receiverEmailID</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="comment">// Subject</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        this.emailSubject = Subject;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="comment">// Body</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        this.emailBody = Body;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        Properties props = <span class="keyword">new</span> Properties();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.user&quot;</span>, <a class="code" href="classbusiness_logic_1_1_send_email.html#a2e47b8c2228b215b8335c16ba592b95d">senderEmailID</a>);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.host&quot;</span>, <a class="code" href="classbusiness_logic_1_1_send_email.html#a1c140265f179e199fc4d20fb3ebc81b6">emailSMTPserver</a>);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.port&quot;</span>, <a class="code" href="classbusiness_logic_1_1_send_email.html#a1c99e22d5e9634a278914e9183c644a9">emailServerPort</a>);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.starttls.enable&quot;</span>, <span class="stringliteral">&quot;true&quot;</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.auth&quot;</span>, <span class="stringliteral">&quot;true&quot;</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.socketFactory.port&quot;</span>, <a class="code" href="classbusiness_logic_1_1_send_email.html#a1c99e22d5e9634a278914e9183c644a9">emailServerPort</a>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.socketFactory.class&quot;</span>,</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="stringliteral">&quot;javax.net.ssl.SSLSocketFactory&quot;</span>);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        props.put(<span class="stringliteral">&quot;mail.smtp.socketFactory.fallback&quot;</span>, <span class="stringliteral">&quot;false&quot;</span>);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        SecurityManager security = System.getSecurityManager();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            Authenticator auth = <span class="keyword">new</span> <a class="code" href="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator.html">SMTPAuthenticator</a>();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            Session session = Session.getInstance(props, auth);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            MimeMessage msg = <span class="keyword">new</span> MimeMessage(session);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            msg.setText(<a class="code" href="classbusiness_logic_1_1_send_email.html#abd4287e31ab6595894df6a666bc09bfd">emailBody</a>);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            msg.setSubject(<a class="code" href="classbusiness_logic_1_1_send_email.html#ae03ffb4b828745d6f4cec012064760fe">emailSubject</a>);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            msg.setFrom(<span class="keyword">new</span> InternetAddress(<a class="code" href="classbusiness_logic_1_1_send_email.html#a2e47b8c2228b215b8335c16ba592b95d">senderEmailID</a>));</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            msg.addRecipient(Message.RecipientType.TO, <span class="keyword">new</span> InternetAddress(</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                    <a class="code" href="classbusiness_logic_1_1_send_email.html#ac77f915d22477cea3ca986da4acffbbc">receiverEmailID</a>));</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            Transport.send(msg);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            System.out.println(<span class="stringliteral">&quot;Message send Successfully:)&quot;</span>);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        } <span class="keywordflow">catch</span> (Exception mex) {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            mex.printStackTrace();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator.html">   51</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator.html">SMTPAuthenticator</a> <span class="keyword">extends</span> javax.mail.Authenticator {</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator.html#ac12893bcb04d8840ad1616dd8c7b70de">   52</a></span>&#160;        <span class="keyword">public</span> PasswordAuthentication <a class="code" href="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator.html#ac12893bcb04d8840ad1616dd8c7b70de">getPasswordAuthentication</a>() {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> PasswordAuthentication(<a class="code" href="classbusiness_logic_1_1_send_email.html#a2e47b8c2228b215b8335c16ba592b95d">senderEmailID</a>, <a class="code" href="classbusiness_logic_1_1_send_email.html#a0bd45a69289e50c9439e70835c06ff0c">senderPassword</a>);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div><div class="ttc" id="classbusiness_logic_1_1_send_email_html_a0bd45a69289e50c9439e70835c06ff0c"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#a0bd45a69289e50c9439e70835c06ff0c">businessLogic.SendEmail.senderPassword</a></div><div class="ttdeci">final String senderPassword</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00009">SendEmail.java:9</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html_ad544aa16db4f9e424ad3db5e8af40bb4"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#ad544aa16db4f9e424ad3db5e8af40bb4">businessLogic.SendEmail.SendEmail</a></div><div class="ttdeci">SendEmail(String receiverEmailID, String Subject, String Body)</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00016">SendEmail.java:16</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator_html_ac12893bcb04d8840ad1616dd8c7b70de"><div class="ttname"><a href="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator.html#ac12893bcb04d8840ad1616dd8c7b70de">businessLogic.SendEmail.SMTPAuthenticator.getPasswordAuthentication</a></div><div class="ttdeci">PasswordAuthentication getPasswordAuthentication()</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00052">SendEmail.java:52</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html_ac77f915d22477cea3ca986da4acffbbc"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#ac77f915d22477cea3ca986da4acffbbc">businessLogic.SendEmail.receiverEmailID</a></div><div class="ttdeci">String receiverEmailID</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00012">SendEmail.java:12</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator_html"><div class="ttname"><a href="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator.html">businessLogic.SendEmail.SMTPAuthenticator</a></div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00051">SendEmail.java:51</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html_a1c99e22d5e9634a278914e9183c644a9"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#a1c99e22d5e9634a278914e9183c644a9">businessLogic.SendEmail.emailServerPort</a></div><div class="ttdeci">final String emailServerPort</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00011">SendEmail.java:11</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html">businessLogic.SendEmail</a></div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00007">SendEmail.java:7</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html_a2e47b8c2228b215b8335c16ba592b95d"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#a2e47b8c2228b215b8335c16ba592b95d">businessLogic.SendEmail.senderEmailID</a></div><div class="ttdeci">final String senderEmailID</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00008">SendEmail.java:8</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html_a1c140265f179e199fc4d20fb3ebc81b6"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#a1c140265f179e199fc4d20fb3ebc81b6">businessLogic.SendEmail.emailSMTPserver</a></div><div class="ttdeci">final String emailSMTPserver</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00010">SendEmail.java:10</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html_ae03ffb4b828745d6f4cec012064760fe"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#ae03ffb4b828745d6f4cec012064760fe">businessLogic.SendEmail.emailSubject</a></div><div class="ttdeci">static String emailSubject</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00013">SendEmail.java:13</a></div></div>
+<div class="ttc" id="classbusiness_logic_1_1_send_email_html_abd4287e31ab6595894df6a666bc09bfd"><div class="ttname"><a href="classbusiness_logic_1_1_send_email.html#abd4287e31ab6595894df6a666bc09bfd">businessLogic.SendEmail.emailBody</a></div><div class="ttdeci">static String emailBody</div><div class="ttdef"><b>Definition:</b> <a href="_send_email_8java_source.html#l00014">SendEmail.java:14</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_108520459aa9d4bb59b3b177709be0f6.html">businessLogic</a></li><li class="navelem"><a class="el" href="_send_email_8java.html">SendEmail.java</a></li>
+    <li class="footer">Generado el Martes, 12 de Marzo de 2019 11:45:54 para Rural House 2017 por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

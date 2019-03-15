@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_overlapping_owner_exist_8java" kind="file" language="Java">
+    <compoundname>OverlappingOwnerExist.java</compoundname>
+    <innerclass refid="classexceptions_1_1_overlapping_owner_exist" prot="public">exceptions::OverlappingOwnerExist</innerclass>
+    <innernamespace refid="namespaceexceptions">exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">exceptions;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classexceptions_1_1_overlapping_owner_exist" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexceptions_1_1_overlapping_owner_exist" kindref="compound">OverlappingOwnerExist</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="classexceptions_1_1_overlapping_owner_exist_1a6b81e5ae08ae481fc4ca932285ecdac7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_overlapping_owner_exist_1a6b81e5ae08ae481fc4ca932285ecdac7" kindref="member">serialVersionUID</ref><sp/>=<sp/>1L;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classexceptions_1_1_overlapping_owner_exist_1a6135a6f0a5fa6f50d1886357e8269d5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_overlapping_owner_exist_1a6135a6f0a5fa6f50d1886357e8269d5d" kindref="member">OverlappingOwnerExist</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9" refid="classexceptions_1_1_overlapping_owner_exist_1aec7af33ff914f6c8e4452860bdb3298b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_overlapping_owner_exist_1aec7af33ff914f6c8e4452860bdb3298b" kindref="member">OverlappingOwnerExist</ref>(String<sp/>s)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(s);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/exceptions/OverlappingOwnerExist.java"/>
+  </compounddef>
+</doxygen>

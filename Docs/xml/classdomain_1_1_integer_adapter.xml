@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_integer_adapter" kind="class" language="Java" prot="public">
+    <compoundname>domain::IntegerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">javax::xml::bind::annotation::adapters::XmlAdapter&lt; String, Integer &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_integer_adapter_1ad2bfc5af140573682dd03906b9264b51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer domain.IntegerAdapter.unmarshal</definition>
+        <argsstring>(String s)</argsstring>
+        <name>unmarshal</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/IntegerAdapter.java" line="7" column="1" bodyfile="src/domain/IntegerAdapter.java" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_integer_adapter_1a407b4872b78e54ed80c9ae597cae2451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.IntegerAdapter.marshal</definition>
+        <argsstring>(Integer number)</argsstring>
+        <name>marshal</name>
+        <param>
+          <type>Integer</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/IntegerAdapter.java" line="11" column="1" bodyfile="src/domain/IntegerAdapter.java" bodystart="11" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>javax::xml::bind::annotation::adapters::XmlAdapter&lt; String, Integer &gt;</label>
+      </node>
+      <node id="105">
+        <label>domain.IntegerAdapter</label>
+        <link refid="classdomain_1_1_integer_adapter"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="108">
+        <label>javax::xml::bind::annotation::adapters::XmlAdapter&lt; String, Integer &gt;</label>
+      </node>
+      <node id="107">
+        <label>domain.IntegerAdapter</label>
+        <link refid="classdomain_1_1_integer_adapter"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/IntegerAdapter.java" line="5" column="1" bodyfile="src/domain/IntegerAdapter.java" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_integer_adapter_1a407b4872b78e54ed80c9ae597cae2451" prot="public" virt="non-virtual"><scope>domain::IntegerAdapter</scope><name>marshal</name></member>
+      <member refid="classdomain_1_1_integer_adapter_1ad2bfc5af140573682dd03906b9264b51" prot="public" virt="non-virtual"><scope>domain::IntegerAdapter</scope><name>unmarshal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,858 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_rural_house" kind="class" language="Java" prot="public">
+    <compoundname>domain::RuralHouse</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a985b2c72e90db2433da073e99c581cdc" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long domain.RuralHouse.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="21" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer domain.RuralHouse.houseNumber</definition>
+        <argsstring></argsstring>
+        <name>houseNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="27" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a92f3f1fa5d605f34e95f4e4175ef2629" compoundref="_rural_house_8java" startline="179" endline="192">domain.RuralHouse.equals</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a23272d170821f464d6b07595303c283e" compoundref="_rural_house_8java" startline="151" endline="157">domain.RuralHouse.hashCode</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1afae7f7702581e18517472b1faa29273d" compoundref="_rural_house_8java" startline="113" endline="115">domain.RuralHouse.setHouseNumber</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" compoundref="_rural_house_8java" startline="159" endline="163">domain.RuralHouse.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1afdc9d7b70bcc6baa94cae033a5684f0e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.RuralHouse.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="28" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a21b3359aa62984046a4da490fe8895e1" compoundref="_rural_house_8java" startline="117" endline="119">domain.RuralHouse.getDescription</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1aff9ad2c8f775b473256233e9c26456f1" compoundref="_rural_house_8java" startline="121" endline="123">domain.RuralHouse.setDescription</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a4ac1bd1de58f97487abbcb8dc27a8077" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.RuralHouse.city</definition>
+        <argsstring></argsstring>
+        <name>city</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="29" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a67a45aa0b441b32d455d58c4a42446f1" compoundref="_rural_house_8java" startline="125" endline="127">domain.RuralHouse.getCity</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a04f87e3266ab2b0d9b42bb8f947d6172" compoundref="_rural_house_8java" startline="129" endline="131">domain.RuralHouse.setCity</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" compoundref="_rural_house_8java" startline="159" endline="163">domain.RuralHouse.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a6ba346c74cb3404ca6d04a2ebae730d3" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.RuralHouse.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="33" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a970dabd2796ee789c4feb2cef8fe2df3" compoundref="_rural_house_8java" startline="93" endline="95">domain.RuralHouse.getAddress</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a446d24e82bd8abae3be75e39f66bfe57" compoundref="_rural_house_8java" startline="97" endline="99">domain.RuralHouse.setAddress</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" compoundref="_rural_house_8java" startline="159" endline="163">domain.RuralHouse.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a1cda0eff05ad06090ac37a259fdad562" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.RuralHouse.roomsNumber</definition>
+        <argsstring></argsstring>
+        <name>roomsNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="34" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a3d0d3fd77f1e271f1af5793ad77f6792" compoundref="_rural_house_8java" startline="101" endline="103">domain.RuralHouse.getRoomsNumber</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1aacf83147c21f7a3c50e883822039ecab" compoundref="_rural_house_8java" startline="105" endline="107">domain.RuralHouse.setRoomsNumber</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" prot="private" static="no" mutable="no">
+        <type>Vector&lt; byte[]&gt;</type>
+        <definition>Vector&lt;byte[]&gt; domain.RuralHouse.images</definition>
+        <argsstring></argsstring>
+        <name>images</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="37" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a0d4787f58507c40f9474f2bec0a1250a" compoundref="_rural_house_8java" startline="83" endline="87">domain.RuralHouse.addImage</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1aa1acd38c652785b83bd4601d7ea5c761" compoundref="_rural_house_8java" startline="79" endline="81">domain.RuralHouse.getImages</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1aef9348ba3130b35de8e234672eec76cc" compoundref="_rural_house_8java" startline="89" endline="91">domain.RuralHouse.setImages</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a10df7233cd8c6c42ed2d530b5357f64e" compoundref="_rural_house_8java" startline="165" endline="176">domain.RuralHouse.toString1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1ab7cf574fe34e0feacd2f748682163281" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner domain.RuralHouse.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="40" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a1e5ccf38c0d875763f2e9120e36e412b" compoundref="_rural_house_8java" startline="71" endline="73">domain.RuralHouse.getOwner</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a58145b223941d498d3d7eaa8b2696115" compoundref="_rural_house_8java" startline="75" endline="77">domain.RuralHouse.setOwner</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a9ea6b00b3801e89619b93ba995b0ec32" prot="private" static="no" mutable="no">
+        <type>Vector&lt; <ref refid="classdomain_1_1_feed_back" kindref="compound">FeedBack</ref> &gt;</type>
+        <definition>Vector&lt;FeedBack&gt; domain.RuralHouse.listaFeedBack</definition>
+        <argsstring></argsstring>
+        <name>listaFeedBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="43" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a4660dbd4e788ded7496bc96e4e29a47b" compoundref="_rural_house_8java" startline="60" endline="62">domain.RuralHouse.addFeedBack</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a2d672423144d413d9f4b94b9676af0b1" compoundref="_rural_house_8java" startline="63" endline="65">domain.RuralHouse.getListaFeedBack</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" prot="public" static="no" mutable="no">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; domain.RuralHouse.offers</definition>
+        <argsstring></argsstring>
+        <name>offers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="32" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a58e17e08a7b28a75bc1b8e3d6ac01764" compoundref="_rural_house_8java" startline="141" endline="148">domain.RuralHouse.createOffer</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1ae653409c7556fa8b3ccabd0c17604666" compoundref="_rural_house_8java" startline="67" endline="69">domain.RuralHouse.getOffers</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1ac5596b06728d8bf377993088520fbc9e" compoundref="_rural_house_8java" startline="232" endline="243">domain.RuralHouse.overlapsWith</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" compoundref="_rural_house_8java" startline="47" endline="59">domain.RuralHouse.RuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1a10df7233cd8c6c42ed2d530b5357f64e" compoundref="_rural_house_8java" startline="165" endline="176">domain.RuralHouse.toString1</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a5e1f42ad6b3992bfc5fdece628455552" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.RuralHouse.RuralHouse</definition>
+        <argsstring>()</argsstring>
+        <name>RuralHouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="46" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="46" bodyend="46"/>
+        <referencedby refid="classdomain_1_1_rural_house_1a92f3f1fa5d605f34e95f4e4175ef2629" compoundref="_rural_house_8java" startline="179" endline="192">domain.RuralHouse.equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.RuralHouse.RuralHouse</definition>
+        <argsstring>(String city, String description, String address, String roomsNumber, Owner o)</argsstring>
+        <name>RuralHouse</name>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>roomsNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="47" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="47" bodyend="59"/>
+        <references refid="classdomain_1_1_rural_house_1a6ba346c74cb3404ca6d04a2ebae730d3" compoundref="_rural_house_8java" startline="33">domain.RuralHouse.address</references>
+        <references refid="classdomain_1_1_rural_house_1a4ac1bd1de58f97487abbcb8dc27a8077" compoundref="_rural_house_8java" startline="29">domain.RuralHouse.city</references>
+        <references refid="classdomain_1_1_rural_house_1afdc9d7b70bcc6baa94cae033a5684f0e" compoundref="_rural_house_8java" startline="28">domain.RuralHouse.description</references>
+        <references refid="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" compoundref="_rural_house_8java" startline="37">domain.RuralHouse.images</references>
+        <references refid="classdomain_1_1_rural_house_1a9ea6b00b3801e89619b93ba995b0ec32" compoundref="_rural_house_8java" startline="43">domain.RuralHouse.listaFeedBack</references>
+        <references refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" compoundref="_rural_house_8java" startline="32">domain.RuralHouse.offers</references>
+        <references refid="classdomain_1_1_rural_house_1ab7cf574fe34e0feacd2f748682163281" compoundref="_rural_house_8java" startline="40">domain.RuralHouse.owner</references>
+        <references refid="classdomain_1_1_rural_house_1a1cda0eff05ad06090ac37a259fdad562" compoundref="_rural_house_8java" startline="34">domain.RuralHouse.roomsNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a4660dbd4e788ded7496bc96e4e29a47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.addFeedBack</definition>
+        <argsstring>(FeedBack f)</argsstring>
+        <name>addFeedBack</name>
+        <param>
+          <type><ref refid="classdomain_1_1_feed_back" kindref="compound">FeedBack</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="60" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="60" bodyend="62"/>
+        <references refid="classdomain_1_1_rural_house_1a9ea6b00b3801e89619b93ba995b0ec32" compoundref="_rural_house_8java" startline="43">domain.RuralHouse.listaFeedBack</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ab4812e588500fe2483a82a339a21e17a" compoundref="_data_access_8java" startline="416" endline="425">dataAccess.DataAccess.createFeedBack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a2d672423144d413d9f4b94b9676af0b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_feed_back" kindref="compound">FeedBack</ref> &gt;</type>
+        <definition>Vector&lt;FeedBack&gt; domain.RuralHouse.getListaFeedBack</definition>
+        <argsstring>()</argsstring>
+        <name>getListaFeedBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="63" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="63" bodyend="65"/>
+        <references refid="classdomain_1_1_rural_house_1a9ea6b00b3801e89619b93ba995b0ec32" compoundref="_rural_house_8java" startline="43">domain.RuralHouse.listaFeedBack</references>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1ae653409c7556fa8b3ccabd0c17604666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; domain.RuralHouse.getOffers</definition>
+        <argsstring>()</argsstring>
+        <name>getOffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="67" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="67" bodyend="69"/>
+        <references refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" compoundref="_rural_house_8java" startline="32">domain.RuralHouse.offers</references>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a3bcff9d21c59de14bd34daf687af6141" compoundref="_delete_rural_house_8java" startline="115" endline="122">gui.DeleteRuralHouse.checkRemove</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ab8f58c04c48032a83b000d6de7f47d4e" compoundref="_data_access_8java" startline="271" endline="277">dataAccess.DataAccess.getOffers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a1e5ccf38c0d875763f2e9120e36e412b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner domain.RuralHouse.getOwner</definition>
+        <argsstring>()</argsstring>
+        <name>getOwner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="71" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="71" bodyend="73"/>
+        <references refid="classdomain_1_1_rural_house_1ab7cf574fe34e0feacd2f748682163281" compoundref="_rural_house_8java" startline="40">domain.RuralHouse.owner</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a3317cddb0e49d7e884f5f89795e20317" compoundref="_data_access_8java" startline="354" endline="362">dataAccess.DataAccess.removeRuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_offer_rh_owner_container_1a8dd8e74751c3687311a3dc879bf4ec1c" compoundref="_reserva_offer_rh_owner_container_8java" startline="13" endline="18">domain.ReservaOfferRhOwnerContainer.ReservaOfferRhOwnerContainer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a58145b223941d498d3d7eaa8b2696115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.setOwner</definition>
+        <argsstring>(Owner owner)</argsstring>
+        <name>setOwner</name>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="75" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="75" bodyend="77"/>
+        <references refid="classdomain_1_1_rural_house_1ab7cf574fe34e0feacd2f748682163281" compoundref="_rural_house_8java" startline="40">domain.RuralHouse.owner</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1aa1acd38c652785b83bd4601d7ea5c761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; byte[]&gt;</type>
+        <definition>Vector&lt;byte[]&gt; domain.RuralHouse.getImages</definition>
+        <argsstring>()</argsstring>
+        <name>getImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="79" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="79" bodyend="81"/>
+        <references refid="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" compoundref="_rural_house_8java" startline="37">domain.RuralHouse.images</references>
+        <referencedby refid="classgui_1_1_display_images_g_u_i_1aec52199fa3d22a15985d9b80ecc09934" compoundref="_display_images_g_u_i_8java" startline="42" endline="139">gui.DisplayImagesGUI.DisplayImagesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a0d4787f58507c40f9474f2bec0a1250a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.addImage</definition>
+        <argsstring>(byte[] img)</argsstring>
+        <name>addImage</name>
+        <param>
+          <type>byte []</type>
+          <declname>img</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="83" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="83" bodyend="87"/>
+        <references refid="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" compoundref="_rural_house_8java" startline="37">domain.RuralHouse.images</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" compoundref="_data_access_8java" startline="185" endline="194">dataAccess.DataAccess.addImageToRH</referencedby>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1aef9348ba3130b35de8e234672eec76cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.setImages</definition>
+        <argsstring>(Vector&lt; byte[]&gt; images)</argsstring>
+        <name>setImages</name>
+        <param>
+          <type>Vector&lt; byte[]&gt;</type>
+          <declname>images</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="89" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="89" bodyend="91"/>
+        <references refid="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" compoundref="_rural_house_8java" startline="37">domain.RuralHouse.images</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a970dabd2796ee789c4feb2cef8fe2df3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.RuralHouse.getAddress</definition>
+        <argsstring>()</argsstring>
+        <name>getAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="93" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="93" bodyend="95"/>
+        <references refid="classdomain_1_1_rural_house_1a6ba346c74cb3404ca6d04a2ebae730d3" compoundref="_rural_house_8java" startline="33">domain.RuralHouse.address</references>
+        <referencedby refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a446d24e82bd8abae3be75e39f66bfe57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.setAddress</definition>
+        <argsstring>(String address)</argsstring>
+        <name>setAddress</name>
+        <param>
+          <type>String</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="97" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="97" bodyend="99"/>
+        <references refid="classdomain_1_1_rural_house_1a6ba346c74cb3404ca6d04a2ebae730d3" compoundref="_rural_house_8java" startline="33">domain.RuralHouse.address</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a3d0d3fd77f1e271f1af5793ad77f6792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.RuralHouse.getRoomsNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getRoomsNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="101" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="101" bodyend="103"/>
+        <references refid="classdomain_1_1_rural_house_1a1cda0eff05ad06090ac37a259fdad562" compoundref="_rural_house_8java" startline="34">domain.RuralHouse.roomsNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1aacf83147c21f7a3c50e883822039ecab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.setRoomsNumber</definition>
+        <argsstring>(String roomsNumber)</argsstring>
+        <name>setRoomsNumber</name>
+        <param>
+          <type>String</type>
+          <declname>roomsNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="105" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="105" bodyend="107"/>
+        <references refid="classdomain_1_1_rural_house_1a1cda0eff05ad06090ac37a259fdad562" compoundref="_rural_house_8java" startline="34">domain.RuralHouse.roomsNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Integer</type>
+        <definition>Integer domain.RuralHouse.getHouseNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getHouseNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="109" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="109" bodyend="111"/>
+        <references refid="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" compoundref="_rural_house_8java" startline="27">domain.RuralHouse.houseNumber</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ab4812e588500fe2483a82a339a21e17a" compoundref="_data_access_8java" startline="416" endline="425">dataAccess.DataAccess.createFeedBack</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ac07343daf9aa06679c7b28c082950ab0" compoundref="_data_access_8java" startline="164" endline="183">dataAccess.DataAccess.createOffer</referencedby>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ab6b1332b8bb17a4f65457043247d0b5e" compoundref="_data_access_8java" startline="320" endline="331">dataAccess.DataAccess.existsOverlappingOffer</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" compoundref="_filter_search_8java" startline="114" endline="154">businessLogic.FilterSearch.filterOfferByNights</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_filter_search_1acaa9148a7aab2c5185a6de377f0773cd" compoundref="_filter_search_8java" startline="53" endline="61">businessLogic.FilterSearch.filterOfferByRh</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a11f6dae8ff930c2552445dbf4d292268" compoundref="_data_access_8java" startline="219" endline="232">dataAccess.DataAccess.getImagesFromRH</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ab8f58c04c48032a83b000d6de7f47d4e" compoundref="_data_access_8java" startline="271" endline="277">dataAccess.DataAccess.getOffers</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" compoundref="_data_access_8java" startline="234" endline="252">dataAccess.DataAccess.getRuralHouse</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+        <referencedby refid="classgui_1_1_set_house_1aa47531b2839fe7b13dbde7fa421b03d6" compoundref="_set_house_8java" startline="47" endline="156">gui.SetHouse.SetHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1afae7f7702581e18517472b1faa29273d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.setHouseNumber</definition>
+        <argsstring>(Integer houseNumber)</argsstring>
+        <name>setHouseNumber</name>
+        <param>
+          <type>Integer</type>
+          <declname>houseNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="113" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="113" bodyend="115"/>
+        <references refid="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" compoundref="_rural_house_8java" startline="27">domain.RuralHouse.houseNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a21b3359aa62984046a4da490fe8895e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.RuralHouse.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="117" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="117" bodyend="119"/>
+        <references refid="classdomain_1_1_rural_house_1afdc9d7b70bcc6baa94cae033a5684f0e" compoundref="_rural_house_8java" startline="28">domain.RuralHouse.description</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1aff9ad2c8f775b473256233e9c26456f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.setDescription</definition>
+        <argsstring>(String description)</argsstring>
+        <name>setDescription</name>
+        <param>
+          <type>String</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="121" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="121" bodyend="123"/>
+        <references refid="classdomain_1_1_rural_house_1afdc9d7b70bcc6baa94cae033a5684f0e" compoundref="_rural_house_8java" startline="28">domain.RuralHouse.description</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a67a45aa0b441b32d455d58c4a42446f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.RuralHouse.getCity</definition>
+        <argsstring>()</argsstring>
+        <name>getCity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="125" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="125" bodyend="127"/>
+        <references refid="classdomain_1_1_rural_house_1a4ac1bd1de58f97487abbcb8dc27a8077" compoundref="_rural_house_8java" startline="29">domain.RuralHouse.city</references>
+        <referencedby refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a04f87e3266ab2b0d9b42bb8f947d6172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.RuralHouse.setCity</definition>
+        <argsstring>(String city)</argsstring>
+        <name>setCity</name>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="129" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="129" bodyend="131"/>
+        <references refid="classdomain_1_1_rural_house_1a4ac1bd1de58f97487abbcb8dc27a8077" compoundref="_rural_house_8java" startline="29">domain.RuralHouse.city</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a58e17e08a7b28a75bc1b8e3d6ac01764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer domain.RuralHouse.createOffer</definition>
+        <argsstring>(Date firstDay, Date lastDay, float price)</argsstring>
+        <name>createOffer</name>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>This method creates an offer with a house number, first day, last day and price. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>House</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number, start day, last day and price </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="141" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="141" bodyend="148"/>
+        <references refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" compoundref="_rural_house_8java" startline="32">domain.RuralHouse.offers</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ac07343daf9aa06679c7b28c082950ab0" compoundref="_data_access_8java" startline="164" endline="183">dataAccess.DataAccess.createOffer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a23272d170821f464d6b07595303c283e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int domain.RuralHouse.hashCode</definition>
+        <argsstring>()</argsstring>
+        <name>hashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="151" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="151" bodyend="157"/>
+        <references refid="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" compoundref="_rural_house_8java" startline="27">domain.RuralHouse.houseNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.RuralHouse.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="159" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="159" bodyend="163"/>
+        <references refid="classdomain_1_1_rural_house_1a6ba346c74cb3404ca6d04a2ebae730d3" compoundref="_rural_house_8java" startline="33">domain.RuralHouse.address</references>
+        <references refid="classdomain_1_1_rural_house_1a4ac1bd1de58f97487abbcb8dc27a8077" compoundref="_rural_house_8java" startline="29">domain.RuralHouse.city</references>
+        <references refid="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" compoundref="_rural_house_8java" startline="27">domain.RuralHouse.houseNumber</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" compoundref="_data_access_8java" startline="185" endline="194">dataAccess.DataAccess.addImageToRH</referencedby>
+        <referencedby refid="classgui_1_1_delete_rural_house_1a0de5d3d33aae7cd4d03aedd0f0fdf6c5" compoundref="_delete_rural_house_8java" startline="44" endline="113">gui.DeleteRuralHouse.DeleteRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" compoundref="_data_access_8java" startline="234" endline="252">dataAccess.DataAccess.getRuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a2a641d462289be5d0c53c6fcdabc8052" compoundref="_feed_back_8java" startline="49" endline="51">domain.FeedBack.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a10df7233cd8c6c42ed2d530b5357f64e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.RuralHouse.toString1</definition>
+        <argsstring>()</argsstring>
+        <name>toString1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="165" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="165" bodyend="176"/>
+        <references refid="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" compoundref="_rural_house_8java" startline="37">domain.RuralHouse.images</references>
+        <references refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" compoundref="_rural_house_8java" startline="32">domain.RuralHouse.offers</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1a92f3f1fa5d605f34e95f4e4175ef2629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.RuralHouse.equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="179" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="179" bodyend="192"/>
+        <references refid="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" compoundref="_rural_house_8java" startline="27">domain.RuralHouse.houseNumber</references>
+        <references refid="classdomain_1_1_rural_house_1a5e1f42ad6b3992bfc5fdece628455552" compoundref="_rural_house_8java" startline="46" endline="46">domain.RuralHouse.RuralHouse</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1abe770c8a0fbcfed83a358d84bacd66f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; domain.RuralHouse.getOffers</definition>
+        <argsstring>(Date firstDay, Date lastDay)</argsstring>
+        <name>getOffers</name>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <briefdescription>
+<para>This method obtains available offers for a concrete house in a certain period. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>houseNumber</parametername>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>house number where the offers must be obtained </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>firstDay</parametername>
+<parametername>first</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>day in a period range </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lastDay</parametername>
+<parametername>last</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>day in a period range </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a vector of offers(Offer class) available in this period </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="206" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="206" bodyend="219"/>
+        <references refid="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" compoundref="_offer_8java" startline="100" endline="102">domain.Offer.getFirstDay</references>
+        <references refid="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" compoundref="_offer_8java" startline="119" endline="121">domain.Offer.getLastDay</references>
+        <references refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" compoundref="_rural_house_8java" startline="32">domain.RuralHouse.offers</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_rural_house_1ac5596b06728d8bf377993088520fbc9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer domain.RuralHouse.overlapsWith</definition>
+        <argsstring>(Date firstDay, Date lastDay)</argsstring>
+        <name>overlapsWith</name>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <briefdescription>
+<para>This method obtains the first offer that overlaps with the provided dates. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstDay</parametername>
+<parametername>first</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>day in a period range </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lastDay</parametername>
+<parametername>last</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>day in a period range </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the first offer that overlaps with those dates, or null if there is no overlapping offer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/RuralHouse.java" line="232" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="232" bodyend="243"/>
+        <references refid="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" compoundref="_offer_8java" startline="100" endline="102">domain.Offer.getFirstDay</references>
+        <references refid="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" compoundref="_offer_8java" startline="119" endline="121">domain.Offer.getLastDay</references>
+        <references refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" compoundref="_rural_house_8java" startline="32">domain.RuralHouse.offers</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ab6b1332b8bb17a4f65457043247d0b5e" compoundref="_data_access_8java" startline="320" endline="331">dataAccess.DataAccess.existsOverlappingOffer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="293">
+        <label>domain.RuralHouse</label>
+        <link refid="classdomain_1_1_rural_house"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="294">
+        <label>Serializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="300">
+        <label>Vector&lt; domain.FeedBack &gt;</label>
+      </node>
+      <node id="295">
+        <label>domain.RuralHouse</label>
+        <link refid="classdomain_1_1_rural_house"/>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="299" relation="usage">
+          <edgelabel>offers</edgelabel>
+        </childnode>
+        <childnode refid="300" relation="usage">
+          <edgelabel>listaFeedBack</edgelabel>
+        </childnode>
+        <childnode refid="301" relation="usage">
+          <edgelabel>images</edgelabel>
+        </childnode>
+      </node>
+      <node id="296">
+        <label>Serializable</label>
+      </node>
+      <node id="297">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+        <childnode refid="298" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="298">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="301">
+        <label>Vector&lt; byte[]&gt;</label>
+      </node>
+      <node id="299">
+        <label>Vector&lt; domain.Offer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/RuralHouse.java" line="19" column="1" bodyfile="src/domain/RuralHouse.java" bodystart="19" bodyend="244"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_rural_house_1a4660dbd4e788ded7496bc96e4e29a47b" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>addFeedBack</name></member>
+      <member refid="classdomain_1_1_rural_house_1a0d4787f58507c40f9474f2bec0a1250a" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>addImage</name></member>
+      <member refid="classdomain_1_1_rural_house_1a6ba346c74cb3404ca6d04a2ebae730d3" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>address</name></member>
+      <member refid="classdomain_1_1_rural_house_1a4ac1bd1de58f97487abbcb8dc27a8077" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>city</name></member>
+      <member refid="classdomain_1_1_rural_house_1a58e17e08a7b28a75bc1b8e3d6ac01764" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>createOffer</name></member>
+      <member refid="classdomain_1_1_rural_house_1afdc9d7b70bcc6baa94cae033a5684f0e" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>description</name></member>
+      <member refid="classdomain_1_1_rural_house_1a92f3f1fa5d605f34e95f4e4175ef2629" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>equals</name></member>
+      <member refid="classdomain_1_1_rural_house_1a970dabd2796ee789c4feb2cef8fe2df3" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getAddress</name></member>
+      <member refid="classdomain_1_1_rural_house_1a67a45aa0b441b32d455d58c4a42446f1" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getCity</name></member>
+      <member refid="classdomain_1_1_rural_house_1a21b3359aa62984046a4da490fe8895e1" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getDescription</name></member>
+      <member refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getHouseNumber</name></member>
+      <member refid="classdomain_1_1_rural_house_1aa1acd38c652785b83bd4601d7ea5c761" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getImages</name></member>
+      <member refid="classdomain_1_1_rural_house_1a2d672423144d413d9f4b94b9676af0b1" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getListaFeedBack</name></member>
+      <member refid="classdomain_1_1_rural_house_1ae653409c7556fa8b3ccabd0c17604666" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getOffers</name></member>
+      <member refid="classdomain_1_1_rural_house_1abe770c8a0fbcfed83a358d84bacd66f7" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getOffers</name></member>
+      <member refid="classdomain_1_1_rural_house_1a1e5ccf38c0d875763f2e9120e36e412b" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getOwner</name></member>
+      <member refid="classdomain_1_1_rural_house_1a3d0d3fd77f1e271f1af5793ad77f6792" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>getRoomsNumber</name></member>
+      <member refid="classdomain_1_1_rural_house_1a23272d170821f464d6b07595303c283e" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>hashCode</name></member>
+      <member refid="classdomain_1_1_rural_house_1a1168b2c788d2f3bca3c54eee3b8734cb" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>houseNumber</name></member>
+      <member refid="classdomain_1_1_rural_house_1a6009294a82be0d6cbd824e49479be51a" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>images</name></member>
+      <member refid="classdomain_1_1_rural_house_1a9ea6b00b3801e89619b93ba995b0ec32" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>listaFeedBack</name></member>
+      <member refid="classdomain_1_1_rural_house_1a3988c813bc7b8918e515b161bc3cdd20" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>offers</name></member>
+      <member refid="classdomain_1_1_rural_house_1ac5596b06728d8bf377993088520fbc9e" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>overlapsWith</name></member>
+      <member refid="classdomain_1_1_rural_house_1ab7cf574fe34e0feacd2f748682163281" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>owner</name></member>
+      <member refid="classdomain_1_1_rural_house_1a1cda0eff05ad06090ac37a259fdad562" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>roomsNumber</name></member>
+      <member refid="classdomain_1_1_rural_house_1a5e1f42ad6b3992bfc5fdece628455552" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>RuralHouse</name></member>
+      <member refid="classdomain_1_1_rural_house_1a696dcb2f31c1ad66b01f189bb17763df" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>RuralHouse</name></member>
+      <member refid="classdomain_1_1_rural_house_1a985b2c72e90db2433da073e99c581cdc" prot="private" virt="non-virtual"><scope>domain::RuralHouse</scope><name>serialVersionUID</name></member>
+      <member refid="classdomain_1_1_rural_house_1a446d24e82bd8abae3be75e39f66bfe57" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>setAddress</name></member>
+      <member refid="classdomain_1_1_rural_house_1a04f87e3266ab2b0d9b42bb8f947d6172" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>setCity</name></member>
+      <member refid="classdomain_1_1_rural_house_1aff9ad2c8f775b473256233e9c26456f1" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>setDescription</name></member>
+      <member refid="classdomain_1_1_rural_house_1afae7f7702581e18517472b1faa29273d" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>setHouseNumber</name></member>
+      <member refid="classdomain_1_1_rural_house_1aef9348ba3130b35de8e234672eec76cc" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>setImages</name></member>
+      <member refid="classdomain_1_1_rural_house_1a58145b223941d498d3d7eaa8b2696115" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>setOwner</name></member>
+      <member refid="classdomain_1_1_rural_house_1aacf83147c21f7a3c50e883822039ecab" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>setRoomsNumber</name></member>
+      <member refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>toString</name></member>
+      <member refid="classdomain_1_1_rural_house_1a10df7233cd8c6c42ed2d530b5357f64e" prot="public" virt="non-virtual"><scope>domain::RuralHouse</scope><name>toString1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

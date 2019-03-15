@@ -1,0 +1,85 @@
+\hypertarget{classbusiness_logic_1_1_login}{}\section{Referencia de la Clase business\+Logic.\+Login}
+\label{classbusiness_logic_1_1_login}\index{businessLogic.Login@{businessLogic.Login}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbusiness_logic_1_1_login_a64297917a7eea710ed126646401da842}{Login}} ()
+\item 
+boolean \mbox{\hyperlink{classbusiness_logic_1_1_login_ac9f6613d5985375b441ff00347cafb18}{do\+Login}} (String username, String password, String type)  throws No\+Exists\+Client,\+No\+Exists\+Owner
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 7 del archivo Login.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classbusiness_logic_1_1_login_a64297917a7eea710ed126646401da842}\label{classbusiness_logic_1_1_login_a64297917a7eea710ed126646401da842}} 
+\index{businessLogic.Login@{businessLogic.Login}!Login@{Login}}
+\index{Login@{Login}!businessLogic.Login@{businessLogic.Login}}
+\subsubsection{\texorpdfstring{Login()}{Login()}}
+{\footnotesize\ttfamily business\+Logic.\+Login.\+Login (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 9 del archivo Login.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9                    \{}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11     \}}
+
+\end{DoxyCode}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_login_ac9f6613d5985375b441ff00347cafb18}\label{classbusiness_logic_1_1_login_ac9f6613d5985375b441ff00347cafb18}} 
+\index{businessLogic.Login@{businessLogic.Login}!doLogin@{doLogin}}
+\index{doLogin@{doLogin}!businessLogic.Login@{businessLogic.Login}}
+\subsubsection{\texorpdfstring{doLogin()}{doLogin()}}
+{\footnotesize\ttfamily boolean business\+Logic.\+Login.\+do\+Login (\begin{DoxyParamCaption}\item[{String}]{username,  }\item[{String}]{password,  }\item[{String}]{type }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_no_exists_client}{No\+Exists\+Client}},\mbox{\hyperlink{classexceptions_1_1_no_exists_owner}{No\+Exists\+Owner}}}
+
+
+
+Definición en la línea 12 del archivo Login.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12                                                                                                          \{}
+\DoxyCodeLine{13      FacadeImplementationWS facade = \textcolor{keyword}{new} FacadeImplementationWS(); }
+\DoxyCodeLine{14      \textcolor{keywordflow}{if} (type.equals(\textcolor{stringliteral}{"Client"}))\{}
+\DoxyCodeLine{15             \textcolor{keywordflow}{try}\{}
+\DoxyCodeLine{16             String passwordUsername = facade.getClientByUsername(username).getPassword();}
+\DoxyCodeLine{17             \textcolor{keywordflow}{return} passwordUsername.equals(password);}
+\DoxyCodeLine{18             \}\textcolor{keywordflow}{catch}(NullPointerException e)\{}
+\DoxyCodeLine{19                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NoExistsClient();}
+\DoxyCodeLine{20             \}}
+\DoxyCodeLine{21         \}\textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{22             assert type.equals(\textcolor{stringliteral}{"Owner"});}
+\DoxyCodeLine{23             \textcolor{keywordflow}{try}\{}
+\DoxyCodeLine{24             String passwordUsername = facade.getOwnerByUsername(username).getPassword();}
+\DoxyCodeLine{25             \textcolor{keywordflow}{return} passwordUsername.equals(password);}
+\DoxyCodeLine{26             \}\textcolor{keywordflow}{catch}(NullPointerException e)\{}
+\DoxyCodeLine{27                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NoExistsOwner();}
+\DoxyCodeLine{28             \}}
+\DoxyCodeLine{29         \}}
+\DoxyCodeLine{30     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Client\+By\+Username(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Owner\+By\+Username(), domain.\+Owner.\+get\+Password() y domain.\+Client.\+get\+Password().
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/business\+Logic/\mbox{\hyperlink{_login_8java}{Login.\+java}}\end{DoxyCompactItemize}

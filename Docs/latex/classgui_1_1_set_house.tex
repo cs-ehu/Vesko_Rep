@@ -1,0 +1,369 @@
+\hypertarget{classgui_1_1_set_house}{}\section{Referencia de la Clase gui.\+Set\+House}
+\label{classgui_1_1_set_house}\index{gui.SetHouse@{gui.SetHouse}}
+Diagrama de herencias de gui.\+Set\+House\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_set_house}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_set_house_aa47531b2839fe7b13dbde7fa421b03d6}{Set\+House}} ()
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\item 
+Vector$<$ String $>$ \mbox{\hyperlink{classgui_1_1_set_house_ab46856159d04bd7c4f843417413107f3}{get\+Tags}} (String text)
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{content\+Pane}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}{text\+City}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}{text\+Description}}
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_set_house_a13f738cdb6c7310f7001d6799d7a6065}{btn\+Back}}
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_set_house_a51e87586b716545419f9b105039baba7}{btn\+New\+Button}}
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_set_house_ac2825921a399582ec53017704b5bf65f}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lbl\+Message}}
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_set_house_a56c1015ff2ee4e195c0ab8af428b438e}{lbl\+Room\+Number}}
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_set_house_ad76075de3f61a56b63db0a9c49b7f9a3}{lbl\+Address}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}{text\+Room\+Number}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}{text\+Address}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 29 del archivo Set\+House.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_set_house_aa47531b2839fe7b13dbde7fa421b03d6}\label{classgui_1_1_set_house_aa47531b2839fe7b13dbde7fa421b03d6}} 
+\index{gui.SetHouse@{gui.SetHouse}!SetHouse@{SetHouse}}
+\index{SetHouse@{SetHouse}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{SetHouse()}{SetHouse()}}
+{\footnotesize\ttfamily gui.\+Set\+House.\+Set\+House (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 47 del archivo Set\+House.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{47                       \{}
+\DoxyCodeLine{48         setTitle(\textcolor{stringliteral}{"SetHouse"});}
+\DoxyCodeLine{49         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{50         setBounds(100, 100, 477, 292);}
+\DoxyCodeLine{51         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{52         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{53         setContentPane(\mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}});}
+\DoxyCodeLine{54         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56         JLabel lblCity = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"City"});}
+\DoxyCodeLine{57         lblCity.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.PLAIN, 15));}
+\DoxyCodeLine{58         lblCity.setBounds(33, 40, 56, 16);}
+\DoxyCodeLine{59         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(lblCity);}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61         \mbox{\hyperlink{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}{textCity}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{62         \mbox{\hyperlink{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}{textCity}}.setBounds(132, 39, 277, 22);}
+\DoxyCodeLine{63         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}{textCity}});}
+\DoxyCodeLine{64         \mbox{\hyperlink{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}{textCity}}.setColumns(10);}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66         JLabel lblDescription = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Description"});}
+\DoxyCodeLine{67         lblDescription.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.PLAIN, 15));}
+\DoxyCodeLine{68         lblDescription.setBounds(33, 73, 78, 16);}
+\DoxyCodeLine{69         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(lblDescription);}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71         \mbox{\hyperlink{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}{textDescription}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{72         \mbox{\hyperlink{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}{textDescription}}.setColumns(10);}
+\DoxyCodeLine{73         \mbox{\hyperlink{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}{textDescription}}.setBounds(132, 72, 277, 22);}
+\DoxyCodeLine{74         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}{textDescription}});}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76         \mbox{\hyperlink{classgui_1_1_set_house_a13f738cdb6c7310f7001d6799d7a6065}{btnBack}} = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{77         \mbox{\hyperlink{classgui_1_1_set_house_a13f738cdb6c7310f7001d6799d7a6065}{btnBack}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{78             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{79                 dispose();}
+\DoxyCodeLine{80                 JFrame a = \textcolor{keyword}{new} OwnerGUI();}
+\DoxyCodeLine{81                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{82             \}}
+\DoxyCodeLine{83         \});}
+\DoxyCodeLine{84         \mbox{\hyperlink{classgui_1_1_set_house_a13f738cdb6c7310f7001d6799d7a6065}{btnBack}}.setBounds(132, 185, 97, 25);}
+\DoxyCodeLine{85         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_a13f738cdb6c7310f7001d6799d7a6065}{btnBack}});}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87         \mbox{\hyperlink{classgui_1_1_set_house_a51e87586b716545419f9b105039baba7}{btnNewButton}} = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Register House"});}
+\DoxyCodeLine{88         \mbox{\hyperlink{classgui_1_1_set_house_a51e87586b716545419f9b105039baba7}{btnNewButton}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{89             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{90                 MainGUI main = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{91                 Owner owner = main.getMainOwner();}
+\DoxyCodeLine{92                 }
+\DoxyCodeLine{93                 \textcolor{keywordflow}{if}(\mbox{\hyperlink{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}{textCity}}.getText().equals(\textcolor{stringliteral}{""}) || \mbox{\hyperlink{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}{textAddress}}.getText().equals(\textcolor{stringliteral}{""})||\mbox{\hyperlink{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}{textRoomNumber}}.getText().equals(\textcolor{stringliteral}{""}))\{}
+\DoxyCodeLine{94                     \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}}.setForeground(Color.RED);}
+\DoxyCodeLine{95                     \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}}.setText(\textcolor{stringliteral}{"Fill all the required fields"});}
+\DoxyCodeLine{96                 \}}
+\DoxyCodeLine{97                 \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{98                 RuralHouse rh = \mbox{\hyperlink{classgui_1_1_set_house_ac2825921a399582ec53017704b5bf65f}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a624b00ae79c85436420d62cf34a082d7}{createRuralHouse}}(owner,}
+\DoxyCodeLine{99                         \mbox{\hyperlink{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}{textCity}}.getText(), \mbox{\hyperlink{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}{textDescription}}.getText(),}
+\DoxyCodeLine{100                         \mbox{\hyperlink{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}{textAddress}}.getText(),  \mbox{\hyperlink{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}{textRoomNumber}}.getText());}
+\DoxyCodeLine{101                 \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}}.setForeground(Color.GREEN);}
+\DoxyCodeLine{102                 \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}}.setText(\textcolor{stringliteral}{"Registered Succesfully "} + rh.getHouseNumber());}
+\DoxyCodeLine{103                 main.getMainOwner().addRhList(rh);\}}
+\DoxyCodeLine{104             \}}
+\DoxyCodeLine{105 }
+\DoxyCodeLine{106         \});}
+\DoxyCodeLine{107         \mbox{\hyperlink{classgui_1_1_set_house_a51e87586b716545419f9b105039baba7}{btnNewButton}}.setBounds(245, 185, 162, 25);}
+\DoxyCodeLine{108         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_a51e87586b716545419f9b105039baba7}{btnNewButton}});}
+\DoxyCodeLine{109 }
+\DoxyCodeLine{110         \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}} = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{""});}
+\DoxyCodeLine{111         \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}}.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{112         \mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}}.setBounds(245, 215, 164, 16);}
+\DoxyCodeLine{113         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}{lblMessage}});}
+\DoxyCodeLine{114 }
+\DoxyCodeLine{115         \mbox{\hyperlink{classgui_1_1_set_house_a56c1015ff2ee4e195c0ab8af428b438e}{lblRoomNumber}} = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Room number"});}
+\DoxyCodeLine{116         \mbox{\hyperlink{classgui_1_1_set_house_a56c1015ff2ee4e195c0ab8af428b438e}{lblRoomNumber}}.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.PLAIN, 15));}
+\DoxyCodeLine{117         \mbox{\hyperlink{classgui_1_1_set_house_a56c1015ff2ee4e195c0ab8af428b438e}{lblRoomNumber}}.setBounds(33, 104, 102, 16);}
+\DoxyCodeLine{118         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_a56c1015ff2ee4e195c0ab8af428b438e}{lblRoomNumber}});}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{120         \mbox{\hyperlink{classgui_1_1_set_house_ad76075de3f61a56b63db0a9c49b7f9a3}{lblAddress}} = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Address"});}
+\DoxyCodeLine{121         \mbox{\hyperlink{classgui_1_1_set_house_ad76075de3f61a56b63db0a9c49b7f9a3}{lblAddress}}.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.PLAIN, 15));}
+\DoxyCodeLine{122         \mbox{\hyperlink{classgui_1_1_set_house_ad76075de3f61a56b63db0a9c49b7f9a3}{lblAddress}}.setBounds(33, 135, 78, 16);}
+\DoxyCodeLine{123         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_ad76075de3f61a56b63db0a9c49b7f9a3}{lblAddress}});}
+\DoxyCodeLine{124 }
+\DoxyCodeLine{125         \mbox{\hyperlink{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}{textRoomNumber}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{126         \mbox{\hyperlink{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}{textRoomNumber}}.setColumns(10);}
+\DoxyCodeLine{127         \mbox{\hyperlink{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}{textRoomNumber}}.setBounds(132, 103, 277, 22);}
+\DoxyCodeLine{128         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}{textRoomNumber}});}
+\DoxyCodeLine{129 }
+\DoxyCodeLine{130         \mbox{\hyperlink{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}{textAddress}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{131         \mbox{\hyperlink{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}{textAddress}}.setColumns(10);}
+\DoxyCodeLine{132         \mbox{\hyperlink{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}{textAddress}}.setBounds(132, 136, 277, 22);}
+\DoxyCodeLine{133         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}{textAddress}});}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{135         }
+\DoxyCodeLine{136         }
+\DoxyCodeLine{137         JLabel label = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{138         label.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{139         label.setBounds(412, 45, 20, 16);}
+\DoxyCodeLine{140         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(label);}
+\DoxyCodeLine{141         }
+\DoxyCodeLine{142         JLabel label\_1 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{143         label\_1.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{144         label\_1.setBounds(412, 109, 20, 16);}
+\DoxyCodeLine{145         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(label\_1);}
+\DoxyCodeLine{146         }
+\DoxyCodeLine{147         JLabel label\_2 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{148         label\_2.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{149         label\_2.setBounds(412, 142, 20, 16);}
+\DoxyCodeLine{150         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(label\_2);}
+\DoxyCodeLine{151         }
+\DoxyCodeLine{152         JLabel lblRequiredFields = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"* Required fields"});}
+\DoxyCodeLine{153         lblRequiredFields.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 12));}
+\DoxyCodeLine{154         lblRequiredFields.setBounds(316, 13, 108, 16);}
+\DoxyCodeLine{155         \mbox{\hyperlink{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}{contentPane}}.add(lblRequiredFields);}
+\DoxyCodeLine{156     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Owner.\+add\+Rh\+List(), gui.\+Set\+House.\+btn\+Back, gui.\+Set\+House.\+btn\+New\+Button, gui.\+Set\+House.\+content\+Pane, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Rural\+House(), gui.\+Set\+House.\+facade, domain.\+Rural\+House.\+get\+House\+Number(), gui.\+Main\+G\+U\+I.\+get\+Main\+Owner(), gui.\+Set\+House.\+lbl\+Address, gui.\+Set\+House.\+lbl\+Message, gui.\+Set\+House.\+lbl\+Room\+Number, gui.\+Set\+House.\+text\+Address, gui.\+Set\+House.\+text\+City, gui.\+Set\+House.\+text\+Description y gui.\+Set\+House.\+text\+Room\+Number.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_set_house_ab46856159d04bd7c4f843417413107f3}\label{classgui_1_1_set_house_ab46856159d04bd7c4f843417413107f3}} 
+\index{gui.SetHouse@{gui.SetHouse}!getTags@{getTags}}
+\index{getTags@{getTags}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{getTags()}{getTags()}}
+{\footnotesize\ttfamily Vector$<$String$>$ gui.\+Set\+House.\+get\+Tags (\begin{DoxyParamCaption}\item[{String}]{text }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 158 del archivo Set\+House.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{158                                                \{}
+\DoxyCodeLine{159         Vector<String> v = \textcolor{keyword}{new} Vector<String>();}
+\DoxyCodeLine{160         String[] s = text.split(\textcolor{stringliteral}{", "});}
+\DoxyCodeLine{161         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < s.length; i++) \{}
+\DoxyCodeLine{162             v.add(s[i]);}
+\DoxyCodeLine{163         \}}
+\DoxyCodeLine{164         \textcolor{keywordflow}{return} v;}
+\DoxyCodeLine{165     \}}
+
+\end{DoxyCode}
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_set_house_a13f738cdb6c7310f7001d6799d7a6065}\label{classgui_1_1_set_house_a13f738cdb6c7310f7001d6799d7a6065}} 
+\index{gui.SetHouse@{gui.SetHouse}!btnBack@{btnBack}}
+\index{btnBack@{btnBack}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{btnBack}{btnBack}}
+{\footnotesize\ttfamily J\+Button gui.\+Set\+House.\+btn\+Back\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_a51e87586b716545419f9b105039baba7}\label{classgui_1_1_set_house_a51e87586b716545419f9b105039baba7}} 
+\index{gui.SetHouse@{gui.SetHouse}!btnNewButton@{btnNewButton}}
+\index{btnNewButton@{btnNewButton}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{btnNewButton}{btnNewButton}}
+{\footnotesize\ttfamily J\+Button gui.\+Set\+House.\+btn\+New\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}\label{classgui_1_1_set_house_a634e8201d87551eed6e180a40699e110}} 
+\index{gui.SetHouse@{gui.SetHouse}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Set\+House.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 31 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_ac2825921a399582ec53017704b5bf65f}\label{classgui_1_1_set_house_ac2825921a399582ec53017704b5bf65f}} 
+\index{gui.SetHouse@{gui.SetHouse}!facade@{facade}}
+\index{facade@{facade}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Set\+House.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 37 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_ad76075de3f61a56b63db0a9c49b7f9a3}\label{classgui_1_1_set_house_ad76075de3f61a56b63db0a9c49b7f9a3}} 
+\index{gui.SetHouse@{gui.SetHouse}!lblAddress@{lblAddress}}
+\index{lblAddress@{lblAddress}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{lblAddress}{lblAddress}}
+{\footnotesize\ttfamily J\+Label gui.\+Set\+House.\+lbl\+Address\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 40 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}\label{classgui_1_1_set_house_a7aed946e97375e1948b4ca8829a2e3a1}} 
+\index{gui.SetHouse@{gui.SetHouse}!lblMessage@{lblMessage}}
+\index{lblMessage@{lblMessage}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{lblMessage}{lblMessage}}
+{\footnotesize\ttfamily J\+Label gui.\+Set\+House.\+lbl\+Message\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_a56c1015ff2ee4e195c0ab8af428b438e}\label{classgui_1_1_set_house_a56c1015ff2ee4e195c0ab8af428b438e}} 
+\index{gui.SetHouse@{gui.SetHouse}!lblRoomNumber@{lblRoomNumber}}
+\index{lblRoomNumber@{lblRoomNumber}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{lblRoomNumber}{lblRoomNumber}}
+{\footnotesize\ttfamily J\+Label gui.\+Set\+House.\+lbl\+Room\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}\label{classgui_1_1_set_house_aa98697a65302143d8d090c3593fd4f86}} 
+\index{gui.SetHouse@{gui.SetHouse}!textAddress@{textAddress}}
+\index{textAddress@{textAddress}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{textAddress}{textAddress}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Set\+House.\+text\+Address\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 42 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}\label{classgui_1_1_set_house_ac7f5a3fa4bb474d1ef8949df7c1a1395}} 
+\index{gui.SetHouse@{gui.SetHouse}!textCity@{textCity}}
+\index{textCity@{textCity}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{textCity}{textCity}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Set\+House.\+text\+City\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 32 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}\label{classgui_1_1_set_house_a54e03877cc31fe5cbc2513094e7fcc3d}} 
+\index{gui.SetHouse@{gui.SetHouse}!textDescription@{textDescription}}
+\index{textDescription@{textDescription}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{textDescription}{textDescription}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Set\+House.\+text\+Description\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 33 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}\label{classgui_1_1_set_house_a34af222b11f96409a6b8124b9f86ca68}} 
+\index{gui.SetHouse@{gui.SetHouse}!textRoomNumber@{textRoomNumber}}
+\index{textRoomNumber@{textRoomNumber}!gui.SetHouse@{gui.SetHouse}}
+\subsubsection{\texorpdfstring{textRoomNumber}{textRoomNumber}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Set\+House.\+text\+Room\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 41 del archivo Set\+House.\+java.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_set_house_8java}{Set\+House.\+java}}\end{DoxyCompactItemize}

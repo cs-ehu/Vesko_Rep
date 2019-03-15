@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_send_booking" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::SendBooking</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_send_booking_1af72d9f080959b6b8922117248935620d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>businessLogic.SendBooking.SendBooking</definition>
+        <argsstring>()</argsstring>
+        <name>SendBooking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendBooking.java" line="10" column="1" bodyfile="src/businessLogic/SendBooking.java" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.SendBooking.sendBookToTelegram</definition>
+        <argsstring>(Client c, Owner o, Reserva r, String type)</argsstring>
+        <name>sendBookToTelegram</name>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendBooking.java" line="17" column="1" bodyfile="src/businessLogic/SendBooking.java" bodystart="17" bodyend="38"/>
+        <references refid="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" compoundref="_reserva_8java" startline="58" endline="60">domain.Reserva.getNumResrva</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a1ee7d830657be2563a277591c150f273">businessLogic.ApplicationFacadeInterfaceWS.getReservaByNum</references>
+        <references refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" compoundref="_owner_8java" startline="67" endline="69">domain.Owner.getTelegramId</references>
+        <references refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" compoundref="_client_8java" startline="106" endline="108">domain.Client.getTelegramId</references>
+        <references refid="classbot_1_1_comand_1aaf4d2683bf0d6b6d98344ca9f4071708" compoundref="_comand_8java" startline="13" endline="26">bot.Comand.sendMessageFromTelegramToClient</references>
+        <references refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/businessLogic/SendBooking.java" line="8" column="1" bodyfile="src/businessLogic/SendBooking.java" bodystart="8" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_send_booking_1af72d9f080959b6b8922117248935620d" prot="public" virt="non-virtual"><scope>businessLogic::SendBooking</scope><name>SendBooking</name></member>
+      <member refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" prot="public" virt="non-virtual"><scope>businessLogic::SendBooking</scope><name>sendBookToTelegram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

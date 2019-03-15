@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_filter_search" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::FilterSearch</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbusiness_logic_1_1_filter_search_1a515df1bba64c967c9831377e7e7a9579" prot="private" static="no" mutable="no">
+        <type>java.util.Calendar</type>
+        <definition>java.util.Calendar businessLogic.FilterSearch.cal</definition>
+        <argsstring></argsstring>
+        <name>cal</name>
+        <initializer>= GregorianCalendar.getInstance()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="14" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" compoundref="_filter_search_8java" startline="114" endline="154">businessLogic.FilterSearch.filterOfferByNights</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a560e1672c146a2afd16156a103f282ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int businessLogic.FilterSearch.getMaxPrice</definition>
+        <argsstring>(Vector&lt; RuralHouse &gt; list)</argsstring>
+        <name>getMaxPrice</name>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="16" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="16" bodyend="28"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a25565270bec567f6e77b674396f021e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int businessLogic.FilterSearch.getMinPrice</definition>
+        <argsstring>(Vector&lt; RuralHouse &gt; list)</argsstring>
+        <name>getMinPrice</name>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="30" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="30" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a9cf43f80893307e2a79eb1c67ea9463e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; businessLogic.FilterSearch.filterOfferByPrice</definition>
+        <argsstring>(Vector&lt; Offer &gt; list, int maxPrice)</argsstring>
+        <name>filterOfferByPrice</name>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxPrice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="43" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="43" bodyend="51"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1acaa9148a7aab2c5185a6de377f0773cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; businessLogic.FilterSearch.filterOfferByRh</definition>
+        <argsstring>(RuralHouse rh, Vector&lt; Offer &gt; list)</argsstring>
+        <name>filterOfferByRh</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="53" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="53" bodyend="61"/>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a6c76035ba9f40e420fab31f169a63b89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>Vector&lt;RuralHouse&gt; businessLogic.FilterSearch.filterByCity</definition>
+        <argsstring>(String city, Vector&lt; RuralHouse &gt; list)</argsstring>
+        <name>filterByCity</name>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="63" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="63" bodyend="73"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a067f20824f8badab885b1711f8728c31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; businessLogic.FilterSearch.filterOfferByCity</definition>
+        <argsstring>(String city, Vector&lt; Offer &gt; list)</argsstring>
+        <name>filterOfferByCity</name>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="74" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="74" bodyend="81"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a4c7e6a5749fef2162a22047d4d22dded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; businessLogic.FilterSearch.filterOfferByFirstDay</definition>
+        <argsstring>(Date firstDay, Vector&lt; Offer &gt; list)</argsstring>
+        <name>filterOfferByFirstDay</name>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="84" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="84" bodyend="93"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1ae2b3e3d306b1d2d9645fb6f3b7634420" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; businessLogic.FilterSearch.filterOfferByLastDay</definition>
+        <argsstring>(Date lastDay, Vector&lt; Offer &gt; list)</argsstring>
+        <name>filterOfferByLastDay</name>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="94" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="94" bodyend="103"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a2efcdd2daef7808679d722f5ab26ced0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; String &gt;</type>
+        <definition>Vector&lt;String&gt; businessLogic.FilterSearch.getAllCity</definition>
+        <argsstring>(Vector&lt; RuralHouse &gt; list)</argsstring>
+        <name>getAllCity</name>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="104" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="104" bodyend="112"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; businessLogic.FilterSearch.filterOfferByNights</definition>
+        <argsstring>(String s, Vector&lt; RuralHouse &gt; list)</argsstring>
+        <name>filterOfferByNights</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/FilterSearch.java" line="114" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="114" bodyend="154"/>
+        <references refid="classbusiness_logic_1_1_filter_search_1a515df1bba64c967c9831377e7e7a9579" compoundref="_filter_search_8java" startline="14">businessLogic.FilterSearch.cal</references>
+        <references refid="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" compoundref="_offer_8java" startline="100" endline="102">domain.Offer.getFirstDay</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <references refid="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" compoundref="_offer_8java" startline="119" endline="121">domain.Offer.getLastDay</references>
+        <references refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" compoundref="_offer_8java" startline="70" endline="72">domain.Offer.getRuralHouse</references>
+        <references refid="classdomain_1_1_offer_1a41a1c7ea6658ff5e9127ad3d2332ef9c" compoundref="_offer_8java" startline="51" endline="53">domain.Offer.isBooked</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="95">
+        <label>Calendar</label>
+      </node>
+      <node id="94">
+        <label>businessLogic.FilterSearch</label>
+        <link refid="classbusiness_logic_1_1_filter_search"/>
+        <childnode refid="95" relation="usage">
+          <edgelabel>cal</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/businessLogic/FilterSearch.java" line="12" column="1" bodyfile="src/businessLogic/FilterSearch.java" bodystart="12" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_filter_search_1a515df1bba64c967c9831377e7e7a9579" prot="private" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>cal</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a6c76035ba9f40e420fab31f169a63b89" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>filterByCity</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a067f20824f8badab885b1711f8728c31" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>filterOfferByCity</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a4c7e6a5749fef2162a22047d4d22dded" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>filterOfferByFirstDay</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1ae2b3e3d306b1d2d9645fb6f3b7634420" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>filterOfferByLastDay</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>filterOfferByNights</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a9cf43f80893307e2a79eb1c67ea9463e" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>filterOfferByPrice</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1acaa9148a7aab2c5185a6de377f0773cd" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>filterOfferByRh</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a2efcdd2daef7808679d722f5ab26ced0" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>getAllCity</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a560e1672c146a2afd16156a103f282ef" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>getMaxPrice</name></member>
+      <member refid="classbusiness_logic_1_1_filter_search_1a25565270bec567f6e77b674396f021e7" prot="public" virt="non-virtual"><scope>businessLogic::FilterSearch</scope><name>getMinPrice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

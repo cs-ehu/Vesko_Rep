@@ -1,0 +1,1176 @@
+\hypertarget{classdata_access_1_1_data_access}{}\section{Referencia de la Clase data\+Access.\+Data\+Access}
+\label{classdata_access_1_1_data_access}\index{dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdata_access_1_1_data_access_a4f66a4eefd8656ede2ffc4403af77346}{Data\+Access}} ()
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classdata_access_1_1_data_access_a660f0677b4ead89efe35c8f8f13c48ec}{create\+Client}} (String username, String password, String telegram\+Id, String cuenta\+Bancaria, String email)  throws Overlapping\+Client\+Exists 
+\begin{DoxyCompactList}\small\item\em Crea un cliente en la base de datos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{classdata_access_1_1_data_access_a786f6a4bbd1f36ee68d8cebfd1ebc626}{create\+Owner}} (String username, String password, String telegram\+Id, String cuenta\+Bancaria, String email)  throws Overlapping\+Owner\+Exist 
+\begin{DoxyCompactList}\small\item\em Crea un propietario en la base de datos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} \mbox{\hyperlink{classdata_access_1_1_data_access_af251e5b2044f3db7d7e9e4ca687808f2}{create\+Reserva}} (\mbox{\hyperlink{classdomain_1_1_offer}{Offer}} offer, \mbox{\hyperlink{classdomain_1_1_client}{Client}} cliente, Date book\+Date)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{classdata_access_1_1_data_access_a285dc85c28f00942caf20622fc619541}{create\+Rural\+House}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o, String city, String description, String address, String rooms\+Number)
+\begin{DoxyCompactList}\small\item\em Crea una casa rural en la base de datos y actualiza la lista de casas del propietario con esta casa. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classdomain_1_1_offer}{Offer}} \mbox{\hyperlink{classdata_access_1_1_data_access_ac07343daf9aa06679c7b28c082950ab0}{create\+Offer}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rural\+House, Date first\+Day, Date last\+Day, float price)
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_ac3b7d95db57811e7a7e41c74d1d8a807}{add\+Image\+To\+RH}} (byte\mbox{[}$\,$\mbox{]} img, \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} owner)
+\item 
+\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} \mbox{\hyperlink{classdata_access_1_1_data_access_ad2661c3e2d7e0550b837b2763456683d}{get\+Reserva\+By\+Num}} (int n)
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_a2980497a576b4e113f96daf113620b7e}{remove\+Reserva}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\item 
+\mbox{\hyperlink{classdomain_1_1_offer}{Offer}} \mbox{\hyperlink{classdata_access_1_1_data_access_a542a2ce3e970075b63c22b8cefac42ee}{get\+Offer\+By\+Num}} (int n)
+\item 
+Vector$<$ byte\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{classdata_access_1_1_data_access_a11f6dae8ff930c2552445dbf4d292268}{get\+Images\+From\+RH}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} owner)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{classdata_access_1_1_data_access_a8addeaaedd74ad2fb8e285672c22d216}{get\+Rural\+House}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} owner, \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ \mbox{\hyperlink{classdata_access_1_1_data_access_a13b08775ff3b4b3859a7772de6592fb0}{get\+All\+Rural\+Houses}} ()
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classdata_access_1_1_data_access_ab8f58c04c48032a83b000d6de7f47d4e}{get\+Offers}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, Date first\+Day, Date last\+Day)
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classdata_access_1_1_data_access_af7f43a6feb37bdb96c5d80a9e6344f8f}{get\+Client\+By\+Username}} (String username)
+\begin{DoxyCompactList}\small\item\em devuelve un cliente dado su \char`\"{}username\char`\"{} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{classdata_access_1_1_data_access_a61836150ad3401ad7e326f263993c7bc}{get\+Owner\+By\+Username}} (String username)
+\item 
+boolean \mbox{\hyperlink{classdata_access_1_1_data_access_ab6b1332b8bb17a4f65457043247d0b5e}{exists\+Overlapping\+Offer}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, Date first\+Day, Date last\+Day)  throws Overlapping\+Offer\+Exists 
+\item 
+boolean \mbox{\hyperlink{classdata_access_1_1_data_access_a0023d35ffec2c84262c6dad259f812ae}{exist\+Client}} (String username)
+\item 
+boolean \mbox{\hyperlink{classdata_access_1_1_data_access_a50b55de13fbd4c9848f7c3ee8a57db93}{exist\+Owner}} (String username)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{classdata_access_1_1_data_access_a652083447d2e9e5fd5b6228bc67a8ca4}{get\+Rural\+House\+By\+House\+Number}} (int num)
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_a3317cddb0e49d7e884f5f89795e20317}{remove\+Rural\+House}} (int num)
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_a58d3d443d0a2f5d74b6240248a257fd5}{close}} ()
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_ad9bd59be12508bde6bffd40397ed6caa}{update\+Clinet\+Validation}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}})
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_a5ecedf103c63cc76c84c664e29f64f7b}{update\+Owner\+Validation}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o)
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_ab4e4324392bb85a0f2a2c209f463d1fa}{remove2}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classdata_access_1_1_data_access_a403975bb8b87dbfa856d90ef362e7b60}{update\+Client}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}})
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{classdata_access_1_1_data_access_af4bcb54cc90c7376889c7c9357d93416}{update\+Owner}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o)
+\item 
+\mbox{\hyperlink{classdomain_1_1_feed_back}{Feed\+Back}} \mbox{\hyperlink{classdata_access_1_1_data_access_ab4812e588500fe2483a82a339a21e17a}{create\+Feed\+Back}} (int i, String s, \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\item 
+void \mbox{\hyperlink{classdata_access_1_1_data_access_afe99432043c4bf8bc7032858b51badbf}{set\+Rated}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\end{DoxyCompactItemize}
+\subsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}} = false
+\end{DoxyCompactItemize}
+\subsection*{Atributos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classdata_access_1_1_data_access_aba38e7b60b8d2dc1d112ac7b5e5e4693}{file\+Name}}
+\end{DoxyCompactItemize}
+\subsection*{Atributos protegidos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static Entity\+Manager\+Factory \mbox{\hyperlink{classdata_access_1_1_data_access_a158d2718ef5a80f4f296b14937cc1775}{emf}}
+\item 
+static Entity\+Manager \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}
+\end{DoxyCompactItemize}
+\subsection*{Atributos del \textquotesingle{}package\textquotesingle{}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l}{Config\+X\+ML}} \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 32 del archivo Data\+Access.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a4f66a4eefd8656ede2ffc4403af77346}\label{classdata_access_1_1_data_access_a4f66a4eefd8656ede2ffc4403af77346}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!DataAccess@{DataAccess}}
+\index{DataAccess@{DataAccess}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{DataAccess()}{DataAccess()}}
+{\footnotesize\ttfamily data\+Access.\+Data\+Access.\+Data\+Access (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 41 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41                         \{}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43         \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}} = ConfigXML.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a74c5e0c09c0139554ede8d786cb808ff}{getInstance}}();}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45         \textcolor{comment}{/*}}
+\DoxyCodeLine{46 \textcolor{comment}{         * System.out.println("Creating objectdb instance => isDatabaseLocal: "}}
+\DoxyCodeLine{47 \textcolor{comment}{         * + c.isDatabaseLocal() + " getDatabBaseOpenMode: " +}}
+\DoxyCodeLine{48 \textcolor{comment}{         * c.getDataBaseOpenMode());}}
+\DoxyCodeLine{49 \textcolor{comment}{         */}}
+\DoxyCodeLine{50         String filename = \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a403cc4242d937a87dfea24caabaf535d}{getDbFilename}}();}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a2ee9afbde36aa3f5c0d0158a8b5449fb}{isDatabaseLocal}}()) \{}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54             \mbox{\hyperlink{classdata_access_1_1_data_access_a158d2718ef5a80f4f296b14937cc1775}{emf}} = Persistence.createEntityManagerFactory(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a403cc4242d937a87dfea24caabaf535d}{getDbFilename}}());}
+\DoxyCodeLine{55             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}} = \mbox{\hyperlink{classdata_access_1_1_data_access_a158d2718ef5a80f4f296b14937cc1775}{emf}}.createEntityManager();}
+\DoxyCodeLine{56         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{57             Map<String, String> properties = \textcolor{keyword}{new} HashMap<String, String>();}
+\DoxyCodeLine{58             properties.put(\textcolor{stringliteral}{"javax.persistence.jdbc.user"}, \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a98e53bd841ca5f520af914f96ff2afef}{getUser}}());}
+\DoxyCodeLine{59             properties.put(\textcolor{stringliteral}{"javax.persistence.jdbc.password"}, \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a70146fb5f8cda65220413959691e3616}{getPassword}}());}
+\DoxyCodeLine{60             \mbox{\hyperlink{classdata_access_1_1_data_access_a158d2718ef5a80f4f296b14937cc1775}{emf}} = Persistence.createEntityManagerFactory(}
+\DoxyCodeLine{61                     \textcolor{stringliteral}{"objectdb://"} + \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a622fdcb9a55b406b6bc2fa63509dae72}{getDatabaseNode}}() + \textcolor{stringliteral}{":"}}
+\DoxyCodeLine{62                             + \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_abf4649caafdcfb0b506af7402f09728c}{getDatabasePort}}() + \textcolor{stringliteral}{"/"} + \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a403cc4242d937a87dfea24caabaf535d}{getDbFilename}}(),}
+\DoxyCodeLine{63                     properties);}
+\DoxyCodeLine{64             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}} = \mbox{\hyperlink{classdata_access_1_1_data_access_a158d2718ef5a80f4f296b14937cc1775}{emf}}.createEntityManager();}
+\DoxyCodeLine{65         \}}
+\DoxyCodeLine{66     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+c, data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+emf, configuration.\+Config\+X\+M\+L.\+get\+Database\+Node(), configuration.\+Config\+X\+M\+L.\+get\+Database\+Port(), configuration.\+Config\+X\+M\+L.\+get\+Db\+Filename(), configuration.\+Config\+X\+M\+L.\+get\+Instance(), configuration.\+Config\+X\+M\+L.\+get\+Password(), configuration.\+Config\+X\+M\+L.\+get\+User() y configuration.\+Config\+X\+M\+L.\+is\+Database\+Local().
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ac3b7d95db57811e7a7e41c74d1d8a807}\label{classdata_access_1_1_data_access_ac3b7d95db57811e7a7e41c74d1d8a807}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!addImageToRH@{addImageToRH}}
+\index{addImageToRH@{addImageToRH}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{addImageToRH()}{addImageToRH()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+add\+Image\+To\+RH (\begin{DoxyParamCaption}\item[{byte \mbox{[}$\,$\mbox{]}}]{img,  }\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{owner }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 185 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{185                                                                      \{}
+\DoxyCodeLine{186         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{187         RuralHouse rhouse = \mbox{\hyperlink{classdata_access_1_1_data_access_a8addeaaedd74ad2fb8e285672c22d216}{getRuralHouse}}(owner, rh);}
+\DoxyCodeLine{188         rhouse.addImage(img);}
+\DoxyCodeLine{189         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}}) \{}
+\DoxyCodeLine{190             System.out.println(\textcolor{stringliteral}{"In addImageToRH: "} + rhouse.toString());}
+\DoxyCodeLine{191         \}}
+\DoxyCodeLine{192         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(rhouse);}
+\DoxyCodeLine{193         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{194     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Rural\+House.\+add\+Image(), data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+debuger, data\+Access.\+Data\+Access.\+get\+Rural\+House() y domain.\+Rural\+House.\+to\+String().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+add\+Image\+To\+R\+H().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a58d3d443d0a2f5d74b6240248a257fd5}\label{classdata_access_1_1_data_access_a58d3d443d0a2f5d74b6240248a257fd5}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!close@{close}}
+\index{close@{close}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 364 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{364                         \{}
+\DoxyCodeLine{365         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.close();}
+\DoxyCodeLine{366         System.out.println(\textcolor{stringliteral}{"DataBase closed"});}
+\DoxyCodeLine{367     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db.
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+add\+Image\+To\+R\+H(), business\+Logic.\+Facade\+Implementation\+W\+S.\+close(), business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Client(), business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Feed\+Back(), business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Offer(), business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Owner(), business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Reserva(), business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Rural\+House(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+All\+Rural\+Houses(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Client\+By\+Username(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Offers(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Owner\+By\+Username(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Reserva\+By\+Num(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Rural\+House(), business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Rural\+Houseby\+House\+Number(), business\+Logic.\+Facade\+Implementation\+W\+S.\+remove\+Reserva(), business\+Logic.\+Facade\+Implementation\+W\+S.\+remove\+Rural\+House(), business\+Logic.\+Facade\+Implementation\+W\+S.\+set\+Rated(), business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Client() y business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Owner().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a660f0677b4ead89efe35c8f8f13c48ec}\label{classdata_access_1_1_data_access_a660f0677b4ead89efe35c8f8f13c48ec}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!createClient@{createClient}}
+\index{createClient@{createClient}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{createClient()}{createClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} data\+Access.\+Data\+Access.\+create\+Client (\begin{DoxyParamCaption}\item[{String}]{username,  }\item[{String}]{password,  }\item[{String}]{telegram\+Id,  }\item[{String}]{cuenta\+Bancaria,  }\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_client_exists}{Overlapping\+Client\+Exists}}}
+
+
+
+Crea un cliente en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em String} & username \\
+\hline
+{\em String} & password \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Overlapping\+Client\+Exists} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definición en la línea 78 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{80                                            \{}
+\DoxyCodeLine{81         Client cliente = \textcolor{keyword}{new} Client(username, password, telegramId,}
+\DoxyCodeLine{82                 cuentaBancaria, email);}
+\DoxyCodeLine{83         \textcolor{keywordflow}{if} (!\mbox{\hyperlink{classdata_access_1_1_data_access_a0023d35ffec2c84262c6dad259f812ae}{existClient}}(username)) \{}
+\DoxyCodeLine{84             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{85             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(cliente);}
+\DoxyCodeLine{86             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{87         \} \textcolor{keywordflow}{else}}
+\DoxyCodeLine{88             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} OverlappingClientExists();}
+\DoxyCodeLine{89         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}}) \{}
+\DoxyCodeLine{90             System.out.println(\textcolor{stringliteral}{"In createClient: "} + cliente.toString());}
+\DoxyCodeLine{91         \}}
+\DoxyCodeLine{92         \textcolor{keywordflow}{return} cliente;}
+\DoxyCodeLine{93     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+debuger, data\+Access.\+Data\+Access.\+exist\+Client() y domain.\+Client.\+to\+String().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Client().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ab4812e588500fe2483a82a339a21e17a}\label{classdata_access_1_1_data_access_ab4812e588500fe2483a82a339a21e17a}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!createFeedBack@{createFeedBack}}
+\index{createFeedBack@{createFeedBack}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{createFeedBack()}{createFeedBack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_feed_back}{Feed\+Back}} data\+Access.\+Data\+Access.\+create\+Feed\+Back (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{String}]{s,  }\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 416 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{416                                                                   \{}
+\DoxyCodeLine{417         FeedBack fb = \textcolor{keyword}{new} FeedBack(s, i, rh);}
+\DoxyCodeLine{418         RuralHouse rh1 = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(RuralHouse.class, rh.getHouseNumber());}
+\DoxyCodeLine{419         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{420         rh1.addFeedBack(fb);}
+\DoxyCodeLine{421         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(rh1);}
+\DoxyCodeLine{422         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(fb);}
+\DoxyCodeLine{423         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{424 \textcolor{keywordflow}{return} fb;}
+\DoxyCodeLine{425     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Rural\+House.\+add\+Feed\+Back(), data\+Access.\+Data\+Access.\+db y domain.\+Rural\+House.\+get\+House\+Number().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Feed\+Back().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ac07343daf9aa06679c7b28c082950ab0}\label{classdata_access_1_1_data_access_ac07343daf9aa06679c7b28c082950ab0}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!createOffer@{createOffer}}
+\index{createOffer@{createOffer}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{createOffer()}{createOffer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} data\+Access.\+Data\+Access.\+create\+Offer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rural\+House,  }\item[{Date}]{first\+Day,  }\item[{Date}]{last\+Day,  }\item[{float}]{price }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 164 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{165                                        \{}
+\DoxyCodeLine{166         System.out.println(\textcolor{stringliteral}{">> DataAccess: createOffer=> ruralHouse= "}}
+\DoxyCodeLine{167                 + ruralHouse + \textcolor{stringliteral}{" firstDay= "} + firstDay + \textcolor{stringliteral}{" lastDay="} + lastDay}
+\DoxyCodeLine{168                 + \textcolor{stringliteral}{" price="} + price);}
+\DoxyCodeLine{169 }
+\DoxyCodeLine{170         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{171             RuralHouse rh = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(RuralHouse.class,}
+\DoxyCodeLine{172                     ruralHouse.getHouseNumber());}
+\DoxyCodeLine{173 }
+\DoxyCodeLine{174             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{175             Offer o = rh.createOffer(firstDay, lastDay, price);}
+\DoxyCodeLine{176             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(o);}
+\DoxyCodeLine{177             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{178             \textcolor{keywordflow}{return} o;}
+\DoxyCodeLine{179         \} \textcolor{keywordflow}{catch} (Exception e) \{}
+\DoxyCodeLine{180             System.out.println(\textcolor{stringliteral}{"Offer not created: "} + e.toString());}
+\DoxyCodeLine{181             \textcolor{keywordflow}{return} \textcolor{keyword}{null};}
+\DoxyCodeLine{182         \}}
+\DoxyCodeLine{183     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Rural\+House.\+create\+Offer(), data\+Access.\+Data\+Access.\+db y domain.\+Rural\+House.\+get\+House\+Number().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Offer().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a786f6a4bbd1f36ee68d8cebfd1ebc626}\label{classdata_access_1_1_data_access_a786f6a4bbd1f36ee68d8cebfd1ebc626}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!createOwner@{createOwner}}
+\index{createOwner@{createOwner}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{createOwner()}{createOwner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} data\+Access.\+Data\+Access.\+create\+Owner (\begin{DoxyParamCaption}\item[{String}]{username,  }\item[{String}]{password,  }\item[{String}]{telegram\+Id,  }\item[{String}]{cuenta\+Bancaria,  }\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_owner_exist}{Overlapping\+Owner\+Exist}}}
+
+
+
+Crea un propietario en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em String} & username \\
+\hline
+{\em String} & password \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Overlapping\+Owner\+Exist} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definición en la línea 105 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{107                                          \{}
+\DoxyCodeLine{108         Owner dueno = \textcolor{keyword}{new} Owner(username, password, telegramId, cuentaBancaria,}
+\DoxyCodeLine{109                 email);}
+\DoxyCodeLine{110         \textcolor{keywordflow}{if} (!\mbox{\hyperlink{classdata_access_1_1_data_access_a50b55de13fbd4c9848f7c3ee8a57db93}{existOwner}}(username)) \{}
+\DoxyCodeLine{111             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{112             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(dueno);}
+\DoxyCodeLine{113             \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{114             \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}}) \{}
+\DoxyCodeLine{115                 System.out.println(\textcolor{stringliteral}{"In createOwner: "} + dueno.toString());}
+\DoxyCodeLine{116             \}}
+\DoxyCodeLine{117         \} \textcolor{keywordflow}{else}}
+\DoxyCodeLine{118             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} OverlappingOwnerExist();}
+\DoxyCodeLine{119         \textcolor{keywordflow}{return} dueno;}
+\DoxyCodeLine{120     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+debuger, data\+Access.\+Data\+Access.\+exist\+Owner() y domain.\+Owner.\+to\+String().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Owner().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_af251e5b2044f3db7d7e9e4ca687808f2}\label{classdata_access_1_1_data_access_af251e5b2044f3db7d7e9e4ca687808f2}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!createReserva@{createReserva}}
+\index{createReserva@{createReserva}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{createReserva()}{createReserva()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} data\+Access.\+Data\+Access.\+create\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}}]{offer,  }\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{cliente,  }\item[{Date}]{book\+Date }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 122 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{122                                                                              \{}
+\DoxyCodeLine{123         Reserva reserva = \textcolor{keyword}{new} Reserva(offer, cliente, bookDate);}
+\DoxyCodeLine{124         Client \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}} = \mbox{\hyperlink{classdata_access_1_1_data_access_af7f43a6feb37bdb96c5d80a9e6344f8f}{getClientByUsername}}(cliente.getUserName());}
+\DoxyCodeLine{125         Offer o = \mbox{\hyperlink{classdata_access_1_1_data_access_a542a2ce3e970075b63c22b8cefac42ee}{getOfferByNum}}(offer.getOfferNumber());}
+\DoxyCodeLine{126         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{127         \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.addReserva(reserva);}
+\DoxyCodeLine{128         o.setReserva(reserva);}
+\DoxyCodeLine{129         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(reserva);}
+\DoxyCodeLine{130         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(o);}
+\DoxyCodeLine{131         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}});}
+\DoxyCodeLine{132         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{133         \textcolor{keywordflow}{return} reserva;}
+\DoxyCodeLine{134     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+c, data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+get\+Client\+By\+Username(), data\+Access.\+Data\+Access.\+get\+Offer\+By\+Num(), domain.\+Offer.\+get\+Offer\+Number() y domain.\+Client.\+get\+User\+Name().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Reserva().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a285dc85c28f00942caf20622fc619541}\label{classdata_access_1_1_data_access_a285dc85c28f00942caf20622fc619541}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!createRuralHouse@{createRuralHouse}}
+\index{createRuralHouse@{createRuralHouse}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{createRuralHouse()}{createRuralHouse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} data\+Access.\+Data\+Access.\+create\+Rural\+House (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o,  }\item[{String}]{city,  }\item[{String}]{description,  }\item[{String}]{address,  }\item[{String}]{rooms\+Number }\end{DoxyParamCaption})}
+
+
+
+Crea una casa rural en la base de datos y actualiza la lista de casas del propietario con esta casa. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em String} & city \\
+\hline
+{\em String} & description \\
+\hline
+{\em Owner} & o \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 148 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{149                                                                     \{}
+\DoxyCodeLine{150         Owner owner = \mbox{\hyperlink{classdata_access_1_1_data_access_a61836150ad3401ad7e326f263993c7bc}{getOwnerByUsername}}(o.getUserName());}
+\DoxyCodeLine{151         RuralHouse rh = \textcolor{keyword}{new} RuralHouse(city, description, address, roomsNumber,}
+\DoxyCodeLine{152                 owner);}
+\DoxyCodeLine{153         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{154         owner.addRhList(rh);}
+\DoxyCodeLine{155         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(rh);}
+\DoxyCodeLine{156         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{157         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}}) \{}
+\DoxyCodeLine{158             System.out.println(\textcolor{stringliteral}{"In createRuralHouse: "} + rh.toString());}
+\DoxyCodeLine{159             System.out.println(owner.toString());}
+\DoxyCodeLine{160         \}}
+\DoxyCodeLine{161         \textcolor{keywordflow}{return} rh;}
+\DoxyCodeLine{162     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Owner.\+add\+Rh\+List(), data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+debuger, data\+Access.\+Data\+Access.\+get\+Owner\+By\+Username(), domain.\+Owner.\+get\+User\+Name() y domain.\+Owner.\+to\+String().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Rural\+House().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a0023d35ffec2c84262c6dad259f812ae}\label{classdata_access_1_1_data_access_a0023d35ffec2c84262c6dad259f812ae}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!existClient@{existClient}}
+\index{existClient@{existClient}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{existClient()}{existClient()}}
+{\footnotesize\ttfamily boolean data\+Access.\+Data\+Access.\+exist\+Client (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 333 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{333                                                 \{}
+\DoxyCodeLine{334         Client cliente = \mbox{\hyperlink{classdata_access_1_1_data_access_af7f43a6feb37bdb96c5d80a9e6344f8f}{getClientByUsername}}(username);}
+\DoxyCodeLine{335         \textcolor{keywordflow}{if} (cliente == \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{336             \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{337         \} \textcolor{keywordflow}{else}}
+\DoxyCodeLine{338             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{339     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+get\+Client\+By\+Username().
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+create\+Client().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a50b55de13fbd4c9848f7c3ee8a57db93}\label{classdata_access_1_1_data_access_a50b55de13fbd4c9848f7c3ee8a57db93}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!existOwner@{existOwner}}
+\index{existOwner@{existOwner}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{existOwner()}{existOwner()}}
+{\footnotesize\ttfamily boolean data\+Access.\+Data\+Access.\+exist\+Owner (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 341 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{341                                                \{}
+\DoxyCodeLine{342         Owner propietario = \mbox{\hyperlink{classdata_access_1_1_data_access_a61836150ad3401ad7e326f263993c7bc}{getOwnerByUsername}}(username);}
+\DoxyCodeLine{343         \textcolor{keywordflow}{if} (propietario == \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{344             \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{345         \} \textcolor{keywordflow}{else}}
+\DoxyCodeLine{346             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{347     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+get\+Owner\+By\+Username().
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+create\+Owner().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ab6b1332b8bb17a4f65457043247d0b5e}\label{classdata_access_1_1_data_access_ab6b1332b8bb17a4f65457043247d0b5e}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!existsOverlappingOffer@{existsOverlappingOffer}}
+\index{existsOverlappingOffer@{existsOverlappingOffer}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{existsOverlappingOffer()}{existsOverlappingOffer()}}
+{\footnotesize\ttfamily boolean data\+Access.\+Data\+Access.\+exists\+Overlapping\+Offer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{Date}]{first\+Day,  }\item[{Date}]{last\+Day }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_offer_exists}{Overlapping\+Offer\+Exists}}}
+
+
+
+Definición en la línea 320 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{321                                                         \{}
+\DoxyCodeLine{322         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{323             RuralHouse rhn = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(RuralHouse.class, rh.getHouseNumber());}
+\DoxyCodeLine{324             \textcolor{keywordflow}{if} (rhn.overlapsWith(firstDay, lastDay) != \textcolor{keyword}{null})}
+\DoxyCodeLine{325                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{326         \} \textcolor{keywordflow}{catch} (Exception e) \{}
+\DoxyCodeLine{327             System.out.println(\textcolor{stringliteral}{"Error: "} + e.toString());}
+\DoxyCodeLine{328             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{329         \}}
+\DoxyCodeLine{330         \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{331     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, domain.\+Rural\+House.\+get\+House\+Number() y domain.\+Rural\+House.\+overlaps\+With().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+create\+Offer().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a13b08775ff3b4b3859a7772de6592fb0}\label{classdata_access_1_1_data_access_a13b08775ff3b4b3859a7772de6592fb0}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getAllRuralHouses@{getAllRuralHouses}}
+\index{getAllRuralHouses@{getAllRuralHouses}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getAllRuralHouses()}{getAllRuralHouses()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}$>$ data\+Access.\+Data\+Access.\+get\+All\+Rural\+Houses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 254 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{254                                                   \{}
+\DoxyCodeLine{255         System.out.println(\textcolor{stringliteral}{">> DataAccess: getAllRuralHouses"});}
+\DoxyCodeLine{256         Vector<RuralHouse> res = \textcolor{keyword}{new} Vector<>();}
+\DoxyCodeLine{257 }
+\DoxyCodeLine{258         TypedQuery<RuralHouse> query = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.createQuery(}
+\DoxyCodeLine{259                 \textcolor{stringliteral}{"SELECT c FROM RuralHouse c"}, RuralHouse.class);}
+\DoxyCodeLine{260         List<RuralHouse> results = query.getResultList();}
+\DoxyCodeLine{261 }
+\DoxyCodeLine{262         Iterator<RuralHouse> itr = results.iterator();}
+\DoxyCodeLine{263 }
+\DoxyCodeLine{264         \textcolor{keywordflow}{while} (itr.hasNext()) \{}
+\DoxyCodeLine{265             res.add(itr.next());}
+\DoxyCodeLine{266         \}}
+\DoxyCodeLine{267         \textcolor{keywordflow}{return} res;}
+\DoxyCodeLine{268 }
+\DoxyCodeLine{269     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db.
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+All\+Rural\+Houses().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_af7f43a6feb37bdb96c5d80a9e6344f8f}\label{classdata_access_1_1_data_access_af7f43a6feb37bdb96c5d80a9e6344f8f}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getClientByUsername@{getClientByUsername}}
+\index{getClientByUsername@{getClientByUsername}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getClientByUsername()}{getClientByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} data\+Access.\+Data\+Access.\+get\+Client\+By\+Username (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+
+
+devuelve un cliente dado su \char`\"{}username\char`\"{} 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em String} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Client 
+\end{DoxyReturn}
+
+
+Definición en la línea 286 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{286                                                        \{}
+\DoxyCodeLine{287         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{288         Client cliente = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Client.class, username);}
+\DoxyCodeLine{289         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{290         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}}) \{}
+\DoxyCodeLine{291             \textcolor{keywordflow}{if} (cliente == \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{292                 System.out.println(\textcolor{stringliteral}{"In getClientByUsername: client = null"});}
+\DoxyCodeLine{293             \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{294                 System.out.println(\textcolor{stringliteral}{"In getClientByUsername: "}}
+\DoxyCodeLine{295                         + cliente.toString());}
+\DoxyCodeLine{296             \}}
+\DoxyCodeLine{297         \}}
+\DoxyCodeLine{298         \textcolor{keywordflow}{return} cliente;}
+\DoxyCodeLine{299     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+debuger y domain.\+Client.\+to\+String().
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+create\+Reserva(), data\+Access.\+Data\+Access.\+exist\+Client() y business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Client\+By\+Username().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a11f6dae8ff930c2552445dbf4d292268}\label{classdata_access_1_1_data_access_a11f6dae8ff930c2552445dbf4d292268}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getImagesFromRH@{getImagesFromRH}}
+\index{getImagesFromRH@{getImagesFromRH}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getImagesFromRH()}{getImagesFromRH()}}
+{\footnotesize\ttfamily Vector$<$byte\mbox{[}$\,$\mbox{]}$>$ data\+Access.\+Data\+Access.\+get\+Images\+From\+RH (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{owner }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 219 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{219                                                                       \{}
+\DoxyCodeLine{220         TypedQuery<RuralHouse> query = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}}
+\DoxyCodeLine{221                 .createQuery(}
+\DoxyCodeLine{222                         \textcolor{stringliteral}{"SELECT rh.images FROM RuralHouse rh WHERE rh.owner=?1 AND rh.houseNumber=?2"},}
+\DoxyCodeLine{223                         RuralHouse.class);}
+\DoxyCodeLine{224         query.setParameter(1, owner);}
+\DoxyCodeLine{225         query.setParameter(2, rh.getHouseNumber());}
+\DoxyCodeLine{226         List<RuralHouse> results = query.getResultList();}
+\DoxyCodeLine{227         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}}) \{}
+\DoxyCodeLine{228             System.out.println(\textcolor{stringliteral}{"In getImagesFromRH: "}}
+\DoxyCodeLine{229                     + results.get(0).toString());}
+\DoxyCodeLine{230         \}}
+\DoxyCodeLine{231         \textcolor{keywordflow}{return} results.get(0).getImages();}
+\DoxyCodeLine{232     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+debuger y domain.\+Rural\+House.\+get\+House\+Number().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a542a2ce3e970075b63c22b8cefac42ee}\label{classdata_access_1_1_data_access_a542a2ce3e970075b63c22b8cefac42ee}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getOfferByNum@{getOfferByNum}}
+\index{getOfferByNum@{getOfferByNum}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getOfferByNum()}{getOfferByNum()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} data\+Access.\+Data\+Access.\+get\+Offer\+By\+Num (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 214 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{214                                       \{}
+\DoxyCodeLine{215         Offer o = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Offer.class, n);}
+\DoxyCodeLine{216         \textcolor{keywordflow}{return} o;}
+\DoxyCodeLine{217     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db.
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+create\+Reserva().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ab8f58c04c48032a83b000d6de7f47d4e}\label{classdata_access_1_1_data_access_ab8f58c04c48032a83b000d6de7f47d4e}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getOffers@{getOffers}}
+\index{getOffers@{getOffers}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getOffers()}{getOffers()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ data\+Access.\+Data\+Access.\+get\+Offers (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{Date}]{first\+Day,  }\item[{Date}]{last\+Day }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 271 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{271                                                                                \{}
+\DoxyCodeLine{272         System.out.println(\textcolor{stringliteral}{">> DataAccess: getOffers"});}
+\DoxyCodeLine{273         Vector<Offer> res = \textcolor{keyword}{new} Vector<>();}
+\DoxyCodeLine{274         RuralHouse rhn = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(RuralHouse.class, rh.getHouseNumber());}
+\DoxyCodeLine{275         res = rhn.getOffers(firstDay, lastDay);}
+\DoxyCodeLine{276         \textcolor{keywordflow}{return} res;}
+\DoxyCodeLine{277     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, domain.\+Rural\+House.\+get\+House\+Number() y domain.\+Rural\+House.\+get\+Offers().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Offers().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a61836150ad3401ad7e326f263993c7bc}\label{classdata_access_1_1_data_access_a61836150ad3401ad7e326f263993c7bc}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getOwnerByUsername@{getOwnerByUsername}}
+\index{getOwnerByUsername@{getOwnerByUsername}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getOwnerByUsername()}{getOwnerByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} data\+Access.\+Data\+Access.\+get\+Owner\+By\+Username (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em username} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+
+\end{DoxyReturn}
+
+
+Definición en la línea 307 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{307                                                      \{}
+\DoxyCodeLine{308         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{309         Owner propietario = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Owner.class, username);}
+\DoxyCodeLine{310         \textcolor{keywordflow}{if} (propietario == \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{311             System.out.println(\textcolor{stringliteral}{"In getClientByUsername: client = null"});}
+\DoxyCodeLine{312         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{313             System.out.println(\textcolor{stringliteral}{"In getClientByUsername: "}}
+\DoxyCodeLine{314                     + propietario.toString());}
+\DoxyCodeLine{315         \}}
+\DoxyCodeLine{316         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{317         \textcolor{keywordflow}{return} propietario;}
+\DoxyCodeLine{318     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db y domain.\+Owner.\+to\+String().
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+create\+Rural\+House(), data\+Access.\+Data\+Access.\+exist\+Owner() y business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Owner\+By\+Username().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ad2661c3e2d7e0550b837b2763456683d}\label{classdata_access_1_1_data_access_ad2661c3e2d7e0550b837b2763456683d}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getReservaByNum@{getReservaByNum}}
+\index{getReservaByNum@{getReservaByNum}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getReservaByNum()}{getReservaByNum()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} data\+Access.\+Data\+Access.\+get\+Reserva\+By\+Num (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 196 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{196                                           \{}
+\DoxyCodeLine{197         Reserva r = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Reserva.class, n);}
+\DoxyCodeLine{198         \textcolor{keywordflow}{return} r;}
+\DoxyCodeLine{199     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db.
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Reserva\+By\+Num() y data\+Access.\+Data\+Access.\+remove\+Reserva().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a8addeaaedd74ad2fb8e285672c22d216}\label{classdata_access_1_1_data_access_a8addeaaedd74ad2fb8e285672c22d216}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getRuralHouse@{getRuralHouse}}
+\index{getRuralHouse@{getRuralHouse}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getRuralHouse()}{getRuralHouse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} data\+Access.\+Data\+Access.\+get\+Rural\+House (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{owner,  }\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 234 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{234                                                                 \{}
+\DoxyCodeLine{235         TypedQuery<RuralHouse> query = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}}
+\DoxyCodeLine{236                 .createQuery(}
+\DoxyCodeLine{237                         \textcolor{stringliteral}{"SELECT rh FROM RuralHouse rh WHERE rh.owner=?1 AND rh.houseNumber=?2"},}
+\DoxyCodeLine{238                         RuralHouse.class);}
+\DoxyCodeLine{239         query.setParameter(1, owner);}
+\DoxyCodeLine{240         System.out.println(rh.toString());}
+\DoxyCodeLine{241         query.setParameter(2, rh.getHouseNumber());}
+\DoxyCodeLine{242         List<RuralHouse> colecction = query.getResultList();}
+\DoxyCodeLine{243         RuralHouse rhouse = colecction.get(0);}
+\DoxyCodeLine{244         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}{debuger}}) \{}
+\DoxyCodeLine{245             \textcolor{keywordflow}{if} (rhouse == \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{246                 System.out.println(\textcolor{stringliteral}{"In getRuralHouse: rh = null"});}
+\DoxyCodeLine{247             \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{248                 System.out.println(\textcolor{stringliteral}{"In getRuralHouse: "} + rhouse.toString());}
+\DoxyCodeLine{249             \}}
+\DoxyCodeLine{250         \}}
+\DoxyCodeLine{251         \textcolor{keywordflow}{return} rhouse;}
+\DoxyCodeLine{252     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, data\+Access.\+Data\+Access.\+debuger, domain.\+Rural\+House.\+get\+House\+Number() y domain.\+Rural\+House.\+to\+String().
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+add\+Image\+To\+R\+H() y business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Rural\+House().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a652083447d2e9e5fd5b6228bc67a8ca4}\label{classdata_access_1_1_data_access_a652083447d2e9e5fd5b6228bc67a8ca4}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!getRuralHouseByHouseNumber@{getRuralHouseByHouseNumber}}
+\index{getRuralHouseByHouseNumber@{getRuralHouseByHouseNumber}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{getRuralHouseByHouseNumber()}{getRuralHouseByHouseNumber()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} data\+Access.\+Data\+Access.\+get\+Rural\+House\+By\+House\+Number (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 349 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{349                                                           \{}
+\DoxyCodeLine{350         RuralHouse rh = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(RuralHouse.class, num);}
+\DoxyCodeLine{351         \textcolor{keywordflow}{return} rh;}
+\DoxyCodeLine{352     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db.
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+get\+Rural\+Houseby\+House\+Number().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ab4e4324392bb85a0f2a2c209f463d1fa}\label{classdata_access_1_1_data_access_ab4e4324392bb85a0f2a2c209f463d1fa}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!remove2@{remove2}}
+\index{remove2@{remove2}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{remove2()}{remove2()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+remove2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 385 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{385                                        \{}
+\DoxyCodeLine{386         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.detach(rh);}
+\DoxyCodeLine{387     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db.
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a2980497a576b4e113f96daf113620b7e}\label{classdata_access_1_1_data_access_a2980497a576b4e113f96daf113620b7e}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!removeReserva@{removeReserva}}
+\index{removeReserva@{removeReserva}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{removeReserva()}{removeReserva()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+remove\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 201 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{201                                          \{}
+\DoxyCodeLine{202         Reserva reserva = \mbox{\hyperlink{classdata_access_1_1_data_access_ad2661c3e2d7e0550b837b2763456683d}{getReservaByNum}}(r.getNumResrva());}
+\DoxyCodeLine{203         Client \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}} = reserva.getCliente();}
+\DoxyCodeLine{204         Offer o = reserva.getOffer();}
+\DoxyCodeLine{205         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{206         \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.removeReserva(reserva);}
+\DoxyCodeLine{207         o.removeReserva();}
+\DoxyCodeLine{208         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}});}
+\DoxyCodeLine{209         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(o);}
+\DoxyCodeLine{210         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.remove(reserva);}
+\DoxyCodeLine{211         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{212     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+c, data\+Access.\+Data\+Access.\+db, domain.\+Reserva.\+get\+Cliente(), domain.\+Reserva.\+get\+Num\+Resrva(), domain.\+Reserva.\+get\+Offer(), data\+Access.\+Data\+Access.\+get\+Reserva\+By\+Num() y domain.\+Offer.\+remove\+Reserva().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+remove\+Reserva().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a3317cddb0e49d7e884f5f89795e20317}\label{classdata_access_1_1_data_access_a3317cddb0e49d7e884f5f89795e20317}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!removeRuralHouse@{removeRuralHouse}}
+\index{removeRuralHouse@{removeRuralHouse}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{removeRuralHouse()}{removeRuralHouse()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+remove\+Rural\+House (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 354 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{354                                           \{}
+\DoxyCodeLine{355         RuralHouse rh = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(RuralHouse.class, num);}
+\DoxyCodeLine{356         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{357         Owner o = rh.getOwner();}
+\DoxyCodeLine{358         o.removeRuralHouse(rh);}
+\DoxyCodeLine{359         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(o);}
+\DoxyCodeLine{360         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.remove(rh);}
+\DoxyCodeLine{361         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{362     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, domain.\+Rural\+House.\+get\+Owner() y domain.\+Owner.\+remove\+Rural\+House().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+remove\+Rural\+House().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_afe99432043c4bf8bc7032858b51badbf}\label{classdata_access_1_1_data_access_afe99432043c4bf8bc7032858b51badbf}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!setRated@{setRated}}
+\index{setRated@{setRated}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{setRated()}{setRated()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+set\+Rated (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 427 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{427                                     \{}
+\DoxyCodeLine{428         Reserva r1 = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Reserva.class, r.getNumResrva());}
+\DoxyCodeLine{429         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{430         r1.setRated(\textcolor{keyword}{true});}
+\DoxyCodeLine{431         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(r1);}
+\DoxyCodeLine{432         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{433     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, domain.\+Reserva.\+get\+Num\+Resrva() y domain.\+Reserva.\+set\+Rated().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+set\+Rated().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a403975bb8b87dbfa856d90ef362e7b60}\label{classdata_access_1_1_data_access_a403975bb8b87dbfa856d90ef362e7b60}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!updateClient@{updateClient}}
+\index{updateClient@{updateClient}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{updateClient()}{updateClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} data\+Access.\+Data\+Access.\+update\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 389 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{389                                          \{}
+\DoxyCodeLine{390         Client c1 = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Client.class, \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.getUserName());}
+\DoxyCodeLine{391         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{392         c1.setCuentaBancaria(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.getCuentaBancaria());}
+\DoxyCodeLine{393         c1.setPassword(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.\mbox{\hyperlink{classconfiguration_1_1_config_x_m_l_a70146fb5f8cda65220413959691e3616}{getPassword}}());}
+\DoxyCodeLine{394         c1.setEmail(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.getEmail());}
+\DoxyCodeLine{395         c1.setTelegramId(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.getTelegramId());}
+\DoxyCodeLine{396         c1.setSendBookByEmail(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.isSendBookByEmail());}
+\DoxyCodeLine{397         c1.setSendBookByTelegram(\mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.isSendBookByTelegram());}
+\DoxyCodeLine{398         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(c1);}
+\DoxyCodeLine{399         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{400         \textcolor{keywordflow}{return} c1;}
+\DoxyCodeLine{401     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+c, data\+Access.\+Data\+Access.\+db, configuration.\+Config\+X\+M\+L.\+get\+Password(), domain.\+Client.\+set\+Cuenta\+Bancaria(), domain.\+Client.\+set\+Email(), domain.\+Client.\+set\+Password(), domain.\+Client.\+set\+Send\+Book\+By\+Email(), domain.\+Client.\+set\+Send\+Book\+By\+Telegram() y domain.\+Client.\+set\+Telegram\+Id().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Client().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ad9bd59be12508bde6bffd40397ed6caa}\label{classdata_access_1_1_data_access_ad9bd59be12508bde6bffd40397ed6caa}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!updateClinetValidation@{updateClinetValidation}}
+\index{updateClinetValidation@{updateClinetValidation}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{updateClinetValidation()}{updateClinetValidation()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+update\+Clinet\+Validation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 369 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{369                                                 \{}
+\DoxyCodeLine{370         Client c1 = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Client.class, \mbox{\hyperlink{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}{c}}.getUserName());}
+\DoxyCodeLine{371         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{372         c1.setValidated(\textcolor{keyword}{true});}
+\DoxyCodeLine{373         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(c1);}
+\DoxyCodeLine{374         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{375     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+c, data\+Access.\+Data\+Access.\+db y domain.\+Client.\+set\+Validated().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Clinet\+Validation().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_af4bcb54cc90c7376889c7c9357d93416}\label{classdata_access_1_1_data_access_af4bcb54cc90c7376889c7c9357d93416}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!updateOwner@{updateOwner}}
+\index{updateOwner@{updateOwner}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{updateOwner()}{updateOwner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} data\+Access.\+Data\+Access.\+update\+Owner (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 403 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{403                                       \{}
+\DoxyCodeLine{404         Owner o1 = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Owner.class, o.getUserName());}
+\DoxyCodeLine{405         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{406         o1.setCuentaBancaria(o.getCuentaBancaria());}
+\DoxyCodeLine{407         o1.setPassword(o.getPassword());}
+\DoxyCodeLine{408         o1.setEmail(o.getEmail());}
+\DoxyCodeLine{409         o1.setTelegramId(o.getTelegramId());}
+\DoxyCodeLine{410         o1.setSendBookByTelegram(o.isSendBookByTelegram());}
+\DoxyCodeLine{411         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(o1);}
+\DoxyCodeLine{412         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{413         \textcolor{keywordflow}{return} o1;}
+\DoxyCodeLine{414     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, domain.\+Owner.\+get\+Cuenta\+Bancaria(), domain.\+Owner.\+get\+Email(), domain.\+Owner.\+get\+Password(), domain.\+Owner.\+get\+Telegram\+Id(), domain.\+Owner.\+get\+User\+Name(), domain.\+Owner.\+is\+Send\+Book\+By\+Telegram(), domain.\+Owner.\+set\+Cuenta\+Bancaria(), domain.\+Owner.\+set\+Email(), domain.\+Owner.\+set\+Password(), domain.\+Owner.\+set\+Send\+Book\+By\+Telegram() y domain.\+Owner.\+set\+Telegram\+Id().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Owner().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a5ecedf103c63cc76c84c664e29f64f7b}\label{classdata_access_1_1_data_access_a5ecedf103c63cc76c84c664e29f64f7b}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!updateOwnerValidation@{updateOwnerValidation}}
+\index{updateOwnerValidation@{updateOwnerValidation}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{updateOwnerValidation()}{updateOwnerValidation()}}
+{\footnotesize\ttfamily void data\+Access.\+Data\+Access.\+update\+Owner\+Validation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 377 del archivo Data\+Access.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{377                                               \{}
+\DoxyCodeLine{378         Owner o1 = \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.find(Owner.class, o.getUserName());}
+\DoxyCodeLine{379         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().begin();}
+\DoxyCodeLine{380         o1.setValidated(\textcolor{keyword}{true});}
+\DoxyCodeLine{381         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.persist(o1);}
+\DoxyCodeLine{382         \mbox{\hyperlink{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}{db}}.getTransaction().commit();}
+\DoxyCodeLine{383     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a data\+Access.\+Data\+Access.\+db, domain.\+Owner.\+get\+User\+Name() y domain.\+Owner.\+set\+Validated().
+
+
+
+Referenciado por business\+Logic.\+Facade\+Implementation\+W\+S.\+update\+Owner\+Validation().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}\label{classdata_access_1_1_data_access_ad09e2bb7e62d0624ad4ed15307cb2e3e}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!c@{c}}
+\index{c@{c}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{c}{c}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classconfiguration_1_1_config_x_m_l}{Config\+X\+ML}} data\+Access.\+Data\+Access.\+c\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definición en la línea 38 del archivo Data\+Access.\+java.
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+create\+Reserva(), data\+Access.\+Data\+Access.\+Data\+Access(), data\+Access.\+Data\+Access.\+remove\+Reserva(), data\+Access.\+Data\+Access.\+update\+Client() y data\+Access.\+Data\+Access.\+update\+Clinet\+Validation().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}\label{classdata_access_1_1_data_access_a0920d5a9c61bdae39ef950d6e4e187e4}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!db@{db}}
+\index{db@{db}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{db}{db}}
+{\footnotesize\ttfamily Entity\+Manager data\+Access.\+Data\+Access.\+db\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Definición en la línea 36 del archivo Data\+Access.\+java.
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+add\+Image\+To\+R\+H(), data\+Access.\+Data\+Access.\+close(), data\+Access.\+Data\+Access.\+create\+Client(), data\+Access.\+Data\+Access.\+create\+Feed\+Back(), data\+Access.\+Data\+Access.\+create\+Offer(), data\+Access.\+Data\+Access.\+create\+Owner(), data\+Access.\+Data\+Access.\+create\+Reserva(), data\+Access.\+Data\+Access.\+create\+Rural\+House(), data\+Access.\+Data\+Access.\+Data\+Access(), data\+Access.\+Data\+Access.\+exists\+Overlapping\+Offer(), data\+Access.\+Data\+Access.\+get\+All\+Rural\+Houses(), data\+Access.\+Data\+Access.\+get\+Client\+By\+Username(), data\+Access.\+Data\+Access.\+get\+Images\+From\+R\+H(), data\+Access.\+Data\+Access.\+get\+Offer\+By\+Num(), data\+Access.\+Data\+Access.\+get\+Offers(), data\+Access.\+Data\+Access.\+get\+Owner\+By\+Username(), data\+Access.\+Data\+Access.\+get\+Reserva\+By\+Num(), data\+Access.\+Data\+Access.\+get\+Rural\+House(), data\+Access.\+Data\+Access.\+get\+Rural\+House\+By\+House\+Number(), data\+Access.\+Data\+Access.\+remove2(), data\+Access.\+Data\+Access.\+remove\+Reserva(), data\+Access.\+Data\+Access.\+remove\+Rural\+House(), data\+Access.\+Data\+Access.\+set\+Rated(), data\+Access.\+Data\+Access.\+update\+Client(), data\+Access.\+Data\+Access.\+update\+Clinet\+Validation(), data\+Access.\+Data\+Access.\+update\+Owner() y data\+Access.\+Data\+Access.\+update\+Owner\+Validation().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}\label{classdata_access_1_1_data_access_a3a2da087d6452771264c177c02ecab4a}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!debuger@{debuger}}
+\index{debuger@{debuger}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{debuger}{debuger}}
+{\footnotesize\ttfamily boolean data\+Access.\+Data\+Access.\+debuger = false}
+
+
+
+Definición en la línea 39 del archivo Data\+Access.\+java.
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+add\+Image\+To\+R\+H(), data\+Access.\+Data\+Access.\+create\+Client(), data\+Access.\+Data\+Access.\+create\+Owner(), data\+Access.\+Data\+Access.\+create\+Rural\+House(), data\+Access.\+Data\+Access.\+get\+Client\+By\+Username(), data\+Access.\+Data\+Access.\+get\+Images\+From\+R\+H() y data\+Access.\+Data\+Access.\+get\+Rural\+House().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_a158d2718ef5a80f4f296b14937cc1775}\label{classdata_access_1_1_data_access_a158d2718ef5a80f4f296b14937cc1775}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!emf@{emf}}
+\index{emf@{emf}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{emf}{emf}}
+{\footnotesize\ttfamily Entity\+Manager\+Factory data\+Access.\+Data\+Access.\+emf\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Definición en la línea 35 del archivo Data\+Access.\+java.
+
+
+
+Referenciado por data\+Access.\+Data\+Access.\+Data\+Access().
+
+\mbox{\Hypertarget{classdata_access_1_1_data_access_aba38e7b60b8d2dc1d112ac7b5e5e4693}\label{classdata_access_1_1_data_access_aba38e7b60b8d2dc1d112ac7b5e5e4693}} 
+\index{dataAccess.DataAccess@{dataAccess.DataAccess}!fileName@{fileName}}
+\index{fileName@{fileName}!dataAccess.DataAccess@{dataAccess.DataAccess}}
+\subsubsection{\texorpdfstring{fileName}{fileName}}
+{\footnotesize\ttfamily String data\+Access.\+Data\+Access.\+file\+Name\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definición en la línea 34 del archivo Data\+Access.\+java.
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/data\+Access/\mbox{\hyperlink{_data_access_8java}{Data\+Access.\+java}}\end{DoxyCompactItemize}

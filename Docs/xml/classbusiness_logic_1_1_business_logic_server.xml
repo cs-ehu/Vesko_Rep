@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_business_logic_server" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::BusinessLogicServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbusiness_logic_1_1_business_logic_server_1a0893f28ccaea8b86f7fe942c6ea3e126" prot="private" static="no" mutable="no">
+        <type>final JPanel</type>
+        <definition>final JPanel businessLogic.BusinessLogicServer.contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <initializer>= new JPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/BusinessLogicServer.java" line="23" column="1" bodyfile="src/businessLogic/BusinessLogicServer.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classbusiness_logic_1_1_business_logic_server_1aec137250843e53f480cd28952ca4afd7" prot="package" static="no" mutable="no">
+        <type>JTextArea</type>
+        <definition>JTextArea businessLogic.BusinessLogicServer.textArea</definition>
+        <argsstring></argsstring>
+        <name>textArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/BusinessLogicServer.java" line="24" column="1" bodyfile="src/businessLogic/BusinessLogicServer.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_business_logic_server_1ad1b90ed3ddcce431e7b064bb4a4631ed" prot="package" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS businessLogic.BusinessLogicServer.server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/BusinessLogicServer.java" line="25" column="1" bodyfile="src/businessLogic/BusinessLogicServer.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_business_logic_server_1a474037df64d451baf01fcb6f582cde2a" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String businessLogic.BusinessLogicServer.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/BusinessLogicServer.java" line="26" column="1" bodyfile="src/businessLogic/BusinessLogicServer.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_business_logic_server_1a978c1596ce77baed488f137fc96a4fe8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void businessLogic.BusinessLogicServer.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Launch the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/BusinessLogicServer.java" line="30" column="1" bodyfile="src/businessLogic/BusinessLogicServer.java" bodystart="30" bodyend="38"/>
+        <references refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" compoundref="_business_logic_server_8java" startline="43" endline="107">businessLogic.BusinessLogicServer.BusinessLogicServer</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>businessLogic.BusinessLogicServer.BusinessLogicServer</definition>
+        <argsstring>()</argsstring>
+        <name>BusinessLogicServer</name>
+        <briefdescription>
+<para>Create the dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/BusinessLogicServer.java" line="43" column="1" bodyfile="src/businessLogic/BusinessLogicServer.java" bodystart="43" bodyend="107"/>
+        <references refid="classbusiness_logic_1_1_business_logic_server_1a0893f28ccaea8b86f7fe942c6ea3e126" compoundref="_business_logic_server_8java" startline="23">businessLogic.BusinessLogicServer.contentPanel</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1ad6866b6aee38c74c082135f5dcd743ad" compoundref="_config_x_m_l_8java" startline="155" endline="157">configuration.ConfigXML.getBusinessLogicName</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a6a79b28dd9e0c1c755fef0e7435ec03a" compoundref="_config_x_m_l_8java" startline="147" endline="149">configuration.ConfigXML.getBusinessLogicNode</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a7e8cb431bc1e899176ae2891c007f7f3" compoundref="_config_x_m_l_8java" startline="151" endline="153">configuration.ConfigXML.getBusinessLogicPort</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a622fdcb9a55b406b6bc2fa63509dae72" compoundref="_config_x_m_l_8java" startline="167" endline="169">configuration.ConfigXML.getDatabaseNode</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1abf4649caafdcfb0b506af7402f09728c" compoundref="_config_x_m_l_8java" startline="44" endline="46">configuration.ConfigXML.getDatabasePort</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" compoundref="_config_x_m_l_8java" startline="143" endline="145">configuration.ConfigXML.getInstance</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a3055cd4f61151ef6d1c48a5ebf86b33f" compoundref="_config_x_m_l_8java" startline="61" endline="63">configuration.ConfigXML.isBusinessLogicLocal</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a2ee9afbde36aa3f5c0d0158a8b5449fb" compoundref="_config_x_m_l_8java" startline="57" endline="59">configuration.ConfigXML.isDatabaseLocal</references>
+        <references refid="classbusiness_logic_1_1_business_logic_server_1a474037df64d451baf01fcb6f582cde2a" compoundref="_business_logic_server_8java" startline="26">businessLogic.BusinessLogicServer.service</references>
+        <references refid="classbusiness_logic_1_1_business_logic_server_1aec137250843e53f480cd28952ca4afd7" compoundref="_business_logic_server_8java" startline="24">businessLogic.BusinessLogicServer.textArea</references>
+        <referencedby refid="classbusiness_logic_1_1_business_logic_server_1a978c1596ce77baed488f137fc96a4fe8" compoundref="_business_logic_server_8java" startline="30" endline="38">businessLogic.BusinessLogicServer.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>businessLogic.BusinessLogicServer</label>
+        <link refid="classbusiness_logic_1_1_business_logic_server"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>JDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>JPanel</label>
+      </node>
+      <node id="13">
+        <label>JTextArea</label>
+      </node>
+      <node id="11">
+        <label>businessLogic.BusinessLogicServer</label>
+        <link refid="classbusiness_logic_1_1_business_logic_server"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>textArea</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>server</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>contentPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>JDialog</label>
+      </node>
+      <node id="14">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/businessLogic/BusinessLogicServer.java" line="21" column="1" bodyfile="src/businessLogic/BusinessLogicServer.java" bodystart="21" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_business_logic_server_1a45e022d6b8b68567423caab4157e2784" prot="public" virt="non-virtual"><scope>businessLogic::BusinessLogicServer</scope><name>BusinessLogicServer</name></member>
+      <member refid="classbusiness_logic_1_1_business_logic_server_1a0893f28ccaea8b86f7fe942c6ea3e126" prot="private" virt="non-virtual"><scope>businessLogic::BusinessLogicServer</scope><name>contentPanel</name></member>
+      <member refid="classbusiness_logic_1_1_business_logic_server_1a978c1596ce77baed488f137fc96a4fe8" prot="public" virt="non-virtual"><scope>businessLogic::BusinessLogicServer</scope><name>main</name></member>
+      <member refid="classbusiness_logic_1_1_business_logic_server_1ad1b90ed3ddcce431e7b064bb4a4631ed" prot="package" virt="non-virtual"><scope>businessLogic::BusinessLogicServer</scope><name>server</name></member>
+      <member refid="classbusiness_logic_1_1_business_logic_server_1a474037df64d451baf01fcb6f582cde2a" prot="package" virt="non-virtual"><scope>businessLogic::BusinessLogicServer</scope><name>service</name></member>
+      <member refid="classbusiness_logic_1_1_business_logic_server_1aec137250843e53f480cd28952ca4afd7" prot="package" virt="non-virtual"><scope>businessLogic::BusinessLogicServer</scope><name>textArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

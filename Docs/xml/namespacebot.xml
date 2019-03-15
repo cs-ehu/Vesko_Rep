@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacebot" kind="namespace" language="Java">
+    <compoundname>bot</compoundname>
+    <innerclass refid="classbot_1_1_comand" prot="public">bot::Comand</innerclass>
+    <innerclass refid="classbot_1_1_my_bot" prot="public">bot::MyBot</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/bot/Comand.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

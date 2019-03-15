@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_google_maps_web" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::GoogleMapsWeb</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_google_maps_web_1a1e7bc23fa58751707e425caba2eea1b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void businessLogic.GoogleMapsWeb.browseAddress</definition>
+        <argsstring>(String address)</argsstring>
+        <name>browseAddress</name>
+        <param>
+          <type>String</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/GoogleMapsWeb.java" line="10" column="1" bodyfile="src/businessLogic/GoogleMapsWeb.java" bodystart="10" bodyend="17"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/businessLogic/GoogleMapsWeb.java" line="8" column="1" bodyfile="src/businessLogic/GoogleMapsWeb.java" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_google_maps_web_1a1e7bc23fa58751707e425caba2eea1b4" prot="public" virt="non-virtual"><scope>businessLogic::GoogleMapsWeb</scope><name>browseAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

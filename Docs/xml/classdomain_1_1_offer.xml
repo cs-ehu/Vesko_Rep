@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_offer" kind="class" language="Java" prot="public">
+    <compoundname>domain::Offer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_offer_1af77beec2989adcfb9b7b7ef399f9b363" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer domain.Offer.offerNumber</definition>
+        <argsstring></argsstring>
+        <name>offerNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="28" column="1" bodyfile="src/domain/Offer.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_offer_1ab9e27c474ec6819a27eac1847d876c3a" compoundref="_offer_8java" startline="89" endline="91">domain.Offer.getOfferNumber</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" compoundref="_offer_8java" startline="151" endline="165">domain.Offer.toString</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a9e4e8be92a6caa7756cb8277df32c17b" compoundref="_offer_8java" startline="166" endline="168">domain.Offer.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" prot="private" static="no" mutable="no">
+        <type>Date</type>
+        <definition>Date domain.Offer.firstDay</definition>
+        <argsstring></argsstring>
+        <name>firstDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="29" column="1" bodyfile="src/domain/Offer.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" compoundref="_offer_8java" startline="100" endline="102">domain.Offer.getFirstDay</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" compoundref="_offer_8java" startline="42" endline="49">domain.Offer.Offer</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1aca5c8e3d34e700c8e51d1c9a0685e68f" compoundref="_offer_8java" startline="110" endline="112">domain.Offer.setFirstDay</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" compoundref="_offer_8java" startline="151" endline="165">domain.Offer.toString</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a9e4e8be92a6caa7756cb8277df32c17b" compoundref="_offer_8java" startline="166" endline="168">domain.Offer.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" prot="private" static="no" mutable="no">
+        <type>Date</type>
+        <definition>Date domain.Offer.lastDay</definition>
+        <argsstring></argsstring>
+        <name>lastDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="30" column="1" bodyfile="src/domain/Offer.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" compoundref="_offer_8java" startline="119" endline="121">domain.Offer.getLastDay</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" compoundref="_offer_8java" startline="42" endline="49">domain.Offer.Offer</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a52363278771059c51820160889c2bed1" compoundref="_offer_8java" startline="129" endline="131">domain.Offer.setLastDay</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" compoundref="_offer_8java" startline="151" endline="165">domain.Offer.toString</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a9e4e8be92a6caa7756cb8277df32c17b" compoundref="_offer_8java" startline="166" endline="168">domain.Offer.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float domain.Offer.price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="31" column="1" bodyfile="src/domain/Offer.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_offer_1a4ebf9c6f415709b527e006fdffa3a0c3" compoundref="_offer_8java" startline="138" endline="140">domain.Offer.getPrice</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" compoundref="_offer_8java" startline="42" endline="49">domain.Offer.Offer</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a8bd526902732e030571b6889c5507f4c" compoundref="_offer_8java" startline="147" endline="149">domain.Offer.setPrice</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" compoundref="_offer_8java" startline="151" endline="165">domain.Offer.toString</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a9e4e8be92a6caa7756cb8277df32c17b" compoundref="_offer_8java" startline="166" endline="168">domain.Offer.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_offer_1a122573abd92911b25cde7d7e84f488f5" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse domain.Offer.ruralHouse</definition>
+        <argsstring></argsstring>
+        <name>ruralHouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="34" column="1" bodyfile="src/domain/Offer.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" compoundref="_offer_8java" startline="70" endline="72">domain.Offer.getRuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" compoundref="_offer_8java" startline="42" endline="49">domain.Offer.Offer</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a2050ed4cf76a2a2863d08e89bdf4a7df" compoundref="_offer_8java" startline="79" endline="81">domain.Offer.setRuralHouse</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" compoundref="_offer_8java" startline="151" endline="165">domain.Offer.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_offer_1a242b39ce62d475bd64ce18aff2bbfe4f" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva domain.Offer.reservaActual</definition>
+        <argsstring></argsstring>
+        <name>reservaActual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="37" column="1" bodyfile="src/domain/Offer.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_offer_1a89339961be734e54a45fab7867120736" compoundref="_offer_8java" startline="58" endline="60">domain.Offer.getReserva</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a78634284385de3610a3fdc8ef08763fa" compoundref="_offer_8java" startline="61" endline="64">domain.Offer.removeReserva</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_offer_1afe1b48d0d80d84147a51b8dff9dfb50d" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean domain.Offer.booked</definition>
+        <argsstring></argsstring>
+        <name>booked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="38" column="1" bodyfile="src/domain/Offer.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_offer_1a41a1c7ea6658ff5e9127ad3d2332ef9c" compoundref="_offer_8java" startline="51" endline="53">domain.Offer.isBooked</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" compoundref="_offer_8java" startline="42" endline="49">domain.Offer.Offer</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1a78634284385de3610a3fdc8ef08763fa" compoundref="_offer_8java" startline="61" endline="64">domain.Offer.removeReserva</referencedby>
+        <referencedby refid="classdomain_1_1_offer_1aaeea4dfcf319bd7003aa46054c50594b" compoundref="_offer_8java" startline="54" endline="57">domain.Offer.setReserva</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_offer_1ae82665e8df101e5a20b41dc06f74a789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Offer.Offer</definition>
+        <argsstring>()</argsstring>
+        <name>Offer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="40" column="1" bodyfile="src/domain/Offer.java" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Offer.Offer</definition>
+        <argsstring>(Date firstDay, Date lastDay, float price, RuralHouse ruralHouse, boolean booked)</argsstring>
+        <name>Offer</name>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>ruralHouse</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>booked</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="42" column="1" bodyfile="src/domain/Offer.java" bodystart="42" bodyend="49"/>
+        <references refid="classdomain_1_1_offer_1afe1b48d0d80d84147a51b8dff9dfb50d" compoundref="_offer_8java" startline="38">domain.Offer.booked</references>
+        <references refid="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" compoundref="_offer_8java" startline="29">domain.Offer.firstDay</references>
+        <references refid="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" compoundref="_offer_8java" startline="30">domain.Offer.lastDay</references>
+        <references refid="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" compoundref="_offer_8java" startline="31">domain.Offer.price</references>
+        <references refid="classdomain_1_1_offer_1a122573abd92911b25cde7d7e84f488f5" compoundref="_offer_8java" startline="34">domain.Offer.ruralHouse</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a41a1c7ea6658ff5e9127ad3d2332ef9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.Offer.isBooked</definition>
+        <argsstring>()</argsstring>
+        <name>isBooked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="51" column="1" bodyfile="src/domain/Offer.java" bodystart="51" bodyend="53"/>
+        <references refid="classdomain_1_1_offer_1afe1b48d0d80d84147a51b8dff9dfb50d" compoundref="_offer_8java" startline="38">domain.Offer.booked</references>
+        <referencedby refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" compoundref="_filter_search_8java" startline="114" endline="154">businessLogic.FilterSearch.filterOfferByNights</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1aaeea4dfcf319bd7003aa46054c50594b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Offer.setReserva</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>setReserva</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="54" column="1" bodyfile="src/domain/Offer.java" bodystart="54" bodyend="57"/>
+        <references refid="classdomain_1_1_offer_1afe1b48d0d80d84147a51b8dff9dfb50d" compoundref="_offer_8java" startline="38">domain.Offer.booked</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a89339961be734e54a45fab7867120736" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva domain.Offer.getReserva</definition>
+        <argsstring>()</argsstring>
+        <name>getReserva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="58" column="1" bodyfile="src/domain/Offer.java" bodystart="58" bodyend="60"/>
+        <references refid="classdomain_1_1_offer_1a242b39ce62d475bd64ce18aff2bbfe4f" compoundref="_offer_8java" startline="37">domain.Offer.reservaActual</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a78634284385de3610a3fdc8ef08763fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Offer.removeReserva</definition>
+        <argsstring>()</argsstring>
+        <name>removeReserva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="61" column="1" bodyfile="src/domain/Offer.java" bodystart="61" bodyend="64"/>
+        <references refid="classdomain_1_1_offer_1afe1b48d0d80d84147a51b8dff9dfb50d" compoundref="_offer_8java" startline="38">domain.Offer.booked</references>
+        <references refid="classdomain_1_1_offer_1a242b39ce62d475bd64ce18aff2bbfe4f" compoundref="_offer_8java" startline="37">domain.Offer.reservaActual</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" compoundref="_data_access_8java" startline="201" endline="212">dataAccess.DataAccess.removeReserva</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse domain.Offer.getRuralHouse</definition>
+        <argsstring>()</argsstring>
+        <name>getRuralHouse</name>
+        <briefdescription>
+<para>Get the house number of the offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the house number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="70" column="1" bodyfile="src/domain/Offer.java" bodystart="70" bodyend="72"/>
+        <references refid="classdomain_1_1_offer_1a122573abd92911b25cde7d7e84f488f5" compoundref="_offer_8java" startline="34">domain.Offer.ruralHouse</references>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" compoundref="_filter_search_8java" startline="114" endline="154">businessLogic.FilterSearch.filterOfferByNights</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_offer_rh_owner_container_1a8dd8e74751c3687311a3dc879bf4ec1c" compoundref="_reserva_offer_rh_owner_container_8java" startline="13" endline="18">domain.ReservaOfferRhOwnerContainer.ReservaOfferRhOwnerContainer</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a2050ed4cf76a2a2863d08e89bdf4a7df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Offer.setRuralHouse</definition>
+        <argsstring>(RuralHouse ruralHouse)</argsstring>
+        <name>setRuralHouse</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>ruralHouse</declname>
+        </param>
+        <briefdescription>
+<para>Set the house number to a offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>house</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="79" column="1" bodyfile="src/domain/Offer.java" bodystart="79" bodyend="81"/>
+        <references refid="classdomain_1_1_offer_1a122573abd92911b25cde7d7e84f488f5" compoundref="_offer_8java" startline="34">domain.Offer.ruralHouse</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1ab9e27c474ec6819a27eac1847d876c3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int domain.Offer.getOfferNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getOfferNumber</name>
+        <briefdescription>
+<para>Get the offer number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>offer number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="89" column="1" bodyfile="src/domain/Offer.java" bodystart="89" bodyend="91"/>
+        <references refid="classdomain_1_1_offer_1af77beec2989adcfb9b7b7ef399f9b363" compoundref="_offer_8java" startline="28">domain.Offer.offerNumber</references>
+        <referencedby refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" compoundref="_data_access_8java" startline="122" endline="134">dataAccess.DataAccess.createReserva</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date domain.Offer.getFirstDay</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstDay</name>
+        <briefdescription>
+<para>Get the first day of the offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the first day </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="100" column="1" bodyfile="src/domain/Offer.java" bodystart="100" bodyend="102"/>
+        <references refid="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" compoundref="_offer_8java" startline="29">domain.Offer.firstDay</references>
+        <referencedby refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" compoundref="_filter_search_8java" startline="114" endline="154">businessLogic.FilterSearch.filterOfferByNights</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1abe770c8a0fbcfed83a358d84bacd66f7" compoundref="_rural_house_8java" startline="206" endline="219">domain.RuralHouse.getOffers</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1ac5596b06728d8bf377993088520fbc9e" compoundref="_rural_house_8java" startline="232" endline="243">domain.RuralHouse.overlapsWith</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1aca5c8e3d34e700c8e51d1c9a0685e68f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Offer.setFirstDay</definition>
+        <argsstring>(Date firstDay)</argsstring>
+        <name>setFirstDay</name>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <briefdescription>
+<para>Set the first day of the offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstDay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first day </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="110" column="1" bodyfile="src/domain/Offer.java" bodystart="110" bodyend="112"/>
+        <references refid="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" compoundref="_offer_8java" startline="29">domain.Offer.firstDay</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date domain.Offer.getLastDay</definition>
+        <argsstring>()</argsstring>
+        <name>getLastDay</name>
+        <briefdescription>
+<para>Get the last day of the offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the last day </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="119" column="1" bodyfile="src/domain/Offer.java" bodystart="119" bodyend="121"/>
+        <references refid="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" compoundref="_offer_8java" startline="30">domain.Offer.lastDay</references>
+        <referencedby refid="classbusiness_logic_1_1_filter_search_1a14d70d3dd59998c944b97e0dbf785629" compoundref="_filter_search_8java" startline="114" endline="154">businessLogic.FilterSearch.filterOfferByNights</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1abe770c8a0fbcfed83a358d84bacd66f7" compoundref="_rural_house_8java" startline="206" endline="219">domain.RuralHouse.getOffers</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classdomain_1_1_rural_house_1ac5596b06728d8bf377993088520fbc9e" compoundref="_rural_house_8java" startline="232" endline="243">domain.RuralHouse.overlapsWith</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a52363278771059c51820160889c2bed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Offer.setLastDay</definition>
+        <argsstring>(Date lastDay)</argsstring>
+        <name>setLastDay</name>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <briefdescription>
+<para>Set the last day of the offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lastDay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The last day </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="129" column="1" bodyfile="src/domain/Offer.java" bodystart="129" bodyend="131"/>
+        <references refid="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" compoundref="_offer_8java" startline="30">domain.Offer.lastDay</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a4ebf9c6f415709b527e006fdffa3a0c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float domain.Offer.getPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getPrice</name>
+        <briefdescription>
+<para>Get the price. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>price </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="138" column="1" bodyfile="src/domain/Offer.java" bodystart="138" bodyend="140"/>
+        <references refid="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" compoundref="_offer_8java" startline="31">domain.Offer.price</references>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a8bd526902732e030571b6889c5507f4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Offer.setPrice</definition>
+        <argsstring>(float price)</argsstring>
+        <name>setPrice</name>
+        <param>
+          <type>float</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>Set the price. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="147" column="1" bodyfile="src/domain/Offer.java" bodystart="147" bodyend="149"/>
+        <references refid="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" compoundref="_offer_8java" startline="31">domain.Offer.price</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Offer.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="151" column="1" bodyfile="src/domain/Offer.java" bodystart="151" bodyend="165"/>
+        <references refid="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" compoundref="_offer_8java" startline="29">domain.Offer.firstDay</references>
+        <references refid="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" compoundref="_offer_8java" startline="30">domain.Offer.lastDay</references>
+        <references refid="classdomain_1_1_offer_1af77beec2989adcfb9b7b7ef399f9b363" compoundref="_offer_8java" startline="28">domain.Offer.offerNumber</references>
+        <references refid="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" compoundref="_offer_8java" startline="31">domain.Offer.price</references>
+        <references refid="classdomain_1_1_offer_1a122573abd92911b25cde7d7e84f488f5" compoundref="_offer_8java" startline="34">domain.Offer.ruralHouse</references>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_offer_1a9e4e8be92a6caa7756cb8277df32c17b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Offer.toString2</definition>
+        <argsstring>()</argsstring>
+        <name>toString2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Offer.java" line="166" column="1" bodyfile="src/domain/Offer.java" bodystart="166" bodyend="168"/>
+        <references refid="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" compoundref="_offer_8java" startline="29">domain.Offer.firstDay</references>
+        <references refid="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" compoundref="_offer_8java" startline="30">domain.Offer.lastDay</references>
+        <references refid="classdomain_1_1_offer_1af77beec2989adcfb9b7b7ef399f9b363" compoundref="_offer_8java" startline="28">domain.Offer.offerNumber</references>
+        <references refid="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" compoundref="_offer_8java" startline="31">domain.Offer.price</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="191">
+        <label>domain.Offer</label>
+        <link refid="classdomain_1_1_offer"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>Serializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="203">
+        <label>Vector&lt; domain.Reserva &gt;</label>
+      </node>
+      <node id="202">
+        <label>domain.Client</label>
+        <link refid="classdomain_1_1_client"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+        <childnode refid="203" relation="usage">
+          <edgelabel>listaReserva</edgelabel>
+        </childnode>
+      </node>
+      <node id="199">
+        <label>Vector&lt; domain.FeedBack &gt;</label>
+      </node>
+      <node id="193">
+        <label>domain.Offer</label>
+        <link refid="classdomain_1_1_offer"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+        <childnode refid="195" relation="usage">
+          <edgelabel>ruralHouse</edgelabel>
+        </childnode>
+        <childnode refid="201" relation="usage">
+          <edgelabel>reservaActual</edgelabel>
+        </childnode>
+        <childnode refid="204" relation="usage">
+          <edgelabel>lastDay</edgelabel>
+          <edgelabel>firstDay</edgelabel>
+        </childnode>
+      </node>
+      <node id="195">
+        <label>domain.RuralHouse</label>
+        <link refid="classdomain_1_1_rural_house"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+        <childnode refid="196" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="198" relation="usage">
+          <edgelabel>offers</edgelabel>
+        </childnode>
+        <childnode refid="199" relation="usage">
+          <edgelabel>listaFeedBack</edgelabel>
+        </childnode>
+        <childnode refid="200" relation="usage">
+          <edgelabel>images</edgelabel>
+        </childnode>
+      </node>
+      <node id="194">
+        <label>Serializable</label>
+      </node>
+      <node id="196">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+        <childnode refid="197" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="197">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="201">
+        <label>domain.Reserva</label>
+        <link refid="classdomain_1_1_reserva"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+        <childnode refid="193" relation="usage">
+          <edgelabel>offer</edgelabel>
+        </childnode>
+        <childnode refid="202" relation="usage">
+          <edgelabel>cliente</edgelabel>
+        </childnode>
+        <childnode refid="204" relation="usage">
+          <edgelabel>bookDate</edgelabel>
+        </childnode>
+      </node>
+      <node id="204">
+        <label>Date</label>
+      </node>
+      <node id="200">
+        <label>Vector&lt; byte[]&gt;</label>
+      </node>
+      <node id="198">
+        <label>Vector&lt; domain.Offer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/Offer.java" line="22" column="1" bodyfile="src/domain/Offer.java" bodystart="22" bodyend="169"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_offer_1afe1b48d0d80d84147a51b8dff9dfb50d" prot="private" virt="non-virtual"><scope>domain::Offer</scope><name>booked</name></member>
+      <member refid="classdomain_1_1_offer_1ac30c7d7ca38555fecc523259c15bd6b0" prot="private" virt="non-virtual"><scope>domain::Offer</scope><name>firstDay</name></member>
+      <member refid="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>getFirstDay</name></member>
+      <member refid="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>getLastDay</name></member>
+      <member refid="classdomain_1_1_offer_1ab9e27c474ec6819a27eac1847d876c3a" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>getOfferNumber</name></member>
+      <member refid="classdomain_1_1_offer_1a4ebf9c6f415709b527e006fdffa3a0c3" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>getPrice</name></member>
+      <member refid="classdomain_1_1_offer_1a89339961be734e54a45fab7867120736" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>getReserva</name></member>
+      <member refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>getRuralHouse</name></member>
+      <member refid="classdomain_1_1_offer_1a41a1c7ea6658ff5e9127ad3d2332ef9c" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>isBooked</name></member>
+      <member refid="classdomain_1_1_offer_1a4d415274c0e120dd3e66e4ad46d7e2b2" prot="private" virt="non-virtual"><scope>domain::Offer</scope><name>lastDay</name></member>
+      <member refid="classdomain_1_1_offer_1ae82665e8df101e5a20b41dc06f74a789" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>Offer</name></member>
+      <member refid="classdomain_1_1_offer_1a1ce77b36180799819b2446b57fc3fcfe" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>Offer</name></member>
+      <member refid="classdomain_1_1_offer_1af77beec2989adcfb9b7b7ef399f9b363" prot="private" virt="non-virtual"><scope>domain::Offer</scope><name>offerNumber</name></member>
+      <member refid="classdomain_1_1_offer_1a194cfe9363c5bd9e745f56978b03e7fd" prot="private" virt="non-virtual"><scope>domain::Offer</scope><name>price</name></member>
+      <member refid="classdomain_1_1_offer_1a78634284385de3610a3fdc8ef08763fa" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>removeReserva</name></member>
+      <member refid="classdomain_1_1_offer_1a242b39ce62d475bd64ce18aff2bbfe4f" prot="private" virt="non-virtual"><scope>domain::Offer</scope><name>reservaActual</name></member>
+      <member refid="classdomain_1_1_offer_1a122573abd92911b25cde7d7e84f488f5" prot="private" virt="non-virtual"><scope>domain::Offer</scope><name>ruralHouse</name></member>
+      <member refid="classdomain_1_1_offer_1aca5c8e3d34e700c8e51d1c9a0685e68f" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>setFirstDay</name></member>
+      <member refid="classdomain_1_1_offer_1a52363278771059c51820160889c2bed1" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>setLastDay</name></member>
+      <member refid="classdomain_1_1_offer_1a8bd526902732e030571b6889c5507f4c" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>setPrice</name></member>
+      <member refid="classdomain_1_1_offer_1aaeea4dfcf319bd7003aa46054c50594b" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>setReserva</name></member>
+      <member refid="classdomain_1_1_offer_1a2050ed4cf76a2a2863d08e89bdf4a7df" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>setRuralHouse</name></member>
+      <member refid="classdomain_1_1_offer_1a8838b2d4c6616394f1829d4dc5572952" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>toString</name></member>
+      <member refid="classdomain_1_1_offer_1a9e4e8be92a6caa7756cb8277df32c17b" prot="public" virt="non-virtual"><scope>domain::Offer</scope><name>toString2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

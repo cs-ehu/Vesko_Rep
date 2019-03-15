@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacebusiness_logic" kind="namespace" language="Java">
+    <compoundname>businessLogic</compoundname>
+    <innerclass refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" prot="public">businessLogic::ApplicationFacadeInterfaceWS</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_business_logic_server" prot="public">businessLogic::BusinessLogicServer</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_facade_implementation_w_s" prot="public">businessLogic::FacadeImplementationWS</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_filter_search" prot="public">businessLogic::FilterSearch</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_generate_validation_code" prot="public">businessLogic::GenerateValidationCode</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_google_maps_web" prot="public">businessLogic::GoogleMapsWeb</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_login" prot="public">businessLogic::Login</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_send_booking" prot="public">businessLogic::SendBooking</innerclass>
+    <innerclass refid="classbusiness_logic_1_1_send_email" prot="public">businessLogic::SendEmail</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/businessLogic/ApplicationFacadeInterfaceWS.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

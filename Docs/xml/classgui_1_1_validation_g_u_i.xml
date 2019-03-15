@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_validation_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::ValidationGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1aef9acb4c0cb38c01fbf8ea562474335a" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.ValidationGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="28" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1a0b6679a6247a162176dadd092fbd9bd2" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ValidationGUI.textValidation</definition>
+        <argsstring></argsstring>
+        <name>textValidation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="29" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1aa8db43a7c80fcde4ced14b40c8a92920" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ValidationGUI.txtType</definition>
+        <argsstring></argsstring>
+        <name>txtType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="30" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1a5d0148dc1550e58e9497c1897189c07c" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.ValidationGUI.txtUsername</definition>
+        <argsstring></argsstring>
+        <name>txtUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="31" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1a1908256eb6e291cba709b035ec08333a" prot="private" static="no" mutable="no">
+        <type>final ButtonGroup</type>
+        <definition>final ButtonGroup gui.ValidationGUI.buttonGroup</definition>
+        <argsstring></argsstring>
+        <name>buttonGroup</name>
+        <initializer>= new ButtonGroup()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="32" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1a863272c906d3d0db5e2d015d0793fe0a" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.ValidationGUI.rdbtnEmail</definition>
+        <argsstring></argsstring>
+        <name>rdbtnEmail</name>
+        <initializer>= new JRadioButton(&quot;Email&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="34" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1a440c0ddbf9342ed8d877847800ab4182" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.ValidationGUI.rdbtnTelegram</definition>
+        <argsstring></argsstring>
+        <name>rdbtnTelegram</name>
+        <initializer>= new JRadioButton(&quot;Telegram&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="35" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1ae54db9df71d22bf4b59706bdab55511b" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.ValidationGUI.lblStatus</definition>
+        <argsstring></argsstring>
+        <name>lblStatus</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="36" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_validation_g_u_i_1af2cb3e3d7bab33150dca01f640cdb824" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.ValidationGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="38" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" compoundref="_validation_g_u_i_8java" startline="44" endline="164">gui.ValidationGUI.ValidationGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.ValidationGUI.ValidationGUI</definition>
+        <argsstring>(Owner o, Client c, String s)</argsstring>
+        <name>ValidationGUI</name>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ValidationGUI.java" line="44" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="44" bodyend="164"/>
+        <references refid="classgui_1_1_validation_g_u_i_1a1908256eb6e291cba709b035ec08333a" compoundref="_validation_g_u_i_8java" startline="32">gui.ValidationGUI.buttonGroup</references>
+        <references refid="classgui_1_1_validation_g_u_i_1aef9acb4c0cb38c01fbf8ea562474335a" compoundref="_validation_g_u_i_8java" startline="28">gui.ValidationGUI.contentPane</references>
+        <references refid="classgui_1_1_validation_g_u_i_1af2cb3e3d7bab33150dca01f640cdb824" compoundref="_validation_g_u_i_8java" startline="38">gui.ValidationGUI.facade</references>
+        <references refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" compoundref="_owner_8java" startline="83" endline="85">domain.Owner.getEmail</references>
+        <references refid="classdomain_1_1_client_1afd3ba7dd00443e3ec17de99f43b27a58" compoundref="_client_8java" startline="98" endline="100">domain.Client.getEmail</references>
+        <references refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" compoundref="_owner_8java" startline="67" endline="69">domain.Owner.getTelegramId</references>
+        <references refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" compoundref="_client_8java" startline="106" endline="108">domain.Client.getTelegramId</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" compoundref="_client_8java" startline="122" endline="124">domain.Client.getUserName</references>
+        <references refid="classdomain_1_1_client_1a423c12788bfb3d265506bad3de79c771" compoundref="_client_8java" startline="78" endline="80">domain.Client.getValidationNumber</references>
+        <references refid="classdomain_1_1_owner_1a2265630ba75fb938b09b243833117069" compoundref="_owner_8java" startline="91" endline="93">domain.Owner.getValidationNumber</references>
+        <references refid="classgui_1_1_validation_g_u_i_1ae54db9df71d22bf4b59706bdab55511b" compoundref="_validation_g_u_i_8java" startline="36">gui.ValidationGUI.lblStatus</references>
+        <references refid="classgui_1_1_validation_g_u_i_1a863272c906d3d0db5e2d015d0793fe0a" compoundref="_validation_g_u_i_8java" startline="34">gui.ValidationGUI.rdbtnEmail</references>
+        <references refid="classgui_1_1_validation_g_u_i_1a440c0ddbf9342ed8d877847800ab4182" compoundref="_validation_g_u_i_8java" startline="35">gui.ValidationGUI.rdbtnTelegram</references>
+        <references refid="classbot_1_1_comand_1aaf4d2683bf0d6b6d98344ca9f4071708" compoundref="_comand_8java" startline="13" endline="26">bot.Comand.sendMessageFromTelegramToClient</references>
+        <references refid="classgui_1_1_validation_g_u_i_1a0b6679a6247a162176dadd092fbd9bd2" compoundref="_validation_g_u_i_8java" startline="29">gui.ValidationGUI.textValidation</references>
+        <references refid="classgui_1_1_validation_g_u_i_1aa8db43a7c80fcde4ced14b40c8a92920" compoundref="_validation_g_u_i_8java" startline="30">gui.ValidationGUI.txtType</references>
+        <references refid="classgui_1_1_validation_g_u_i_1a5d0148dc1550e58e9497c1897189c07c" compoundref="_validation_g_u_i_8java" startline="31">gui.ValidationGUI.txtUsername</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a482571287e471d0047bc24150f716d72">businessLogic.ApplicationFacadeInterfaceWS.updateClinetValidation</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a4932653f88b16660fa74ff6356a3f94b">businessLogic.ApplicationFacadeInterfaceWS.updateOwnerValidation</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="346">
+        <label>JFrame</label>
+      </node>
+      <node id="345">
+        <label>gui.ValidationGUI</label>
+        <link refid="classgui_1_1_validation_g_u_i"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="353">
+        <label>JPanel</label>
+      </node>
+      <node id="350">
+        <label>ButtonGroup</label>
+      </node>
+      <node id="352">
+        <label>JLabel</label>
+      </node>
+      <node id="348">
+        <label>JFrame</label>
+      </node>
+      <node id="354">
+        <label>JRadioButton</label>
+      </node>
+      <node id="349">
+        <label>JTextField</label>
+      </node>
+      <node id="351">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="347">
+        <label>gui.ValidationGUI</label>
+        <link refid="classgui_1_1_validation_g_u_i"/>
+        <childnode refid="348" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>textValidation</edgelabel>
+          <edgelabel>txtUsername</edgelabel>
+          <edgelabel>txtType</edgelabel>
+        </childnode>
+        <childnode refid="350" relation="usage">
+          <edgelabel>buttonGroup</edgelabel>
+        </childnode>
+        <childnode refid="351" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="352" relation="usage">
+          <edgelabel>lblStatus</edgelabel>
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+        <childnode refid="354" relation="usage">
+          <edgelabel>rdbtnTelegram</edgelabel>
+          <edgelabel>rdbtnEmail</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/ValidationGUI.java" line="26" column="1" bodyfile="src/gui/ValidationGUI.java" bodystart="26" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_validation_g_u_i_1a1908256eb6e291cba709b035ec08333a" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>buttonGroup</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1aef9acb4c0cb38c01fbf8ea562474335a" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1af2cb3e3d7bab33150dca01f640cdb824" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1ae54db9df71d22bf4b59706bdab55511b" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>lblStatus</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1a863272c906d3d0db5e2d015d0793fe0a" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>rdbtnEmail</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1a440c0ddbf9342ed8d877847800ab4182" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>rdbtnTelegram</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1a0b6679a6247a162176dadd092fbd9bd2" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>textValidation</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1aa8db43a7c80fcde4ced14b40c8a92920" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>txtType</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1a5d0148dc1550e58e9497c1897189c07c" prot="private" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>txtUsername</name></member>
+      <member refid="classgui_1_1_validation_g_u_i_1a090f7d6cae6f5d31fde54362355d47ac" prot="public" virt="non-virtual"><scope>gui::ValidationGUI</scope><name>ValidationGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

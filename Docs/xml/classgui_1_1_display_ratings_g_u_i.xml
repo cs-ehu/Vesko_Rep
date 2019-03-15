@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_display_ratings_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::DisplayRatingsGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1abb465b2b4cdb54123c4b0521838a6d26" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.DisplayRatingsGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="21" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1a4a6b949bc2f095f92c35e11a9b253605" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.DisplayRatingsGUI.lblCurrent</definition>
+        <argsstring></argsstring>
+        <name>lblCurrent</name>
+        <initializer>= new JLabel(&quot;0&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="22" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1aa8eadb796ab524b992c52893d5aeaf15" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.DisplayRatingsGUI.lblRate</definition>
+        <argsstring></argsstring>
+        <name>lblRate</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="23" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1ab2eff35a0e0def7edb919b19c3479495" prot="private" static="no" mutable="no">
+        <type>JTextPane</type>
+        <definition>JTextPane gui.DisplayRatingsGUI.textPane</definition>
+        <argsstring></argsstring>
+        <name>textPane</name>
+        <initializer>= new JTextPane()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="24" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1a46c665c4d59be0fc85e5600d949c0c38" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.DisplayRatingsGUI.lblMax</definition>
+        <argsstring></argsstring>
+        <name>lblMax</name>
+        <initializer>= new JLabel(&quot;5&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="25" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1af22d979904bed66577197633479efb90" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.DisplayRatingsGUI.lblStatus</definition>
+        <argsstring></argsstring>
+        <name>lblStatus</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="26" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1a008e78563513fe1de284f5012b822b6c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gui.DisplayRatingsGUI.current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="27" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_display_ratings_g_u_i_1a4c70177d900d213655a2687879b6b269" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gui.DisplayRatingsGUI.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="28" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.DisplayRatingsGUI.DisplayRatingsGUI</definition>
+        <argsstring>(RuralHouse rh)</argsstring>
+        <name>DisplayRatingsGUI</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/DisplayRatingsGUI.java" line="35" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="35" bodyend="115"/>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1abb465b2b4cdb54123c4b0521838a6d26" compoundref="_display_ratings_g_u_i_8java" startline="21">gui.DisplayRatingsGUI.contentPane</references>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1a008e78563513fe1de284f5012b822b6c" compoundref="_display_ratings_g_u_i_8java" startline="27">gui.DisplayRatingsGUI.current</references>
+        <references refid="classdomain_1_1_feed_back_1a960c0c38e2c9c79790cc33ed6b9ba769" compoundref="_feed_back_8java" startline="33" endline="35">domain.FeedBack.getFeedBack</references>
+        <references refid="classdomain_1_1_feed_back_1af85865ec0c8e4dca3f11878326565bfa" compoundref="_feed_back_8java" startline="41" endline="43">domain.FeedBack.getGrade</references>
+        <references refid="classdomain_1_1_rural_house_1a2d672423144d413d9f4b94b9676af0b1" compoundref="_rural_house_8java" startline="63" endline="65">domain.RuralHouse.getListaFeedBack</references>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1a4a6b949bc2f095f92c35e11a9b253605" compoundref="_display_ratings_g_u_i_8java" startline="22">gui.DisplayRatingsGUI.lblCurrent</references>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1a46c665c4d59be0fc85e5600d949c0c38" compoundref="_display_ratings_g_u_i_8java" startline="25">gui.DisplayRatingsGUI.lblMax</references>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1aa8eadb796ab524b992c52893d5aeaf15" compoundref="_display_ratings_g_u_i_8java" startline="23">gui.DisplayRatingsGUI.lblRate</references>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1af22d979904bed66577197633479efb90" compoundref="_display_ratings_g_u_i_8java" startline="26">gui.DisplayRatingsGUI.lblStatus</references>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1a4c70177d900d213655a2687879b6b269" compoundref="_display_ratings_g_u_i_8java" startline="28">gui.DisplayRatingsGUI.max</references>
+        <references refid="classgui_1_1_display_ratings_g_u_i_1ab2eff35a0e0def7edb919b19c3479495" compoundref="_display_ratings_g_u_i_8java" startline="24">gui.DisplayRatingsGUI.textPane</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="64">
+        <label>JFrame</label>
+      </node>
+      <node id="63">
+        <label>gui.DisplayRatingsGUI</label>
+        <link refid="classgui_1_1_display_ratings_g_u_i"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="69">
+        <label>JPanel</label>
+      </node>
+      <node id="68">
+        <label>JLabel</label>
+      </node>
+      <node id="66">
+        <label>JFrame</label>
+      </node>
+      <node id="67">
+        <label>JTextPane</label>
+      </node>
+      <node id="65">
+        <label>gui.DisplayRatingsGUI</label>
+        <link refid="classgui_1_1_display_ratings_g_u_i"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>textPane</edgelabel>
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>lblRate</edgelabel>
+          <edgelabel>lblCurrent</edgelabel>
+          <edgelabel>lblStatus</edgelabel>
+          <edgelabel>lblMax</edgelabel>
+        </childnode>
+        <childnode refid="69" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/DisplayRatingsGUI.java" line="19" column="1" bodyfile="src/gui/DisplayRatingsGUI.java" bodystart="19" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1abb465b2b4cdb54123c4b0521838a6d26" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1a008e78563513fe1de284f5012b822b6c" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>current</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" prot="public" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>DisplayRatingsGUI</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1a4a6b949bc2f095f92c35e11a9b253605" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>lblCurrent</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1a46c665c4d59be0fc85e5600d949c0c38" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>lblMax</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1aa8eadb796ab524b992c52893d5aeaf15" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>lblRate</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1af22d979904bed66577197633479efb90" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>lblStatus</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1a4c70177d900d213655a2687879b6b269" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>max</name></member>
+      <member refid="classgui_1_1_display_ratings_g_u_i_1ab2eff35a0e0def7edb919b19c3479495" prot="private" virt="non-virtual"><scope>gui::DisplayRatingsGUI</scope><name>textPane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

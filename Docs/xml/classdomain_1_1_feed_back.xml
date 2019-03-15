@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_feed_back" kind="class" language="Java" prot="public">
+    <compoundname>domain::FeedBack</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_feed_back_1a0d97f3135463e892caddccf3f78f91bf" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String domain.FeedBack.feedBack</definition>
+        <argsstring></argsstring>
+        <name>feedBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="13" column="1" bodyfile="src/domain/FeedBack.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_feed_back_1af677d71a2a42fa66f07889b4e7ace5b3" compoundref="_feed_back_8java" startline="21" endline="26">domain.FeedBack.FeedBack</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a960c0c38e2c9c79790cc33ed6b9ba769" compoundref="_feed_back_8java" startline="33" endline="35">domain.FeedBack.getFeedBack</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a0977dab584089e45f38e9a0bd459432d" compoundref="_feed_back_8java" startline="37" endline="39">domain.FeedBack.setFeedBack</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a2a641d462289be5d0c53c6fcdabc8052" compoundref="_feed_back_8java" startline="49" endline="51">domain.FeedBack.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_feed_back_1a979ed82b8bc6c40e8447a88f84321751" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int domain.FeedBack.grade</definition>
+        <argsstring></argsstring>
+        <name>grade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="14" column="1" bodyfile="src/domain/FeedBack.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_feed_back_1af677d71a2a42fa66f07889b4e7ace5b3" compoundref="_feed_back_8java" startline="21" endline="26">domain.FeedBack.FeedBack</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1af85865ec0c8e4dca3f11878326565bfa" compoundref="_feed_back_8java" startline="41" endline="43">domain.FeedBack.getGrade</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a3b55e08e1969d6f2046bff3b8b1cd4b5" compoundref="_feed_back_8java" startline="45" endline="47">domain.FeedBack.setGrade</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a2a641d462289be5d0c53c6fcdabc8052" compoundref="_feed_back_8java" startline="49" endline="51">domain.FeedBack.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_feed_back_1a4ec8b55bbf07e1a8e5bd00c0a27e13a3" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse domain.FeedBack.rh</definition>
+        <argsstring></argsstring>
+        <name>rh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="17" column="1" bodyfile="src/domain/FeedBack.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_feed_back_1af677d71a2a42fa66f07889b4e7ace5b3" compoundref="_feed_back_8java" startline="21" endline="26">domain.FeedBack.FeedBack</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a0298aaa47399d95b96c64b4e1dfa872d" compoundref="_feed_back_8java" startline="29" endline="31">domain.FeedBack.getRh</referencedby>
+        <referencedby refid="classdomain_1_1_feed_back_1a2a641d462289be5d0c53c6fcdabc8052" compoundref="_feed_back_8java" startline="49" endline="51">domain.FeedBack.toString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1a35a311801c50115ea7fc9685581900b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.FeedBack.FeedBack</definition>
+        <argsstring>()</argsstring>
+        <name>FeedBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="19" column="1" bodyfile="src/domain/FeedBack.java" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1af677d71a2a42fa66f07889b4e7ace5b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.FeedBack.FeedBack</definition>
+        <argsstring>(String feedBack, int grade, RuralHouse rh)</argsstring>
+        <name>FeedBack</name>
+        <param>
+          <type>String</type>
+          <declname>feedBack</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>grade</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="21" column="1" bodyfile="src/domain/FeedBack.java" bodystart="21" bodyend="26"/>
+        <references refid="classdomain_1_1_feed_back_1a0d97f3135463e892caddccf3f78f91bf" compoundref="_feed_back_8java" startline="13">domain.FeedBack.feedBack</references>
+        <references refid="classdomain_1_1_feed_back_1a979ed82b8bc6c40e8447a88f84321751" compoundref="_feed_back_8java" startline="14">domain.FeedBack.grade</references>
+        <references refid="classdomain_1_1_feed_back_1a4ec8b55bbf07e1a8e5bd00c0a27e13a3" compoundref="_feed_back_8java" startline="17">domain.FeedBack.rh</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1a0298aaa47399d95b96c64b4e1dfa872d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse domain.FeedBack.getRh</definition>
+        <argsstring>()</argsstring>
+        <name>getRh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="29" column="1" bodyfile="src/domain/FeedBack.java" bodystart="29" bodyend="31"/>
+        <references refid="classdomain_1_1_feed_back_1a4ec8b55bbf07e1a8e5bd00c0a27e13a3" compoundref="_feed_back_8java" startline="17">domain.FeedBack.rh</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1a960c0c38e2c9c79790cc33ed6b9ba769" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.FeedBack.getFeedBack</definition>
+        <argsstring>()</argsstring>
+        <name>getFeedBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="33" column="1" bodyfile="src/domain/FeedBack.java" bodystart="33" bodyend="35"/>
+        <references refid="classdomain_1_1_feed_back_1a0d97f3135463e892caddccf3f78f91bf" compoundref="_feed_back_8java" startline="13">domain.FeedBack.feedBack</references>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1a0977dab584089e45f38e9a0bd459432d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.FeedBack.setFeedBack</definition>
+        <argsstring>(String feedBack)</argsstring>
+        <name>setFeedBack</name>
+        <param>
+          <type>String</type>
+          <declname>feedBack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="37" column="1" bodyfile="src/domain/FeedBack.java" bodystart="37" bodyend="39"/>
+        <references refid="classdomain_1_1_feed_back_1a0d97f3135463e892caddccf3f78f91bf" compoundref="_feed_back_8java" startline="13">domain.FeedBack.feedBack</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1af85865ec0c8e4dca3f11878326565bfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int domain.FeedBack.getGrade</definition>
+        <argsstring>()</argsstring>
+        <name>getGrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="41" column="1" bodyfile="src/domain/FeedBack.java" bodystart="41" bodyend="43"/>
+        <references refid="classdomain_1_1_feed_back_1a979ed82b8bc6c40e8447a88f84321751" compoundref="_feed_back_8java" startline="14">domain.FeedBack.grade</references>
+        <referencedby refid="classgui_1_1_display_ratings_g_u_i_1a5cd86dd9480c8d64c1d2865a8c4e3af5" compoundref="_display_ratings_g_u_i_8java" startline="35" endline="115">gui.DisplayRatingsGUI.DisplayRatingsGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1a3b55e08e1969d6f2046bff3b8b1cd4b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.FeedBack.setGrade</definition>
+        <argsstring>(int grade)</argsstring>
+        <name>setGrade</name>
+        <param>
+          <type>int</type>
+          <declname>grade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="45" column="1" bodyfile="src/domain/FeedBack.java" bodystart="45" bodyend="47"/>
+        <references refid="classdomain_1_1_feed_back_1a979ed82b8bc6c40e8447a88f84321751" compoundref="_feed_back_8java" startline="14">domain.FeedBack.grade</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_feed_back_1a2a641d462289be5d0c53c6fcdabc8052" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.FeedBack.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/FeedBack.java" line="49" column="1" bodyfile="src/domain/FeedBack.java" bodystart="49" bodyend="51"/>
+        <references refid="classdomain_1_1_feed_back_1a0d97f3135463e892caddccf3f78f91bf" compoundref="_feed_back_8java" startline="13">domain.FeedBack.feedBack</references>
+        <references refid="classdomain_1_1_feed_back_1a979ed82b8bc6c40e8447a88f84321751" compoundref="_feed_back_8java" startline="14">domain.FeedBack.grade</references>
+        <references refid="classdomain_1_1_feed_back_1a4ec8b55bbf07e1a8e5bd00c0a27e13a3" compoundref="_feed_back_8java" startline="17">domain.FeedBack.rh</references>
+        <references refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" compoundref="_rural_house_8java" startline="159" endline="163">domain.RuralHouse.toString</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="81">
+        <label>Vector&lt; domain.FeedBack &gt;</label>
+      </node>
+      <node id="76">
+        <label>domain.RuralHouse</label>
+        <link refid="classdomain_1_1_rural_house"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="78" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>offers</edgelabel>
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>listaFeedBack</edgelabel>
+        </childnode>
+        <childnode refid="82" relation="usage">
+          <edgelabel>images</edgelabel>
+        </childnode>
+      </node>
+      <node id="77">
+        <label>Serializable</label>
+      </node>
+      <node id="75">
+        <label>domain.FeedBack</label>
+        <link refid="classdomain_1_1_feed_back"/>
+        <childnode refid="76" relation="usage">
+          <edgelabel>rh</edgelabel>
+        </childnode>
+      </node>
+      <node id="78">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="79" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="82">
+        <label>Vector&lt; byte[]&gt;</label>
+      </node>
+      <node id="80">
+        <label>Vector&lt; domain.Offer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/FeedBack.java" line="11" column="1" bodyfile="src/domain/FeedBack.java" bodystart="11" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_feed_back_1a0d97f3135463e892caddccf3f78f91bf" prot="private" virt="non-virtual"><scope>domain::FeedBack</scope><name>feedBack</name></member>
+      <member refid="classdomain_1_1_feed_back_1a35a311801c50115ea7fc9685581900b9" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>FeedBack</name></member>
+      <member refid="classdomain_1_1_feed_back_1af677d71a2a42fa66f07889b4e7ace5b3" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>FeedBack</name></member>
+      <member refid="classdomain_1_1_feed_back_1a960c0c38e2c9c79790cc33ed6b9ba769" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>getFeedBack</name></member>
+      <member refid="classdomain_1_1_feed_back_1af85865ec0c8e4dca3f11878326565bfa" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>getGrade</name></member>
+      <member refid="classdomain_1_1_feed_back_1a0298aaa47399d95b96c64b4e1dfa872d" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>getRh</name></member>
+      <member refid="classdomain_1_1_feed_back_1a979ed82b8bc6c40e8447a88f84321751" prot="private" virt="non-virtual"><scope>domain::FeedBack</scope><name>grade</name></member>
+      <member refid="classdomain_1_1_feed_back_1a4ec8b55bbf07e1a8e5bd00c0a27e13a3" prot="private" virt="non-virtual"><scope>domain::FeedBack</scope><name>rh</name></member>
+      <member refid="classdomain_1_1_feed_back_1a0977dab584089e45f38e9a0bd459432d" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>setFeedBack</name></member>
+      <member refid="classdomain_1_1_feed_back_1a3b55e08e1969d6f2046bff3b8b1cd4b5" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>setGrade</name></member>
+      <member refid="classdomain_1_1_feed_back_1a2a641d462289be5d0c53c6fcdabc8052" prot="public" virt="non-virtual"><scope>domain::FeedBack</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

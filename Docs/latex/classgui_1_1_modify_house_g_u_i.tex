@@ -1,0 +1,294 @@
+\hypertarget{classgui_1_1_modify_house_g_u_i}{}\section{Referencia de la Clase gui.\+Modify\+House\+G\+UI}
+\label{classgui_1_1_modify_house_g_u_i}\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+Diagrama de herencias de gui.\+Modify\+House\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_modify_house_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a4639580e463c76396d39474fbcd5cff5}{Modify\+House\+G\+UI}} ()
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selected\+RH}}
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{content\+Pane}}
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a2272c7d4931bdf3dac35d8dc6496978f}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}{owner}}
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}{btn\+Upload\+Foto}} = new J\+Button(\char`\"{}Upload Photo\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}{btn\+See\+Photo}} = new J\+Button(\char`\"{}See Photo\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}{btn\+Delete\+Rural\+House}} = new J\+Button(\char`\"{}Delete Rural House\char`\"{})
+\item 
+Default\+Combo\+Box\+Model$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ae3c3ed3425d3b0bf7c1b901ae52ddcdf}{casas}} = new Default\+Combo\+Box\+Model$<$\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 36 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_a4639580e463c76396d39474fbcd5cff5}\label{classgui_1_1_modify_house_g_u_i_a4639580e463c76396d39474fbcd5cff5}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!ModifyHouseGUI@{ModifyHouseGUI}}
+\index{ModifyHouseGUI@{ModifyHouseGUI}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{ModifyHouseGUI()}{ModifyHouseGUI()}}
+{\footnotesize\ttfamily gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 51 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{51                             \{}
+\DoxyCodeLine{52         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{53         setBounds(100, 100, 450, 300);}
+\DoxyCodeLine{54         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{55         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{56         setContentPane(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}});}
+\DoxyCodeLine{57         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{58         }
+\DoxyCodeLine{59         MainGUI a = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{60         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}{owner}} = a.getMainOwner();}
+\DoxyCodeLine{61         }
+\DoxyCodeLine{62         \textcolor{keywordflow}{if}(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}{owner}}.\mbox{\hyperlink{classdomain_1_1_owner_a49e337ac1f7dc0b15c3006c5f08800d7}{getRhList}}().isEmpty())\{}
+\DoxyCodeLine{63             \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}{btnDeleteRuralHouse}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{64             \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}{btnSeePhoto}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{65             \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}{btnUploadFoto}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{66             }
+\DoxyCodeLine{67             }
+\DoxyCodeLine{68         \}}
+\DoxyCodeLine{69           }
+\DoxyCodeLine{70         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}{btnUploadFoto}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{71             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{72                   JFileChooser file = \textcolor{keyword}{new} JFileChooser();}
+\DoxyCodeLine{73                   file.setCurrentDirectory(\textcolor{keyword}{new} File(System.getProperty(\textcolor{stringliteral}{"user.home"})));}
+\DoxyCodeLine{74                   \textcolor{comment}{//filter the files}}
+\DoxyCodeLine{75                   FileNameExtensionFilter filter = \textcolor{keyword}{new} FileNameExtensionFilter(\textcolor{stringliteral}{"*.Images"}, \textcolor{stringliteral}{"jpg"},\textcolor{stringliteral}{"gif"},\textcolor{stringliteral}{"png"});}
+\DoxyCodeLine{76                   file.addChoosableFileFilter(filter);}
+\DoxyCodeLine{77                   \textcolor{keywordtype}{int} result = file.showSaveDialog(\textcolor{keyword}{null});}
+\DoxyCodeLine{78                   \textcolor{keywordflow}{if}(result == JFileChooser.APPROVE\_OPTION)\{}
+\DoxyCodeLine{79                       File selectedFile = file.getSelectedFile();}
+\DoxyCodeLine{80                     \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{81                         ByteArrayOutputStream baos=\textcolor{keyword}{new} ByteArrayOutputStream(1000);}
+\DoxyCodeLine{82                         BufferedImage img=ImageIO.read(selectedFile);}
+\DoxyCodeLine{83                         ImageIO.write(img, \textcolor{stringliteral}{"jpg"}, baos);}
+\DoxyCodeLine{84                         baos.flush();}
+\DoxyCodeLine{85                         String base64String=Base64.getEncoder().encodeToString(baos.toByteArray());}
+\DoxyCodeLine{86                         baos.close();}
+\DoxyCodeLine{87                         \textcolor{keywordtype}{byte} [] imgen = Base64.getDecoder().decode(base64String);}
+\DoxyCodeLine{88                         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a2272c7d4931bdf3dac35d8dc6496978f}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad5cf462151e6c43b9088f112eed0ad3f}{addImageToRH}}(imgen, \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}{owner}}, \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}});}
+\DoxyCodeLine{89                         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}}.\mbox{\hyperlink{classdomain_1_1_rural_house_a0d4787f58507c40f9474f2bec0a1250a}{addImage}}(imgen);}
+\DoxyCodeLine{90                         \} \textcolor{keywordflow}{catch} (IOException e)\{System.out.println(\textcolor{stringliteral}{"ERROR I/O"});\}  }
+\DoxyCodeLine{91                   \}}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{93 }
+\DoxyCodeLine{94                   \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(result == JFileChooser.CANCEL\_OPTION)\{}
+\DoxyCodeLine{95                       System.out.println(\textcolor{stringliteral}{"No File Select"});}
+\DoxyCodeLine{96                   \}}
+\DoxyCodeLine{97             \}}
+\DoxyCodeLine{98         \});}
+\DoxyCodeLine{99         }
+\DoxyCodeLine{100         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}{btnUploadFoto}}.setBounds(110, 54, 282, 48);}
+\DoxyCodeLine{101         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}{btnDeleteRuralHouse}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{102         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}{btnSeePhoto}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{103         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}{btnUploadFoto}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{104         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}{btnUploadFoto}});}
+\DoxyCodeLine{105         \textcolor{keywordflow}{for} (RuralHouse rh : \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}{owner}}.\mbox{\hyperlink{classdomain_1_1_owner_a49e337ac1f7dc0b15c3006c5f08800d7}{getRhList}}())\{}
+\DoxyCodeLine{106             \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ae3c3ed3425d3b0bf7c1b901ae52ddcdf}{casas}}.addElement(rh);}
+\DoxyCodeLine{107         \}}
+\DoxyCodeLine{108         JComboBox<RuralHouse> comboBox = \textcolor{keyword}{new} JComboBox<RuralHouse>();}
+\DoxyCodeLine{109         comboBox.setToolTipText(\textcolor{stringliteral}{""});}
+\DoxyCodeLine{110         comboBox.setModel(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ae3c3ed3425d3b0bf7c1b901ae52ddcdf}{casas}});}
+\DoxyCodeLine{111         comboBox.setSelectedIndex(-1);}
+\DoxyCodeLine{112         comboBox.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{113             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{114                 \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}} = (RuralHouse) comboBox.getSelectedItem();}
+\DoxyCodeLine{115                 System.out.println(\textcolor{stringliteral}{"ComboBox: "}+\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}} + \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}}.\mbox{\hyperlink{classdomain_1_1_rural_house_a849faba68dc8c0a71ed936bc509f5568}{getHouseNumber}}());}
+\DoxyCodeLine{116                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}}!=\textcolor{keyword}{null})\{}
+\DoxyCodeLine{117                     \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}{btnDeleteRuralHouse}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{118                     \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}{btnSeePhoto}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{119                     \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}{btnUploadFoto}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{120                 \}}
+\DoxyCodeLine{121             \}}
+\DoxyCodeLine{122         \});}
+\DoxyCodeLine{123         }
+\DoxyCodeLine{124         comboBox.setBounds(42, 13, 350, 28);}
+\DoxyCodeLine{125         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}}.add(comboBox);}
+\DoxyCodeLine{126         }
+\DoxyCodeLine{127         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}{btnSeePhoto}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{128             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{129                 \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}}=\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a2272c7d4931bdf3dac35d8dc6496978f}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_aeda86c46b75acfc4befb30f5d0e98e7c}{getRuralHouse}}(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}}, \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}{owner}});}
+\DoxyCodeLine{130                 DisplayImagesGUI a =\textcolor{keyword}{new} DisplayImagesGUI(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}},2);}
+\DoxyCodeLine{131                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{132             \}}
+\DoxyCodeLine{133         \});}
+\DoxyCodeLine{134         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}{btnSeePhoto}}.setBounds(110, 115, 282, 48);}
+\DoxyCodeLine{135         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}{btnSeePhoto}});}
+\DoxyCodeLine{136         }
+\DoxyCodeLine{137         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}{btnDeleteRuralHouse}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{138             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{139                  DeleteRuralHouse a = \textcolor{keyword}{new} DeleteRuralHouse(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}{selectedRH}}.\mbox{\hyperlink{classdomain_1_1_rural_house_a849faba68dc8c0a71ed936bc509f5568}{getHouseNumber}}());}
+\DoxyCodeLine{140                  a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{141                  dispose();}
+\DoxyCodeLine{142             \}}
+\DoxyCodeLine{143         \});}
+\DoxyCodeLine{144         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}{btnDeleteRuralHouse}}.setBounds(110, 192, 282, 48);}
+\DoxyCodeLine{145         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}{btnDeleteRuralHouse}});}
+\DoxyCodeLine{146         }
+\DoxyCodeLine{147         JButton btnBack = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{148         btnBack.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{149             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{150                 OwnerGUI o = \textcolor{keyword}{new} OwnerGUI();}
+\DoxyCodeLine{151                 dispose();}
+\DoxyCodeLine{152                 o.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{153             \}}
+\DoxyCodeLine{154         \});}
+\DoxyCodeLine{155         btnBack.setBounds(12, 192, 78, 46);}
+\DoxyCodeLine{156         \mbox{\hyperlink{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}{contentPane}}.add(btnBack);}
+\DoxyCodeLine{157     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Rural\+House.\+add\+Image(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+add\+Image\+To\+R\+H(), gui.\+Modify\+House\+G\+U\+I.\+btn\+Delete\+Rural\+House, gui.\+Modify\+House\+G\+U\+I.\+btn\+See\+Photo, gui.\+Modify\+House\+G\+U\+I.\+btn\+Upload\+Foto, gui.\+Modify\+House\+G\+U\+I.\+casas, gui.\+Modify\+House\+G\+U\+I.\+content\+Pane, gui.\+Modify\+House\+G\+U\+I.\+facade, domain.\+Rural\+House.\+get\+House\+Number(), gui.\+Main\+G\+U\+I.\+get\+Main\+Owner(), domain.\+Owner.\+get\+Rh\+List(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Rural\+House(), gui.\+Modify\+House\+G\+U\+I.\+owner y gui.\+Modify\+House\+G\+U\+I.\+selected\+RH.
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}\label{classgui_1_1_modify_house_g_u_i_ab035400265dc2c288707e9f30fd7414f}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!btnDeleteRuralHouse@{btnDeleteRuralHouse}}
+\index{btnDeleteRuralHouse@{btnDeleteRuralHouse}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{btnDeleteRuralHouse}{btnDeleteRuralHouse}}
+{\footnotesize\ttfamily J\+Button gui.\+Modify\+House\+G\+U\+I.\+btn\+Delete\+Rural\+House = new J\+Button(\char`\"{}Delete Rural House\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 45 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}\label{classgui_1_1_modify_house_g_u_i_a25b4d3da9ad668a5a976faf0d2518ce9}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!btnSeePhoto@{btnSeePhoto}}
+\index{btnSeePhoto@{btnSeePhoto}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{btnSeePhoto}{btnSeePhoto}}
+{\footnotesize\ttfamily J\+Button gui.\+Modify\+House\+G\+U\+I.\+btn\+See\+Photo = new J\+Button(\char`\"{}See Photo\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 44 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}\label{classgui_1_1_modify_house_g_u_i_a5c169d1fb8a40277b56fd291a48e97ab}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!btnUploadFoto@{btnUploadFoto}}
+\index{btnUploadFoto@{btnUploadFoto}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{btnUploadFoto}{btnUploadFoto}}
+{\footnotesize\ttfamily J\+Button gui.\+Modify\+House\+G\+U\+I.\+btn\+Upload\+Foto = new J\+Button(\char`\"{}Upload Photo\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 43 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_ae3c3ed3425d3b0bf7c1b901ae52ddcdf}\label{classgui_1_1_modify_house_g_u_i_ae3c3ed3425d3b0bf7c1b901ae52ddcdf}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!casas@{casas}}
+\index{casas@{casas}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{casas}{casas}}
+{\footnotesize\ttfamily Default\+Combo\+Box\+Model$<$\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}$>$ gui.\+Modify\+House\+G\+U\+I.\+casas = new Default\+Combo\+Box\+Model$<$\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 46 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}\label{classgui_1_1_modify_house_g_u_i_a7bb13be5defa74715359f06a41fb5dad}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Modify\+House\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_a2272c7d4931bdf3dac35d8dc6496978f}\label{classgui_1_1_modify_house_g_u_i_a2272c7d4931bdf3dac35d8dc6496978f}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!facade@{facade}}
+\index{facade@{facade}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Modify\+House\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}\label{classgui_1_1_modify_house_g_u_i_a126db8210cd615dca1929c2f258ff58c}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!owner@{owner}}
+\index{owner@{owner}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{owner}{owner}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} gui.\+Modify\+House\+G\+U\+I.\+owner\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 40 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}\label{classgui_1_1_modify_house_g_u_i_a803e872ae00af5f6fd4b87837a44408c}} 
+\index{gui.ModifyHouseGUI@{gui.ModifyHouseGUI}!selectedRH@{selectedRH}}
+\index{selectedRH@{selectedRH}!gui.ModifyHouseGUI@{gui.ModifyHouseGUI}}
+\subsubsection{\texorpdfstring{selectedRH}{selectedRH}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} gui.\+Modify\+House\+G\+U\+I.\+selected\+RH\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definición en la línea 41 del archivo Modify\+House\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_modify_house_g_u_i_8java}{Modify\+House\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,200 @@
+\hypertarget{classbusiness_logic_1_1_send_email}{}\section{Referencia de la Clase business\+Logic.\+Send\+Email}
+\label{classbusiness_logic_1_1_send_email}\index{businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator}{S\+M\+T\+P\+Authenticator}}
+\end{DoxyCompactItemize}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbusiness_logic_1_1_send_email_ad544aa16db4f9e424ad3db5e8af40bb4}{Send\+Email}} (String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_ac77f915d22477cea3ca986da4acffbbc}{receiver\+Email\+ID}}, String Subject, String Body)
+\end{DoxyCompactItemize}
+\subsection*{Atributos del \textquotesingle{}package\textquotesingle{}}
+\begin{DoxyCompactItemize}
+\item 
+final String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a2e47b8c2228b215b8335c16ba592b95d}{sender\+Email\+ID}} = \char`\"{}gausitos@gmail.\+com\char`\"{}
+\item 
+final String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a0bd45a69289e50c9439e70835c06ff0c}{sender\+Password}} = \char`\"{}haritz97\char`\"{}
+\item 
+final String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a1c140265f179e199fc4d20fb3ebc81b6}{email\+S\+M\+T\+Pserver}} = \char`\"{}smtp.\+gmail.\+com\char`\"{}
+\item 
+final String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a1c99e22d5e9634a278914e9183c644a9}{email\+Server\+Port}} = \char`\"{}465\char`\"{}
+\item 
+String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_ac77f915d22477cea3ca986da4acffbbc}{receiver\+Email\+ID}} = \char`\"{}haritz1997@gmail.\+com\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Atributos Estáticos del \textquotesingle{}package\textquotesingle{}}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_ae03ffb4b828745d6f4cec012064760fe}{email\+Subject}} = \char`\"{}Test Mail\char`\"{}
+\item 
+static String \mbox{\hyperlink{classbusiness_logic_1_1_send_email_abd4287e31ab6595894df6a666bc09bfd}{email\+Body}} = \char`\"{}\+:)\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 7 del archivo Send\+Email.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_ad544aa16db4f9e424ad3db5e8af40bb4}\label{classbusiness_logic_1_1_send_email_ad544aa16db4f9e424ad3db5e8af40bb4}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!SendEmail@{SendEmail}}
+\index{SendEmail@{SendEmail}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{SendEmail()}{SendEmail()}}
+{\footnotesize\ttfamily business\+Logic.\+Send\+Email.\+Send\+Email (\begin{DoxyParamCaption}\item[{String}]{receiver\+Email\+ID,  }\item[{String}]{Subject,  }\item[{String}]{Body }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 16 del archivo Send\+Email.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{16                                                                           \{ \textcolor{comment}{// Receiver}}
+\DoxyCodeLine{17                                                                             \textcolor{comment}{// Email}}
+\DoxyCodeLine{18                                                                             \textcolor{comment}{// Address}}
+\DoxyCodeLine{19         this.\mbox{\hyperlink{classbusiness_logic_1_1_send_email_ac77f915d22477cea3ca986da4acffbbc}{receiverEmailID}} = \mbox{\hyperlink{classbusiness_logic_1_1_send_email_ac77f915d22477cea3ca986da4acffbbc}{receiverEmailID}};}
+\DoxyCodeLine{20         \textcolor{comment}{// Subject}}
+\DoxyCodeLine{21         this.\mbox{\hyperlink{classbusiness_logic_1_1_send_email_ae03ffb4b828745d6f4cec012064760fe}{emailSubject}} = Subject;}
+\DoxyCodeLine{22         \textcolor{comment}{// Body}}
+\DoxyCodeLine{23         this.\mbox{\hyperlink{classbusiness_logic_1_1_send_email_abd4287e31ab6595894df6a666bc09bfd}{emailBody}} = Body;}
+\DoxyCodeLine{24         Properties props = \textcolor{keyword}{new} Properties();}
+\DoxyCodeLine{25         props.put(\textcolor{stringliteral}{"mail.smtp.user"}, \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a2e47b8c2228b215b8335c16ba592b95d}{senderEmailID}});}
+\DoxyCodeLine{26         props.put(\textcolor{stringliteral}{"mail.smtp.host"}, \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a1c140265f179e199fc4d20fb3ebc81b6}{emailSMTPserver}});}
+\DoxyCodeLine{27         props.put(\textcolor{stringliteral}{"mail.smtp.port"}, \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a1c99e22d5e9634a278914e9183c644a9}{emailServerPort}});}
+\DoxyCodeLine{28         props.put(\textcolor{stringliteral}{"mail.smtp.starttls.enable"}, \textcolor{stringliteral}{"true"});}
+\DoxyCodeLine{29         props.put(\textcolor{stringliteral}{"mail.smtp.auth"}, \textcolor{stringliteral}{"true"});}
+\DoxyCodeLine{30         props.put(\textcolor{stringliteral}{"mail.smtp.socketFactory.port"}, \mbox{\hyperlink{classbusiness_logic_1_1_send_email_a1c99e22d5e9634a278914e9183c644a9}{emailServerPort}});}
+\DoxyCodeLine{31         props.put(\textcolor{stringliteral}{"mail.smtp.socketFactory.class"},}
+\DoxyCodeLine{32                 \textcolor{stringliteral}{"javax.net.ssl.SSLSocketFactory"});}
+\DoxyCodeLine{33         props.put(\textcolor{stringliteral}{"mail.smtp.socketFactory.fallback"}, \textcolor{stringliteral}{"false"});}
+\DoxyCodeLine{34         SecurityManager security = System.getSecurityManager();}
+\DoxyCodeLine{35         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{36             Authenticator auth = \textcolor{keyword}{new} SMTPAuthenticator();}
+\DoxyCodeLine{37             Session session = Session.getInstance(props, auth);}
+\DoxyCodeLine{38             MimeMessage msg = \textcolor{keyword}{new} MimeMessage(session);}
+\DoxyCodeLine{39             msg.setText(\mbox{\hyperlink{classbusiness_logic_1_1_send_email_abd4287e31ab6595894df6a666bc09bfd}{emailBody}});}
+\DoxyCodeLine{40             msg.setSubject(\mbox{\hyperlink{classbusiness_logic_1_1_send_email_ae03ffb4b828745d6f4cec012064760fe}{emailSubject}});}
+\DoxyCodeLine{41             msg.setFrom(\textcolor{keyword}{new} InternetAddress(\mbox{\hyperlink{classbusiness_logic_1_1_send_email_a2e47b8c2228b215b8335c16ba592b95d}{senderEmailID}}));}
+\DoxyCodeLine{42             msg.addRecipient(Message.RecipientType.TO, \textcolor{keyword}{new} InternetAddress(}
+\DoxyCodeLine{43                     \mbox{\hyperlink{classbusiness_logic_1_1_send_email_ac77f915d22477cea3ca986da4acffbbc}{receiverEmailID}}));}
+\DoxyCodeLine{44             Transport.send(msg);}
+\DoxyCodeLine{45             System.out.println(\textcolor{stringliteral}{"Message send Successfully:)"});}
+\DoxyCodeLine{46         \} \textcolor{keywordflow}{catch} (Exception mex) \{}
+\DoxyCodeLine{47             mex.printStackTrace();}
+\DoxyCodeLine{48         \}}
+\DoxyCodeLine{49     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a business\+Logic.\+Send\+Email.\+email\+Body, business\+Logic.\+Send\+Email.\+email\+Server\+Port, business\+Logic.\+Send\+Email.\+email\+S\+M\+T\+Pserver, business\+Logic.\+Send\+Email.\+email\+Subject, business\+Logic.\+Send\+Email.\+receiver\+Email\+ID y business\+Logic.\+Send\+Email.\+sender\+Email\+ID.
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_abd4287e31ab6595894df6a666bc09bfd}\label{classbusiness_logic_1_1_send_email_abd4287e31ab6595894df6a666bc09bfd}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!emailBody@{emailBody}}
+\index{emailBody@{emailBody}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{emailBody}{emailBody}}
+{\footnotesize\ttfamily String business\+Logic.\+Send\+Email.\+email\+Body = \char`\"{}\+:)\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Definición en la línea 14 del archivo Send\+Email.\+java.
+
+
+
+Referenciado por business\+Logic.\+Send\+Email.\+Send\+Email().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_a1c99e22d5e9634a278914e9183c644a9}\label{classbusiness_logic_1_1_send_email_a1c99e22d5e9634a278914e9183c644a9}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!emailServerPort@{emailServerPort}}
+\index{emailServerPort@{emailServerPort}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{emailServerPort}{emailServerPort}}
+{\footnotesize\ttfamily final String business\+Logic.\+Send\+Email.\+email\+Server\+Port = \char`\"{}465\char`\"{}\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definición en la línea 11 del archivo Send\+Email.\+java.
+
+
+
+Referenciado por business\+Logic.\+Send\+Email.\+Send\+Email().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_a1c140265f179e199fc4d20fb3ebc81b6}\label{classbusiness_logic_1_1_send_email_a1c140265f179e199fc4d20fb3ebc81b6}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!emailSMTPserver@{emailSMTPserver}}
+\index{emailSMTPserver@{emailSMTPserver}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{emailSMTPserver}{emailSMTPserver}}
+{\footnotesize\ttfamily final String business\+Logic.\+Send\+Email.\+email\+S\+M\+T\+Pserver = \char`\"{}smtp.\+gmail.\+com\char`\"{}\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definición en la línea 10 del archivo Send\+Email.\+java.
+
+
+
+Referenciado por business\+Logic.\+Send\+Email.\+Send\+Email().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_ae03ffb4b828745d6f4cec012064760fe}\label{classbusiness_logic_1_1_send_email_ae03ffb4b828745d6f4cec012064760fe}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!emailSubject@{emailSubject}}
+\index{emailSubject@{emailSubject}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{emailSubject}{emailSubject}}
+{\footnotesize\ttfamily String business\+Logic.\+Send\+Email.\+email\+Subject = \char`\"{}Test Mail\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Definición en la línea 13 del archivo Send\+Email.\+java.
+
+
+
+Referenciado por business\+Logic.\+Send\+Email.\+Send\+Email().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_ac77f915d22477cea3ca986da4acffbbc}\label{classbusiness_logic_1_1_send_email_ac77f915d22477cea3ca986da4acffbbc}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!receiverEmailID@{receiverEmailID}}
+\index{receiverEmailID@{receiverEmailID}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{receiverEmailID}{receiverEmailID}}
+{\footnotesize\ttfamily String business\+Logic.\+Send\+Email.\+receiver\+Email\+ID = \char`\"{}haritz1997@gmail.\+com\char`\"{}\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definición en la línea 12 del archivo Send\+Email.\+java.
+
+
+
+Referenciado por business\+Logic.\+Send\+Email.\+Send\+Email().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_a2e47b8c2228b215b8335c16ba592b95d}\label{classbusiness_logic_1_1_send_email_a2e47b8c2228b215b8335c16ba592b95d}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!senderEmailID@{senderEmailID}}
+\index{senderEmailID@{senderEmailID}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{senderEmailID}{senderEmailID}}
+{\footnotesize\ttfamily final String business\+Logic.\+Send\+Email.\+sender\+Email\+ID = \char`\"{}gausitos@gmail.\+com\char`\"{}\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definición en la línea 8 del archivo Send\+Email.\+java.
+
+
+
+Referenciado por business\+Logic.\+Send\+Email.\+S\+M\+T\+P\+Authenticator.\+get\+Password\+Authentication() y business\+Logic.\+Send\+Email.\+Send\+Email().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_send_email_a0bd45a69289e50c9439e70835c06ff0c}\label{classbusiness_logic_1_1_send_email_a0bd45a69289e50c9439e70835c06ff0c}} 
+\index{businessLogic.SendEmail@{businessLogic.SendEmail}!senderPassword@{senderPassword}}
+\index{senderPassword@{senderPassword}!businessLogic.SendEmail@{businessLogic.SendEmail}}
+\subsubsection{\texorpdfstring{senderPassword}{senderPassword}}
+{\footnotesize\ttfamily final String business\+Logic.\+Send\+Email.\+sender\+Password = \char`\"{}haritz97\char`\"{}\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definición en la línea 9 del archivo Send\+Email.\+java.
+
+
+
+Referenciado por business\+Logic.\+Send\+Email.\+S\+M\+T\+P\+Authenticator.\+get\+Password\+Authentication().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/business\+Logic/\mbox{\hyperlink{_send_email_8java}{Send\+Email.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespaceexceptions" kind="namespace" language="Java">
+    <compoundname>exceptions</compoundname>
+    <innerclass refid="classexceptions_1_1_bad_dates" prot="public">exceptions::BadDates</innerclass>
+    <innerclass refid="classexceptions_1_1_d_b4o_manager_creation_exception" prot="public">exceptions::DB4oManagerCreationException</innerclass>
+    <innerclass refid="classexceptions_1_1_no_exists_client" prot="public">exceptions::NoExistsClient</innerclass>
+    <innerclass refid="classexceptions_1_1_no_exists_owner" prot="public">exceptions::NoExistsOwner</innerclass>
+    <innerclass refid="classexceptions_1_1_offer_can_not_be_booked" prot="public">exceptions::OfferCanNotBeBooked</innerclass>
+    <innerclass refid="classexceptions_1_1_overlapping_client_exists" prot="public">exceptions::OverlappingClientExists</innerclass>
+    <innerclass refid="classexceptions_1_1_overlapping_offer_exists" prot="public">exceptions::OverlappingOfferExists</innerclass>
+    <innerclass refid="classexceptions_1_1_overlapping_owner_exist" prot="public">exceptions::OverlappingOwnerExist</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/exceptions/BadDates.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

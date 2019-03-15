@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_sign_in" kind="class" language="Java" prot="public">
+    <compoundname>gui::SignIn</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a0661fb8f7c58f5389415b3c24c3385bd" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.SignIn.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="34" column="1" bodyfile="src/gui/SignIn.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1aff14593606bb17dcdf89b2f2a6699f43" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.SignIn.userTextField</definition>
+        <argsstring></argsstring>
+        <name>userTextField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="35" column="1" bodyfile="src/gui/SignIn.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a3334294c202619a0e673c162f0d5b280" prot="private" static="no" mutable="no">
+        <type>JPasswordField</type>
+        <definition>JPasswordField gui.SignIn.passwordField</definition>
+        <argsstring></argsstring>
+        <name>passwordField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="36" column="1" bodyfile="src/gui/SignIn.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a4aa7ecbf60495c3f44fba7979783990a" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.SignIn.textEmail</definition>
+        <argsstring></argsstring>
+        <name>textEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="37" column="1" bodyfile="src/gui/SignIn.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a8a864d56fe9adba78e852b99fabf7e57" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.SignIn.textCuentaBancaria</definition>
+        <argsstring></argsstring>
+        <name>textCuentaBancaria</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="38" column="1" bodyfile="src/gui/SignIn.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a9162a721d6af763ff401522b6749cd88" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.SignIn.textTelegramId</definition>
+        <argsstring></argsstring>
+        <name>textTelegramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="39" column="1" bodyfile="src/gui/SignIn.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1afbdae1f60f065dd2b577301caa6926c0" prot="private" static="no" mutable="no">
+        <type>final ButtonGroup</type>
+        <definition>final ButtonGroup gui.SignIn.buttonGroup</definition>
+        <argsstring></argsstring>
+        <name>buttonGroup</name>
+        <initializer>= new ButtonGroup()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="40" column="1" bodyfile="src/gui/SignIn.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1acf11e0c6e73a74d0b4bcd5cc84a64f2a" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.SignIn.rdbtnClient</definition>
+        <argsstring></argsstring>
+        <name>rdbtnClient</name>
+        <initializer>= new JRadioButton(&quot;Client&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="41" column="1" bodyfile="src/gui/SignIn.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a4b8b426bb66155e4c5ff3fc71d6fab73" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.SignIn.rdbtnOwner</definition>
+        <argsstring></argsstring>
+        <name>rdbtnOwner</name>
+        <initializer>= new JRadioButton(&quot;Owner&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="42" column="1" bodyfile="src/gui/SignIn.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a91128d3298a69d4306a3435d9f5002c6" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.SignIn.lblRegister</definition>
+        <argsstring></argsstring>
+        <name>lblRegister</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="43" column="1" bodyfile="src/gui/SignIn.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_sign_in_1a1333e1c41f2354e4bab8acdeeafef7b0" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.SignIn.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="46" column="1" bodyfile="src/gui/SignIn.java" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.SignIn.SignIn</definition>
+        <argsstring>()</argsstring>
+        <name>SignIn</name>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="53" column="1" bodyfile="src/gui/SignIn.java" bodystart="53" bodyend="213"/>
+        <references refid="classgui_1_1_sign_in_1afbdae1f60f065dd2b577301caa6926c0" compoundref="_sign_in_8java" startline="40">gui.SignIn.buttonGroup</references>
+        <references refid="classgui_1_1_sign_in_1a0661fb8f7c58f5389415b3c24c3385bd" compoundref="_sign_in_8java" startline="34">gui.SignIn.contentPane</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1ac2cbd39795e0c171a79ac440698bd859">businessLogic.ApplicationFacadeInterfaceWS.createClient</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a3e5553805d4890c9c17cf2ab1b14a2d3">businessLogic.ApplicationFacadeInterfaceWS.createOwner</references>
+        <references refid="classgui_1_1_sign_in_1a1333e1c41f2354e4bab8acdeeafef7b0" compoundref="_sign_in_8java" startline="46">gui.SignIn.facade</references>
+        <references refid="classgui_1_1_sign_in_1a91128d3298a69d4306a3435d9f5002c6" compoundref="_sign_in_8java" startline="43">gui.SignIn.lblRegister</references>
+        <references refid="classgui_1_1_sign_in_1a3334294c202619a0e673c162f0d5b280" compoundref="_sign_in_8java" startline="36">gui.SignIn.passwordField</references>
+        <references refid="classgui_1_1_sign_in_1acf11e0c6e73a74d0b4bcd5cc84a64f2a" compoundref="_sign_in_8java" startline="41">gui.SignIn.rdbtnClient</references>
+        <references refid="classgui_1_1_sign_in_1a4b8b426bb66155e4c5ff3fc71d6fab73" compoundref="_sign_in_8java" startline="42">gui.SignIn.rdbtnOwner</references>
+        <references refid="classgui_1_1_sign_in_1a8a864d56fe9adba78e852b99fabf7e57" compoundref="_sign_in_8java" startline="38">gui.SignIn.textCuentaBancaria</references>
+        <references refid="classgui_1_1_sign_in_1a4aa7ecbf60495c3f44fba7979783990a" compoundref="_sign_in_8java" startline="37">gui.SignIn.textEmail</references>
+        <references refid="classgui_1_1_sign_in_1a9162a721d6af763ff401522b6749cd88" compoundref="_sign_in_8java" startline="39">gui.SignIn.textTelegramId</references>
+        <references refid="classgui_1_1_sign_in_1a2724645e64ebe7854d178aa92f0950bb" compoundref="_sign_in_8java" startline="214" endline="220">gui.SignIn.transform</references>
+        <references refid="classgui_1_1_sign_in_1aff14593606bb17dcdf89b2f2a6699f43" compoundref="_sign_in_8java" startline="35">gui.SignIn.userTextField</references>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_sign_in_1a2724645e64ebe7854d178aa92f0950bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String gui.SignIn.transform</definition>
+        <argsstring>(char[] psw)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>char []</type>
+          <declname>psw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SignIn.java" line="214" column="1" bodyfile="src/gui/SignIn.java" bodystart="214" bodyend="220"/>
+        <referencedby refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" compoundref="_sign_in_8java" startline="53" endline="213">gui.SignIn.SignIn</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="331">
+        <label>JFrame</label>
+      </node>
+      <node id="330">
+        <label>gui.SignIn</label>
+        <link refid="classgui_1_1_sign_in"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="339">
+        <label>JPanel</label>
+      </node>
+      <node id="335">
+        <label>ButtonGroup</label>
+      </node>
+      <node id="338">
+        <label>JLabel</label>
+      </node>
+      <node id="333">
+        <label>JFrame</label>
+      </node>
+      <node id="340">
+        <label>JRadioButton</label>
+      </node>
+      <node id="337">
+        <label>JPasswordField</label>
+      </node>
+      <node id="334">
+        <label>JTextField</label>
+      </node>
+      <node id="336">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="332">
+        <label>gui.SignIn</label>
+        <link refid="classgui_1_1_sign_in"/>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+        <childnode refid="334" relation="usage">
+          <edgelabel>textTelegramId</edgelabel>
+          <edgelabel>textCuentaBancaria</edgelabel>
+          <edgelabel>textEmail</edgelabel>
+          <edgelabel>userTextField</edgelabel>
+        </childnode>
+        <childnode refid="335" relation="usage">
+          <edgelabel>buttonGroup</edgelabel>
+        </childnode>
+        <childnode refid="336" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="337" relation="usage">
+          <edgelabel>passwordField</edgelabel>
+        </childnode>
+        <childnode refid="338" relation="usage">
+          <edgelabel>lblRegister</edgelabel>
+        </childnode>
+        <childnode refid="339" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+        <childnode refid="340" relation="usage">
+          <edgelabel>rdbtnClient</edgelabel>
+          <edgelabel>rdbtnOwner</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/SignIn.java" line="32" column="1" bodyfile="src/gui/SignIn.java" bodystart="32" bodyend="221"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_sign_in_1afbdae1f60f065dd2b577301caa6926c0" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>buttonGroup</name></member>
+      <member refid="classgui_1_1_sign_in_1a0661fb8f7c58f5389415b3c24c3385bd" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_sign_in_1a1333e1c41f2354e4bab8acdeeafef7b0" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>facade</name></member>
+      <member refid="classgui_1_1_sign_in_1a91128d3298a69d4306a3435d9f5002c6" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>lblRegister</name></member>
+      <member refid="classgui_1_1_sign_in_1a3334294c202619a0e673c162f0d5b280" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>passwordField</name></member>
+      <member refid="classgui_1_1_sign_in_1acf11e0c6e73a74d0b4bcd5cc84a64f2a" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>rdbtnClient</name></member>
+      <member refid="classgui_1_1_sign_in_1a4b8b426bb66155e4c5ff3fc71d6fab73" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>rdbtnOwner</name></member>
+      <member refid="classgui_1_1_sign_in_1a565fd1826fd08016ac37adcc6b8285c4" prot="public" virt="non-virtual"><scope>gui::SignIn</scope><name>SignIn</name></member>
+      <member refid="classgui_1_1_sign_in_1a8a864d56fe9adba78e852b99fabf7e57" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>textCuentaBancaria</name></member>
+      <member refid="classgui_1_1_sign_in_1a4aa7ecbf60495c3f44fba7979783990a" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>textEmail</name></member>
+      <member refid="classgui_1_1_sign_in_1a9162a721d6af763ff401522b6749cd88" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>textTelegramId</name></member>
+      <member refid="classgui_1_1_sign_in_1a2724645e64ebe7854d178aa92f0950bb" prot="public" virt="non-virtual"><scope>gui::SignIn</scope><name>transform</name></member>
+      <member refid="classgui_1_1_sign_in_1aff14593606bb17dcdf89b2f2a6699f43" prot="private" virt="non-virtual"><scope>gui::SignIn</scope><name>userTextField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

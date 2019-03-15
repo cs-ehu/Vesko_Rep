@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_set_availability_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::SetAvailabilityGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a2ac5c9f0315a16b755fd41ce36871808" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long gui.SetAvailabilityGUI.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="25" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a759205843282f8c868c459aa46c17e33" prot="private" static="no" mutable="no">
+        <type>JComboBox&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>JComboBox&lt;RuralHouse&gt; gui.SetAvailabilityGUI.jComboBox1</definition>
+        <argsstring></argsstring>
+        <name>jComboBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="27" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a99e5f2918949b5f2a6efa15b7127efe0" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.SetAvailabilityGUI.jLabel1</definition>
+        <argsstring></argsstring>
+        <name>jLabel1</name>
+        <initializer>= new JLabel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="28" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a43fadd92c137066f726495f6de29a145" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.SetAvailabilityGUI.jLabel2</definition>
+        <argsstring></argsstring>
+        <name>jLabel2</name>
+        <initializer>= new JLabel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="29" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a6e664193569e01789e9ccc37fa132c2a" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.SetAvailabilityGUI.jTextField1</definition>
+        <argsstring></argsstring>
+        <name>jTextField1</name>
+        <initializer>= new JTextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="30" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a260839d8134a704462036f00e61a334b" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.SetAvailabilityGUI.jLabel3</definition>
+        <argsstring></argsstring>
+        <name>jLabel3</name>
+        <initializer>= new JLabel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="31" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1aa31fe6946000ac1d5a01e7beb2ed4c84" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.SetAvailabilityGUI.jTextField2</definition>
+        <argsstring></argsstring>
+        <name>jTextField2</name>
+        <initializer>= new JTextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="32" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a6969d8917d158a3fa66153ccea58d2d5" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.SetAvailabilityGUI.jLabel4</definition>
+        <argsstring></argsstring>
+        <name>jLabel4</name>
+        <initializer>= new JLabel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="33" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a6a62e691d6ed16e056c13d321e077d00" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.SetAvailabilityGUI.jTextField3</definition>
+        <argsstring></argsstring>
+        <name>jTextField3</name>
+        <initializer>= new JTextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="34" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a01ddacea68e2ac12e3d8421b8c1ba183" compoundref="_set_availability_g_u_i_8java" startline="251" endline="262">gui.SetAvailabilityGUI.jTextField3_focusLost</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1ab2d139775a7efa35d9ed682e2e12f73f" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.SetAvailabilityGUI.jButton1</definition>
+        <argsstring></argsstring>
+        <name>jButton1</name>
+        <initializer>= new JButton()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="35" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a63c6223a835c93552a03023371a639c1" prot="private" static="no" mutable="no">
+        <type>JCalendar</type>
+        <definition>JCalendar gui.SetAvailabilityGUI.jCalendar1</definition>
+        <argsstring></argsstring>
+        <name>jCalendar1</name>
+        <initializer>= new JCalendar()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="38" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1adb69766fbc914bb6e0fd934557e3e291" prot="private" static="no" mutable="no">
+        <type>JCalendar</type>
+        <definition>JCalendar gui.SetAvailabilityGUI.jCalendar2</definition>
+        <argsstring></argsstring>
+        <name>jCalendar2</name>
+        <initializer>= new JCalendar()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="39" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a51ab1c21f362c9f5c76028af1378b45a" prot="private" static="no" mutable="no">
+        <type>Calendar</type>
+        <definition>Calendar gui.SetAvailabilityGUI.calendarInicio</definition>
+        <argsstring></argsstring>
+        <name>calendarInicio</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="40" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a5e2c23ae26a24b06dc19e8b2c9233807" prot="private" static="no" mutable="no">
+        <type>Calendar</type>
+        <definition>Calendar gui.SetAvailabilityGUI.calendarFin</definition>
+        <argsstring></argsstring>
+        <name>calendarFin</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="41" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1aae752324eac2634daf58978458c780cd" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.SetAvailabilityGUI.jButton2</definition>
+        <argsstring></argsstring>
+        <name>jButton2</name>
+        <initializer>= new JButton()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="42" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1adaff504659254070536d646b331e2e5f" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.SetAvailabilityGUI.jLabel5</definition>
+        <argsstring></argsstring>
+        <name>jLabel5</name>
+        <initializer>= new JLabel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="43" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a01ddacea68e2ac12e3d8421b8c1ba183" compoundref="_set_availability_g_u_i_8java" startline="251" endline="262">gui.SetAvailabilityGUI.jTextField3_focusLost</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a1f6f638242c97025fc857440f6669918" prot="private" static="no" mutable="no">
+        <type>final JLabel</type>
+        <definition>final JLabel gui.SetAvailabilityGUI.lblNewLabel</definition>
+        <argsstring></argsstring>
+        <name>lblNewLabel</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="44" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a02f2fb2b0ea2556d734c4f066d396f44" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner gui.SetAvailabilityGUI.o</definition>
+        <argsstring></argsstring>
+        <name>o</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="46" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a4222ca741f88236a6bf90ee6719dc2d1" compoundref="_set_availability_g_u_i_8java" startline="52" endline="69">gui.SetAvailabilityGUI.SetAvailabilityGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1a8ca9854f982f38653c058c2d5fae0110" prot="private" static="no" mutable="no">
+        <type>DefaultComboBoxModel&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>DefaultComboBoxModel&lt;RuralHouse&gt; gui.SetAvailabilityGUI.rhs</definition>
+        <argsstring></argsstring>
+        <name>rhs</name>
+        <initializer>= new DefaultComboBoxModel&lt;<ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="47" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_set_availability_g_u_i_1af95034b6b6816249cfe637bd01f40738" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.SetAvailabilityGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="48" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_set_availability_g_u_i_1a4222ca741f88236a6bf90ee6719dc2d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.SetAvailabilityGUI.SetAvailabilityGUI</definition>
+        <argsstring>(ArrayList&lt; RuralHouse &gt; v, Owner o)</argsstring>
+        <name>SetAvailabilityGUI</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="52" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="52" bodyend="69"/>
+        <references refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a02f2fb2b0ea2556d734c4f066d396f44" compoundref="_set_availability_g_u_i_8java" startline="46">gui.SetAvailabilityGUI.o</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.SetAvailabilityGUI.jbInit</definition>
+        <argsstring>(ArrayList&lt; RuralHouse &gt; v, Owner o)</argsstring>
+        <name>jbInit</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <exceptions> throws Exception   </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="71" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="71" bodyend="193"/>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a5e2c23ae26a24b06dc19e8b2c9233807" compoundref="_set_availability_g_u_i_8java" startline="41">gui.SetAvailabilityGUI.calendarFin</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a51ab1c21f362c9f5c76028af1378b45a" compoundref="_set_availability_g_u_i_8java" startline="40">gui.SetAvailabilityGUI.calendarInicio</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1ab2d139775a7efa35d9ed682e2e12f73f" compoundref="_set_availability_g_u_i_8java" startline="35">gui.SetAvailabilityGUI.jButton1</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1aae752324eac2634daf58978458c780cd" compoundref="_set_availability_g_u_i_8java" startline="42">gui.SetAvailabilityGUI.jButton2</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a8b6b121580714af5fbe8aff6de5d18d6" compoundref="_set_availability_g_u_i_8java" startline="244" endline="249">gui.SetAvailabilityGUI.jButton2_actionPerformed</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a63c6223a835c93552a03023371a639c1" compoundref="_set_availability_g_u_i_8java" startline="38">gui.SetAvailabilityGUI.jCalendar1</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1adb69766fbc914bb6e0fd934557e3e291" compoundref="_set_availability_g_u_i_8java" startline="39">gui.SetAvailabilityGUI.jCalendar2</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a759205843282f8c868c459aa46c17e33" compoundref="_set_availability_g_u_i_8java" startline="27">gui.SetAvailabilityGUI.jComboBox1</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a99e5f2918949b5f2a6efa15b7127efe0" compoundref="_set_availability_g_u_i_8java" startline="28">gui.SetAvailabilityGUI.jLabel1</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a43fadd92c137066f726495f6de29a145" compoundref="_set_availability_g_u_i_8java" startline="29">gui.SetAvailabilityGUI.jLabel2</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a260839d8134a704462036f00e61a334b" compoundref="_set_availability_g_u_i_8java" startline="31">gui.SetAvailabilityGUI.jLabel3</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a6969d8917d158a3fa66153ccea58d2d5" compoundref="_set_availability_g_u_i_8java" startline="33">gui.SetAvailabilityGUI.jLabel4</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1adaff504659254070536d646b331e2e5f" compoundref="_set_availability_g_u_i_8java" startline="43">gui.SetAvailabilityGUI.jLabel5</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a6e664193569e01789e9ccc37fa132c2a" compoundref="_set_availability_g_u_i_8java" startline="30">gui.SetAvailabilityGUI.jTextField1</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1aa31fe6946000ac1d5a01e7beb2ed4c84" compoundref="_set_availability_g_u_i_8java" startline="32">gui.SetAvailabilityGUI.jTextField2</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a6a62e691d6ed16e056c13d321e077d00" compoundref="_set_availability_g_u_i_8java" startline="34">gui.SetAvailabilityGUI.jTextField3</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a01ddacea68e2ac12e3d8421b8c1ba183" compoundref="_set_availability_g_u_i_8java" startline="251" endline="262">gui.SetAvailabilityGUI.jTextField3_focusLost</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a1f6f638242c97025fc857440f6669918" compoundref="_set_availability_g_u_i_8java" startline="44">gui.SetAvailabilityGUI.lblNewLabel</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a02f2fb2b0ea2556d734c4f066d396f44" compoundref="_set_availability_g_u_i_8java" startline="46">gui.SetAvailabilityGUI.o</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a8ca9854f982f38653c058c2d5fae0110" compoundref="_set_availability_g_u_i_8java" startline="47">gui.SetAvailabilityGUI.rhs</references>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a4222ca741f88236a6bf90ee6719dc2d1" compoundref="_set_availability_g_u_i_8java" startline="52" endline="69">gui.SetAvailabilityGUI.SetAvailabilityGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_set_availability_g_u_i_1a7c4086581e82a57cf4753001fe147884" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date gui.SetAvailabilityGUI.trim</definition>
+        <argsstring>(Date date)</argsstring>
+        <name>trim</name>
+        <param>
+          <type>Date</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="194" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="194" bodyend="203"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.SetAvailabilityGUI.jButton1_actionPerformed</definition>
+        <argsstring>(ActionEvent e)</argsstring>
+        <name>jButton1_actionPerformed</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="205" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="205" bodyend="243"/>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0e8d2135ef1384a32e74f60bcea55f09">businessLogic.ApplicationFacadeInterfaceWS.createOffer</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1af95034b6b6816249cfe637bd01f40738" compoundref="_set_availability_g_u_i_8java" startline="48">gui.SetAvailabilityGUI.facade</references>
+        <references refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" compoundref="_main_g_u_i_8java" startline="44" endline="46">gui.MainGUI.getBusinessLogic</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a63c6223a835c93552a03023371a639c1" compoundref="_set_availability_g_u_i_8java" startline="38">gui.SetAvailabilityGUI.jCalendar1</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1adb69766fbc914bb6e0fd934557e3e291" compoundref="_set_availability_g_u_i_8java" startline="39">gui.SetAvailabilityGUI.jCalendar2</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a759205843282f8c868c459aa46c17e33" compoundref="_set_availability_g_u_i_8java" startline="27">gui.SetAvailabilityGUI.jComboBox1</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1adaff504659254070536d646b331e2e5f" compoundref="_set_availability_g_u_i_8java" startline="43">gui.SetAvailabilityGUI.jLabel5</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a6a62e691d6ed16e056c13d321e077d00" compoundref="_set_availability_g_u_i_8java" startline="34">gui.SetAvailabilityGUI.jTextField3</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a02f2fb2b0ea2556d734c4f066d396f44" compoundref="_set_availability_g_u_i_8java" startline="46">gui.SetAvailabilityGUI.o</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a7c4086581e82a57cf4753001fe147884" compoundref="_set_availability_g_u_i_8java" startline="194" endline="203">gui.SetAvailabilityGUI.trim</references>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_set_availability_g_u_i_1a8b6b121580714af5fbe8aff6de5d18d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.SetAvailabilityGUI.jButton2_actionPerformed</definition>
+        <argsstring>(ActionEvent e)</argsstring>
+        <name>jButton2_actionPerformed</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="244" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="244" bodyend="249"/>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_set_availability_g_u_i_1a01ddacea68e2ac12e3d8421b8c1ba183" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.SetAvailabilityGUI.jTextField3_focusLost</definition>
+        <argsstring>()</argsstring>
+        <name>jTextField3_focusLost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/SetAvailabilityGUI.java" line="251" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="251" bodyend="262"/>
+        <references refid="classgui_1_1_set_availability_g_u_i_1adaff504659254070536d646b331e2e5f" compoundref="_set_availability_g_u_i_8java" startline="43">gui.SetAvailabilityGUI.jLabel5</references>
+        <references refid="classgui_1_1_set_availability_g_u_i_1a6a62e691d6ed16e056c13d321e077d00" compoundref="_set_availability_g_u_i_8java" startline="34">gui.SetAvailabilityGUI.jTextField3</references>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" compoundref="_set_availability_g_u_i_8java" startline="71" endline="193">gui.SetAvailabilityGUI.jbInit</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="306">
+        <label>gui.SetAvailabilityGUI</label>
+        <link refid="classgui_1_1_set_availability_g_u_i"/>
+        <childnode refid="307" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="307">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="319">
+        <label>JLabel</label>
+      </node>
+      <node id="314">
+        <label>Calendar</label>
+      </node>
+      <node id="320">
+        <label>DefaultComboBoxModel&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="308">
+        <label>gui.SetAvailabilityGUI</label>
+        <link refid="classgui_1_1_set_availability_g_u_i"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+        <childnode refid="310" relation="usage">
+          <edgelabel>jButton1</edgelabel>
+          <edgelabel>jButton2</edgelabel>
+        </childnode>
+        <childnode refid="311" relation="usage">
+          <edgelabel>jComboBox1</edgelabel>
+        </childnode>
+        <childnode refid="312" relation="usage">
+          <edgelabel>jTextField1</edgelabel>
+          <edgelabel>jTextField2</edgelabel>
+          <edgelabel>jTextField3</edgelabel>
+        </childnode>
+        <childnode refid="313" relation="usage">
+          <edgelabel>jCalendar1</edgelabel>
+          <edgelabel>jCalendar2</edgelabel>
+        </childnode>
+        <childnode refid="314" relation="usage">
+          <edgelabel>calendarInicio</edgelabel>
+          <edgelabel>calendarFin</edgelabel>
+        </childnode>
+        <childnode refid="315" relation="usage">
+          <edgelabel>o</edgelabel>
+        </childnode>
+        <childnode refid="318" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="319" relation="usage">
+          <edgelabel>jLabel3</edgelabel>
+          <edgelabel>jLabel4</edgelabel>
+          <edgelabel>jLabel5</edgelabel>
+          <edgelabel>lblNewLabel</edgelabel>
+          <edgelabel>jLabel1</edgelabel>
+          <edgelabel>jLabel2</edgelabel>
+        </childnode>
+        <childnode refid="320" relation="usage">
+          <edgelabel>rhs</edgelabel>
+        </childnode>
+      </node>
+      <node id="316">
+        <label>Serializable</label>
+      </node>
+      <node id="309">
+        <label>JFrame</label>
+      </node>
+      <node id="315">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+        <childnode refid="317" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="313">
+        <label>JCalendar</label>
+      </node>
+      <node id="317">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="312">
+        <label>JTextField</label>
+      </node>
+      <node id="311">
+        <label>JComboBox&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="318">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="310">
+        <label>JButton</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/SetAvailabilityGUI.java" line="24" column="1" bodyfile="src/gui/SetAvailabilityGUI.java" bodystart="24" bodyend="263"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a5e2c23ae26a24b06dc19e8b2c9233807" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>calendarFin</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a51ab1c21f362c9f5c76028af1378b45a" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>calendarInicio</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1af95034b6b6816249cfe637bd01f40738" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1ae47e0bfcc0ac5edd6f046cae6083362e" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jbInit</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1ab2d139775a7efa35d9ed682e2e12f73f" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jButton1</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jButton1_actionPerformed</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1aae752324eac2634daf58978458c780cd" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jButton2</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a8b6b121580714af5fbe8aff6de5d18d6" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jButton2_actionPerformed</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a63c6223a835c93552a03023371a639c1" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jCalendar1</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1adb69766fbc914bb6e0fd934557e3e291" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jCalendar2</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a759205843282f8c868c459aa46c17e33" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jComboBox1</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a99e5f2918949b5f2a6efa15b7127efe0" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jLabel1</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a43fadd92c137066f726495f6de29a145" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jLabel2</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a260839d8134a704462036f00e61a334b" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jLabel3</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a6969d8917d158a3fa66153ccea58d2d5" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jLabel4</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1adaff504659254070536d646b331e2e5f" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jLabel5</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a6e664193569e01789e9ccc37fa132c2a" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jTextField1</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1aa31fe6946000ac1d5a01e7beb2ed4c84" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jTextField2</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a6a62e691d6ed16e056c13d321e077d00" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jTextField3</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a01ddacea68e2ac12e3d8421b8c1ba183" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>jTextField3_focusLost</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a1f6f638242c97025fc857440f6669918" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>lblNewLabel</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a02f2fb2b0ea2556d734c4f066d396f44" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>o</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a8ca9854f982f38653c058c2d5fae0110" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>rhs</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a2ac5c9f0315a16b755fd41ce36871808" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>serialVersionUID</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a4222ca741f88236a6bf90ee6719dc2d1" prot="public" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>SetAvailabilityGUI</name></member>
+      <member refid="classgui_1_1_set_availability_g_u_i_1a7c4086581e82a57cf4753001fe147884" prot="private" virt="non-virtual"><scope>gui::SetAvailabilityGUI</scope><name>trim</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

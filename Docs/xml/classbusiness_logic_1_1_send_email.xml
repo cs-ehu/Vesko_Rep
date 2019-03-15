@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classbusiness_logic_1_1_send_email" kind="class" language="Java" prot="public">
+    <compoundname>businessLogic::SendEmail</compoundname>
+    <innerclass refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator" prot="public">businessLogic::SendEmail::SMTPAuthenticator</innerclass>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classbusiness_logic_1_1_send_email_1a2e47b8c2228b215b8335c16ba592b95d" prot="package" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String businessLogic.SendEmail.senderEmailID</definition>
+        <argsstring></argsstring>
+        <name>senderEmailID</name>
+        <initializer>= &quot;gausitos@gmail.com&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="8" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator_1ac12893bcb04d8840ad1616dd8c7b70de" compoundref="_send_email_8java" startline="52" endline="54">businessLogic.SendEmail.SMTPAuthenticator.getPasswordAuthentication</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" compoundref="_send_email_8java" startline="16" endline="49">businessLogic.SendEmail.SendEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_send_email_1a0bd45a69289e50c9439e70835c06ff0c" prot="package" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String businessLogic.SendEmail.senderPassword</definition>
+        <argsstring></argsstring>
+        <name>senderPassword</name>
+        <initializer>= &quot;haritz97&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="9" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1_1_s_m_t_p_authenticator_1ac12893bcb04d8840ad1616dd8c7b70de" compoundref="_send_email_8java" startline="52" endline="54">businessLogic.SendEmail.SMTPAuthenticator.getPasswordAuthentication</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_send_email_1a1c140265f179e199fc4d20fb3ebc81b6" prot="package" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String businessLogic.SendEmail.emailSMTPserver</definition>
+        <argsstring></argsstring>
+        <name>emailSMTPserver</name>
+        <initializer>= &quot;smtp.gmail.com&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="10" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" compoundref="_send_email_8java" startline="16" endline="49">businessLogic.SendEmail.SendEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_send_email_1a1c99e22d5e9634a278914e9183c644a9" prot="package" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String businessLogic.SendEmail.emailServerPort</definition>
+        <argsstring></argsstring>
+        <name>emailServerPort</name>
+        <initializer>= &quot;465&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="11" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" compoundref="_send_email_8java" startline="16" endline="49">businessLogic.SendEmail.SendEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_send_email_1ac77f915d22477cea3ca986da4acffbbc" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String businessLogic.SendEmail.receiverEmailID</definition>
+        <argsstring></argsstring>
+        <name>receiverEmailID</name>
+        <initializer>= &quot;haritz1997@gmail.com&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="12" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" compoundref="_send_email_8java" startline="16" endline="49">businessLogic.SendEmail.SendEmail</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classbusiness_logic_1_1_send_email_1ae03ffb4b828745d6f4cec012064760fe" prot="package" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String businessLogic.SendEmail.emailSubject</definition>
+        <argsstring></argsstring>
+        <name>emailSubject</name>
+        <initializer>= &quot;Test Mail&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="13" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" compoundref="_send_email_8java" startline="16" endline="49">businessLogic.SendEmail.SendEmail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbusiness_logic_1_1_send_email_1abd4287e31ab6595894df6a666bc09bfd" prot="package" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String businessLogic.SendEmail.emailBody</definition>
+        <argsstring></argsstring>
+        <name>emailBody</name>
+        <initializer>= &quot;:)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="14" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" compoundref="_send_email_8java" startline="16" endline="49">businessLogic.SendEmail.SendEmail</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>businessLogic.SendEmail.SendEmail</definition>
+        <argsstring>(String receiverEmailID, String Subject, String Body)</argsstring>
+        <name>SendEmail</name>
+        <param>
+          <type>String</type>
+          <declname>receiverEmailID</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>Subject</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>Body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/businessLogic/SendEmail.java" line="16" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="16" bodyend="49"/>
+        <references refid="classbusiness_logic_1_1_send_email_1abd4287e31ab6595894df6a666bc09bfd" compoundref="_send_email_8java" startline="14">businessLogic.SendEmail.emailBody</references>
+        <references refid="classbusiness_logic_1_1_send_email_1a1c99e22d5e9634a278914e9183c644a9" compoundref="_send_email_8java" startline="11">businessLogic.SendEmail.emailServerPort</references>
+        <references refid="classbusiness_logic_1_1_send_email_1a1c140265f179e199fc4d20fb3ebc81b6" compoundref="_send_email_8java" startline="10">businessLogic.SendEmail.emailSMTPserver</references>
+        <references refid="classbusiness_logic_1_1_send_email_1ae03ffb4b828745d6f4cec012064760fe" compoundref="_send_email_8java" startline="13">businessLogic.SendEmail.emailSubject</references>
+        <references refid="classbusiness_logic_1_1_send_email_1ac77f915d22477cea3ca986da4acffbbc" compoundref="_send_email_8java" startline="12">businessLogic.SendEmail.receiverEmailID</references>
+        <references refid="classbusiness_logic_1_1_send_email_1a2e47b8c2228b215b8335c16ba592b95d" compoundref="_send_email_8java" startline="8">businessLogic.SendEmail.senderEmailID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/businessLogic/SendEmail.java" line="7" column="1" bodyfile="src/businessLogic/SendEmail.java" bodystart="7" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classbusiness_logic_1_1_send_email_1abd4287e31ab6595894df6a666bc09bfd" prot="package" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>emailBody</name></member>
+      <member refid="classbusiness_logic_1_1_send_email_1a1c99e22d5e9634a278914e9183c644a9" prot="package" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>emailServerPort</name></member>
+      <member refid="classbusiness_logic_1_1_send_email_1a1c140265f179e199fc4d20fb3ebc81b6" prot="package" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>emailSMTPserver</name></member>
+      <member refid="classbusiness_logic_1_1_send_email_1ae03ffb4b828745d6f4cec012064760fe" prot="package" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>emailSubject</name></member>
+      <member refid="classbusiness_logic_1_1_send_email_1ac77f915d22477cea3ca986da4acffbbc" prot="package" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>receiverEmailID</name></member>
+      <member refid="classbusiness_logic_1_1_send_email_1ad544aa16db4f9e424ad3db5e8af40bb4" prot="public" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>SendEmail</name></member>
+      <member refid="classbusiness_logic_1_1_send_email_1a2e47b8c2228b215b8335c16ba592b95d" prot="package" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>senderEmailID</name></member>
+      <member refid="classbusiness_logic_1_1_send_email_1a0bd45a69289e50c9439e70835c06ff0c" prot="package" virt="non-virtual"><scope>businessLogic::SendEmail</scope><name>senderPassword</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,321 @@
+\hypertarget{classgui_1_1_validation_g_u_i}{}\section{Referencia de la Clase gui.\+Validation\+G\+UI}
+\label{classgui_1_1_validation_g_u_i}\index{gui.ValidationGUI@{gui.ValidationGUI}}
+Diagrama de herencias de gui.\+Validation\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_validation_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a090f7d6cae6f5d31fde54362355d47ac}{Validation\+G\+UI}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o, \mbox{\hyperlink{classdomain_1_1_client}{Client}} c, String s)
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{content\+Pane}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}{text\+Validation}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txt\+Type}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txt\+Username}}
+\item 
+final Button\+Group \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a1908256eb6e291cba709b035ec08333a}{button\+Group}} = new Button\+Group()
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}{rdbtn\+Email}} = new J\+Radio\+Button(\char`\"{}Email\char`\"{})
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a440c0ddbf9342ed8d877847800ab4182}{rdbtn\+Telegram}} = new J\+Radio\+Button(\char`\"{}Telegram\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}{lbl\+Status}} = new J\+Label(\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_validation_g_u_i_af2cb3e3d7bab33150dca01f640cdb824}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 26 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_a090f7d6cae6f5d31fde54362355d47ac}\label{classgui_1_1_validation_g_u_i_a090f7d6cae6f5d31fde54362355d47ac}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!ValidationGUI@{ValidationGUI}}
+\index{ValidationGUI@{ValidationGUI}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{ValidationGUI()}{ValidationGUI()}}
+{\footnotesize\ttfamily gui.\+Validation\+G\+U\+I.\+Validation\+G\+UI (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o,  }\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c,  }\item[{String}]{s }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 44 del archivo Validation\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{44                                                       \{}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}{rdbtnEmail}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{47         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{48         setBounds(100, 100, 450, 367);}
+\DoxyCodeLine{49         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{50         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{51         setContentPane(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}});}
+\DoxyCodeLine{52         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54         JButton btnValidate = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Validate"});}
+\DoxyCodeLine{55         btnValidate.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{56             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{57                 \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{58                     \textcolor{keywordtype}{int} validNumber = Integer.parseInt(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}{textValidation}}.getText());}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60                     \textcolor{keywordflow}{if} (s.equals(\textcolor{stringliteral}{"client"})}
+\DoxyCodeLine{61                             \&\& validNumber == c.getValidationNumber()) \{}
+\DoxyCodeLine{62                         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}{lblStatus}}.setText(\textcolor{stringliteral}{"Validation sucesfull"});}
+\DoxyCodeLine{63                         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_af2cb3e3d7bab33150dca01f640cdb824}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a482571287e471d0047bc24150f716d72}{updateClinetValidation}}(c);}
+\DoxyCodeLine{64                         ValidationMesage a = \textcolor{keyword}{new} ValidationMesage();}
+\DoxyCodeLine{65                         dispose();}
+\DoxyCodeLine{66                         a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{68                     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (s.equals(\textcolor{stringliteral}{"owner"})}
+\DoxyCodeLine{69                             \&\& validNumber == o.getValidationNumber()) \{}
+\DoxyCodeLine{70                         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}{lblStatus}}.setText(\textcolor{stringliteral}{"Validation sucesfull"});}
+\DoxyCodeLine{71                         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_af2cb3e3d7bab33150dca01f640cdb824}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a4932653f88b16660fa74ff6356a3f94b}{updateOwnerValidation}}(o);}
+\DoxyCodeLine{72                         ValidationMesage a = \textcolor{keyword}{new} ValidationMesage();}
+\DoxyCodeLine{73                         dispose();}
+\DoxyCodeLine{74                         a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{75                     \}\textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{76                         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}{lblStatus}}.setText(\textcolor{stringliteral}{"Validation number was not correct"});}
+\DoxyCodeLine{77                     \}}
+\DoxyCodeLine{78                 \} \textcolor{keywordflow}{catch} (NumberFormatException e1) \{}
+\DoxyCodeLine{79                     \mbox{\hyperlink{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}{lblStatus}}.setText(\textcolor{stringliteral}{"Validation number was not correct"});}
+\DoxyCodeLine{80                 \}}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82             \}}
+\DoxyCodeLine{83         \});}
+\DoxyCodeLine{84         btnValidate.setBounds(124, 240, 198, 35);}
+\DoxyCodeLine{85         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(btnValidate);}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}{textValidation}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{88         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}{textValidation}}.setBounds(124, 205, 198, 22);}
+\DoxyCodeLine{89         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}{textValidation}});}
+\DoxyCodeLine{90         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}{textValidation}}.setColumns(10);}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92         JButton btnSendValidatioNumber = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Send validatio number"});}
+\DoxyCodeLine{93         btnSendValidatioNumber.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{94             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{95                 \textcolor{keywordtype}{int} validNumber;}
+\DoxyCodeLine{96                 String email;}
+\DoxyCodeLine{97                 String idTelegram;}
+\DoxyCodeLine{98                 String message;}
+\DoxyCodeLine{99                 \textcolor{keywordflow}{if} (s.equals(\textcolor{stringliteral}{"client"})) \{}
+\DoxyCodeLine{100                     validNumber = c.getValidationNumber();}
+\DoxyCodeLine{101                     idTelegram = c.getTelegramId();}
+\DoxyCodeLine{102                     email = c.getEmail();}
+\DoxyCodeLine{103                 \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{104                     validNumber = o.getValidationNumber();}
+\DoxyCodeLine{105                     idTelegram = o.getTelegramId();}
+\DoxyCodeLine{106                     email = o.getEmail();}
+\DoxyCodeLine{107                 \}}
+\DoxyCodeLine{108                 message = \textcolor{stringliteral}{"Welcome to the rural house app, first, you have to validate the account. Please introduce the following code in the app: \(\backslash\)n"}}
+\DoxyCodeLine{109                         + validNumber;}
+\DoxyCodeLine{110 }
+\DoxyCodeLine{111                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}{rdbtnEmail}}.isSelected()) \{}
+\DoxyCodeLine{112                     SendEmail se = \textcolor{keyword}{new} SendEmail(email,}
+\DoxyCodeLine{113                             \textcolor{stringliteral}{"Validating your account"}, message);}
+\DoxyCodeLine{114                 \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{115                     Comand cmd = \textcolor{keyword}{new} Comand();}
+\DoxyCodeLine{116                     Long \textcolor{keywordtype}{id} = Long.parseLong(idTelegram);}
+\DoxyCodeLine{117                     cmd.sendMessageFromTelegramToClient(\textcolor{keywordtype}{id}, message);}
+\DoxyCodeLine{118                 \}}
+\DoxyCodeLine{119             \}}
+\DoxyCodeLine{120         \});}
+\DoxyCodeLine{121         btnSendValidatioNumber.setBounds(124, 130, 198, 35);}
+\DoxyCodeLine{122         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(btnSendValidatioNumber);}
+\DoxyCodeLine{123 }
+\DoxyCodeLine{124         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a1908256eb6e291cba709b035ec08333a}{buttonGroup}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a440c0ddbf9342ed8d877847800ab4182}{rdbtnTelegram}});}
+\DoxyCodeLine{125         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a440c0ddbf9342ed8d877847800ab4182}{rdbtnTelegram}}.setBounds(135, 9, 94, 25);}
+\DoxyCodeLine{126         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a440c0ddbf9342ed8d877847800ab4182}{rdbtnTelegram}});}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{128         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a1908256eb6e291cba709b035ec08333a}{buttonGroup}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}{rdbtnEmail}});}
+\DoxyCodeLine{129         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}{rdbtnEmail}}.setBounds(237, 9, 127, 25);}
+\DoxyCodeLine{130         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}{rdbtnEmail}});}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{132         JLabel lblType = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Type"});}
+\DoxyCodeLine{133         lblType.setBounds(27, 67, 56, 16);}
+\DoxyCodeLine{134         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(lblType);}
+\DoxyCodeLine{135 }
+\DoxyCodeLine{136         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txtType}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{137         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txtType}}.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{138         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txtType}}.setBounds(67, 64, 70, 22);}
+\DoxyCodeLine{139         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txtType}});}
+\DoxyCodeLine{140         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txtType}}.setColumns(10);}
+\DoxyCodeLine{141 }
+\DoxyCodeLine{142         JLabel lblUser = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Username"});}
+\DoxyCodeLine{143         lblUser.setBounds(162, 67, 82, 16);}
+\DoxyCodeLine{144         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(lblUser);}
+\DoxyCodeLine{145 }
+\DoxyCodeLine{146         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txtUsername}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{147         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txtUsername}}.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{148         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txtUsername}}.setColumns(10);}
+\DoxyCodeLine{149         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txtUsername}}.setBounds(237, 64, 183, 22);}
+\DoxyCodeLine{150         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txtUsername}});}
+\DoxyCodeLine{151 }
+\DoxyCodeLine{152         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}{lblStatus}}.setBounds(124, 291, 198, 16);}
+\DoxyCodeLine{153         \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}{lblStatus}});}
+\DoxyCodeLine{154 }
+\DoxyCodeLine{155         \textcolor{keywordflow}{if} (s.equals(\textcolor{stringliteral}{"client"})) \{}
+\DoxyCodeLine{156             \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txtType}}.setText(\textcolor{stringliteral}{"Client"});}
+\DoxyCodeLine{157             \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txtUsername}}.setText(c.getUserName());}
+\DoxyCodeLine{158         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{159             \mbox{\hyperlink{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}{txtType}}.setText(\textcolor{stringliteral}{"Owner"});}
+\DoxyCodeLine{160             \mbox{\hyperlink{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}{txtUsername}}.setText(o.getUserName());}
+\DoxyCodeLine{161 }
+\DoxyCodeLine{162         \}}
+\DoxyCodeLine{163 }
+\DoxyCodeLine{164     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Validation\+G\+U\+I.\+button\+Group, gui.\+Validation\+G\+U\+I.\+content\+Pane, gui.\+Validation\+G\+U\+I.\+facade, domain.\+Owner.\+get\+Email(), domain.\+Client.\+get\+Email(), domain.\+Owner.\+get\+Telegram\+Id(), domain.\+Client.\+get\+Telegram\+Id(), domain.\+Owner.\+get\+User\+Name(), domain.\+Client.\+get\+User\+Name(), domain.\+Client.\+get\+Validation\+Number(), domain.\+Owner.\+get\+Validation\+Number(), gui.\+Validation\+G\+U\+I.\+lbl\+Status, gui.\+Validation\+G\+U\+I.\+rdbtn\+Email, gui.\+Validation\+G\+U\+I.\+rdbtn\+Telegram, bot.\+Comand.\+send\+Message\+From\+Telegram\+To\+Client(), gui.\+Validation\+G\+U\+I.\+text\+Validation, gui.\+Validation\+G\+U\+I.\+txt\+Type, gui.\+Validation\+G\+U\+I.\+txt\+Username, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Clinet\+Validation() y business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Owner\+Validation().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_a1908256eb6e291cba709b035ec08333a}\label{classgui_1_1_validation_g_u_i_a1908256eb6e291cba709b035ec08333a}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!buttonGroup@{buttonGroup}}
+\index{buttonGroup@{buttonGroup}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{buttonGroup}{buttonGroup}}
+{\footnotesize\ttfamily final Button\+Group gui.\+Validation\+G\+U\+I.\+button\+Group = new Button\+Group()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 32 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}\label{classgui_1_1_validation_g_u_i_aef9acb4c0cb38c01fbf8ea562474335a}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Validation\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 28 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_af2cb3e3d7bab33150dca01f640cdb824}\label{classgui_1_1_validation_g_u_i_af2cb3e3d7bab33150dca01f640cdb824}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!facade@{facade}}
+\index{facade@{facade}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Validation\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}\label{classgui_1_1_validation_g_u_i_ae54db9df71d22bf4b59706bdab55511b}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!lblStatus@{lblStatus}}
+\index{lblStatus@{lblStatus}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{lblStatus}{lblStatus}}
+{\footnotesize\ttfamily J\+Label gui.\+Validation\+G\+U\+I.\+lbl\+Status = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}\label{classgui_1_1_validation_g_u_i_a863272c906d3d0db5e2d015d0793fe0a}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!rdbtnEmail@{rdbtnEmail}}
+\index{rdbtnEmail@{rdbtnEmail}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{rdbtnEmail}{rdbtnEmail}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Validation\+G\+U\+I.\+rdbtn\+Email = new J\+Radio\+Button(\char`\"{}Email\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_a440c0ddbf9342ed8d877847800ab4182}\label{classgui_1_1_validation_g_u_i_a440c0ddbf9342ed8d877847800ab4182}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!rdbtnTelegram@{rdbtnTelegram}}
+\index{rdbtnTelegram@{rdbtnTelegram}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{rdbtnTelegram}{rdbtnTelegram}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Validation\+G\+U\+I.\+rdbtn\+Telegram = new J\+Radio\+Button(\char`\"{}Telegram\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}\label{classgui_1_1_validation_g_u_i_a0b6679a6247a162176dadd092fbd9bd2}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!textValidation@{textValidation}}
+\index{textValidation@{textValidation}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{textValidation}{textValidation}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Validation\+G\+U\+I.\+text\+Validation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 29 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}\label{classgui_1_1_validation_g_u_i_aa8db43a7c80fcde4ced14b40c8a92920}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!txtType@{txtType}}
+\index{txtType@{txtType}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{txtType}{txtType}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Validation\+G\+U\+I.\+txt\+Type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 30 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}\label{classgui_1_1_validation_g_u_i_a5d0148dc1550e58e9497c1897189c07c}} 
+\index{gui.ValidationGUI@{gui.ValidationGUI}!txtUsername@{txtUsername}}
+\index{txtUsername@{txtUsername}!gui.ValidationGUI@{gui.ValidationGUI}}
+\subsubsection{\texorpdfstring{txtUsername}{txtUsername}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Validation\+G\+U\+I.\+txt\+Username\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 31 del archivo Validation\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_validation_g_u_i_8java}{Validation\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

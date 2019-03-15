@@ -1,0 +1,406 @@
+\hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s}{}\section{Referencia de la Interfaz business\+Logic.\+Application\+Facade\+Interface\+WS}
+\label{interfacebusiness_logic_1_1_application_facade_interface_w_s}\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+Diagrama de herencias de business\+Logic.\+Application\+Facade\+Interface\+WS\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacebusiness_logic_1_1_application_facade_interface_w_s}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad807cbd5d877e941edc274563e5cefa3}{create\+Reserva}} (\mbox{\hyperlink{classdomain_1_1_offer}{Offer}} offer, \mbox{\hyperlink{classdomain_1_1_client}{Client}} cliente, Date book\+Date, String state)
+\item 
+void \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0c4ed4fa98351e6aaba6f9769e561abf}{remove\+Reserva}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\item 
+\mbox{\hyperlink{classdomain_1_1_offer}{Offer}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0e8d2135ef1384a32e74f60bcea55f09}{create\+Offer}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rural\+House, Date first\+Day, Date last\+Day, float price)  throws Overlapping\+Offer\+Exists, Bad\+Dates
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ac2cbd39795e0c171a79ac440698bd859}{create\+Client}} (String user\+Name, String password, String telegram\+Id, String cuenta\+Bancaria, String email)  throws Overlapping\+Client\+Exists
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3e5553805d4890c9c17cf2ab1b14a2d3}{create\+Owner}} (String user\+Name, String password, String telegram\+Id, String cuenta\+Bancaria, String email)  throws Overlapping\+Owner\+Exist
+\item 
+void \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a482571287e471d0047bc24150f716d72}{update\+Clinet\+Validation}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} c)
+\item 
+void \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a4932653f88b16660fa74ff6356a3f94b}{update\+Owner\+Validation}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a624b00ae79c85436420d62cf34a082d7}{create\+Rural\+House}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o, String city, String description, String address, String rooms\+Number)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a553cbfb37ea9f1621ba76ad8308a15da}{get\+All\+Rural\+Houses}} ()
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ae338a96d039003c64fceb68d667736f1}{get\+Offers}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, Date first\+Day, Date last\+Day)
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0d69ed91aa71325dedc777f059999e93}{get\+Client\+By\+Username}} (String user)
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0f38b3b41794e2ec57b019b89ef255c3}{get\+Owner\+By\+Username}} (String user)
+\item 
+void \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad5cf462151e6c43b9088f112eed0ad3f}{add\+Image\+To\+RH}} (byte\mbox{[}$\,$\mbox{]} img, \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} owner, \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_aeda86c46b75acfc4befb30f5d0e98e7c}{get\+Rural\+House}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} owner)
+\item 
+\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a686ca441b89f52085ef66d00f10c6854}{get\+Rural\+Houseby\+House\+Number}} (int num)
+\item 
+void \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a472d0eae303dc4ad989f382bb0632afc}{remove\+Rural\+House}} (int num)
+\item 
+void \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a8cbc91e14e6abf2d7577ba2c69f4b48f}{close}} ()
+\item 
+\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a1ee7d830657be2563a277591c150f273}{get\+Reserva\+By\+Num}} (int n)
+\item 
+\mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2f7ed5fbb8427eee05fdaa0a0dc9348b}{get\+Reserva\+Offer\+Rh\+Owner\+Container}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\item 
+\mbox{\hyperlink{classdomain_1_1_client}{Client}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2d053769d923bd1987f8fd1f875905e7}{update\+Client}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} c)
+\item 
+\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_af0ef759ffef69a39428870eada0221cd}{update\+Owner}} (\mbox{\hyperlink{classdomain_1_1_owner}{Owner}} o)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}} $>$ \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ab07e66746b2cfe14622bdd16c295ce93}{get\+List\+Reserva\+Offer\+Rh\+Owner\+Container}} (\mbox{\hyperlink{classdomain_1_1_client}{Client}} c)
+\item 
+\mbox{\hyperlink{classdomain_1_1_feed_back}{Feed\+Back}} \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3fd4fdf7b7efaef7ff89ee7273f5be22}{create\+Feed\+Back}} (String s, int i, \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\item 
+void \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0092e0a845b7b23dc504be013ce1958a}{set\+Rated}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 26 del archivo Application\+Facade\+Interface\+W\+S.\+java.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad5cf462151e6c43b9088f112eed0ad3f}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad5cf462151e6c43b9088f112eed0ad3f}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!addImageToRH@{addImageToRH}}
+\index{addImageToRH@{addImageToRH}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{addImageToRH()}{addImageToRH()}}
+{\footnotesize\ttfamily void business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+add\+Image\+To\+RH (\begin{DoxyParamCaption}\item[{byte \mbox{[}$\,$\mbox{]}}]{img,  }\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{owner,  }\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aa05fbf6e32c0939508a542b857dce1d1}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a8cbc91e14e6abf2d7577ba2c69f4b48f}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a8cbc91e14e6abf2d7577ba2c69f4b48f}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!close@{close}}
+\index{close@{close}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aaf150e07dd6d71319c6f2f4bf6be1647}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_ac2cbd39795e0c171a79ac440698bd859}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_ac2cbd39795e0c171a79ac440698bd859}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!createClient@{createClient}}
+\index{createClient@{createClient}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{createClient()}{createClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Client (\begin{DoxyParamCaption}\item[{String}]{user\+Name,  }\item[{String}]{password,  }\item[{String}]{telegram\+Id,  }\item[{String}]{cuenta\+Bancaria,  }\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_client_exists}{Overlapping\+Client\+Exists}}}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2c5f0e41c6463d8e5c7d4b89ea3f676f}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3fd4fdf7b7efaef7ff89ee7273f5be22}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3fd4fdf7b7efaef7ff89ee7273f5be22}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!createFeedBack@{createFeedBack}}
+\index{createFeedBack@{createFeedBack}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{createFeedBack()}{createFeedBack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_feed_back}{Feed\+Back}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Feed\+Back (\begin{DoxyParamCaption}\item[{String}]{s,  }\item[{int}]{i,  }\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a415b0ef5c66ce3bcec46a33750dc469f}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0e8d2135ef1384a32e74f60bcea55f09}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0e8d2135ef1384a32e74f60bcea55f09}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!createOffer@{createOffer}}
+\index{createOffer@{createOffer}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{createOffer()}{createOffer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Offer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rural\+House,  }\item[{Date}]{first\+Day,  }\item[{Date}]{last\+Day,  }\item[{float}]{price }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_offer_exists}{Overlapping\+Offer\+Exists}}, \mbox{\hyperlink{classexceptions_1_1_bad_dates}{Bad\+Dates}}}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_ac7b3bdfd0815ea7c787da312de594cce}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Set\+Availability\+G\+U\+I.\+j\+Button1\+\_\+action\+Performed().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3e5553805d4890c9c17cf2ab1b14a2d3}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3e5553805d4890c9c17cf2ab1b14a2d3}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!createOwner@{createOwner}}
+\index{createOwner@{createOwner}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{createOwner()}{createOwner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Owner (\begin{DoxyParamCaption}\item[{String}]{user\+Name,  }\item[{String}]{password,  }\item[{String}]{telegram\+Id,  }\item[{String}]{cuenta\+Bancaria,  }\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classexceptions_1_1_overlapping_owner_exist}{Overlapping\+Owner\+Exist}}}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_ad7a2f26be66f4ae4cbc2a4ad89e74e53}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad807cbd5d877e941edc274563e5cefa3}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_ad807cbd5d877e941edc274563e5cefa3}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!createReserva@{createReserva}}
+\index{createReserva@{createReserva}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{createReserva()}{createReserva()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}}]{offer,  }\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{cliente,  }\item[{Date}]{book\+Date,  }\item[{String}]{state }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a5bbdf1cf4235a84736744f3516ec1dae}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+j\+Button1\+\_\+action\+Performed().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a624b00ae79c85436420d62cf34a082d7}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a624b00ae79c85436420d62cf34a082d7}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!createRuralHouse@{createRuralHouse}}
+\index{createRuralHouse@{createRuralHouse}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{createRuralHouse()}{createRuralHouse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Rural\+House (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o,  }\item[{String}]{city,  }\item[{String}]{description,  }\item[{String}]{address,  }\item[{String}]{rooms\+Number }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2df596d357c02b4aef6711526347c951}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Set\+House.\+Set\+House().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a553cbfb37ea9f1621ba76ad8308a15da}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a553cbfb37ea9f1621ba76ad8308a15da}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getAllRuralHouses@{getAllRuralHouses}}
+\index{getAllRuralHouses@{getAllRuralHouses}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getAllRuralHouses()}{getAllRuralHouses()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}$>$ business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+All\+Rural\+Houses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aa6f21ddb40ca6cd752a13e31ff016e7e}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Query\+Availability\+G\+U\+I.\+jb\+Init() y gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0d69ed91aa71325dedc777f059999e93}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0d69ed91aa71325dedc777f059999e93}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getClientByUsername@{getClientByUsername}}
+\index{getClientByUsername@{getClientByUsername}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getClientByUsername()}{getClientByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Client\+By\+Username (\begin{DoxyParamCaption}\item[{String}]{user }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a49e8bd0f75fee0f774c78f1631509a12}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I() y gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_ab07e66746b2cfe14622bdd16c295ce93}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_ab07e66746b2cfe14622bdd16c295ce93}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getListReservaOfferRhOwnerContainer@{getListReservaOfferRhOwnerContainer}}
+\index{getListReservaOfferRhOwnerContainer@{getListReservaOfferRhOwnerContainer}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getListReservaOfferRhOwnerContainer()}{getListReservaOfferRhOwnerContainer()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}}$>$ business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+List\+Reserva\+Offer\+Rh\+Owner\+Container (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a505c977d8d4ab62addb96006535d2912}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_ae338a96d039003c64fceb68d667736f1}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_ae338a96d039003c64fceb68d667736f1}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getOffers@{getOffers}}
+\index{getOffers@{getOffers}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getOffers()}{getOffers()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Offers (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{Date}]{first\+Day,  }\item[{Date}]{last\+Day }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a7489fb15fdb8206b16daf6ed24fdfea0}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Query\+Availability\+G\+U\+I.\+j\+Button1\+\_\+action\+Performed().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0f38b3b41794e2ec57b019b89ef255c3}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0f38b3b41794e2ec57b019b89ef255c3}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getOwnerByUsername@{getOwnerByUsername}}
+\index{getOwnerByUsername@{getOwnerByUsername}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getOwnerByUsername()}{getOwnerByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Owner\+By\+Username (\begin{DoxyParamCaption}\item[{String}]{user }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2e7c07eb23b062294ea3f5aaa48285a5}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Main\+G\+U\+I.\+get\+Main\+Owner() y gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a1ee7d830657be2563a277591c150f273}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a1ee7d830657be2563a277591c150f273}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getReservaByNum@{getReservaByNum}}
+\index{getReservaByNum@{getReservaByNum}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getReservaByNum()}{getReservaByNum()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Reserva\+By\+Num (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a7b8deff7fb54e2ea7fa884fc13870d6d}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por business\+Logic.\+Send\+Booking.\+send\+Book\+To\+Telegram().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2f7ed5fbb8427eee05fdaa0a0dc9348b}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2f7ed5fbb8427eee05fdaa0a0dc9348b}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getReservaOfferRhOwnerContainer@{getReservaOfferRhOwnerContainer}}
+\index{getReservaOfferRhOwnerContainer@{getReservaOfferRhOwnerContainer}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getReservaOfferRhOwnerContainer()}{getReservaOfferRhOwnerContainer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_reserva_offer_rh_owner_container}{Reserva\+Offer\+Rh\+Owner\+Container}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Reserva\+Offer\+Rh\+Owner\+Container (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a2b0b70f214ee9b8e67a2e5373d0c176d}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+j\+Button1\+\_\+action\+Performed().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_aeda86c46b75acfc4befb30f5d0e98e7c}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_aeda86c46b75acfc4befb30f5d0e98e7c}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getRuralHouse@{getRuralHouse}}
+\index{getRuralHouse@{getRuralHouse}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getRuralHouse()}{getRuralHouse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Rural\+House (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{owner }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a22945417275898b39f1fcbdd8961b1cf}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Modify\+House\+G\+U\+I.\+Modify\+House\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a686ca441b89f52085ef66d00f10c6854}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a686ca441b89f52085ef66d00f10c6854}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!getRuralHousebyHouseNumber@{getRuralHousebyHouseNumber}}
+\index{getRuralHousebyHouseNumber@{getRuralHousebyHouseNumber}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{getRuralHousebyHouseNumber()}{getRuralHousebyHouseNumber()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Rural\+Houseby\+House\+Number (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a4b08e36f8de023cb541f63a5e772e2be}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0c4ed4fa98351e6aaba6f9769e561abf}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0c4ed4fa98351e6aaba6f9769e561abf}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!removeReserva@{removeReserva}}
+\index{removeReserva@{removeReserva}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{removeReserva()}{removeReserva()}}
+{\footnotesize\ttfamily void business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+remove\+Reserva (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_ae4cb91caac6aed10801d61b70702fd30}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Mis\+Reservas\+G\+U\+I.\+Mis\+Reservas\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a472d0eae303dc4ad989f382bb0632afc}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a472d0eae303dc4ad989f382bb0632afc}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!removeRuralHouse@{removeRuralHouse}}
+\index{removeRuralHouse@{removeRuralHouse}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{removeRuralHouse()}{removeRuralHouse()}}
+{\footnotesize\ttfamily void business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+remove\+Rural\+House (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a4d0fe8c220dc334e527a3e7b4cc9edca}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0092e0a845b7b23dc504be013ce1958a}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0092e0a845b7b23dc504be013ce1958a}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!setRated@{setRated}}
+\index{setRated@{setRated}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{setRated()}{setRated()}}
+{\footnotesize\ttfamily void business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+set\+Rated (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a4ed81cb9f24d501da830d80dda086fce}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2d053769d923bd1987f8fd1f875905e7}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2d053769d923bd1987f8fd1f875905e7}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!updateClient@{updateClient}}
+\index{updateClient@{updateClient}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{updateClient()}{updateClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_client}{Client}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a5918c2957b02255254ae252aabfe3fc1}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a482571287e471d0047bc24150f716d72}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a482571287e471d0047bc24150f716d72}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!updateClinetValidation@{updateClinetValidation}}
+\index{updateClinetValidation@{updateClinetValidation}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{updateClinetValidation()}{updateClinetValidation()}}
+{\footnotesize\ttfamily void business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Clinet\+Validation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_client}{Client}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_aa1ef9c26fc3278ef6c4170094ed6dcaa}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_af0ef759ffef69a39428870eada0221cd}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_af0ef759ffef69a39428870eada0221cd}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!updateOwner@{updateOwner}}
+\index{updateOwner@{updateOwner}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{updateOwner()}{updateOwner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdomain_1_1_owner}{Owner}} business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Owner (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a6ee2c273a768beed556dd83d9e5ad035}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I().
+
+\mbox{\Hypertarget{interfacebusiness_logic_1_1_application_facade_interface_w_s_a4932653f88b16660fa74ff6356a3f94b}\label{interfacebusiness_logic_1_1_application_facade_interface_w_s_a4932653f88b16660fa74ff6356a3f94b}} 
+\index{businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}!updateOwnerValidation@{updateOwnerValidation}}
+\index{updateOwnerValidation@{updateOwnerValidation}!businessLogic.ApplicationFacadeInterfaceWS@{businessLogic.ApplicationFacadeInterfaceWS}}
+\subsubsection{\texorpdfstring{updateOwnerValidation()}{updateOwnerValidation()}}
+{\footnotesize\ttfamily void business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Owner\+Validation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_owner}{Owner}}}]{o }\end{DoxyParamCaption})}
+
+
+
+Implementado en \mbox{\hyperlink{classbusiness_logic_1_1_facade_implementation_w_s_a9c3c6f8a2ec5a4d19defc324fc60c523}{business\+Logic.\+Facade\+Implementation\+WS}}.
+
+
+
+Referenciado por gui.\+Validation\+G\+U\+I.\+Validation\+G\+U\+I().
+
+
+
+La documentación para este interfaz fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/business\+Logic/\mbox{\hyperlink{_application_facade_interface_w_s_8java}{Application\+Facade\+Interface\+W\+S.\+java}}\end{DoxyCompactItemize}

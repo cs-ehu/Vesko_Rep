@@ -1,0 +1,27 @@
+var classbusiness_logic_1_1_facade_implementation_w_s =
+[
+    [ "addImageToRH", "classbusiness_logic_1_1_facade_implementation_w_s.html#aa05fbf6e32c0939508a542b857dce1d1", null ],
+    [ "close", "classbusiness_logic_1_1_facade_implementation_w_s.html#aaf150e07dd6d71319c6f2f4bf6be1647", null ],
+    [ "createClient", "classbusiness_logic_1_1_facade_implementation_w_s.html#a2c5f0e41c6463d8e5c7d4b89ea3f676f", null ],
+    [ "createFeedBack", "classbusiness_logic_1_1_facade_implementation_w_s.html#a415b0ef5c66ce3bcec46a33750dc469f", null ],
+    [ "createOffer", "classbusiness_logic_1_1_facade_implementation_w_s.html#ac7b3bdfd0815ea7c787da312de594cce", null ],
+    [ "createOwner", "classbusiness_logic_1_1_facade_implementation_w_s.html#ad7a2f26be66f4ae4cbc2a4ad89e74e53", null ],
+    [ "createReserva", "classbusiness_logic_1_1_facade_implementation_w_s.html#a5bbdf1cf4235a84736744f3516ec1dae", null ],
+    [ "createRuralHouse", "classbusiness_logic_1_1_facade_implementation_w_s.html#a2df596d357c02b4aef6711526347c951", null ],
+    [ "getAllRuralHouses", "classbusiness_logic_1_1_facade_implementation_w_s.html#aa6f21ddb40ca6cd752a13e31ff016e7e", null ],
+    [ "getClientByUsername", "classbusiness_logic_1_1_facade_implementation_w_s.html#a49e8bd0f75fee0f774c78f1631509a12", null ],
+    [ "getListReservaOfferRhOwnerContainer", "classbusiness_logic_1_1_facade_implementation_w_s.html#a505c977d8d4ab62addb96006535d2912", null ],
+    [ "getOffers", "classbusiness_logic_1_1_facade_implementation_w_s.html#a7489fb15fdb8206b16daf6ed24fdfea0", null ],
+    [ "getOwnerByUsername", "classbusiness_logic_1_1_facade_implementation_w_s.html#a2e7c07eb23b062294ea3f5aaa48285a5", null ],
+    [ "getReservaByNum", "classbusiness_logic_1_1_facade_implementation_w_s.html#a7b8deff7fb54e2ea7fa884fc13870d6d", null ],
+    [ "getReservaOfferRhOwnerContainer", "classbusiness_logic_1_1_facade_implementation_w_s.html#a2b0b70f214ee9b8e67a2e5373d0c176d", null ],
+    [ "getRuralHouse", "classbusiness_logic_1_1_facade_implementation_w_s.html#a22945417275898b39f1fcbdd8961b1cf", null ],
+    [ "getRuralHousebyHouseNumber", "classbusiness_logic_1_1_facade_implementation_w_s.html#a4b08e36f8de023cb541f63a5e772e2be", null ],
+    [ "removeReserva", "classbusiness_logic_1_1_facade_implementation_w_s.html#ae4cb91caac6aed10801d61b70702fd30", null ],
+    [ "removeRuralHouse", "classbusiness_logic_1_1_facade_implementation_w_s.html#a4d0fe8c220dc334e527a3e7b4cc9edca", null ],
+    [ "setRated", "classbusiness_logic_1_1_facade_implementation_w_s.html#a4ed81cb9f24d501da830d80dda086fce", null ],
+    [ "updateClient", "classbusiness_logic_1_1_facade_implementation_w_s.html#a5918c2957b02255254ae252aabfe3fc1", null ],
+    [ "updateClinetValidation", "classbusiness_logic_1_1_facade_implementation_w_s.html#aa1ef9c26fc3278ef6c4170094ed6dcaa", null ],
+    [ "updateOwner", "classbusiness_logic_1_1_facade_implementation_w_s.html#a6ee2c273a768beed556dd83d9e5ad035", null ],
+    [ "updateOwnerValidation", "classbusiness_logic_1_1_facade_implementation_w_s.html#a9c3c6f8a2ec5a4d19defc324fc60c523", null ]
+];

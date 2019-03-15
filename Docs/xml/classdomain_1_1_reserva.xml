@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_reserva" kind="class" language="Java" prot="public">
+    <compoundname>domain::Reserva</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_reserva_1a94a6ee6bd5c3aea150f3977c8a7cf1f0" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer domain.Reserva.offer</definition>
+        <argsstring></argsstring>
+        <name>offer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="22" column="1" bodyfile="src/domain/Reserva.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_reserva_1ad1da3466712c5ccaf43cb6f9fe9f5045" compoundref="_reserva_8java" startline="43" endline="45">domain.Reserva.getOffer</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1acb289875e54f0b223b7ab92c47e3ea86" compoundref="_reserva_8java" startline="34" endline="40">domain.Reserva.Reserva</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1addf9b41e3387ad37e88c9ee807b476b0" compoundref="_reserva_8java" startline="54" endline="56">domain.Reserva.setOffer</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" compoundref="_reserva_8java" startline="84" endline="94">domain.Reserva.toString2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_reserva_1a27d9c46e38154c94ce6095a9bd60bbd3" prot="private" static="no" mutable="no">
+        <type>Integer</type>
+        <definition>Integer domain.Reserva.numResrva</definition>
+        <argsstring></argsstring>
+        <name>numResrva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="27" column="1" bodyfile="src/domain/Reserva.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" compoundref="_reserva_8java" startline="58" endline="60">domain.Reserva.getNumResrva</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1a5477a4cf0cdf65b011a1c6ce51422854" compoundref="_reserva_8java" startline="62" endline="64">domain.Reserva.setNumResrva</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_reserva_1a2e519e6a41cf08679b9c9f6a4540a454" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client domain.Reserva.cliente</definition>
+        <argsstring></argsstring>
+        <name>cliente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="30" column="1" bodyfile="src/domain/Reserva.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_reserva_1ac66925fa2326619705c487e27eef46bb" compoundref="_reserva_8java" startline="66" endline="68">domain.Reserva.getCliente</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1acb289875e54f0b223b7ab92c47e3ea86" compoundref="_reserva_8java" startline="34" endline="40">domain.Reserva.Reserva</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1a2c7d97df7fcf50e792c841675017abcc" compoundref="_reserva_8java" startline="70" endline="72">domain.Reserva.setCliente</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_reserva_1a6a00db7ede45d4548224d99d8f42256b" prot="private" static="no" mutable="no">
+        <type>Date</type>
+        <definition>Date domain.Reserva.bookDate</definition>
+        <argsstring></argsstring>
+        <name>bookDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="31" column="1" bodyfile="src/domain/Reserva.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classdomain_1_1_reserva_1a76865b5232d8cd5e282083b32359dbc6" compoundref="_reserva_8java" startline="74" endline="76">domain.Reserva.getBookDate</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1acb289875e54f0b223b7ab92c47e3ea86" compoundref="_reserva_8java" startline="34" endline="40">domain.Reserva.Reserva</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1ab31aa9624b551e748e01a461c8e6030e" compoundref="_reserva_8java" startline="78" endline="80">domain.Reserva.setBookDate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_reserva_1ad4ad501d339fb6accca9de2122201d04" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean domain.Reserva.isRated</definition>
+        <argsstring></argsstring>
+        <name>isRated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="32" column="1" bodyfile="src/domain/Reserva.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_reserva_1acb289875e54f0b223b7ab92c47e3ea86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Reserva.Reserva</definition>
+        <argsstring>(Offer offer, Client cliente, Date bookDate)</argsstring>
+        <name>Reserva</name>
+        <param>
+          <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+          <declname>offer</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>cliente</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>bookDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="34" column="1" bodyfile="src/domain/Reserva.java" bodystart="34" bodyend="40"/>
+        <references refid="classdomain_1_1_reserva_1a6a00db7ede45d4548224d99d8f42256b" compoundref="_reserva_8java" startline="31">domain.Reserva.bookDate</references>
+        <references refid="classdomain_1_1_reserva_1a2e519e6a41cf08679b9c9f6a4540a454" compoundref="_reserva_8java" startline="30">domain.Reserva.cliente</references>
+        <references refid="classdomain_1_1_reserva_1a9a1a3d154e412bd3556f95d7dbb56934" compoundref="_reserva_8java" startline="48" endline="50">domain.Reserva.isRated</references>
+        <references refid="classdomain_1_1_reserva_1a94a6ee6bd5c3aea150f3977c8a7cf1f0" compoundref="_reserva_8java" startline="22">domain.Reserva.offer</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1a920a05fbd4ec288b6f5b8e0b5ad6e345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.Reserva.Reserva</definition>
+        <argsstring>()</argsstring>
+        <name>Reserva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="41" column="1" bodyfile="src/domain/Reserva.java" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1ad1da3466712c5ccaf43cb6f9fe9f5045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer domain.Reserva.getOffer</definition>
+        <argsstring>()</argsstring>
+        <name>getOffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="43" column="1" bodyfile="src/domain/Reserva.java" bodystart="43" bodyend="45"/>
+        <references refid="classdomain_1_1_reserva_1a94a6ee6bd5c3aea150f3977c8a7cf1f0" compoundref="_reserva_8java" startline="22">domain.Reserva.offer</references>
+        <referencedby refid="classgui_1_1_feed_back_g_u_i_1a792ef572db37f3302efb1bf658ef2bd2" compoundref="_feed_back_g_u_i_8java" startline="51" endline="157">gui.FeedBackGUI.FeedBackGUI</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" compoundref="_data_access_8java" startline="201" endline="212">dataAccess.DataAccess.removeReserva</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_offer_rh_owner_container_1a8dd8e74751c3687311a3dc879bf4ec1c" compoundref="_reserva_offer_rh_owner_container_8java" startline="13" endline="18">domain.ReservaOfferRhOwnerContainer.ReservaOfferRhOwnerContainer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1a9a1a3d154e412bd3556f95d7dbb56934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean domain.Reserva.isRated</definition>
+        <argsstring>()</argsstring>
+        <name>isRated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="48" column="1" bodyfile="src/domain/Reserva.java" bodystart="48" bodyend="50"/>
+        <referencedby refid="classdomain_1_1_reserva_1acb289875e54f0b223b7ab92c47e3ea86" compoundref="_reserva_8java" startline="34" endline="40">domain.Reserva.Reserva</referencedby>
+        <referencedby refid="classdomain_1_1_reserva_1a60d958be9830f0e8fd70e2bac91ebc21" compoundref="_reserva_8java" startline="51" endline="53">domain.Reserva.setRated</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1a60d958be9830f0e8fd70e2bac91ebc21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Reserva.setRated</definition>
+        <argsstring>(boolean isRated)</argsstring>
+        <name>setRated</name>
+        <param>
+          <type>boolean</type>
+          <declname>isRated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="51" column="1" bodyfile="src/domain/Reserva.java" bodystart="51" bodyend="53"/>
+        <references refid="classdomain_1_1_reserva_1a9a1a3d154e412bd3556f95d7dbb56934" compoundref="_reserva_8java" startline="48" endline="50">domain.Reserva.isRated</references>
+        <referencedby refid="classdata_access_1_1_data_access_1afe99432043c4bf8bc7032858b51badbf" compoundref="_data_access_8java" startline="427" endline="433">dataAccess.DataAccess.setRated</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1addf9b41e3387ad37e88c9ee807b476b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Reserva.setOffer</definition>
+        <argsstring>(Offer offer)</argsstring>
+        <name>setOffer</name>
+        <param>
+          <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+          <declname>offer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="54" column="1" bodyfile="src/domain/Reserva.java" bodystart="54" bodyend="56"/>
+        <references refid="classdomain_1_1_reserva_1a94a6ee6bd5c3aea150f3977c8a7cf1f0" compoundref="_reserva_8java" startline="22">domain.Reserva.offer</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int domain.Reserva.getNumResrva</definition>
+        <argsstring>()</argsstring>
+        <name>getNumResrva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="58" column="1" bodyfile="src/domain/Reserva.java" bodystart="58" bodyend="60"/>
+        <references refid="classdomain_1_1_reserva_1a27d9c46e38154c94ce6095a9bd60bbd3" compoundref="_reserva_8java" startline="27">domain.Reserva.numResrva</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a505c977d8d4ab62addb96006535d2912" compoundref="_facade_implementation_w_s_8java" startline="215" endline="226">businessLogic.FacadeImplementationWS.getListReservaOfferRhOwnerContainer</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2b0b70f214ee9b8e67a2e5373d0c176d" compoundref="_facade_implementation_w_s_8java" startline="209" endline="212">businessLogic.FacadeImplementationWS.getReservaOfferRhOwnerContainer</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" compoundref="_data_access_8java" startline="201" endline="212">dataAccess.DataAccess.removeReserva</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" compoundref="_send_booking_8java" startline="17" endline="38">businessLogic.SendBooking.sendBookToTelegram</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1afe99432043c4bf8bc7032858b51badbf" compoundref="_data_access_8java" startline="427" endline="433">dataAccess.DataAccess.setRated</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1a5477a4cf0cdf65b011a1c6ce51422854" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Reserva.setNumResrva</definition>
+        <argsstring>(int numResrva)</argsstring>
+        <name>setNumResrva</name>
+        <param>
+          <type>int</type>
+          <declname>numResrva</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="62" column="1" bodyfile="src/domain/Reserva.java" bodystart="62" bodyend="64"/>
+        <references refid="classdomain_1_1_reserva_1a27d9c46e38154c94ce6095a9bd60bbd3" compoundref="_reserva_8java" startline="27">domain.Reserva.numResrva</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1ac66925fa2326619705c487e27eef46bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client domain.Reserva.getCliente</definition>
+        <argsstring>()</argsstring>
+        <name>getCliente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="66" column="1" bodyfile="src/domain/Reserva.java" bodystart="66" bodyend="68"/>
+        <references refid="classdomain_1_1_reserva_1a2e519e6a41cf08679b9c9f6a4540a454" compoundref="_reserva_8java" startline="30">domain.Reserva.cliente</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" compoundref="_data_access_8java" startline="201" endline="212">dataAccess.DataAccess.removeReserva</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1a2c7d97df7fcf50e792c841675017abcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Reserva.setCliente</definition>
+        <argsstring>(Client cliente)</argsstring>
+        <name>setCliente</name>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>cliente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="70" column="1" bodyfile="src/domain/Reserva.java" bodystart="70" bodyend="72"/>
+        <references refid="classdomain_1_1_reserva_1a2e519e6a41cf08679b9c9f6a4540a454" compoundref="_reserva_8java" startline="30">domain.Reserva.cliente</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1a76865b5232d8cd5e282083b32359dbc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date domain.Reserva.getBookDate</definition>
+        <argsstring>()</argsstring>
+        <name>getBookDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="74" column="1" bodyfile="src/domain/Reserva.java" bodystart="74" bodyend="76"/>
+        <references refid="classdomain_1_1_reserva_1a6a00db7ede45d4548224d99d8f42256b" compoundref="_reserva_8java" startline="31">domain.Reserva.bookDate</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1ab31aa9624b551e748e01a461c8e6030e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.Reserva.setBookDate</definition>
+        <argsstring>(Date bookDate)</argsstring>
+        <name>setBookDate</name>
+        <param>
+          <type>Date</type>
+          <declname>bookDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="78" column="1" bodyfile="src/domain/Reserva.java" bodystart="78" bodyend="80"/>
+        <references refid="classdomain_1_1_reserva_1a6a00db7ede45d4548224d99d8f42256b" compoundref="_reserva_8java" startline="31">domain.Reserva.bookDate</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.Reserva.toString2</definition>
+        <argsstring>()</argsstring>
+        <name>toString2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/Reserva.java" line="84" column="1" bodyfile="src/domain/Reserva.java" bodystart="84" bodyend="94"/>
+        <references refid="classdomain_1_1_rural_house_1a970dabd2796ee789c4feb2cef8fe2df3" compoundref="_rural_house_8java" startline="93" endline="95">domain.RuralHouse.getAddress</references>
+        <references refid="classdomain_1_1_rural_house_1a67a45aa0b441b32d455d58c4a42446f1" compoundref="_rural_house_8java" startline="125" endline="127">domain.RuralHouse.getCity</references>
+        <references refid="classdomain_1_1_offer_1ae13ac55ba469cb34e004d6aff68430fb" compoundref="_offer_8java" startline="100" endline="102">domain.Offer.getFirstDay</references>
+        <references refid="classdomain_1_1_offer_1a8bf48365a8fc185dbdcaac80a9d84444" compoundref="_offer_8java" startline="119" endline="121">domain.Offer.getLastDay</references>
+        <references refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" compoundref="_offer_8java" startline="70" endline="72">domain.Offer.getRuralHouse</references>
+        <references refid="classdomain_1_1_reserva_1a94a6ee6bd5c3aea150f3977c8a7cf1f0" compoundref="_reserva_8java" startline="22">domain.Reserva.offer</references>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" compoundref="_send_booking_8java" startline="17" endline="38">businessLogic.SendBooking.sendBookToTelegram</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="266">
+        <label>Serializable</label>
+      </node>
+      <node id="265">
+        <label>domain.Reserva</label>
+        <link refid="classdomain_1_1_reserva"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="278">
+        <label>Vector&lt; domain.Reserva &gt;</label>
+      </node>
+      <node id="277">
+        <label>domain.Client</label>
+        <link refid="classdomain_1_1_client"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>listaReserva</edgelabel>
+        </childnode>
+      </node>
+      <node id="274">
+        <label>Vector&lt; domain.FeedBack &gt;</label>
+      </node>
+      <node id="269">
+        <label>domain.Offer</label>
+        <link refid="classdomain_1_1_offer"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>ruralHouse</edgelabel>
+        </childnode>
+        <childnode refid="267" relation="usage">
+          <edgelabel>reservaActual</edgelabel>
+        </childnode>
+        <childnode refid="276" relation="usage">
+          <edgelabel>lastDay</edgelabel>
+          <edgelabel>firstDay</edgelabel>
+        </childnode>
+      </node>
+      <node id="270">
+        <label>domain.RuralHouse</label>
+        <link refid="classdomain_1_1_rural_house"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="271" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="273" relation="usage">
+          <edgelabel>offers</edgelabel>
+        </childnode>
+        <childnode refid="274" relation="usage">
+          <edgelabel>listaFeedBack</edgelabel>
+        </childnode>
+        <childnode refid="275" relation="usage">
+          <edgelabel>images</edgelabel>
+        </childnode>
+      </node>
+      <node id="268">
+        <label>Serializable</label>
+      </node>
+      <node id="271">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="272">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="267">
+        <label>domain.Reserva</label>
+        <link refid="classdomain_1_1_reserva"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>offer</edgelabel>
+        </childnode>
+        <childnode refid="277" relation="usage">
+          <edgelabel>cliente</edgelabel>
+        </childnode>
+        <childnode refid="276" relation="usage">
+          <edgelabel>bookDate</edgelabel>
+        </childnode>
+      </node>
+      <node id="276">
+        <label>Date</label>
+      </node>
+      <node id="275">
+        <label>Vector&lt; byte[]&gt;</label>
+      </node>
+      <node id="273">
+        <label>Vector&lt; domain.Offer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/Reserva.java" line="20" column="1" bodyfile="src/domain/Reserva.java" bodystart="20" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_reserva_1a6a00db7ede45d4548224d99d8f42256b" prot="private" virt="non-virtual"><scope>domain::Reserva</scope><name>bookDate</name></member>
+      <member refid="classdomain_1_1_reserva_1a2e519e6a41cf08679b9c9f6a4540a454" prot="private" virt="non-virtual"><scope>domain::Reserva</scope><name>cliente</name></member>
+      <member refid="classdomain_1_1_reserva_1a76865b5232d8cd5e282083b32359dbc6" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>getBookDate</name></member>
+      <member refid="classdomain_1_1_reserva_1ac66925fa2326619705c487e27eef46bb" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>getCliente</name></member>
+      <member refid="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>getNumResrva</name></member>
+      <member refid="classdomain_1_1_reserva_1ad1da3466712c5ccaf43cb6f9fe9f5045" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>getOffer</name></member>
+      <member refid="classdomain_1_1_reserva_1ad4ad501d339fb6accca9de2122201d04" prot="private" virt="non-virtual"><scope>domain::Reserva</scope><name>isRated</name></member>
+      <member refid="classdomain_1_1_reserva_1a9a1a3d154e412bd3556f95d7dbb56934" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>isRated</name></member>
+      <member refid="classdomain_1_1_reserva_1a27d9c46e38154c94ce6095a9bd60bbd3" prot="private" virt="non-virtual"><scope>domain::Reserva</scope><name>numResrva</name></member>
+      <member refid="classdomain_1_1_reserva_1a94a6ee6bd5c3aea150f3977c8a7cf1f0" prot="private" virt="non-virtual"><scope>domain::Reserva</scope><name>offer</name></member>
+      <member refid="classdomain_1_1_reserva_1acb289875e54f0b223b7ab92c47e3ea86" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>Reserva</name></member>
+      <member refid="classdomain_1_1_reserva_1a920a05fbd4ec288b6f5b8e0b5ad6e345" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>Reserva</name></member>
+      <member refid="classdomain_1_1_reserva_1ab31aa9624b551e748e01a461c8e6030e" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>setBookDate</name></member>
+      <member refid="classdomain_1_1_reserva_1a2c7d97df7fcf50e792c841675017abcc" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>setCliente</name></member>
+      <member refid="classdomain_1_1_reserva_1a5477a4cf0cdf65b011a1c6ce51422854" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>setNumResrva</name></member>
+      <member refid="classdomain_1_1_reserva_1addf9b41e3387ad37e88c9ee807b476b0" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>setOffer</name></member>
+      <member refid="classdomain_1_1_reserva_1a60d958be9830f0e8fd70e2bac91ebc21" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>setRated</name></member>
+      <member refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" prot="public" virt="non-virtual"><scope>domain::Reserva</scope><name>toString2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

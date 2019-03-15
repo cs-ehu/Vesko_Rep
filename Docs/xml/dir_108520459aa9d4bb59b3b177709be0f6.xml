@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_108520459aa9d4bb59b3b177709be0f6" kind="dir">
+    <compoundname>src/businessLogic</compoundname>
+    <innerfile refid="_application_facade_interface_w_s_8java">ApplicationFacadeInterfaceWS.java</innerfile>
+    <innerfile refid="_business_logic_server_8java">BusinessLogicServer.java</innerfile>
+    <innerfile refid="_facade_implementation_w_s_8java">FacadeImplementationWS.java</innerfile>
+    <innerfile refid="_filter_search_8java">FilterSearch.java</innerfile>
+    <innerfile refid="_generate_validation_code_8java">GenerateValidationCode.java</innerfile>
+    <innerfile refid="_google_maps_web_8java">GoogleMapsWeb.java</innerfile>
+    <innerfile refid="_login_8java">Login.java</innerfile>
+    <innerfile refid="_send_booking_8java">SendBooking.java</innerfile>
+    <innerfile refid="_send_email_8java">SendEmail.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/businessLogic/"/>
+  </compounddef>
+</doxygen>

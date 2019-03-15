@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_login_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::LoginGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1aa1c9213d05aa2cf70dacbec422774f06" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.LoginGUI.contentPane</definition>
+        <argsstring></argsstring>
+        <name>contentPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="34" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1acf4a83606449712f7d8e4e09eef07aee" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField gui.LoginGUI.userTextField</definition>
+        <argsstring></argsstring>
+        <name>userTextField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="35" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a36a3a8140a1458add6a02dec5c6b4816" prot="private" static="no" mutable="no">
+        <type>JPasswordField</type>
+        <definition>JPasswordField gui.LoginGUI.passwordField</definition>
+        <argsstring></argsstring>
+        <name>passwordField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="36" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a61f34a13877bb80cedba5da01646e587" prot="private" static="no" mutable="no">
+        <type>final ButtonGroup</type>
+        <definition>final ButtonGroup gui.LoginGUI.buttonGroup</definition>
+        <argsstring></argsstring>
+        <name>buttonGroup</name>
+        <initializer>= new ButtonGroup()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="37" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1aead0a4fab3d89616b6b53da28d73789c" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.LoginGUI.btnLogIn</definition>
+        <argsstring></argsstring>
+        <name>btnLogIn</name>
+        <initializer>= new JButton(&quot;Log in&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="38" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a1dc66beb3e76f805a9d2ba6c39b896ca" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.LoginGUI.lblRegister</definition>
+        <argsstring></argsstring>
+        <name>lblRegister</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="39" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a575f68f00124a219bbc169d4c62f5f5d" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.LoginGUI.lblIncorrect</definition>
+        <argsstring></argsstring>
+        <name>lblIncorrect</name>
+        <initializer>= new JLabel(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="40" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a7b7b08f790b49e4969565f9ba2395f3a" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.LoginGUI.lblDontHaveAn</definition>
+        <argsstring></argsstring>
+        <name>lblDontHaveAn</name>
+        <initializer>= new JLabel(&quot;Dont have an\r\n account yet?&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="41" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a7e8b654313ae594bb8b02f128e2236a3" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.LoginGUI.btnSignIn</definition>
+        <argsstring></argsstring>
+        <name>btnSignIn</name>
+        <initializer>= new JButton(&quot;Sign in&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="42" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a72713a536f5f8ddc5690c23dd54c987a" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.LoginGUI.lblPassword</definition>
+        <argsstring></argsstring>
+        <name>lblPassword</name>
+        <initializer>= new JLabel(&quot;Password:&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="43" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1af689de5c353e75b3523c706407a1bdf2" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.LoginGUI.lblUsername</definition>
+        <argsstring></argsstring>
+        <name>lblUsername</name>
+        <initializer>= new JLabel(&quot;Username:&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="44" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a0249903a45a937044e3e40875521b7fd" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.LoginGUI.rdbtnClient</definition>
+        <argsstring></argsstring>
+        <name>rdbtnClient</name>
+        <initializer>= new JRadioButton(&quot;Client&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="45" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1ad9b6b69331716f550fb139535ee5963a" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.LoginGUI.rdbtnOwner</definition>
+        <argsstring></argsstring>
+        <name>rdbtnOwner</name>
+        <initializer>= new JRadioButton(&quot;Owner&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="46" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1a4abc22d6221d58bce5352dbe85b2d174" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.LoginGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().getBusinessLogic()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="48" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_login_g_u_i_1aa8694a27ad97904f1fb1566a14ab1b2f" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton gui.LoginGUI.btnForgotPassword</definition>
+        <argsstring></argsstring>
+        <name>btnForgotPassword</name>
+        <initializer>= new JButton(&quot;Forgot Password?&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="49" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.LoginGUI.LoginGUI</definition>
+        <argsstring>()</argsstring>
+        <name>LoginGUI</name>
+        <briefdescription>
+<para>Create the frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="53" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="53" bodyend="196"/>
+        <references refid="classgui_1_1_login_g_u_i_1aa8694a27ad97904f1fb1566a14ab1b2f" compoundref="_login_g_u_i_8java" startline="49">gui.LoginGUI.btnForgotPassword</references>
+        <references refid="classgui_1_1_login_g_u_i_1aead0a4fab3d89616b6b53da28d73789c" compoundref="_login_g_u_i_8java" startline="38">gui.LoginGUI.btnLogIn</references>
+        <references refid="classgui_1_1_login_g_u_i_1a7e8b654313ae594bb8b02f128e2236a3" compoundref="_login_g_u_i_8java" startline="42">gui.LoginGUI.btnSignIn</references>
+        <references refid="classgui_1_1_login_g_u_i_1a61f34a13877bb80cedba5da01646e587" compoundref="_login_g_u_i_8java" startline="37">gui.LoginGUI.buttonGroup</references>
+        <references refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" compoundref="_main_g_u_i_8java" startline="60">gui.MainGUI.client</references>
+        <references refid="classgui_1_1_login_g_u_i_1aa1c9213d05aa2cf70dacbec422774f06" compoundref="_login_g_u_i_8java" startline="34">gui.LoginGUI.contentPane</references>
+        <references refid="classbusiness_logic_1_1_login_1ac9f6613d5985375b441ff00347cafb18" compoundref="_login_8java" startline="12" endline="30">businessLogic.Login.doLogin</references>
+        <references refid="classgui_1_1_login_g_u_i_1a4abc22d6221d58bce5352dbe85b2d174" compoundref="_login_g_u_i_8java" startline="48">gui.LoginGUI.facade</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0d69ed91aa71325dedc777f059999e93">businessLogic.ApplicationFacadeInterfaceWS.getClientByUsername</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0f38b3b41794e2ec57b019b89ef255c3">businessLogic.ApplicationFacadeInterfaceWS.getOwnerByUsername</references>
+        <references refid="classdomain_1_1_client_1aa1343221f2098ed1fa6c41cec0aa59a4" compoundref="_client_8java" startline="53" endline="55">domain.Client.isValidated</references>
+        <references refid="classdomain_1_1_owner_1a1c08ad86ccfe8d47bb7e1e9e8a8126be" compoundref="_owner_8java" startline="59" endline="61">domain.Owner.isValidated</references>
+        <references refid="classgui_1_1_login_g_u_i_1a7b7b08f790b49e4969565f9ba2395f3a" compoundref="_login_g_u_i_8java" startline="41">gui.LoginGUI.lblDontHaveAn</references>
+        <references refid="classgui_1_1_login_g_u_i_1a575f68f00124a219bbc169d4c62f5f5d" compoundref="_login_g_u_i_8java" startline="40">gui.LoginGUI.lblIncorrect</references>
+        <references refid="classgui_1_1_login_g_u_i_1a72713a536f5f8ddc5690c23dd54c987a" compoundref="_login_g_u_i_8java" startline="43">gui.LoginGUI.lblPassword</references>
+        <references refid="classgui_1_1_login_g_u_i_1a1dc66beb3e76f805a9d2ba6c39b896ca" compoundref="_login_g_u_i_8java" startline="39">gui.LoginGUI.lblRegister</references>
+        <references refid="classgui_1_1_login_g_u_i_1af689de5c353e75b3523c706407a1bdf2" compoundref="_login_g_u_i_8java" startline="44">gui.LoginGUI.lblUsername</references>
+        <references refid="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" compoundref="_main_g_u_i_8java" startline="59">gui.MainGUI.owner</references>
+        <references refid="classgui_1_1_login_g_u_i_1a36a3a8140a1458add6a02dec5c6b4816" compoundref="_login_g_u_i_8java" startline="36">gui.LoginGUI.passwordField</references>
+        <references refid="classgui_1_1_login_g_u_i_1a0249903a45a937044e3e40875521b7fd" compoundref="_login_g_u_i_8java" startline="45">gui.LoginGUI.rdbtnClient</references>
+        <references refid="classgui_1_1_login_g_u_i_1ad9b6b69331716f550fb139535ee5963a" compoundref="_login_g_u_i_8java" startline="46">gui.LoginGUI.rdbtnOwner</references>
+        <references refid="classgui_1_1_login_g_u_i_1a75dfb4f95ca55f19138783c531c5d02c" compoundref="_login_g_u_i_8java" startline="198" endline="204">gui.LoginGUI.transform</references>
+        <references refid="classgui_1_1_login_g_u_i_1acf4a83606449712f7d8e4e09eef07aee" compoundref="_login_g_u_i_8java" startline="35">gui.LoginGUI.userTextField</references>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_login_g_u_i_1a75dfb4f95ca55f19138783c531c5d02c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String gui.LoginGUI.transform</definition>
+        <argsstring>(char[] psw)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>char []</type>
+          <declname>psw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/LoginGUI.java" line="198" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="198" bodyend="204"/>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="112">
+        <label>JFrame</label>
+      </node>
+      <node id="111">
+        <label>gui.LoginGUI</label>
+        <link refid="classgui_1_1_login_g_u_i"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="121">
+        <label>JPanel</label>
+      </node>
+      <node id="117">
+        <label>ButtonGroup</label>
+      </node>
+      <node id="120">
+        <label>JLabel</label>
+      </node>
+      <node id="114">
+        <label>JFrame</label>
+      </node>
+      <node id="122">
+        <label>JRadioButton</label>
+      </node>
+      <node id="119">
+        <label>JPasswordField</label>
+      </node>
+      <node id="116">
+        <label>JTextField</label>
+      </node>
+      <node id="118">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="115">
+        <label>JButton</label>
+      </node>
+      <node id="113">
+        <label>gui.LoginGUI</label>
+        <link refid="classgui_1_1_login_g_u_i"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+        <childnode refid="115" relation="usage">
+          <edgelabel>btnSignIn</edgelabel>
+          <edgelabel>btnForgotPassword</edgelabel>
+          <edgelabel>btnLogIn</edgelabel>
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>userTextField</edgelabel>
+        </childnode>
+        <childnode refid="117" relation="usage">
+          <edgelabel>buttonGroup</edgelabel>
+        </childnode>
+        <childnode refid="118" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="119" relation="usage">
+          <edgelabel>passwordField</edgelabel>
+        </childnode>
+        <childnode refid="120" relation="usage">
+          <edgelabel>lblIncorrect</edgelabel>
+          <edgelabel>lblRegister</edgelabel>
+          <edgelabel>lblUsername</edgelabel>
+          <edgelabel>lblDontHaveAn</edgelabel>
+          <edgelabel>lblPassword</edgelabel>
+        </childnode>
+        <childnode refid="121" relation="usage">
+          <edgelabel>contentPane</edgelabel>
+        </childnode>
+        <childnode refid="122" relation="usage">
+          <edgelabel>rdbtnClient</edgelabel>
+          <edgelabel>rdbtnOwner</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/LoginGUI.java" line="32" column="1" bodyfile="src/gui/LoginGUI.java" bodystart="32" bodyend="205"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_login_g_u_i_1aa8694a27ad97904f1fb1566a14ab1b2f" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>btnForgotPassword</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1aead0a4fab3d89616b6b53da28d73789c" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>btnLogIn</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a7e8b654313ae594bb8b02f128e2236a3" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>btnSignIn</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a61f34a13877bb80cedba5da01646e587" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>buttonGroup</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1aa1c9213d05aa2cf70dacbec422774f06" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>contentPane</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a4abc22d6221d58bce5352dbe85b2d174" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a7b7b08f790b49e4969565f9ba2395f3a" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>lblDontHaveAn</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a575f68f00124a219bbc169d4c62f5f5d" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>lblIncorrect</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a72713a536f5f8ddc5690c23dd54c987a" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>lblPassword</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a1dc66beb3e76f805a9d2ba6c39b896ca" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>lblRegister</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1af689de5c353e75b3523c706407a1bdf2" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>lblUsername</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" prot="public" virt="non-virtual"><scope>gui::LoginGUI</scope><name>LoginGUI</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a36a3a8140a1458add6a02dec5c6b4816" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>passwordField</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a0249903a45a937044e3e40875521b7fd" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>rdbtnClient</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1ad9b6b69331716f550fb139535ee5963a" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>rdbtnOwner</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1a75dfb4f95ca55f19138783c531c5d02c" prot="public" virt="non-virtual"><scope>gui::LoginGUI</scope><name>transform</name></member>
+      <member refid="classgui_1_1_login_g_u_i_1acf4a83606449712f7d8e4e09eef07aee" prot="private" virt="non-virtual"><scope>gui::LoginGUI</scope><name>userTextField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

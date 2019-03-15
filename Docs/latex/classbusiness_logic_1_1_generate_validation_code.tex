@@ -1,0 +1,128 @@
+\hypertarget{classbusiness_logic_1_1_generate_validation_code}{}\section{Referencia de la Clase business\+Logic.\+Generate\+Validation\+Code}
+\label{classbusiness_logic_1_1_generate_validation_code}\index{businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a92bd48c1823c3ebc03405e05eb465f96}{Generate\+Validation\+Code}} ()
+\item 
+int \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_aaf6487d6c3a94c31333672635ae9cd28}{get\+Validation\+Number}} ()
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a070be2bda64238cec0f5951e03cadd07}{validation\+Number}}
+\item 
+final int \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a06e827547295d178ab349104c2aa93fb}{min}} = 1000
+\item 
+final int \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a1b44dd596967e6ea88216fb4f8474dd0}{max}} = 9999
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 5 del archivo Generate\+Validation\+Code.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classbusiness_logic_1_1_generate_validation_code_a92bd48c1823c3ebc03405e05eb465f96}\label{classbusiness_logic_1_1_generate_validation_code_a92bd48c1823c3ebc03405e05eb465f96}} 
+\index{businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}!GenerateValidationCode@{GenerateValidationCode}}
+\index{GenerateValidationCode@{GenerateValidationCode}!businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}}
+\subsubsection{\texorpdfstring{GenerateValidationCode()}{GenerateValidationCode()}}
+{\footnotesize\ttfamily business\+Logic.\+Generate\+Validation\+Code.\+Generate\+Validation\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 11 del archivo Generate\+Validation\+Code.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{11                                     \{}
+\DoxyCodeLine{12         Random random = \textcolor{keyword}{new} Random();}
+\DoxyCodeLine{13         \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a070be2bda64238cec0f5951e03cadd07}{validationNumber}} = random.nextInt(\mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a1b44dd596967e6ea88216fb4f8474dd0}{max}} - \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a06e827547295d178ab349104c2aa93fb}{min}} + 1) + \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a06e827547295d178ab349104c2aa93fb}{min}};}
+\DoxyCodeLine{14     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a business\+Logic.\+Generate\+Validation\+Code.\+max, business\+Logic.\+Generate\+Validation\+Code.\+min y business\+Logic.\+Generate\+Validation\+Code.\+validation\+Number.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_generate_validation_code_aaf6487d6c3a94c31333672635ae9cd28}\label{classbusiness_logic_1_1_generate_validation_code_aaf6487d6c3a94c31333672635ae9cd28}} 
+\index{businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}!getValidationNumber@{getValidationNumber}}
+\index{getValidationNumber@{getValidationNumber}!businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}}
+\subsubsection{\texorpdfstring{getValidationNumber()}{getValidationNumber()}}
+{\footnotesize\ttfamily int business\+Logic.\+Generate\+Validation\+Code.\+get\+Validation\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 16 del archivo Generate\+Validation\+Code.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{16                                      \{}
+\DoxyCodeLine{17         \textcolor{keywordflow}{return} \mbox{\hyperlink{classbusiness_logic_1_1_generate_validation_code_a070be2bda64238cec0f5951e03cadd07}{validationNumber}};}
+\DoxyCodeLine{18     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a business\+Logic.\+Generate\+Validation\+Code.\+validation\+Number.
+
+
+
+Referenciado por domain.\+Client.\+Client() y domain.\+Owner.\+Owner().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_generate_validation_code_a1b44dd596967e6ea88216fb4f8474dd0}\label{classbusiness_logic_1_1_generate_validation_code_a1b44dd596967e6ea88216fb4f8474dd0}} 
+\index{businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}!max@{max}}
+\index{max@{max}!businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}}
+\subsubsection{\texorpdfstring{max}{max}}
+{\footnotesize\ttfamily final int business\+Logic.\+Generate\+Validation\+Code.\+max = 9999\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 9 del archivo Generate\+Validation\+Code.\+java.
+
+
+
+Referenciado por business\+Logic.\+Generate\+Validation\+Code.\+Generate\+Validation\+Code().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_generate_validation_code_a06e827547295d178ab349104c2aa93fb}\label{classbusiness_logic_1_1_generate_validation_code_a06e827547295d178ab349104c2aa93fb}} 
+\index{businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}!min@{min}}
+\index{min@{min}!businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}}
+\subsubsection{\texorpdfstring{min}{min}}
+{\footnotesize\ttfamily final int business\+Logic.\+Generate\+Validation\+Code.\+min = 1000\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 8 del archivo Generate\+Validation\+Code.\+java.
+
+
+
+Referenciado por business\+Logic.\+Generate\+Validation\+Code.\+Generate\+Validation\+Code().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_generate_validation_code_a070be2bda64238cec0f5951e03cadd07}\label{classbusiness_logic_1_1_generate_validation_code_a070be2bda64238cec0f5951e03cadd07}} 
+\index{businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}!validationNumber@{validationNumber}}
+\index{validationNumber@{validationNumber}!businessLogic.GenerateValidationCode@{businessLogic.GenerateValidationCode}}
+\subsubsection{\texorpdfstring{validationNumber}{validationNumber}}
+{\footnotesize\ttfamily int business\+Logic.\+Generate\+Validation\+Code.\+validation\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 7 del archivo Generate\+Validation\+Code.\+java.
+
+
+
+Referenciado por business\+Logic.\+Generate\+Validation\+Code.\+Generate\+Validation\+Code() y business\+Logic.\+Generate\+Validation\+Code.\+get\+Validation\+Number().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/business\+Logic/\mbox{\hyperlink{_generate_validation_code_8java}{Generate\+Validation\+Code.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_client_advanced_search_help" kind="class" language="Java" prot="public">
+    <compoundname>gui::ClientAdvancedSearchHelp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_client_advanced_search_help_1aa267d5420c219823e71af0e377df9393" prot="private" static="no" mutable="no">
+        <type>final JPanel</type>
+        <definition>final JPanel gui.ClientAdvancedSearchHelp.contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <initializer>= new JPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientAdvancedSearchHelp.java" line="20" column="1" bodyfile="src/gui/ClientAdvancedSearchHelp.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_client_advanced_search_help_1afec1b2d3d9d873fbb409edab3aef1742" compoundref="_client_advanced_search_help_8java" startline="38" endline="72">gui.ClientAdvancedSearchHelp.ClientAdvancedSearchHelp</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgui_1_1_client_advanced_search_help_1aed5a6c114fbe236919aa65e64491ac2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gui.ClientAdvancedSearchHelp.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Launch the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientAdvancedSearchHelp.java" line="25" column="1" bodyfile="src/gui/ClientAdvancedSearchHelp.java" bodystart="25" bodyend="33"/>
+        <references refid="classgui_1_1_client_advanced_search_help_1afec1b2d3d9d873fbb409edab3aef1742" compoundref="_client_advanced_search_help_8java" startline="38" endline="72">gui.ClientAdvancedSearchHelp.ClientAdvancedSearchHelp</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_client_advanced_search_help_1afec1b2d3d9d873fbb409edab3aef1742" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.ClientAdvancedSearchHelp.ClientAdvancedSearchHelp</definition>
+        <argsstring>()</argsstring>
+        <name>ClientAdvancedSearchHelp</name>
+        <briefdescription>
+<para>Create the dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/ClientAdvancedSearchHelp.java" line="38" column="1" bodyfile="src/gui/ClientAdvancedSearchHelp.java" bodystart="38" bodyend="72"/>
+        <references refid="classgui_1_1_client_advanced_search_help_1aa267d5420c219823e71af0e377df9393" compoundref="_client_advanced_search_help_8java" startline="20">gui.ClientAdvancedSearchHelp.contentPanel</references>
+        <referencedby refid="classgui_1_1_client_advanced_search_help_1aed5a6c114fbe236919aa65e64491ac2f" compoundref="_client_advanced_search_help_8java" startline="25" endline="33">gui.ClientAdvancedSearchHelp.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>JDialog</label>
+      </node>
+      <node id="21">
+        <label>gui.ClientAdvancedSearchHelp</label>
+        <link refid="classgui_1_1_client_advanced_search_help"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>JPanel</label>
+      </node>
+      <node id="24">
+        <label>JDialog</label>
+      </node>
+      <node id="23">
+        <label>gui.ClientAdvancedSearchHelp</label>
+        <link refid="classgui_1_1_client_advanced_search_help"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>contentPanel</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/ClientAdvancedSearchHelp.java" line="18" column="1" bodyfile="src/gui/ClientAdvancedSearchHelp.java" bodystart="18" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_client_advanced_search_help_1afec1b2d3d9d873fbb409edab3aef1742" prot="public" virt="non-virtual"><scope>gui::ClientAdvancedSearchHelp</scope><name>ClientAdvancedSearchHelp</name></member>
+      <member refid="classgui_1_1_client_advanced_search_help_1aa267d5420c219823e71af0e377df9393" prot="private" virt="non-virtual"><scope>gui::ClientAdvancedSearchHelp</scope><name>contentPanel</name></member>
+      <member refid="classgui_1_1_client_advanced_search_help_1aed5a6c114fbe236919aa65e64491ac2f" prot="public" virt="non-virtual"><scope>gui::ClientAdvancedSearchHelp</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

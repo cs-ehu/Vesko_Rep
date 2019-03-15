@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_4c6382d940b8114a9f3b254bc8169ae4" kind="dir">
+    <compoundname>src/dataAccess</compoundname>
+    <innerfile refid="_data_access_8java">DataAccess.java</innerfile>
+    <innerfile refid="_objectdb_manager_server_8java">ObjectdbManagerServer.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/dataAccess/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,241 @@
+\hypertarget{classgui_1_1_delete_rural_house}{}\section{Referencia de la Clase gui.\+Delete\+Rural\+House}
+\label{classgui_1_1_delete_rural_house}\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+Diagrama de herencias de gui.\+Delete\+Rural\+House\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_delete_rural_house}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_delete_rural_house_a0de5d3d33aae7cd4d03aedd0f0fdf6c5}{Delete\+Rural\+House}} (int num)
+\begin{DoxyCompactList}\small\item\em Create the dialog. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgui_1_1_delete_rural_house_a3bcff9d21c59de14bd34daf687af6141}{check\+Remove}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh)
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+final J\+Panel \mbox{\hyperlink{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}{content\+Panel}} = new J\+Panel()
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_delete_rural_house_ad446803b49fe41357f91279c46854c61}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lbl\+The\+Rural\+House}}
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}{ok\+Button}} = new J\+Button(\char`\"{}Yes\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}{cancel\+Button}} = new J\+Button(\char`\"{}No\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 32 del archivo Delete\+Rural\+House.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_delete_rural_house_a0de5d3d33aae7cd4d03aedd0f0fdf6c5}\label{classgui_1_1_delete_rural_house_a0de5d3d33aae7cd4d03aedd0f0fdf6c5}} 
+\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}!DeleteRuralHouse@{DeleteRuralHouse}}
+\index{DeleteRuralHouse@{DeleteRuralHouse}!gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+\subsubsection{\texorpdfstring{DeleteRuralHouse()}{DeleteRuralHouse()}}
+{\footnotesize\ttfamily gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Create the dialog. 
+
+
+
+Definición en la línea 44 del archivo Delete\+Rural\+House.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{44                                      \{}
+\DoxyCodeLine{45         addWindowListener(\textcolor{keyword}{new} WindowAdapter() \{}
+\DoxyCodeLine{46             @Override}
+\DoxyCodeLine{47             \textcolor{keyword}{public} \textcolor{keywordtype}{void} windowClosing(WindowEvent arg0) \{}
+\DoxyCodeLine{48                 ModifyHouseGUI m = \textcolor{keyword}{new} ModifyHouseGUI();}
+\DoxyCodeLine{49                 dispose();}
+\DoxyCodeLine{50                 m.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{51             \}}
+\DoxyCodeLine{52         \});}
+\DoxyCodeLine{53         setBounds(100, 100, 450, 215);}
+\DoxyCodeLine{54         getContentPane().setLayout(\textcolor{keyword}{new} BorderLayout());}
+\DoxyCodeLine{55         \mbox{\hyperlink{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}{contentPanel}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{56         getContentPane().add(\mbox{\hyperlink{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}{contentPanel}}, BorderLayout.CENTER);}
+\DoxyCodeLine{57         \mbox{\hyperlink{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}{contentPanel}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59         JTextPane txtpnAttentionAreYou = \textcolor{keyword}{new} JTextPane();}
+\DoxyCodeLine{60         txtpnAttentionAreYou.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{61         txtpnAttentionAreYou.setBackground(SystemColor.control);}
+\DoxyCodeLine{62         txtpnAttentionAreYou}
+\DoxyCodeLine{63                 .setText(\textcolor{stringliteral}{"                                     Attention:\(\backslash\)r\(\backslash\)nAre you sure you want to remove the following Rural House?"});}
+\DoxyCodeLine{64         txtpnAttentionAreYou.setBounds(41, 13, 353, 52);}
+\DoxyCodeLine{65         \mbox{\hyperlink{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}{contentPanel}}.add(txtpnAttentionAreYou);}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67         RuralHouse rh = \mbox{\hyperlink{classgui_1_1_delete_rural_house_ad446803b49fe41357f91279c46854c61}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a686ca441b89f52085ef66d00f10c6854}{getRuralHousebyHouseNumber}}(num);}
+\DoxyCodeLine{68         JLabel label = \textcolor{keyword}{new} JLabel(rh.toString());}
+\DoxyCodeLine{69         label.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{70         label.setBounds(10, 58, 410, 37);}
+\DoxyCodeLine{71         \mbox{\hyperlink{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}{contentPanel}}.add(label);}
+\DoxyCodeLine{72         \{}
+\DoxyCodeLine{73             \mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lblTheRuralHouse}} = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{""});}
+\DoxyCodeLine{74             \mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lblTheRuralHouse}}.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{75             \mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lblTheRuralHouse}}.setBounds(10, 96, 410, 37);}
+\DoxyCodeLine{76             \mbox{\hyperlink{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}{contentPanel}}.add(\mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lblTheRuralHouse}});}
+\DoxyCodeLine{77         \}}
+\DoxyCodeLine{78         \{}
+\DoxyCodeLine{79             JPanel buttonPane = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{80             buttonPane.setLayout(\textcolor{keyword}{new} FlowLayout(FlowLayout.RIGHT));}
+\DoxyCodeLine{81             getContentPane().add(buttonPane, BorderLayout.SOUTH);}
+\DoxyCodeLine{82             \{}
+\DoxyCodeLine{83                 \mbox{\hyperlink{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}{okButton}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{84                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{85                         \textcolor{keywordflow}{if}(\mbox{\hyperlink{classgui_1_1_delete_rural_house_a3bcff9d21c59de14bd34daf687af6141}{checkRemove}}(rh))\{}
+\DoxyCodeLine{86                         \mbox{\hyperlink{classgui_1_1_delete_rural_house_ad446803b49fe41357f91279c46854c61}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a472d0eae303dc4ad989f382bb0632afc}{removeRuralHouse}}(rh.getHouseNumber());}
+\DoxyCodeLine{87                         \mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lblTheRuralHouse}}.setText(\textcolor{stringliteral}{"The Rural House has been removed, close this window"});}
+\DoxyCodeLine{88                         \}}
+\DoxyCodeLine{89                         \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{90                             \mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lblTheRuralHouse}}.setText(\textcolor{stringliteral}{"The Rural House can not be removed,there are booked offers, close this window"});}
+\DoxyCodeLine{91                         \}}
+\DoxyCodeLine{92                         \mbox{\hyperlink{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}{okButton}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{93                         \mbox{\hyperlink{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}{cancelButton}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{94                     \}}
+\DoxyCodeLine{95                 \});}
+\DoxyCodeLine{96                 \mbox{\hyperlink{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}{okButton}}.setActionCommand(\textcolor{stringliteral}{"OK"});}
+\DoxyCodeLine{97                 buttonPane.add(\mbox{\hyperlink{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}{okButton}});}
+\DoxyCodeLine{98                 getRootPane().setDefaultButton(\mbox{\hyperlink{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}{okButton}});}
+\DoxyCodeLine{99             \}}
+\DoxyCodeLine{100             \{}
+\DoxyCodeLine{101                 \mbox{\hyperlink{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}{cancelButton}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{102                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{103                         \mbox{\hyperlink{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}{lblTheRuralHouse}}}
+\DoxyCodeLine{104                                 .setText(\textcolor{stringliteral}{"The Rural House has not been removed, close this window"});}
+\DoxyCodeLine{105                         \mbox{\hyperlink{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}{okButton}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{106                         \mbox{\hyperlink{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}{cancelButton}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{107                     \}}
+\DoxyCodeLine{108                 \});}
+\DoxyCodeLine{109                 \mbox{\hyperlink{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}{cancelButton}}.setActionCommand(\textcolor{stringliteral}{"Cancel"});}
+\DoxyCodeLine{110                 buttonPane.add(\mbox{\hyperlink{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}{cancelButton}});}
+\DoxyCodeLine{111             \}}
+\DoxyCodeLine{112         \}}
+\DoxyCodeLine{113     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Delete\+Rural\+House.\+cancel\+Button, gui.\+Delete\+Rural\+House.\+check\+Remove(), gui.\+Delete\+Rural\+House.\+content\+Panel, gui.\+Delete\+Rural\+House.\+facade, domain.\+Rural\+House.\+get\+House\+Number(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Rural\+Houseby\+House\+Number(), gui.\+Delete\+Rural\+House.\+lbl\+The\+Rural\+House, gui.\+Delete\+Rural\+House.\+ok\+Button, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+remove\+Rural\+House() y domain.\+Rural\+House.\+to\+String().
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_delete_rural_house_a3bcff9d21c59de14bd34daf687af6141}\label{classgui_1_1_delete_rural_house_a3bcff9d21c59de14bd34daf687af6141}} 
+\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}!checkRemove@{checkRemove}}
+\index{checkRemove@{checkRemove}!gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+\subsubsection{\texorpdfstring{checkRemove()}{checkRemove()}}
+{\footnotesize\ttfamily boolean gui.\+Delete\+Rural\+House.\+check\+Remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 115 del archivo Delete\+Rural\+House.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{115                                               \{}
+\DoxyCodeLine{116         \textcolor{keywordflow}{for} (Offer o : rh.getOffers()) \{}
+\DoxyCodeLine{117             \textcolor{keywordflow}{if} (o.isBooked()) \{}
+\DoxyCodeLine{118                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{119             \}}
+\DoxyCodeLine{120         \}}
+\DoxyCodeLine{121         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{122     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Rural\+House.\+get\+Offers().
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}\label{classgui_1_1_delete_rural_house_a342b527007fadd1b9aed35227d31a57f}} 
+\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}!cancelButton@{cancelButton}}
+\index{cancelButton@{cancelButton}!gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+\subsubsection{\texorpdfstring{cancelButton}{cancelButton}}
+{\footnotesize\ttfamily J\+Button gui.\+Delete\+Rural\+House.\+cancel\+Button = new J\+Button(\char`\"{}No\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Delete\+Rural\+House.\+java.
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+\mbox{\Hypertarget{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}\label{classgui_1_1_delete_rural_house_abca92167d065908e2825a0051315c5fa}} 
+\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}!contentPanel@{contentPanel}}
+\index{contentPanel@{contentPanel}!gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+\subsubsection{\texorpdfstring{contentPanel}{contentPanel}}
+{\footnotesize\ttfamily final J\+Panel gui.\+Delete\+Rural\+House.\+content\+Panel = new J\+Panel()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Delete\+Rural\+House.\+java.
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+\mbox{\Hypertarget{classgui_1_1_delete_rural_house_ad446803b49fe41357f91279c46854c61}\label{classgui_1_1_delete_rural_house_ad446803b49fe41357f91279c46854c61}} 
+\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}!facade@{facade}}
+\index{facade@{facade}!gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Delete\+Rural\+House.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Delete\+Rural\+House.\+java.
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+\mbox{\Hypertarget{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}\label{classgui_1_1_delete_rural_house_ac96583ac0943e616bba9d5f39b56f10a}} 
+\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}!lblTheRuralHouse@{lblTheRuralHouse}}
+\index{lblTheRuralHouse@{lblTheRuralHouse}!gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+\subsubsection{\texorpdfstring{lblTheRuralHouse}{lblTheRuralHouse}}
+{\footnotesize\ttfamily J\+Label gui.\+Delete\+Rural\+House.\+lbl\+The\+Rural\+House\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Delete\+Rural\+House.\+java.
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+\mbox{\Hypertarget{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}\label{classgui_1_1_delete_rural_house_af2cf09ba446789ead0469867ede22bc7}} 
+\index{gui.DeleteRuralHouse@{gui.DeleteRuralHouse}!okButton@{okButton}}
+\index{okButton@{okButton}!gui.DeleteRuralHouse@{gui.DeleteRuralHouse}}
+\subsubsection{\texorpdfstring{okButton}{okButton}}
+{\footnotesize\ttfamily J\+Button gui.\+Delete\+Rural\+House.\+ok\+Button = new J\+Button(\char`\"{}Yes\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Delete\+Rural\+House.\+java.
+
+
+
+Referenciado por gui.\+Delete\+Rural\+House.\+Delete\+Rural\+House().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_delete_rural_house_8java}{Delete\+Rural\+House.\+java}}\end{DoxyCompactItemize}

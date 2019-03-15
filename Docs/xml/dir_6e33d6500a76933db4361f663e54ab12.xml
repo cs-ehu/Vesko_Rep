@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_6e33d6500a76933db4361f663e54ab12" kind="dir">
+    <compoundname>src/exceptions</compoundname>
+    <innerfile refid="_bad_dates_8java">BadDates.java</innerfile>
+    <innerfile refid="_d_b4o_manager_creation_exception_8java">DB4oManagerCreationException.java</innerfile>
+    <innerfile refid="_no_exists_client_8java">NoExistsClient.java</innerfile>
+    <innerfile refid="_no_exists_owner_8java">NoExistsOwner.java</innerfile>
+    <innerfile refid="_offer_can_not_be_booked_8java">OfferCanNotBeBooked.java</innerfile>
+    <innerfile refid="_overlapping_client_exists_8java">OverlappingClientExists.java</innerfile>
+    <innerfile refid="_overlapping_offer_exists_8java">OverlappingOfferExists.java</innerfile>
+    <innerfile refid="_overlapping_owner_exist_8java">OverlappingOwnerExist.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/exceptions/"/>
+  </compounddef>
+</doxygen>

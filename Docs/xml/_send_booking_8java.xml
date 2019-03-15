@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_send_booking_8java" kind="file" language="Java">
+    <compoundname>SendBooking.java</compoundname>
+    <innerclass refid="classbusiness_logic_1_1_send_booking" prot="public">businessLogic::SendBooking</innerclass>
+    <innernamespace refid="namespacebusiness_logic">businessLogic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">businessLogic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacebot" kindref="compound">bot</ref>.<ref refid="classbot_1_1_comand" kindref="compound">Comand</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacedomain" kindref="compound">domain</ref>.<ref refid="classdomain_1_1_client" kindref="compound">Client</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacedomain" kindref="compound">domain</ref>.<ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacedomain" kindref="compound">domain</ref>.<ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classbusiness_logic_1_1_send_booking" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbusiness_logic_1_1_send_booking" kindref="compound">SendBooking</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10" refid="classbusiness_logic_1_1_send_booking_1af72d9f080959b6b8922117248935620d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_send_booking_1af72d9f080959b6b8922117248935620d" kindref="member">SendBooking</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>87664746<sp/>--<sp/>DANI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>169540342<sp/>--<sp/>HARITZ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>236834006<sp/>--<sp/>JORTXX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_send_booking_1a9ddf5d7d1e27b3720a3bfefe4a377bbb" kindref="member">sendBookToTelegram</ref>(<ref refid="classdomain_1_1_client" kindref="compound">Client</ref><sp/>c,<ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref><sp/>o,<sp/><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref><sp/>r,<sp/>String<sp/>type){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref><sp/>facade<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_facade_implementation_w_s" kindref="compound">FacadeImplementationWS</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref><sp/>reserva<sp/>=<sp/>facade.<ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a1ee7d830657be2563a277591c150f273" kindref="member">getReservaByNum</ref>(r.<ref refid="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" kindref="member">getNumResrva</ref>());</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(type.equals(</highlight><highlight class="stringliteral">&quot;Client&quot;</highlight><highlight class="normal">)){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>Long.parseLong(c.<ref refid="classdomain_1_1_client_1a270e88c8a507605cbf095581ef356e1a" kindref="member">getTelegramId</ref>());</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classbot_1_1_comand" kindref="compound">Comand</ref><sp/>cmd<sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classbot_1_1_comand" kindref="compound">Comand</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringBuilder<sp/>sb<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>StringBuilder();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sb.append(</highlight><highlight class="stringliteral">&quot;Acabas<sp/>de<sp/>realizar<sp/>la<sp/>siguiente<sp/>reserva<sp/>:<sp/>\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sb.append(reserva.<ref refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" kindref="member">toString2</ref>()+</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sb.append(</highlight><highlight class="stringliteral">&quot;Gracias<sp/>por<sp/>utilizar<sp/>nuestra<sp/>aplicación&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cmd.<ref refid="classbot_1_1_comand_1aaf4d2683bf0d6b6d98344ca9f4071708" kindref="member">sendMessageFromTelegramToClient</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>sb.toString());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(type.equals(</highlight><highlight class="stringliteral">&quot;Owner&quot;</highlight><highlight class="normal">)){</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>Long.parseLong(o.<ref refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" kindref="member">getTelegramId</ref>());</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classbot_1_1_comand" kindref="compound">Comand</ref><sp/>cmd<sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classbot_1_1_comand" kindref="compound">Comand</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StringBuilder<sp/>sb<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>StringBuilder();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sb.append(</highlight><highlight class="stringliteral">&quot;Acaban<sp/>de<sp/>realizar<sp/>la<sp/>siguiente<sp/>reserva<sp/>de<sp/>tu<sp/>casa<sp/>:<sp/>\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sb.append(reserva.<ref refid="classdomain_1_1_reserva_1a67f6dd7c4aee04c6e45e2d22b59c5b2f" kindref="member">toString2</ref>()+</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cmd.<ref refid="classbot_1_1_comand_1aaf4d2683bf0d6b6d98344ca9f4071708" kindref="member">sendMessageFromTelegramToClient</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>sb.toString());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/businessLogic/SendBooking.java"/>
+  </compounddef>
+</doxygen>

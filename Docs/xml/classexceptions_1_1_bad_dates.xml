@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classexceptions_1_1_bad_dates" kind="class" language="Java" prot="public">
+    <compoundname>exceptions::BadDates</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classexceptions_1_1_bad_dates_1a1703e41273cdde53ece45e307839c449" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long exceptions.BadDates.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/BadDates.java" line="3" column="1" bodyfile="src/exceptions/BadDates.java" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexceptions_1_1_bad_dates_1ad4918ff10b5e46df93774ea9087e6d04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.BadDates.BadDates</definition>
+        <argsstring>()</argsstring>
+        <name>BadDates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/BadDates.java" line="5" column="1" bodyfile="src/exceptions/BadDates.java" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classexceptions_1_1_bad_dates_1a34213c984892e85612e3a2e44220e896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.BadDates.BadDates</definition>
+        <argsstring>(String s)</argsstring>
+        <name>BadDates</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>This exception is triggered if first date is greater than last date in offers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/BadDates.java" line="13" column="1" bodyfile="src/exceptions/BadDates.java" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>exceptions.BadDates</label>
+        <link refid="classexceptions_1_1_bad_dates"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>exceptions.BadDates</label>
+        <link refid="classexceptions_1_1_bad_dates"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/exceptions/BadDates.java" line="2" column="1" bodyfile="src/exceptions/BadDates.java" bodystart="2" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classexceptions_1_1_bad_dates_1ad4918ff10b5e46df93774ea9087e6d04" prot="public" virt="non-virtual"><scope>exceptions::BadDates</scope><name>BadDates</name></member>
+      <member refid="classexceptions_1_1_bad_dates_1a34213c984892e85612e3a2e44220e896" prot="public" virt="non-virtual"><scope>exceptions::BadDates</scope><name>BadDates</name></member>
+      <member refid="classexceptions_1_1_bad_dates_1a1703e41273cdde53ece45e307839c449" prot="private" virt="non-virtual"><scope>exceptions::BadDates</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

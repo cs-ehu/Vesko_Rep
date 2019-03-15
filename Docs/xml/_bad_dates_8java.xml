@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_bad_dates_8java" kind="file" language="Java">
+    <compoundname>BadDates.java</compoundname>
+    <innerclass refid="classexceptions_1_1_bad_dates" prot="public">exceptions::BadDates</innerclass>
+    <innernamespace refid="namespaceexceptions">exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexceptions" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">exceptions;</highlight></codeline>
+<codeline lineno="2" refid="classexceptions_1_1_bad_dates" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexceptions_1_1_bad_dates" kindref="compound">BadDates</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="3" refid="classexceptions_1_1_bad_dates_1a1703e41273cdde53ece45e307839c449" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_bad_dates_1a1703e41273cdde53ece45e307839c449" kindref="member">serialVersionUID</ref><sp/>=<sp/>1L;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="5" refid="classexceptions_1_1_bad_dates_1ad4918ff10b5e46df93774ea9087e6d04" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_bad_dates_1ad4918ff10b5e46df93774ea9087e6d04" kindref="member">BadDates</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13" refid="classexceptions_1_1_bad_dates_1a34213c984892e85612e3a2e44220e896" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classexceptions_1_1_bad_dates_1a34213c984892e85612e3a2e44220e896" kindref="member">BadDates</ref>(String<sp/>s)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>super(s);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/exceptions/BadDates.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+\hypertarget{classgui_1_1_application_launcher}{}\section{Referencia de la Clase gui.\+Application\+Launcher}
+\label{classgui_1_1_application_launcher}\index{gui.ApplicationLauncher@{gui.ApplicationLauncher}}
+\subsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classgui_1_1_application_launcher_a4d18ca6d7262e81ed5e5746dae2de30a}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 18 del archivo Application\+Launcher.\+java.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_application_launcher_a4d18ca6d7262e81ed5e5746dae2de30a}\label{classgui_1_1_application_launcher_a4d18ca6d7262e81ed5e5746dae2de30a}} 
+\index{gui.ApplicationLauncher@{gui.ApplicationLauncher}!main@{main}}
+\index{main@{main}!gui.ApplicationLauncher@{gui.ApplicationLauncher}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void gui.\+Application\+Launcher.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definición en la línea 22 del archivo Application\+Launcher.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22                                            \{}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24         ConfigXML c=ConfigXML.getInstance();}
+\DoxyCodeLine{25     }
+\DoxyCodeLine{26         System.out.println(c.getLocale());}
+\DoxyCodeLine{27         }
+\DoxyCodeLine{28         Locale.setDefault(\textcolor{keyword}{new} Locale(c.getLocale()));}
+\DoxyCodeLine{29         }
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31     }
+\DoxyCodeLine{32         System.out.println(\textcolor{stringliteral}{"Locale: "}+Locale.getDefault());}
+\DoxyCodeLine{33         }
+\DoxyCodeLine{34         MainGUI a=\textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{35         a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{40             }
+\DoxyCodeLine{41             ApplicationFacadeInterfaceWS appFacadeInterface;}
+\DoxyCodeLine{42 \textcolor{comment}{//          UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");}}
+\DoxyCodeLine{43 \textcolor{comment}{//          UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");}}
+\DoxyCodeLine{44             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());}
+\DoxyCodeLine{45             }
+\DoxyCodeLine{46             \textcolor{keywordflow}{if} (c.isBusinessLogicLocal()) \{}
+\DoxyCodeLine{47                 }
+\DoxyCodeLine{48              appFacadeInterface=\textcolor{keyword}{new} FacadeImplementationWS();}
+\DoxyCodeLine{49                 }
+\DoxyCodeLine{50                 }
+\DoxyCodeLine{51             \}}
+\DoxyCodeLine{52             }
+\DoxyCodeLine{53             \textcolor{keywordflow}{else} \{ \textcolor{comment}{//Si es remoto}}
+\DoxyCodeLine{54                 }
+\DoxyCodeLine{55                 \textcolor{comment}{//String serviceName="http://localhost:9999/ws/ruralHouses?wsdl";}}
+\DoxyCodeLine{56                  String serviceName= \textcolor{stringliteral}{"http://"}+c.getBusinessLogicNode() +\textcolor{stringliteral}{":"}+ c.getBusinessLogicPort()+\textcolor{stringliteral}{"/ws/"}+c.getBusinessLogicName()+\textcolor{stringliteral}{"?wsdl"};}
+\DoxyCodeLine{57                  }
+\DoxyCodeLine{58                 \textcolor{comment}{//URL url = new URL("http://localhost:9999/ws/ruralHouses?wsdl");}}
+\DoxyCodeLine{59                 URL url = \textcolor{keyword}{new} URL(serviceName);}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61          }
+\DoxyCodeLine{62                 \textcolor{comment}{//1st argument refers to wsdl document above}}
+\DoxyCodeLine{63                 \textcolor{comment}{//2nd argument is service name, refer to wsdl document above}}
+\DoxyCodeLine{64                 QName qname = \textcolor{keyword}{new} QName(\textcolor{stringliteral}{"http://businessLogic/"}, \textcolor{stringliteral}{"FacadeImplementationWSService"});}
+\DoxyCodeLine{65          }
+\DoxyCodeLine{66                 Service service = Service.create(url, qname);}
+\DoxyCodeLine{67          }
+\DoxyCodeLine{68                  appFacadeInterface = service.getPort(ApplicationFacadeInterfaceWS.class);}
+\DoxyCodeLine{69             \} }
+\DoxyCodeLine{70             \textcolor{comment}{/*if (c.getDataBaseOpenMode().equals("initialize")) }}
+\DoxyCodeLine{71 \textcolor{comment}{                appFacadeInterface.initializeBD();}}
+\DoxyCodeLine{72 \textcolor{comment}{                */}}
+\DoxyCodeLine{73             MainGUI.setBussinessLogic(appFacadeInterface);}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{75         }
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77             }
+\DoxyCodeLine{78         \}\textcolor{keywordflow}{catch} (Exception e) \{}
+\DoxyCodeLine{79             a.lblNewLabel.setText(\textcolor{stringliteral}{"Error: "}+e.toString());}
+\DoxyCodeLine{80             a.lblNewLabel.setForeground(Color.RED);     }
+\DoxyCodeLine{81             System.out.println(\textcolor{stringliteral}{"Error in ApplicationLauncher: "}+e.toString());}
+\DoxyCodeLine{82         \}}
+\DoxyCodeLine{83         \textcolor{comment}{//a.pack();}}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a configuration.\+Config\+X\+M\+L.\+get\+Business\+Logic\+Name(), configuration.\+Config\+X\+M\+L.\+get\+Business\+Logic\+Node(), configuration.\+Config\+X\+M\+L.\+get\+Business\+Logic\+Port(), configuration.\+Config\+X\+M\+L.\+get\+Instance(), configuration.\+Config\+X\+M\+L.\+get\+Locale(), configuration.\+Config\+X\+M\+L.\+is\+Business\+Logic\+Local(), gui.\+Main\+G\+U\+I.\+lbl\+New\+Label y gui.\+Main\+G\+U\+I.\+set\+Bussiness\+Logic().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_application_launcher_8java}{Application\+Launcher.\+java}}\end{DoxyCompactItemize}

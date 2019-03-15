@@ -1,0 +1,150 @@
+\hypertarget{classgui_1_1_client_advanced_search_help}{}\section{Referencia de la Clase gui.\+Client\+Advanced\+Search\+Help}
+\label{classgui_1_1_client_advanced_search_help}\index{gui.ClientAdvancedSearchHelp@{gui.ClientAdvancedSearchHelp}}
+Diagrama de herencias de gui.\+Client\+Advanced\+Search\+Help\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_client_advanced_search_help}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_client_advanced_search_help_afec1b2d3d9d873fbb409edab3aef1742}{Client\+Advanced\+Search\+Help}} ()
+\begin{DoxyCompactList}\small\item\em Create the dialog. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_aed5a6c114fbe236919aa65e64491ac2f}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\begin{DoxyCompactList}\small\item\em Launch the application. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+final J\+Panel \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}{content\+Panel}} = new J\+Panel()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 18 del archivo Client\+Advanced\+Search\+Help.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_client_advanced_search_help_afec1b2d3d9d873fbb409edab3aef1742}\label{classgui_1_1_client_advanced_search_help_afec1b2d3d9d873fbb409edab3aef1742}} 
+\index{gui.ClientAdvancedSearchHelp@{gui.ClientAdvancedSearchHelp}!ClientAdvancedSearchHelp@{ClientAdvancedSearchHelp}}
+\index{ClientAdvancedSearchHelp@{ClientAdvancedSearchHelp}!gui.ClientAdvancedSearchHelp@{gui.ClientAdvancedSearchHelp}}
+\subsubsection{\texorpdfstring{ClientAdvancedSearchHelp()}{ClientAdvancedSearchHelp()}}
+{\footnotesize\ttfamily gui.\+Client\+Advanced\+Search\+Help.\+Client\+Advanced\+Search\+Help (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the dialog. 
+
+
+
+Definición en la línea 38 del archivo Client\+Advanced\+Search\+Help.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{38                                       \{}
+\DoxyCodeLine{39         setBounds(100, 100, 599, 425);}
+\DoxyCodeLine{40         getContentPane().setLayout(\textcolor{keyword}{new} BorderLayout());}
+\DoxyCodeLine{41         \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}{contentPanel}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{42         getContentPane().add(\mbox{\hyperlink{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}{contentPanel}}, BorderLayout.CENTER);}
+\DoxyCodeLine{43         \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}{contentPanel}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{44         }
+\DoxyCodeLine{45         JTextPane txtpnS = \textcolor{keyword}{new} JTextPane();}
+\DoxyCodeLine{46         txtpnS.setBackground(SystemColor.control);}
+\DoxyCodeLine{47         txtpnS.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{48         txtpnS.setText(\textcolor{stringliteral}{"This is the advanced search, which allows you to customize your search, and adjust some parameters to meet your requirements. You can either set all the parameters or not. \(\backslash\)r\(\backslash\)n\(\backslash\)r\(\backslash\)nHere is a list with the different parameters you can set:\(\backslash\)r\(\backslash\)n- First day: All the available offers will be after this date.\(\backslash\)r\(\backslash\)n- Last day: All the available searched offers  will be before this date.\(\backslash\)r\(\backslash\)n- Number of nights: The available offers will have exactly the number of nights specified.\(\backslash\)r\(\backslash\)n- Tags: The available offers will have those tags in their rural house.\(\backslash\)r\(\backslash\)n- City: The rural house of the available offers will be in the city specified.\(\backslash\)r\(\backslash\)n- Rural House: The available offers will belong to the specified rural house.\(\backslash\)r\(\backslash\)n\(\backslash\)r\(\backslash\)nIf the button \(\backslash\)"Rural house\(\backslash\)" is selected, you won't be able to specify a city.\(\backslash\)r\(\backslash\)n\(\backslash\)r\(\backslash\)nIf the button \(\backslash\)"City\(\backslash\)" is selected, you will be only able to select a city but you won't be able to select a rural house.\(\backslash\)r\(\backslash\)n\(\backslash\)r\(\backslash\)nIf the button \(\backslash\)"Restrict rural house to the selected city\(\backslash\)" is selected, the list of rural houses displayed, will be restricted to the selected city. \(\backslash\)r\(\backslash\)n"});}
+\DoxyCodeLine{49         txtpnS.setBounds(12, 37, 557, 293);}
+\DoxyCodeLine{50         \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}{contentPanel}}.add(txtpnS);}
+\DoxyCodeLine{51         }
+\DoxyCodeLine{52         JLabel lblHowToSearch = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"How to search an offer\(\backslash\)r\(\backslash\)n"});}
+\DoxyCodeLine{53         lblHowToSearch.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{54         lblHowToSearch.setBounds(12, 13, 163, 16);}
+\DoxyCodeLine{55         \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}{contentPanel}}.add(lblHowToSearch);}
+\DoxyCodeLine{56         \{}
+\DoxyCodeLine{57             JPanel buttonPane = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{58             buttonPane.setLayout(\textcolor{keyword}{new} FlowLayout(FlowLayout.RIGHT));}
+\DoxyCodeLine{59             getContentPane().add(buttonPane, BorderLayout.SOUTH);}
+\DoxyCodeLine{60             \{}
+\DoxyCodeLine{61                 JButton okButton = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"OK"});}
+\DoxyCodeLine{62                 okButton.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{63                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{64                         dispose();}
+\DoxyCodeLine{65                     \}}
+\DoxyCodeLine{66                 \});}
+\DoxyCodeLine{67                 okButton.setActionCommand(\textcolor{stringliteral}{"OK"});}
+\DoxyCodeLine{68                 buttonPane.add(okButton);}
+\DoxyCodeLine{69                 getRootPane().setDefaultButton(okButton);}
+\DoxyCodeLine{70             \}}
+\DoxyCodeLine{71         \}}
+\DoxyCodeLine{72     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Client\+Advanced\+Search\+Help.\+content\+Panel.
+
+
+
+Referenciado por gui.\+Client\+Advanced\+Search\+Help.\+main().
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_client_advanced_search_help_aed5a6c114fbe236919aa65e64491ac2f}\label{classgui_1_1_client_advanced_search_help_aed5a6c114fbe236919aa65e64491ac2f}} 
+\index{gui.ClientAdvancedSearchHelp@{gui.ClientAdvancedSearchHelp}!main@{main}}
+\index{main@{main}!gui.ClientAdvancedSearchHelp@{gui.ClientAdvancedSearchHelp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void gui.\+Client\+Advanced\+Search\+Help.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Launch the application. 
+
+
+
+Definición en la línea 25 del archivo Client\+Advanced\+Search\+Help.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25                                            \{}
+\DoxyCodeLine{26         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{27             \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_afec1b2d3d9d873fbb409edab3aef1742}{ClientAdvancedSearchHelp}} dialog = \textcolor{keyword}{new} \mbox{\hyperlink{classgui_1_1_client_advanced_search_help_afec1b2d3d9d873fbb409edab3aef1742}{ClientAdvancedSearchHelp}}();}
+\DoxyCodeLine{28             dialog.setDefaultCloseOperation(JDialog.DISPOSE\_ON\_CLOSE);}
+\DoxyCodeLine{29             dialog.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{30         \} \textcolor{keywordflow}{catch} (Exception e) \{}
+\DoxyCodeLine{31             e.printStackTrace();}
+\DoxyCodeLine{32         \}}
+\DoxyCodeLine{33     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Client\+Advanced\+Search\+Help.\+Client\+Advanced\+Search\+Help().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}\label{classgui_1_1_client_advanced_search_help_aa267d5420c219823e71af0e377df9393}} 
+\index{gui.ClientAdvancedSearchHelp@{gui.ClientAdvancedSearchHelp}!contentPanel@{contentPanel}}
+\index{contentPanel@{contentPanel}!gui.ClientAdvancedSearchHelp@{gui.ClientAdvancedSearchHelp}}
+\subsubsection{\texorpdfstring{contentPanel}{contentPanel}}
+{\footnotesize\ttfamily final J\+Panel gui.\+Client\+Advanced\+Search\+Help.\+content\+Panel = new J\+Panel()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 20 del archivo Client\+Advanced\+Search\+Help.\+java.
+
+
+
+Referenciado por gui.\+Client\+Advanced\+Search\+Help.\+Client\+Advanced\+Search\+Help().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_client_advanced_search_help_8java}{Client\+Advanced\+Search\+Help.\+java}}\end{DoxyCompactItemize}

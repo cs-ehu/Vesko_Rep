@@ -1,0 +1,423 @@
+\hypertarget{classgui_1_1_sign_in}{}\section{Referencia de la Clase gui.\+Sign\+In}
+\label{classgui_1_1_sign_in}\index{gui.SignIn@{gui.SignIn}}
+Diagrama de herencias de gui.\+Sign\+In\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_sign_in}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_sign_in_a565fd1826fd08016ac37adcc6b8285c4}{Sign\+In}} ()
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classgui_1_1_sign_in_a2724645e64ebe7854d178aa92f0950bb}{transform}} (char\mbox{[}$\,$\mbox{]} psw)
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{content\+Pane}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}{user\+Text\+Field}}
+\item 
+J\+Password\+Field \mbox{\hyperlink{classgui_1_1_sign_in_a3334294c202619a0e673c162f0d5b280}{password\+Field}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}{text\+Email}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}{text\+Cuenta\+Bancaria}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}{text\+Telegram\+Id}}
+\item 
+final Button\+Group \mbox{\hyperlink{classgui_1_1_sign_in_afbdae1f60f065dd2b577301caa6926c0}{button\+Group}} = new Button\+Group()
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}{rdbtn\+Client}} = new J\+Radio\+Button(\char`\"{}Client\char`\"{})
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_sign_in_a4b8b426bb66155e4c5ff3fc71d6fab73}{rdbtn\+Owner}} = new J\+Radio\+Button(\char`\"{}Owner\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lbl\+Register}} = new J\+Label(\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_sign_in_a1333e1c41f2354e4bab8acdeeafef7b0}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 32 del archivo Sign\+In.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_sign_in_a565fd1826fd08016ac37adcc6b8285c4}\label{classgui_1_1_sign_in_a565fd1826fd08016ac37adcc6b8285c4}} 
+\index{gui.SignIn@{gui.SignIn}!SignIn@{SignIn}}
+\index{SignIn@{SignIn}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{SignIn()}{SignIn()}}
+{\footnotesize\ttfamily gui.\+Sign\+In.\+Sign\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 53 del archivo Sign\+In.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53                     \{}
+\DoxyCodeLine{54         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{55         setBounds(100, 100, 582, 401);}
+\DoxyCodeLine{56         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{57         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{58         setContentPane(\mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}});}
+\DoxyCodeLine{59         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{60         }
+\DoxyCodeLine{61         \mbox{\hyperlink{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}{userTextField}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{62         \mbox{\hyperlink{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}{userTextField}}.setColumns(10);}
+\DoxyCodeLine{63         \mbox{\hyperlink{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}{userTextField}}.setBounds(177, 73, 254, 26);}
+\DoxyCodeLine{64         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}{userTextField}});}
+\DoxyCodeLine{65         }
+\DoxyCodeLine{66         JLabel label = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Username:"});}
+\DoxyCodeLine{67         label.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{68         label.setBounds(28, 73, 137, 29);}
+\DoxyCodeLine{69         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(label);}
+\DoxyCodeLine{70         }
+\DoxyCodeLine{71         JLabel label\_1 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Password:"});}
+\DoxyCodeLine{72         label\_1.setBounds(66, 115, 81, 29);}
+\DoxyCodeLine{73         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(label\_1);}
+\DoxyCodeLine{74         }
+\DoxyCodeLine{75         \mbox{\hyperlink{classgui_1_1_sign_in_a3334294c202619a0e673c162f0d5b280}{passwordField}} = \textcolor{keyword}{new} JPasswordField();}
+\DoxyCodeLine{76         \mbox{\hyperlink{classgui_1_1_sign_in_a3334294c202619a0e673c162f0d5b280}{passwordField}}.setBounds(177, 115, 254, 26);}
+\DoxyCodeLine{77         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_a3334294c202619a0e673c162f0d5b280}{passwordField}});}
+\DoxyCodeLine{78         }
+\DoxyCodeLine{79         JButton button = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Sign in"});}
+\DoxyCodeLine{80         button.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{81             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{82                 String username = \mbox{\hyperlink{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}{userTextField}}.getText();}
+\DoxyCodeLine{83                 String password = \textcolor{keyword}{new} String(\mbox{\hyperlink{classgui_1_1_sign_in_a2724645e64ebe7854d178aa92f0950bb}{transform}}(\mbox{\hyperlink{classgui_1_1_sign_in_a3334294c202619a0e673c162f0d5b280}{passwordField}}}
+\DoxyCodeLine{84                         .getPassword()));}
+\DoxyCodeLine{85                 String bancAccount= \mbox{\hyperlink{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}{textCuentaBancaria}}.getText();}
+\DoxyCodeLine{86                 String email = \mbox{\hyperlink{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}{textEmail}}.getText();}
+\DoxyCodeLine{87                 String telegramId = \mbox{\hyperlink{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}{textTelegramId}}.getText();}
+\DoxyCodeLine{88                 \textcolor{keywordflow}{if} (username != \textcolor{keyword}{null} \&\& password != \textcolor{keyword}{null} \&\& bancAccount!=\textcolor{keyword}{null}}
+\DoxyCodeLine{89                         \&\& !username.equals(\textcolor{stringliteral}{""}) \&\& !password.equals(\textcolor{stringliteral}{""}) \&\& !bancAccount.equals(\textcolor{stringliteral}{""}) \&\& !email.equals(\textcolor{stringliteral}{""}) \&\& email!=\textcolor{keyword}{null}) \{}
+\DoxyCodeLine{90                     \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{91                         Owner o = \textcolor{keyword}{null};}
+\DoxyCodeLine{92                         Client c = \textcolor{keyword}{null};}
+\DoxyCodeLine{93                         String s;}
+\DoxyCodeLine{94                         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}{rdbtnClient}}.isSelected()) \{}
+\DoxyCodeLine{95                              c = \mbox{\hyperlink{classgui_1_1_sign_in_a1333e1c41f2354e4bab8acdeeafef7b0}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_ac2cbd39795e0c171a79ac440698bd859}{createClient}}(username, password,telegramId,bancAccount,email);}
+\DoxyCodeLine{96                              s=\textcolor{stringliteral}{"client"};}
+\DoxyCodeLine{97                         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{98                              o=\mbox{\hyperlink{classgui_1_1_sign_in_a1333e1c41f2354e4bab8acdeeafef7b0}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3e5553805d4890c9c17cf2ab1b14a2d3}{createOwner}}(username, password,telegramId,bancAccount,email);}
+\DoxyCodeLine{99                              s=\textcolor{stringliteral}{"owner"};}
+\DoxyCodeLine{100                         \}}
+\DoxyCodeLine{101                         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setForeground(Color.GREEN);}
+\DoxyCodeLine{102                         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setText(\textcolor{stringliteral}{"Registered correctly"});}
+\DoxyCodeLine{103                         ValidationGUI vgui = \textcolor{keyword}{new} ValidationGUI(o, c, s);}
+\DoxyCodeLine{104                         vgui.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{105                         dispose();}
+\DoxyCodeLine{106                     \} \textcolor{keywordflow}{catch} (OverlappingClientExists e1) \{}
+\DoxyCodeLine{107                         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setForeground(Color.RED);}
+\DoxyCodeLine{108                         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setText(\textcolor{stringliteral}{"Client already registered"});}
+\DoxyCodeLine{109                     \} \textcolor{keywordflow}{catch} (OverlappingOwnerExist e1) \{}
+\DoxyCodeLine{110                         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setForeground(Color.RED);}
+\DoxyCodeLine{111                         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setText(\textcolor{stringliteral}{"Owner already registered"});}
+\DoxyCodeLine{112                     \}}
+\DoxyCodeLine{113                 \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{114                     \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setForeground(Color.RED);}
+\DoxyCodeLine{115                     \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setText(\textcolor{stringliteral}{"Please, fill all the camps"});}
+\DoxyCodeLine{116                 \}}
+\DoxyCodeLine{117             \}}
+\DoxyCodeLine{118         \});}
+\DoxyCodeLine{119         button.setBounds(177, 267, 254, 29);}
+\DoxyCodeLine{120         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(button);}
+\DoxyCodeLine{121         }
+\DoxyCodeLine{122         \mbox{\hyperlink{classgui_1_1_sign_in_afbdae1f60f065dd2b577301caa6926c0}{buttonGroup}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}{rdbtnClient}});}
+\DoxyCodeLine{123         \mbox{\hyperlink{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}{rdbtnClient}}.setSelected(\textcolor{keyword}{true});}
+\DoxyCodeLine{124         \mbox{\hyperlink{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}{rdbtnClient}}.setBounds(226, 0, 89, 50);}
+\DoxyCodeLine{125         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}{rdbtnClient}});}
+\DoxyCodeLine{126         }
+\DoxyCodeLine{127         \mbox{\hyperlink{classgui_1_1_sign_in_afbdae1f60f065dd2b577301caa6926c0}{buttonGroup}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_a4b8b426bb66155e4c5ff3fc71d6fab73}{rdbtnOwner}});}
+\DoxyCodeLine{128         \mbox{\hyperlink{classgui_1_1_sign_in_a4b8b426bb66155e4c5ff3fc71d6fab73}{rdbtnOwner}}.setBounds(319, 8, 89, 35);}
+\DoxyCodeLine{129         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_a4b8b426bb66155e4c5ff3fc71d6fab73}{rdbtnOwner}});}
+\DoxyCodeLine{130         }
+\DoxyCodeLine{131         JButton button\_1 = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{132         button\_1.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{133             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{134                 LoginGUI a = \textcolor{keyword}{new} LoginGUI();}
+\DoxyCodeLine{135                 dispose();}
+\DoxyCodeLine{136                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{137             \}}
+\DoxyCodeLine{138         \});}
+\DoxyCodeLine{139         button\_1.setBounds(28, 11, 144, 29);}
+\DoxyCodeLine{140         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(button\_1);}
+\DoxyCodeLine{141         }
+\DoxyCodeLine{142         JLabel lblEmail = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Email:"});}
+\DoxyCodeLine{143         lblEmail.setBounds(66, 160, 56, 16);}
+\DoxyCodeLine{144         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(lblEmail);}
+\DoxyCodeLine{145         }
+\DoxyCodeLine{146         \mbox{\hyperlink{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}{textEmail}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{147         \mbox{\hyperlink{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}{textEmail}}.setColumns(10);}
+\DoxyCodeLine{148         \mbox{\hyperlink{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}{textEmail}}.setBounds(177, 154, 254, 26);}
+\DoxyCodeLine{149         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}{textEmail}});}
+\DoxyCodeLine{150         }
+\DoxyCodeLine{151         JLabel lblCuentaBancaria = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Bank account:"});}
+\DoxyCodeLine{152         lblCuentaBancaria.setBounds(66, 199, 99, 16);}
+\DoxyCodeLine{153         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(lblCuentaBancaria);}
+\DoxyCodeLine{154         }
+\DoxyCodeLine{155         \mbox{\hyperlink{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}{textCuentaBancaria}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{156         \mbox{\hyperlink{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}{textCuentaBancaria}}.setColumns(10);}
+\DoxyCodeLine{157         \mbox{\hyperlink{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}{textCuentaBancaria}}.setBounds(177, 193, 254, 26);}
+\DoxyCodeLine{158         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}{textCuentaBancaria}});}
+\DoxyCodeLine{159         }
+\DoxyCodeLine{160         JLabel labelTelegramId = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Telegram id:"});}
+\DoxyCodeLine{161         labelTelegramId.setAutoscrolls(\textcolor{keyword}{true});}
+\DoxyCodeLine{162         labelTelegramId.setBounds(66, 234, 99, 16);}
+\DoxyCodeLine{163         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(labelTelegramId);}
+\DoxyCodeLine{164         }
+\DoxyCodeLine{165         \mbox{\hyperlink{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}{textTelegramId}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{166         \mbox{\hyperlink{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}{textTelegramId}}.setColumns(10);}
+\DoxyCodeLine{167         \mbox{\hyperlink{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}{textTelegramId}}.setBounds(177, 228, 254, 26);}
+\DoxyCodeLine{168         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}{textTelegramId}});}
+\DoxyCodeLine{169         }
+\DoxyCodeLine{170         JButton btnHelp = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Help"});}
+\DoxyCodeLine{171         btnHelp.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{172             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{173                 HelpTelegram a = \textcolor{keyword}{new} HelpTelegram();}
+\DoxyCodeLine{174                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{175             \}}
+\DoxyCodeLine{176         \});}
+\DoxyCodeLine{177         btnHelp.setBounds(443, 228, 97, 25);}
+\DoxyCodeLine{178         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(btnHelp);}
+\DoxyCodeLine{179         }
+\DoxyCodeLine{180         JLabel label\_2 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{181         label\_2.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{182         label\_2.setBounds(434, 78, 56, 16);}
+\DoxyCodeLine{183         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(label\_2);}
+\DoxyCodeLine{184         }
+\DoxyCodeLine{185         JLabel label\_3 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{186         label\_3.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{187         label\_3.setBounds(434, 121, 56, 16);}
+\DoxyCodeLine{188         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(label\_3);}
+\DoxyCodeLine{189         }
+\DoxyCodeLine{190         JLabel label\_4 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{191         label\_4.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{192         label\_4.setBounds(434, 199, 56, 16);}
+\DoxyCodeLine{193         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(label\_4);}
+\DoxyCodeLine{194         }
+\DoxyCodeLine{195         JLabel label\_5 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{196         label\_5.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{197         label\_5.setBounds(434, 15, 108, 16);}
+\DoxyCodeLine{198         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(label\_5);}
+\DoxyCodeLine{199         }
+\DoxyCodeLine{200         JLabel lblRequired = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Required field"});}
+\DoxyCodeLine{201         lblRequired.setBounds(454, 13, 88, 16);}
+\DoxyCodeLine{202         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(lblRequired);}
+\DoxyCodeLine{203         }
+\DoxyCodeLine{204         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setForeground(Color.RED);}
+\DoxyCodeLine{205         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{206         \mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}}.setBounds(201, 309, 207, 16);}
+\DoxyCodeLine{207         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}{lblRegister}});}
+\DoxyCodeLine{208         }
+\DoxyCodeLine{209         JLabel label\_6 = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"*"});}
+\DoxyCodeLine{210         label\_6.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 17));}
+\DoxyCodeLine{211         label\_6.setBounds(434, 160, 56, 16);}
+\DoxyCodeLine{212         \mbox{\hyperlink{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}{contentPane}}.add(label\_6);}
+\DoxyCodeLine{213     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Sign\+In.\+button\+Group, gui.\+Sign\+In.\+content\+Pane, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Client(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Owner(), gui.\+Sign\+In.\+facade, gui.\+Sign\+In.\+lbl\+Register, gui.\+Sign\+In.\+password\+Field, gui.\+Sign\+In.\+rdbtn\+Client, gui.\+Sign\+In.\+rdbtn\+Owner, gui.\+Sign\+In.\+text\+Cuenta\+Bancaria, gui.\+Sign\+In.\+text\+Email, gui.\+Sign\+In.\+text\+Telegram\+Id, gui.\+Sign\+In.\+transform() y gui.\+Sign\+In.\+user\+Text\+Field.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_sign_in_a2724645e64ebe7854d178aa92f0950bb}\label{classgui_1_1_sign_in_a2724645e64ebe7854d178aa92f0950bb}} 
+\index{gui.SignIn@{gui.SignIn}!transform@{transform}}
+\index{transform@{transform}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{transform()}{transform()}}
+{\footnotesize\ttfamily String gui.\+Sign\+In.\+transform (\begin{DoxyParamCaption}\item[{char \mbox{[}$\,$\mbox{]}}]{psw }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 214 del archivo Sign\+In.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{214                                         \{}
+\DoxyCodeLine{215         StringBuilder sb = \textcolor{keyword}{new} StringBuilder();}
+\DoxyCodeLine{216         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < psw.length; i++) \{}
+\DoxyCodeLine{217             sb.append(psw[i]);}
+\DoxyCodeLine{218         \}}
+\DoxyCodeLine{219         \textcolor{keywordflow}{return} sb.toString();}
+\DoxyCodeLine{220     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_sign_in_afbdae1f60f065dd2b577301caa6926c0}\label{classgui_1_1_sign_in_afbdae1f60f065dd2b577301caa6926c0}} 
+\index{gui.SignIn@{gui.SignIn}!buttonGroup@{buttonGroup}}
+\index{buttonGroup@{buttonGroup}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{buttonGroup}{buttonGroup}}
+{\footnotesize\ttfamily final Button\+Group gui.\+Sign\+In.\+button\+Group = new Button\+Group()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 40 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}\label{classgui_1_1_sign_in_a0661fb8f7c58f5389415b3c24c3385bd}} 
+\index{gui.SignIn@{gui.SignIn}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Sign\+In.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a1333e1c41f2354e4bab8acdeeafef7b0}\label{classgui_1_1_sign_in_a1333e1c41f2354e4bab8acdeeafef7b0}} 
+\index{gui.SignIn@{gui.SignIn}!facade@{facade}}
+\index{facade@{facade}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Sign\+In.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 46 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}\label{classgui_1_1_sign_in_a91128d3298a69d4306a3435d9f5002c6}} 
+\index{gui.SignIn@{gui.SignIn}!lblRegister@{lblRegister}}
+\index{lblRegister@{lblRegister}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{lblRegister}{lblRegister}}
+{\footnotesize\ttfamily J\+Label gui.\+Sign\+In.\+lbl\+Register = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 43 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a3334294c202619a0e673c162f0d5b280}\label{classgui_1_1_sign_in_a3334294c202619a0e673c162f0d5b280}} 
+\index{gui.SignIn@{gui.SignIn}!passwordField@{passwordField}}
+\index{passwordField@{passwordField}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{passwordField}{passwordField}}
+{\footnotesize\ttfamily J\+Password\+Field gui.\+Sign\+In.\+password\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}\label{classgui_1_1_sign_in_acf11e0c6e73a74d0b4bcd5cc84a64f2a}} 
+\index{gui.SignIn@{gui.SignIn}!rdbtnClient@{rdbtnClient}}
+\index{rdbtnClient@{rdbtnClient}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{rdbtnClient}{rdbtnClient}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Sign\+In.\+rdbtn\+Client = new J\+Radio\+Button(\char`\"{}Client\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 41 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a4b8b426bb66155e4c5ff3fc71d6fab73}\label{classgui_1_1_sign_in_a4b8b426bb66155e4c5ff3fc71d6fab73}} 
+\index{gui.SignIn@{gui.SignIn}!rdbtnOwner@{rdbtnOwner}}
+\index{rdbtnOwner@{rdbtnOwner}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{rdbtnOwner}{rdbtnOwner}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Sign\+In.\+rdbtn\+Owner = new J\+Radio\+Button(\char`\"{}Owner\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 42 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}\label{classgui_1_1_sign_in_a8a864d56fe9adba78e852b99fabf7e57}} 
+\index{gui.SignIn@{gui.SignIn}!textCuentaBancaria@{textCuentaBancaria}}
+\index{textCuentaBancaria@{textCuentaBancaria}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{textCuentaBancaria}{textCuentaBancaria}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Sign\+In.\+text\+Cuenta\+Bancaria\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}\label{classgui_1_1_sign_in_a4aa7ecbf60495c3f44fba7979783990a}} 
+\index{gui.SignIn@{gui.SignIn}!textEmail@{textEmail}}
+\index{textEmail@{textEmail}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{textEmail}{textEmail}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Sign\+In.\+text\+Email\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 37 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}\label{classgui_1_1_sign_in_a9162a721d6af763ff401522b6749cd88}} 
+\index{gui.SignIn@{gui.SignIn}!textTelegramId@{textTelegramId}}
+\index{textTelegramId@{textTelegramId}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{textTelegramId}{textTelegramId}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Sign\+In.\+text\+Telegram\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+\mbox{\Hypertarget{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}\label{classgui_1_1_sign_in_aff14593606bb17dcdf89b2f2a6699f43}} 
+\index{gui.SignIn@{gui.SignIn}!userTextField@{userTextField}}
+\index{userTextField@{userTextField}!gui.SignIn@{gui.SignIn}}
+\subsubsection{\texorpdfstring{userTextField}{userTextField}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Sign\+In.\+user\+Text\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Sign\+In.\+java.
+
+
+
+Referenciado por gui.\+Sign\+In.\+Sign\+In().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_sign_in_8java}{Sign\+In.\+java}}\end{DoxyCompactItemize}

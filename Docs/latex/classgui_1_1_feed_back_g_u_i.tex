@@ -1,0 +1,394 @@
+\hypertarget{classgui_1_1_feed_back_g_u_i}{}\section{Referencia de la Clase gui.\+Feed\+Back\+G\+UI}
+\label{classgui_1_1_feed_back_g_u_i}\index{gui.FeedBackGUI@{gui.FeedBackGUI}}
+Diagrama de herencias de gui.\+Feed\+Back\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_feed_back_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a792ef572db37f3302efb1bf658ef2bd2}{Feed\+Back\+G\+UI}} (\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}} r)
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}{update\+Stars}} (int i)
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{content\+Pane}}
+\item 
+J\+Text\+Pane \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}{text\+Field}}
+\item 
+int \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ab9e6f952b77fa96772b8e417245d94bb}{grade}} = 0
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}{btn\+Validate}} = new J\+Button(\char`\"{}Validate\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\+\_\+5}} = new J\+Button(\char`\"{}\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\+\_\+4}} = new J\+Button(\char`\"{}\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\+\_\+3}} = new J\+Button(\char`\"{}\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\+\_\+2}} = new J\+Button(\char`\"{}\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\+\_\+1}} = new J\+Button(\char`\"{}\char`\"{})
+\item 
+Array\+List$<$ J\+Button $>$ \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}} = new Array\+List$<$J\+Button$>$()
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae6b839a011e80bf88d8135d3f649f708}{lbl\+Feed\+Back\+Status}} = new J\+Label(\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a62c1845c6e8a5824711746f6bdf7a202}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 30 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_a792ef572db37f3302efb1bf658ef2bd2}\label{classgui_1_1_feed_back_g_u_i_a792ef572db37f3302efb1bf658ef2bd2}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!FeedBackGUI@{FeedBackGUI}}
+\index{FeedBackGUI@{FeedBackGUI}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{FeedBackGUI()}{FeedBackGUI()}}
+{\footnotesize\ttfamily gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+UI (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_reserva}{Reserva}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 51 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{51                                   \{}
+\DoxyCodeLine{52         Border emptyBorder = BorderFactory.createEmptyBorder();}
+\DoxyCodeLine{53         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}}.setBorder(emptyBorder);}
+\DoxyCodeLine{54         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\_2}}.setBackground(Color.WHITE);}
+\DoxyCodeLine{55         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\_2}}.setBorder(emptyBorder);}
+\DoxyCodeLine{56         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\_3}}.setBackground(Color.WHITE);}
+\DoxyCodeLine{57         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\_3}}.setBorder(emptyBorder);}
+\DoxyCodeLine{58         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\_4}}.setBackground(Color.WHITE);}
+\DoxyCodeLine{59         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\_4}}.setBorder(emptyBorder);}
+\DoxyCodeLine{60         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\_5}}.setBackground(Color.WHITE);}
+\DoxyCodeLine{61         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\_5}}.setBorder(emptyBorder);}
+\DoxyCodeLine{62         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}});}
+\DoxyCodeLine{63         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\_2}});}
+\DoxyCodeLine{64         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\_3}});}
+\DoxyCodeLine{65         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\_4}});}
+\DoxyCodeLine{66         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\_5}});}
+\DoxyCodeLine{67         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{68         setBounds(100, 100, 450, 323);}
+\DoxyCodeLine{69         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{70         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.setBackground(Color.WHITE);}
+\DoxyCodeLine{71         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{72         setContentPane(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}});}
+\DoxyCodeLine{73         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{74         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}{btnValidate}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{75             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{76                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a62c1845c6e8a5824711746f6bdf7a202}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a3fd4fdf7b7efaef7ff89ee7273f5be22}{createFeedBack}}(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}{textField}}.getText(), \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ab9e6f952b77fa96772b8e417245d94bb}{grade}}, r.getOffer().getRuralHouse());}
+\DoxyCodeLine{77                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae6b839a011e80bf88d8135d3f649f708}{lblFeedBackStatus}}.setText(\textcolor{stringliteral}{"Thank you for your feedback"});}
+\DoxyCodeLine{78                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}{btnValidate}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{79                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a62c1845c6e8a5824711746f6bdf7a202}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0092e0a845b7b23dc504be013ce1958a}{setRated}}(r);}
+\DoxyCodeLine{80                 }
+\DoxyCodeLine{81                 }
+\DoxyCodeLine{82             \}}
+\DoxyCodeLine{83         \});}
+\DoxyCodeLine{84         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}{btnValidate}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{85         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}}.setForeground(Color.WHITE);}
+\DoxyCodeLine{86         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}}.setBackground(Color.WHITE);}
+\DoxyCodeLine{87         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{88             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{89                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}{updateStars}}(1);}
+\DoxyCodeLine{90             \}}
+\DoxyCodeLine{91         \});}
+\DoxyCodeLine{92         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}}.setBounds(78, 94, 50, 50);}
+\DoxyCodeLine{93         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}});}
+\DoxyCodeLine{94         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}{button\_1}}.setIcon(\textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"resources\(\backslash\)\(\backslash\)EsterllaBlanca"}));}
+\DoxyCodeLine{95 }
+\DoxyCodeLine{96         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\_2}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{97             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{98                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}{updateStars}}(2);}
+\DoxyCodeLine{99             \}}
+\DoxyCodeLine{100         \});}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{102         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\_2}}.setBounds(140, 94, 50, 50);}
+\DoxyCodeLine{103         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\_2}}.setIcon(\textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"resources\(\backslash\)\(\backslash\)EsterllaBlanca"}));}
+\DoxyCodeLine{104         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}{button\_2}});}
+\DoxyCodeLine{105         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\_3}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{106             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{107                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}{updateStars}}(3);}
+\DoxyCodeLine{108 }
+\DoxyCodeLine{109             \}}
+\DoxyCodeLine{110         \});}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{112         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\_3}}.setIcon(\textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"resources\(\backslash\)\(\backslash\)EsterllaBlanca"}));}
+\DoxyCodeLine{113         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\_3}}.setBounds(202, 94, 50, 50);}
+\DoxyCodeLine{114         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}{button\_3}});}
+\DoxyCodeLine{115         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\_4}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{116             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{117                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}{updateStars}}(4);}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{119             \}}
+\DoxyCodeLine{120         \});}
+\DoxyCodeLine{121 }
+\DoxyCodeLine{122         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\_4}}.setIcon(\textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"resources\(\backslash\)\(\backslash\)EsterllaBlanca"}));}
+\DoxyCodeLine{123         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\_4}}.setBounds(264, 94, 50, 50);}
+\DoxyCodeLine{124         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}{button\_4}});}
+\DoxyCodeLine{125         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\_5}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{126             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{127                 \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}{updateStars}}(5);}
+\DoxyCodeLine{128 }
+\DoxyCodeLine{129             \}}
+\DoxyCodeLine{130         \});}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{132         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\_5}}.setIcon(\textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"resources\(\backslash\)\(\backslash\)EsterllaBlanca"}));}
+\DoxyCodeLine{133         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\_5}}.setBounds(326, 94, 50, 50);}
+\DoxyCodeLine{134         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}{button\_5}});}
+\DoxyCodeLine{135 }
+\DoxyCodeLine{136         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}{textField}} = \textcolor{keyword}{new} JTextPane();}
+\DoxyCodeLine{137         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}{textField}}.setBackground(SystemColor.control);}
+\DoxyCodeLine{138         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}{textField}}.setBounds(70, 164, 316, 71);}
+\DoxyCodeLine{139         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}{textField}});}
+\DoxyCodeLine{140 }
+\DoxyCodeLine{141         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}{btnValidate}}.setBounds(71, 13, 97, 25);}
+\DoxyCodeLine{142         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}{btnValidate}});}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{144         JButton btnBack = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{145         btnBack.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{146             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{147                 dispose();}
+\DoxyCodeLine{148                 MisReservasGUI a = \textcolor{keyword}{new} MisReservasGUI();}
+\DoxyCodeLine{149                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{150             \}}
+\DoxyCodeLine{151         \});}
+\DoxyCodeLine{152         btnBack.setBounds(275, 13, 97, 25);}
+\DoxyCodeLine{153         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(btnBack);}
+\DoxyCodeLine{154         }
+\DoxyCodeLine{155         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae6b839a011e80bf88d8135d3f649f708}{lblFeedBackStatus}}.setBounds(70, 233, 111, 16);}
+\DoxyCodeLine{156         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ae6b839a011e80bf88d8135d3f649f708}{lblFeedBackStatus}});}
+\DoxyCodeLine{157     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Feed\+Back\+G\+U\+I.\+btn\+Validate, gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+1, gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+2, gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+3, gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+4, gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+5, gui.\+Feed\+Back\+G\+U\+I.\+content\+Pane, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+create\+Feed\+Back(), gui.\+Feed\+Back\+G\+U\+I.\+facade, domain.\+Reserva.\+get\+Offer(), domain.\+Offer.\+get\+Rural\+House(), gui.\+Feed\+Back\+G\+U\+I.\+grade, gui.\+Feed\+Back\+G\+U\+I.\+lbl\+Feed\+Back\+Status, gui.\+Feed\+Back\+G\+U\+I.\+listb, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+set\+Rated(), gui.\+Feed\+Back\+G\+U\+I.\+text\+Field y gui.\+Feed\+Back\+G\+U\+I.\+update\+Stars().
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}\label{classgui_1_1_feed_back_g_u_i_a70a8204a531b922364fdef575045e505}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!updateStars@{updateStars}}
+\index{updateStars@{updateStars}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{updateStars()}{updateStars()}}
+{\footnotesize\ttfamily void gui.\+Feed\+Back\+G\+U\+I.\+update\+Stars (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 158 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{158                                   \{}
+\DoxyCodeLine{159         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_ab9e6f952b77fa96772b8e417245d94bb}{grade}}=i;}
+\DoxyCodeLine{160         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=0; j<i;j++)\{}
+\DoxyCodeLine{161             \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.get(j).setIcon(\textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"resources\(\backslash\)\(\backslash\)EstrellaAmarilla"}));}
+\DoxyCodeLine{162         \}}
+\DoxyCodeLine{163         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=i;j<\mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.size();j++)\{}
+\DoxyCodeLine{164             \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}{listb}}.get(j).setIcon(\textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"resources\(\backslash\)\(\backslash\)EsterllaBlanca"}));}
+\DoxyCodeLine{165 }
+\DoxyCodeLine{166         \}}
+\DoxyCodeLine{167         \mbox{\hyperlink{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}{btnValidate}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{168 }
+\DoxyCodeLine{169     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Feed\+Back\+G\+U\+I.\+btn\+Validate, gui.\+Feed\+Back\+G\+U\+I.\+grade y gui.\+Feed\+Back\+G\+U\+I.\+listb.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}\label{classgui_1_1_feed_back_g_u_i_a401c09b279a8e2369355fd9142284752}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!btnValidate@{btnValidate}}
+\index{btnValidate@{btnValidate}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{btnValidate}{btnValidate}}
+{\footnotesize\ttfamily J\+Button gui.\+Feed\+Back\+G\+U\+I.\+btn\+Validate = new J\+Button(\char`\"{}Validate\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I() y gui.\+Feed\+Back\+G\+U\+I.\+update\+Stars().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}\label{classgui_1_1_feed_back_g_u_i_a4eff111b91a4af9d69b07d239f8c4175}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!button\_1@{button\_1}}
+\index{button\_1@{button\_1}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{button\_1}{button\_1}}
+{\footnotesize\ttfamily J\+Button gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+1 = new J\+Button(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 40 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}\label{classgui_1_1_feed_back_g_u_i_aea4392764854bea3595a730551c76e82}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!button\_2@{button\_2}}
+\index{button\_2@{button\_2}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{button\_2}{button\_2}}
+{\footnotesize\ttfamily J\+Button gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+2 = new J\+Button(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}\label{classgui_1_1_feed_back_g_u_i_aecc5a4dbfd0b1914634b7560af5b665e}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!button\_3@{button\_3}}
+\index{button\_3@{button\_3}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{button\_3}{button\_3}}
+{\footnotesize\ttfamily J\+Button gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+3 = new J\+Button(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}\label{classgui_1_1_feed_back_g_u_i_a260750f04cc70576dee71a3d2d321559}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!button\_4@{button\_4}}
+\index{button\_4@{button\_4}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{button\_4}{button\_4}}
+{\footnotesize\ttfamily J\+Button gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+4 = new J\+Button(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 37 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}\label{classgui_1_1_feed_back_g_u_i_aa98ecf04e9e2c9a78988ad724dcc452f}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!button\_5@{button\_5}}
+\index{button\_5@{button\_5}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{button\_5}{button\_5}}
+{\footnotesize\ttfamily J\+Button gui.\+Feed\+Back\+G\+U\+I.\+button\+\_\+5 = new J\+Button(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}\label{classgui_1_1_feed_back_g_u_i_ae4711a299230e0f571f2b3f56f5eb9ee}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Feed\+Back\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 32 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_a62c1845c6e8a5824711746f6bdf7a202}\label{classgui_1_1_feed_back_g_u_i_a62c1845c6e8a5824711746f6bdf7a202}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!facade@{facade}}
+\index{facade@{facade}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Feed\+Back\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 44 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_ab9e6f952b77fa96772b8e417245d94bb}\label{classgui_1_1_feed_back_g_u_i_ab9e6f952b77fa96772b8e417245d94bb}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!grade@{grade}}
+\index{grade@{grade}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{grade}{grade}}
+{\footnotesize\ttfamily int gui.\+Feed\+Back\+G\+U\+I.\+grade = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I() y gui.\+Feed\+Back\+G\+U\+I.\+update\+Stars().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_ae6b839a011e80bf88d8135d3f649f708}\label{classgui_1_1_feed_back_g_u_i_ae6b839a011e80bf88d8135d3f649f708}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!lblFeedBackStatus@{lblFeedBackStatus}}
+\index{lblFeedBackStatus@{lblFeedBackStatus}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{lblFeedBackStatus}{lblFeedBackStatus}}
+{\footnotesize\ttfamily J\+Label gui.\+Feed\+Back\+G\+U\+I.\+lbl\+Feed\+Back\+Status = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 42 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}\label{classgui_1_1_feed_back_g_u_i_aebe4840fd7ffe833e3c8976aba4f5dba}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!listb@{listb}}
+\index{listb@{listb}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{listb}{listb}}
+{\footnotesize\ttfamily Array\+List$<$J\+Button$>$ gui.\+Feed\+Back\+G\+U\+I.\+listb = new Array\+List$<$J\+Button$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 41 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I() y gui.\+Feed\+Back\+G\+U\+I.\+update\+Stars().
+
+\mbox{\Hypertarget{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}\label{classgui_1_1_feed_back_g_u_i_ad24dea21bb9450474fd58c7dba162f7e}} 
+\index{gui.FeedBackGUI@{gui.FeedBackGUI}!textField@{textField}}
+\index{textField@{textField}!gui.FeedBackGUI@{gui.FeedBackGUI}}
+\subsubsection{\texorpdfstring{textField}{textField}}
+{\footnotesize\ttfamily J\+Text\+Pane gui.\+Feed\+Back\+G\+U\+I.\+text\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 33 del archivo Feed\+Back\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Feed\+Back\+G\+U\+I.\+Feed\+Back\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_feed_back_g_u_i_8java}{Feed\+Back\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

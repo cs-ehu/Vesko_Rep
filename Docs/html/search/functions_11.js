@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['tostring',['toString',['../classdomain_1_1_client.html#a5fc558240fa2d8ee6a87c41d373069fc',1,'domain.Client.toString()'],['../classdomain_1_1_feed_back.html#a2a641d462289be5d0c53c6fcdabc8052',1,'domain.FeedBack.toString()'],['../classdomain_1_1_offer.html#a8838b2d4c6616394f1829d4dc5572952',1,'domain.Offer.toString()'],['../classdomain_1_1_owner.html#ae9a6d647ea64719befbaf351f74a074c',1,'domain.Owner.toString()'],['../classdomain_1_1_reserva_offer_rh_owner_container.html#a784483e076f918173509251d9b88bd4f',1,'domain.ReservaOfferRhOwnerContainer.toString()'],['../classdomain_1_1_rural_house.html#a2937650ac9e726b75be724d264fa1bee',1,'domain.RuralHouse.toString()']]],
+  ['tostring1',['toString1',['../classdomain_1_1_rural_house.html#a10df7233cd8c6c42ed2d530b5357f64e',1,'domain::RuralHouse']]],
+  ['tostring2',['toString2',['../classdomain_1_1_offer.html#a9e4e8be92a6caa7756cb8277df32c17b',1,'domain.Offer.toString2()'],['../classdomain_1_1_reserva.html#a67f6dd7c4aee04c6e45e2d22b59c5b2f',1,'domain.Reserva.toString2()']]],
+  ['tostringofferrh',['toStringOfferRh',['../classdomain_1_1_reserva_offer_rh_owner_container.html#a44dfc6ad7f9d01332112f4cf9a07dc4c',1,'domain::ReservaOfferRhOwnerContainer']]],
+  ['transform',['transform',['../classgui_1_1_login_g_u_i.html#a75dfb4f95ca55f19138783c531c5d02c',1,'gui.LoginGUI.transform()'],['../classgui_1_1_sign_in.html#a2724645e64ebe7854d178aa92f0950bb',1,'gui.SignIn.transform()']]],
+  ['trim',['trim',['../classgui_1_1_query_availability_client_advaced_g_u_i.html#a777c1d1163abf2060b78efaaf6ec56a0',1,'gui.QueryAvailabilityClientAdvacedGUI.trim()'],['../classgui_1_1_query_availability_g_u_i.html#a1b9d107fe9049a6291e09f3c87c96b02',1,'gui.QueryAvailabilityGUI.trim()'],['../classgui_1_1_set_availability_g_u_i.html#a7c4086581e82a57cf4753001fe147884',1,'gui.SetAvailabilityGUI.trim()']]]
+];

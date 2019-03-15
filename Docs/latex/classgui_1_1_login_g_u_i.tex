@@ -1,0 +1,470 @@
+\hypertarget{classgui_1_1_login_g_u_i}{}\section{Referencia de la Clase gui.\+Login\+G\+UI}
+\label{classgui_1_1_login_g_u_i}\index{gui.LoginGUI@{gui.LoginGUI}}
+Diagrama de herencias de gui.\+Login\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_login_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_login_g_u_i_a7a72f964aac46a80b5bb46f116d342fb}{Login\+G\+UI}} ()
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classgui_1_1_login_g_u_i_a75dfb4f95ca55f19138783c531c5d02c}{transform}} (char\mbox{[}$\,$\mbox{]} psw)
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{content\+Pane}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}{user\+Text\+Field}}
+\item 
+J\+Password\+Field \mbox{\hyperlink{classgui_1_1_login_g_u_i_a36a3a8140a1458add6a02dec5c6b4816}{password\+Field}}
+\item 
+final Button\+Group \mbox{\hyperlink{classgui_1_1_login_g_u_i_a61f34a13877bb80cedba5da01646e587}{button\+Group}} = new Button\+Group()
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_login_g_u_i_aead0a4fab3d89616b6b53da28d73789c}{btn\+Log\+In}} = new J\+Button(\char`\"{}Log in\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_login_g_u_i_a1dc66beb3e76f805a9d2ba6c39b896ca}{lbl\+Register}} = new J\+Label(\char`\"{}\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lbl\+Incorrect}} = new J\+Label(\char`\"{}\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_login_g_u_i_a7b7b08f790b49e4969565f9ba2395f3a}{lbl\+Dont\+Have\+An}} = new J\+Label(\char`\"{}Dont have an\textbackslash{}r\textbackslash{}n account yet?\char`\"{})
+\item 
+J\+Button \mbox{\hyperlink{classgui_1_1_login_g_u_i_a7e8b654313ae594bb8b02f128e2236a3}{btn\+Sign\+In}} = new J\+Button(\char`\"{}Sign in\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_login_g_u_i_a72713a536f5f8ddc5690c23dd54c987a}{lbl\+Password}} = new J\+Label(\char`\"{}Password\+:\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_login_g_u_i_af689de5c353e75b3523c706407a1bdf2}{lbl\+Username}} = new J\+Label(\char`\"{}Username\+:\char`\"{})
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtn\+Client}} = new J\+Radio\+Button(\char`\"{}Client\char`\"{})
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}{rdbtn\+Owner}} = new J\+Radio\+Button(\char`\"{}Owner\char`\"{})
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_login_g_u_i_a4abc22d6221d58bce5352dbe85b2d174}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\item 
+final J\+Button \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa8694a27ad97904f1fb1566a14ab1b2f}{btn\+Forgot\+Password}} = new J\+Button(\char`\"{}Forgot Password?\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 32 del archivo Login\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a7a72f964aac46a80b5bb46f116d342fb}\label{classgui_1_1_login_g_u_i_a7a72f964aac46a80b5bb46f116d342fb}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!LoginGUI@{LoginGUI}}
+\index{LoginGUI@{LoginGUI}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{LoginGUI()}{LoginGUI()}}
+{\footnotesize\ttfamily gui.\+Login\+G\+U\+I.\+Login\+G\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 53 del archivo Login\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53                       \{}
+\DoxyCodeLine{54         setTitle(\textcolor{stringliteral}{"Log in"});}
+\DoxyCodeLine{55         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{56         setBounds(100, 100, 433, 388);}
+\DoxyCodeLine{57         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{58         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{59         setContentPane(\mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}});}
+\DoxyCodeLine{60         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62         JLabel \mbox{\hyperlink{classgui_1_1_login_g_u_i_af689de5c353e75b3523c706407a1bdf2}{lblUsername}} = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Username:"});}
+\DoxyCodeLine{63         \mbox{\hyperlink{classgui_1_1_login_g_u_i_af689de5c353e75b3523c706407a1bdf2}{lblUsername}}.setHorizontalAlignment(SwingConstants.CENTER);}
+\DoxyCodeLine{64         \mbox{\hyperlink{classgui_1_1_login_g_u_i_af689de5c353e75b3523c706407a1bdf2}{lblUsername}}.setBounds(12, 74, 137, 29);}
+\DoxyCodeLine{65         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_af689de5c353e75b3523c706407a1bdf2}{lblUsername}});}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67         \mbox{\hyperlink{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}{userTextField}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{68         \mbox{\hyperlink{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}{userTextField}}.setBounds(135, 75, 254, 26);}
+\DoxyCodeLine{69         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}{userTextField}});}
+\DoxyCodeLine{70         \mbox{\hyperlink{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}{userTextField}}.setColumns(10);}
+\DoxyCodeLine{71 }
+\DoxyCodeLine{72         JLabel \mbox{\hyperlink{classgui_1_1_login_g_u_i_a72713a536f5f8ddc5690c23dd54c987a}{lblPassword}} = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Password:"});}
+\DoxyCodeLine{73         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a72713a536f5f8ddc5690c23dd54c987a}{lblPassword}}.setBounds(50, 116, 81, 29);}
+\DoxyCodeLine{74         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a72713a536f5f8ddc5690c23dd54c987a}{lblPassword}});}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a36a3a8140a1458add6a02dec5c6b4816}{passwordField}} = \textcolor{keyword}{new} JPasswordField();}
+\DoxyCodeLine{77         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a36a3a8140a1458add6a02dec5c6b4816}{passwordField}}.setBounds(135, 117, 254, 26);}
+\DoxyCodeLine{78         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a36a3a8140a1458add6a02dec5c6b4816}{passwordField}});}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a61f34a13877bb80cedba5da01646e587}{buttonGroup}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtnClient}});}
+\DoxyCodeLine{81         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtnClient}}.setBounds(183, 1, 89, 50);}
+\DoxyCodeLine{82         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtnClient}}.setSelected(\textcolor{keyword}{true});}
+\DoxyCodeLine{83         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtnClient}});}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a61f34a13877bb80cedba5da01646e587}{buttonGroup}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}{rdbtnOwner}});}
+\DoxyCodeLine{86         \mbox{\hyperlink{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}{rdbtnOwner}}.setBounds(276, 9, 89, 35);}
+\DoxyCodeLine{87         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}{rdbtnOwner}});}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{89         \textcolor{comment}{// Registrar}}
+\DoxyCodeLine{90         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a7e8b654313ae594bb8b02f128e2236a3}{btnSignIn}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{91             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{92                 SignIn a = \textcolor{keyword}{new} SignIn();}
+\DoxyCodeLine{93                 dispose();}
+\DoxyCodeLine{94                 a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{95             \}}
+\DoxyCodeLine{96         \});}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a7e8b654313ae594bb8b02f128e2236a3}{btnSignIn}}.setBounds(182, 223, 207, 29);}
+\DoxyCodeLine{99         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a7e8b654313ae594bb8b02f128e2236a3}{btnSignIn}});}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a7b7b08f790b49e4969565f9ba2395f3a}{lblDontHaveAn}}.setBounds(12, 220, 171, 35);}
+\DoxyCodeLine{102         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a7b7b08f790b49e4969565f9ba2395f3a}{lblDontHaveAn}});}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104         \textcolor{comment}{// Log IN}}
+\DoxyCodeLine{105         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aead0a4fab3d89616b6b53da28d73789c}{btnLogIn}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{106             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{107                 String username = \mbox{\hyperlink{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}{userTextField}}.getText();}
+\DoxyCodeLine{108                 String password = \textcolor{keyword}{new} String(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a75dfb4f95ca55f19138783c531c5d02c}{transform}}(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a36a3a8140a1458add6a02dec5c6b4816}{passwordField}}}
+\DoxyCodeLine{109                         .getPassword()));}
+\DoxyCodeLine{110                 \textcolor{keywordflow}{if} (username != \textcolor{keyword}{null} \&\& password != \textcolor{keyword}{null}}
+\DoxyCodeLine{111                         \&\& !username.equals(\textcolor{stringliteral}{""}) \&\& !password.equals(\textcolor{stringliteral}{""})) \{}
+\DoxyCodeLine{112                     String type = \textcolor{keyword}{null};}
+\DoxyCodeLine{113                     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtnClient}}.isSelected()) \{}
+\DoxyCodeLine{114                         type = \mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtnClient}}.getText();}
+\DoxyCodeLine{115                     \}}
+\DoxyCodeLine{116                     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}{rdbtnOwner}}.isSelected()) \{}
+\DoxyCodeLine{117                         type = \mbox{\hyperlink{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}{rdbtnOwner}}.getText();}
+\DoxyCodeLine{118                     \}}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{120                     Login login = \textcolor{keyword}{new} Login();}
+\DoxyCodeLine{121                     \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{122                         System.out.println(type);}
+\DoxyCodeLine{123                         \textcolor{keywordtype}{boolean} correctLogin = login.doLogin(username,}
+\DoxyCodeLine{124                                 password, type);}
+\DoxyCodeLine{125                         \textcolor{keywordflow}{if} (correctLogin \&\& \mbox{\hyperlink{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}{rdbtnClient}}.isSelected()) \{}
+\DoxyCodeLine{126                             dispose();}
+\DoxyCodeLine{127                             JFrame a = \textcolor{keyword}{new} ClientMainGUI();}
+\DoxyCodeLine{128                             MainGUI main = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{129                             Client c = \mbox{\hyperlink{classgui_1_1_login_g_u_i_a4abc22d6221d58bce5352dbe85b2d174}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0d69ed91aa71325dedc777f059999e93}{getClientByUsername}}(username);}
+\DoxyCodeLine{130                             main.client=c;}
+\DoxyCodeLine{131                             \textcolor{keywordflow}{if}(!c.isValidated())\{}
+\DoxyCodeLine{132                                 ValidationGUI b = \textcolor{keyword}{new} ValidationGUI(\textcolor{keyword}{null}, c, \textcolor{stringliteral}{"client"});}
+\DoxyCodeLine{133                                 b.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{134                             \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{135                             a.setVisible(\textcolor{keyword}{true});\}}
+\DoxyCodeLine{136                         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (correctLogin \&\& \mbox{\hyperlink{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}{rdbtnOwner}}.isSelected()) \{}
+\DoxyCodeLine{137                             Owner o = \mbox{\hyperlink{classgui_1_1_login_g_u_i_a4abc22d6221d58bce5352dbe85b2d174}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a0f38b3b41794e2ec57b019b89ef255c3}{getOwnerByUsername}}(username);}
+\DoxyCodeLine{138                             dispose();}
+\DoxyCodeLine{139                             OwnerGUI a = \textcolor{keyword}{new} OwnerGUI();}
+\DoxyCodeLine{140                             MainGUI main = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{141                             main.owner=o;}
+\DoxyCodeLine{142                             \textcolor{keywordflow}{if}(!o.isValidated())\{}
+\DoxyCodeLine{143                                 ValidationGUI b = \textcolor{keyword}{new} ValidationGUI(o, \textcolor{keyword}{null}, \textcolor{stringliteral}{"owner"});}
+\DoxyCodeLine{144                                 b.setVisible(\textcolor{keyword}{true}); }
+\DoxyCodeLine{145                             \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{146                             a.setVisible(\textcolor{keyword}{true});\}}
+\DoxyCodeLine{147                         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{148                             \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setText(\textcolor{stringliteral}{"Incorrect Username/Password"});}
+\DoxyCodeLine{149                         \}}
+\DoxyCodeLine{150                     \} \textcolor{keywordflow}{catch} (NoExistsOwner e1) \{}
+\DoxyCodeLine{151                         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setForeground(Color.RED);}
+\DoxyCodeLine{152                         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setText(\textcolor{stringliteral}{"Owner not registered"});}
+\DoxyCodeLine{153                     \} \textcolor{keywordflow}{catch} (NoExistsClient e2) \{}
+\DoxyCodeLine{154                         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setForeground(Color.RED);}
+\DoxyCodeLine{155                         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setText(\textcolor{stringliteral}{"Client not registered"});}
+\DoxyCodeLine{156                     \}}
+\DoxyCodeLine{157                 \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{158                     \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setForeground(Color.RED);}
+\DoxyCodeLine{159                     \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setText(\textcolor{stringliteral}{"Please, fill all the camps"});}
+\DoxyCodeLine{160                 \}}
+\DoxyCodeLine{161 }
+\DoxyCodeLine{162             \}}
+\DoxyCodeLine{163         \});}
+\DoxyCodeLine{164 }
+\DoxyCodeLine{165         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aead0a4fab3d89616b6b53da28d73789c}{btnLogIn}}.setBounds(135, 156, 254, 29);}
+\DoxyCodeLine{166         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_aead0a4fab3d89616b6b53da28d73789c}{btnLogIn}});}
+\DoxyCodeLine{167 }
+\DoxyCodeLine{168         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{169         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setForeground(Color.RED);}
+\DoxyCodeLine{170         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}}.setBounds(135, 198, 254, 16);}
+\DoxyCodeLine{171         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}{lblIncorrect}});}
+\DoxyCodeLine{172 }
+\DoxyCodeLine{173         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a1dc66beb3e76f805a9d2ba6c39b896ca}{lblRegister}}.setForeground(Color.RED);}
+\DoxyCodeLine{174         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a1dc66beb3e76f805a9d2ba6c39b896ca}{lblRegister}}.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{175         \mbox{\hyperlink{classgui_1_1_login_g_u_i_a1dc66beb3e76f805a9d2ba6c39b896ca}{lblRegister}}.setBounds(183, 307, 207, 16);}
+\DoxyCodeLine{176         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_a1dc66beb3e76f805a9d2ba6c39b896ca}{lblRegister}});}
+\DoxyCodeLine{177 }
+\DoxyCodeLine{178         JButton btnBack = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{179         btnBack.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{180             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{181                 dispose();}
+\DoxyCodeLine{182                 JFrame jframe = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{183                 jframe.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{184                 MainGUI maingui = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{185             \}}
+\DoxyCodeLine{186         \});}
+\DoxyCodeLine{187         btnBack.setBounds(12, 12, 144, 29);}
+\DoxyCodeLine{188         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(btnBack);}
+\DoxyCodeLine{189         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa8694a27ad97904f1fb1566a14ab1b2f}{btnForgotPassword}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{190             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{191             \}}
+\DoxyCodeLine{192         \});}
+\DoxyCodeLine{193         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa8694a27ad97904f1fb1566a14ab1b2f}{btnForgotPassword}}.setBounds(182, 265, 207, 29);}
+\DoxyCodeLine{194         }
+\DoxyCodeLine{195         \mbox{\hyperlink{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_login_g_u_i_aa8694a27ad97904f1fb1566a14ab1b2f}{btnForgotPassword}});}
+\DoxyCodeLine{196     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Login\+G\+U\+I.\+btn\+Forgot\+Password, gui.\+Login\+G\+U\+I.\+btn\+Log\+In, gui.\+Login\+G\+U\+I.\+btn\+Sign\+In, gui.\+Login\+G\+U\+I.\+button\+Group, gui.\+Main\+G\+U\+I.\+client, gui.\+Login\+G\+U\+I.\+content\+Pane, business\+Logic.\+Login.\+do\+Login(), gui.\+Login\+G\+U\+I.\+facade, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Client\+By\+Username(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+get\+Owner\+By\+Username(), domain.\+Client.\+is\+Validated(), domain.\+Owner.\+is\+Validated(), gui.\+Login\+G\+U\+I.\+lbl\+Dont\+Have\+An, gui.\+Login\+G\+U\+I.\+lbl\+Incorrect, gui.\+Login\+G\+U\+I.\+lbl\+Password, gui.\+Login\+G\+U\+I.\+lbl\+Register, gui.\+Login\+G\+U\+I.\+lbl\+Username, gui.\+Main\+G\+U\+I.\+owner, gui.\+Login\+G\+U\+I.\+password\+Field, gui.\+Login\+G\+U\+I.\+rdbtn\+Client, gui.\+Login\+G\+U\+I.\+rdbtn\+Owner, gui.\+Login\+G\+U\+I.\+transform() y gui.\+Login\+G\+U\+I.\+user\+Text\+Field.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a75dfb4f95ca55f19138783c531c5d02c}\label{classgui_1_1_login_g_u_i_a75dfb4f95ca55f19138783c531c5d02c}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!transform@{transform}}
+\index{transform@{transform}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{transform()}{transform()}}
+{\footnotesize\ttfamily String gui.\+Login\+G\+U\+I.\+transform (\begin{DoxyParamCaption}\item[{char \mbox{[}$\,$\mbox{]}}]{psw }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 198 del archivo Login\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{198                                         \{}
+\DoxyCodeLine{199         StringBuilder sb = \textcolor{keyword}{new} StringBuilder();}
+\DoxyCodeLine{200         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < psw.length; i++) \{}
+\DoxyCodeLine{201             sb.append(psw[i]);}
+\DoxyCodeLine{202         \}}
+\DoxyCodeLine{203         \textcolor{keywordflow}{return} sb.toString();}
+\DoxyCodeLine{204     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_aa8694a27ad97904f1fb1566a14ab1b2f}\label{classgui_1_1_login_g_u_i_aa8694a27ad97904f1fb1566a14ab1b2f}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!btnForgotPassword@{btnForgotPassword}}
+\index{btnForgotPassword@{btnForgotPassword}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{btnForgotPassword}{btnForgotPassword}}
+{\footnotesize\ttfamily final J\+Button gui.\+Login\+G\+U\+I.\+btn\+Forgot\+Password = new J\+Button(\char`\"{}Forgot Password?\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 49 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_aead0a4fab3d89616b6b53da28d73789c}\label{classgui_1_1_login_g_u_i_aead0a4fab3d89616b6b53da28d73789c}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!btnLogIn@{btnLogIn}}
+\index{btnLogIn@{btnLogIn}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{btnLogIn}{btnLogIn}}
+{\footnotesize\ttfamily J\+Button gui.\+Login\+G\+U\+I.\+btn\+Log\+In = new J\+Button(\char`\"{}Log in\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a7e8b654313ae594bb8b02f128e2236a3}\label{classgui_1_1_login_g_u_i_a7e8b654313ae594bb8b02f128e2236a3}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!btnSignIn@{btnSignIn}}
+\index{btnSignIn@{btnSignIn}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{btnSignIn}{btnSignIn}}
+{\footnotesize\ttfamily J\+Button gui.\+Login\+G\+U\+I.\+btn\+Sign\+In = new J\+Button(\char`\"{}Sign in\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 42 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a61f34a13877bb80cedba5da01646e587}\label{classgui_1_1_login_g_u_i_a61f34a13877bb80cedba5da01646e587}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!buttonGroup@{buttonGroup}}
+\index{buttonGroup@{buttonGroup}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{buttonGroup}{buttonGroup}}
+{\footnotesize\ttfamily final Button\+Group gui.\+Login\+G\+U\+I.\+button\+Group = new Button\+Group()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 37 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}\label{classgui_1_1_login_g_u_i_aa1c9213d05aa2cf70dacbec422774f06}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Login\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a4abc22d6221d58bce5352dbe85b2d174}\label{classgui_1_1_login_g_u_i_a4abc22d6221d58bce5352dbe85b2d174}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!facade@{facade}}
+\index{facade@{facade}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Login\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 48 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a7b7b08f790b49e4969565f9ba2395f3a}\label{classgui_1_1_login_g_u_i_a7b7b08f790b49e4969565f9ba2395f3a}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!lblDontHaveAn@{lblDontHaveAn}}
+\index{lblDontHaveAn@{lblDontHaveAn}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{lblDontHaveAn}{lblDontHaveAn}}
+{\footnotesize\ttfamily J\+Label gui.\+Login\+G\+U\+I.\+lbl\+Dont\+Have\+An = new J\+Label(\char`\"{}Dont have an\textbackslash{}r\textbackslash{}n account yet?\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 41 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}\label{classgui_1_1_login_g_u_i_a575f68f00124a219bbc169d4c62f5f5d}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!lblIncorrect@{lblIncorrect}}
+\index{lblIncorrect@{lblIncorrect}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{lblIncorrect}{lblIncorrect}}
+{\footnotesize\ttfamily J\+Label gui.\+Login\+G\+U\+I.\+lbl\+Incorrect = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 40 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a72713a536f5f8ddc5690c23dd54c987a}\label{classgui_1_1_login_g_u_i_a72713a536f5f8ddc5690c23dd54c987a}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!lblPassword@{lblPassword}}
+\index{lblPassword@{lblPassword}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{lblPassword}{lblPassword}}
+{\footnotesize\ttfamily J\+Label gui.\+Login\+G\+U\+I.\+lbl\+Password = new J\+Label(\char`\"{}Password\+:\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 43 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a1dc66beb3e76f805a9d2ba6c39b896ca}\label{classgui_1_1_login_g_u_i_a1dc66beb3e76f805a9d2ba6c39b896ca}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!lblRegister@{lblRegister}}
+\index{lblRegister@{lblRegister}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{lblRegister}{lblRegister}}
+{\footnotesize\ttfamily J\+Label gui.\+Login\+G\+U\+I.\+lbl\+Register = new J\+Label(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_af689de5c353e75b3523c706407a1bdf2}\label{classgui_1_1_login_g_u_i_af689de5c353e75b3523c706407a1bdf2}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!lblUsername@{lblUsername}}
+\index{lblUsername@{lblUsername}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{lblUsername}{lblUsername}}
+{\footnotesize\ttfamily J\+Label gui.\+Login\+G\+U\+I.\+lbl\+Username = new J\+Label(\char`\"{}Username\+:\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 44 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a36a3a8140a1458add6a02dec5c6b4816}\label{classgui_1_1_login_g_u_i_a36a3a8140a1458add6a02dec5c6b4816}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!passwordField@{passwordField}}
+\index{passwordField@{passwordField}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{passwordField}{passwordField}}
+{\footnotesize\ttfamily J\+Password\+Field gui.\+Login\+G\+U\+I.\+password\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}\label{classgui_1_1_login_g_u_i_a0249903a45a937044e3e40875521b7fd}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!rdbtnClient@{rdbtnClient}}
+\index{rdbtnClient@{rdbtnClient}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{rdbtnClient}{rdbtnClient}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Login\+G\+U\+I.\+rdbtn\+Client = new J\+Radio\+Button(\char`\"{}Client\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 45 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}\label{classgui_1_1_login_g_u_i_ad9b6b69331716f550fb139535ee5963a}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!rdbtnOwner@{rdbtnOwner}}
+\index{rdbtnOwner@{rdbtnOwner}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{rdbtnOwner}{rdbtnOwner}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Login\+G\+U\+I.\+rdbtn\+Owner = new J\+Radio\+Button(\char`\"{}Owner\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 46 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}\label{classgui_1_1_login_g_u_i_acf4a83606449712f7d8e4e09eef07aee}} 
+\index{gui.LoginGUI@{gui.LoginGUI}!userTextField@{userTextField}}
+\index{userTextField@{userTextField}!gui.LoginGUI@{gui.LoginGUI}}
+\subsubsection{\texorpdfstring{userTextField}{userTextField}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Login\+G\+U\+I.\+user\+Text\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Login\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Login\+G\+U\+I.\+Login\+G\+U\+I().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_login_g_u_i_8java}{Login\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

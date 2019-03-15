@@ -1,0 +1,661 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_main_g_u_i" kind="class" language="Java" prot="public">
+    <compoundname>gui::MainGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a75dfef8d845a0c8de7a6476c7f7d35e1" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long gui.MainGUI.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="36" column="1" bodyfile="src/gui/MainGUI.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a27d911b7abcbb68661bbd3388cabcab0" prot="private" static="yes" mutable="no">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>ApplicationFacadeInterfaceWS gui.MainGUI.facade</definition>
+        <argsstring></argsstring>
+        <name>facade</name>
+        <initializer>= new <ref refid="classgui_1_1_main_g_u_i" kindref="compound">MainGUI</ref>().<ref refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" kindref="member">getBusinessLogic</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="42" column="1" bodyfile="src/gui/MainGUI.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" compoundref="_main_g_u_i_8java" startline="44" endline="46">gui.MainGUI.getBusinessLogic</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" compoundref="_main_g_u_i_8java" startline="234" endline="237">gui.MainGUI.getMainOwner</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a6968ef45452fe10bd544a46d6e099c32" compoundref="_main_g_u_i_8java" startline="65" endline="84">gui.MainGUI.MainGUI</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a306310290095fdaa31a668470fd6380d" compoundref="_main_g_u_i_8java" startline="48" endline="50">gui.MainGUI.setBussinessLogic</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a06836509371b16181fdff6732938b7d3" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.MainGUI.jContentPane</definition>
+        <argsstring></argsstring>
+        <name>jContentPane</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="38" column="1" bodyfile="src/gui/MainGUI.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" compoundref="_main_g_u_i_8java" startline="105" endline="129">gui.MainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1ad619899aca3a67d7a82028de85ddfbcd" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.MainGUI.boton1</definition>
+        <argsstring></argsstring>
+        <name>boton1</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="39" column="1" bodyfile="src/gui/MainGUI.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a4ea50bfcac59d520e64e3fcfdec1457c" prot="private" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton gui.MainGUI.boton3</definition>
+        <argsstring></argsstring>
+        <name>boton3</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="40" column="1" bodyfile="src/gui/MainGUI.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a57ef624d5e53ea6591fdf4dfc776b399" compoundref="_main_g_u_i_8java" startline="136" endline="150">gui.MainGUI.getBoton3</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" compoundref="_main_g_u_i_8java" startline="214" endline="218">gui.MainGUI.redibujar</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1ac5a0c08593d1be1d14216cb694dd7941" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.MainGUI.rdbtnNewRadioButton</definition>
+        <argsstring></argsstring>
+        <name>rdbtnNewRadioButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="52" column="1" bodyfile="src/gui/MainGUI.java" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ace07e2034a9e3c211356c32c3debfa1f" compoundref="_main_g_u_i_8java" startline="163" endline="175">gui.MainGUI.getRdbtnNewRadioButton</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a1aac1b64ce419c18765911c59fe88c19" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.MainGUI.rdbtnNewRadioButton_1</definition>
+        <argsstring></argsstring>
+        <name>rdbtnNewRadioButton_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="53" column="1" bodyfile="src/gui/MainGUI.java" bodystart="53" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a6a97236533457307ac0775a16925c461" compoundref="_main_g_u_i_8java" startline="176" endline="188">gui.MainGUI.getRdbtnNewRadioButton_1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1ad3dcb9314fa6097b181df71e981de64e" prot="private" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.MainGUI.rdbtnNewRadioButton_2</definition>
+        <argsstring></argsstring>
+        <name>rdbtnNewRadioButton_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="54" column="1" bodyfile="src/gui/MainGUI.java" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a7214f49eafeafd3bd5b75cc95831dd0b" compoundref="_main_g_u_i_8java" startline="189" endline="202">gui.MainGUI.getRdbtnNewRadioButton_2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a0fee89799e637ac087877c50b36b8fbb" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel gui.MainGUI.panel</definition>
+        <argsstring></argsstring>
+        <name>panel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="55" column="1" bodyfile="src/gui/MainGUI.java" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" compoundref="_main_g_u_i_8java" startline="203" endline="212">gui.MainGUI.getPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a111cafa03ab93711fb6e403de89b9f34" prot="private" static="no" mutable="no">
+        <type>final ButtonGroup</type>
+        <definition>final ButtonGroup gui.MainGUI.buttonGroup</definition>
+        <argsstring></argsstring>
+        <name>buttonGroup</name>
+        <initializer>= new ButtonGroup()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="56" column="1" bodyfile="src/gui/MainGUI.java" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ace07e2034a9e3c211356c32c3debfa1f" compoundref="_main_g_u_i_8java" startline="163" endline="175">gui.MainGUI.getRdbtnNewRadioButton</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a6a97236533457307ac0775a16925c461" compoundref="_main_g_u_i_8java" startline="176" endline="188">gui.MainGUI.getRdbtnNewRadioButton_1</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a7214f49eafeafd3bd5b75cc95831dd0b" compoundref="_main_g_u_i_8java" startline="189" endline="202">gui.MainGUI.getRdbtnNewRadioButton_2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1af3b413265c0986faec49a4859f97416d" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.MainGUI.lblLogedInAs</definition>
+        <argsstring></argsstring>
+        <name>lblLogedInAs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="57" column="1" bodyfile="src/gui/MainGUI.java" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a09b875b4f670febbeae0e5fec8ff420d" compoundref="_main_g_u_i_8java" startline="219" endline="226">gui.MainGUI.getLblLogedInAs</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a0fc72962f06022026150f3d01638f929" prot="protected" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.MainGUI.lblNewLabel</definition>
+        <argsstring></argsstring>
+        <name>lblNewLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="51" column="1" bodyfile="src/gui/MainGUI.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a77a13e7a135020c180cec4b1d73a9cd9" compoundref="_main_g_u_i_8java" startline="153" endline="162">gui.MainGUI.getLblNewLabel</referencedby>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" compoundref="_main_g_u_i_8java" startline="214" endline="218">gui.MainGUI.redibujar</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1a765a67a47cfcc50fd64e1ce0c2571c0d" prot="public" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel gui.MainGUI.lblType</definition>
+        <argsstring></argsstring>
+        <name>lblType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="58" column="1" bodyfile="src/gui/MainGUI.java" bodystart="58" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a0a6205c847b5d4138b54f939fc9c3487" compoundref="_main_g_u_i_8java" startline="227" endline="233">gui.MainGUI.getLblType</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" prot="protected" static="yes" mutable="no">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner gui.MainGUI.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="59" column="1" bodyfile="src/gui/MainGUI.java" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" compoundref="_main_g_u_i_8java" startline="234" endline="237">gui.MainGUI.getMainOwner</referencedby>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" compoundref="_owner_g_u_i_8java" startline="37" endline="142">gui.OwnerGUI.OwnerGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" prot="protected" static="yes" mutable="no">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client gui.MainGUI.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="60" column="1" bodyfile="src/gui/MainGUI.java" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_client_main_g_u_i_1a314dc209c6b3e908aa9aa22a3fae474d" compoundref="_client_main_g_u_i_8java" startline="168" endline="183">gui.ClientMainGUI.getBtnLogOut</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_login_g_u_i_1a7a72f964aac46a80b5bb46f116d342fb" compoundref="_login_g_u_i_8java" startline="53" endline="196">gui.LoginGUI.LoginGUI</referencedby>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1a6736caf57c7119ae2cdbb68ee38dd7bb" compoundref="_modify_account_g_u_i_8java" startline="49" endline="203">gui.ModifyAccountGUI.ModifyAccountGUI</referencedby>
+        <referencedby refid="classgui_1_1_modify_account_g_u_i_1afacb446b63aaccea7ffc445a726bea94" compoundref="_modify_account_g_u_i_8java" startline="204" endline="226">gui.ModifyAccountGUI.updateTxtFields</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+        <definition>static ApplicationFacadeInterfaceWS gui.MainGUI.getBusinessLogic</definition>
+        <argsstring>()</argsstring>
+        <name>getBusinessLogic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="44" column="1" bodyfile="src/gui/MainGUI.java" bodystart="44" bodyend="46"/>
+        <references refid="classgui_1_1_main_g_u_i_1a27d911b7abcbb68661bbd3388cabcab0" compoundref="_main_g_u_i_8java" startline="42">gui.MainGUI.facade</references>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1aa5bad8dc44ac91fcd6b5f2b784c66e99" compoundref="_query_availability_g_u_i_8java" startline="69" endline="190">gui.QueryAvailabilityGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ab3f117543db7303b67599eee5b8cfa4e" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="107" endline="515">gui.QueryAvailabilityClientAdvacedGUI.jbInit</referencedby>
+        <referencedby refid="classgui_1_1_set_availability_g_u_i_1a58fefb68e778d7404ca8866d27ae2492" compoundref="_set_availability_g_u_i_8java" startline="205" endline="243">gui.SetAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_query_availability_g_u_i_1adfddf3f903e7257285aba07de30efb83" compoundref="_query_availability_g_u_i_8java" startline="221" endline="288">gui.QueryAvailabilityGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a6968ef45452fe10bd544a46d6e099c32" compoundref="_main_g_u_i_8java" startline="65" endline="84">gui.MainGUI.MainGUI</referencedby>
+        <referencedby refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" compoundref="_owner_g_u_i_8java" startline="37" endline="142">gui.OwnerGUI.OwnerGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a306310290095fdaa31a668470fd6380d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gui.MainGUI.setBussinessLogic</definition>
+        <argsstring>(ApplicationFacadeInterfaceWS afi)</argsstring>
+        <name>setBussinessLogic</name>
+        <param>
+          <type><ref refid="interfacebusiness_logic_1_1_application_facade_interface_w_s" kindref="compound">ApplicationFacadeInterfaceWS</ref></type>
+          <declname>afi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="48" column="1" bodyfile="src/gui/MainGUI.java" bodystart="48" bodyend="50"/>
+        <references refid="classgui_1_1_main_g_u_i_1a27d911b7abcbb68661bbd3388cabcab0" compoundref="_main_g_u_i_8java" startline="42">gui.MainGUI.facade</references>
+        <referencedby refid="classgui_1_1_application_launcher_1a4d18ca6d7262e81ed5e5746dae2de30a" compoundref="_application_launcher_8java" startline="22" endline="86">gui.ApplicationLauncher.main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a6968ef45452fe10bd544a46d6e099c32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.MainGUI.MainGUI</definition>
+        <argsstring>()</argsstring>
+        <name>MainGUI</name>
+        <briefdescription>
+<para>This is the default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="65" column="1" bodyfile="src/gui/MainGUI.java" bodystart="65" bodyend="84"/>
+        <references refid="classgui_1_1_main_g_u_i_1a27d911b7abcbb68661bbd3388cabcab0" compoundref="_main_g_u_i_8java" startline="42">gui.MainGUI.facade</references>
+        <references refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" compoundref="_main_g_u_i_8java" startline="44" endline="46">gui.MainGUI.getBusinessLogic</references>
+        <references refid="classgui_1_1_main_g_u_i_1a2659b4cdf4e94d6ffc332f16afc46462" compoundref="_main_g_u_i_8java" startline="93" endline="98">gui.MainGUI.initialize</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a2659b4cdf4e94d6ffc332f16afc46462" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.MainGUI.initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+<para>This method initializes this. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="93" column="1" bodyfile="src/gui/MainGUI.java" bodystart="93" bodyend="98"/>
+        <references refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" compoundref="_main_g_u_i_8java" startline="105" endline="129">gui.MainGUI.getJContentPane</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a6968ef45452fe10bd544a46d6e099c32" compoundref="_main_g_u_i_8java" startline="65" endline="84">gui.MainGUI.MainGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JPanel</type>
+        <definition>JPanel gui.MainGUI.getJContentPane</definition>
+        <argsstring>()</argsstring>
+        <name>getJContentPane</name>
+        <briefdescription>
+<para>This method initializes jContentPane. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>javax.swing.JPanel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="105" column="1" bodyfile="src/gui/MainGUI.java" bodystart="105" bodyend="129"/>
+        <references refid="classgui_1_1_main_g_u_i_1a57ef624d5e53ea6591fdf4dfc776b399" compoundref="_main_g_u_i_8java" startline="136" endline="150">gui.MainGUI.getBoton3</references>
+        <references refid="classgui_1_1_main_g_u_i_1a09b875b4f670febbeae0e5fec8ff420d" compoundref="_main_g_u_i_8java" startline="219" endline="226">gui.MainGUI.getLblLogedInAs</references>
+        <references refid="classgui_1_1_main_g_u_i_1a77a13e7a135020c180cec4b1d73a9cd9" compoundref="_main_g_u_i_8java" startline="153" endline="162">gui.MainGUI.getLblNewLabel</references>
+        <references refid="classgui_1_1_main_g_u_i_1a0a6205c847b5d4138b54f939fc9c3487" compoundref="_main_g_u_i_8java" startline="227" endline="233">gui.MainGUI.getLblType</references>
+        <references refid="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" compoundref="_main_g_u_i_8java" startline="203" endline="212">gui.MainGUI.getPanel</references>
+        <references refid="classgui_1_1_main_g_u_i_1a06836509371b16181fdff6732938b7d3" compoundref="_main_g_u_i_8java" startline="38">gui.MainGUI.jContentPane</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a2659b4cdf4e94d6ffc332f16afc46462" compoundref="_main_g_u_i_8java" startline="93" endline="98">gui.MainGUI.initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a57ef624d5e53ea6591fdf4dfc776b399" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JButton</type>
+        <definition>JButton gui.MainGUI.getBoton3</definition>
+        <argsstring>()</argsstring>
+        <name>getBoton3</name>
+        <briefdescription>
+<para>This method initializes boton3. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>javax.swing.JButton </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="136" column="1" bodyfile="src/gui/MainGUI.java" bodystart="136" bodyend="150"/>
+        <references refid="classgui_1_1_main_g_u_i_1a4ea50bfcac59d520e64e3fcfdec1457c" compoundref="_main_g_u_i_8java" startline="40">gui.MainGUI.boton3</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" compoundref="_main_g_u_i_8java" startline="105" endline="129">gui.MainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a77a13e7a135020c180cec4b1d73a9cd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JLabel</type>
+        <definition>JLabel gui.MainGUI.getLblNewLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLblNewLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="153" column="1" bodyfile="src/gui/MainGUI.java" bodystart="153" bodyend="162"/>
+        <references refid="classgui_1_1_main_g_u_i_1a0fc72962f06022026150f3d01638f929" compoundref="_main_g_u_i_8java" startline="51">gui.MainGUI.lblNewLabel</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" compoundref="_main_g_u_i_8java" startline="105" endline="129">gui.MainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1ace07e2034a9e3c211356c32c3debfa1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.MainGUI.getRdbtnNewRadioButton</definition>
+        <argsstring>()</argsstring>
+        <name>getRdbtnNewRadioButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="163" column="1" bodyfile="src/gui/MainGUI.java" bodystart="163" bodyend="175"/>
+        <references refid="classgui_1_1_main_g_u_i_1a111cafa03ab93711fb6e403de89b9f34" compoundref="_main_g_u_i_8java" startline="56">gui.MainGUI.buttonGroup</references>
+        <references refid="classgui_1_1_main_g_u_i_1ac5a0c08593d1be1d14216cb694dd7941" compoundref="_main_g_u_i_8java" startline="52">gui.MainGUI.rdbtnNewRadioButton</references>
+        <references refid="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" compoundref="_main_g_u_i_8java" startline="214" endline="218">gui.MainGUI.redibujar</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" compoundref="_main_g_u_i_8java" startline="203" endline="212">gui.MainGUI.getPanel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a6a97236533457307ac0775a16925c461" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.MainGUI.getRdbtnNewRadioButton_1</definition>
+        <argsstring>()</argsstring>
+        <name>getRdbtnNewRadioButton_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="176" column="1" bodyfile="src/gui/MainGUI.java" bodystart="176" bodyend="188"/>
+        <references refid="classgui_1_1_main_g_u_i_1a111cafa03ab93711fb6e403de89b9f34" compoundref="_main_g_u_i_8java" startline="56">gui.MainGUI.buttonGroup</references>
+        <references refid="classgui_1_1_main_g_u_i_1a1aac1b64ce419c18765911c59fe88c19" compoundref="_main_g_u_i_8java" startline="53">gui.MainGUI.rdbtnNewRadioButton_1</references>
+        <references refid="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" compoundref="_main_g_u_i_8java" startline="214" endline="218">gui.MainGUI.redibujar</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" compoundref="_main_g_u_i_8java" startline="203" endline="212">gui.MainGUI.getPanel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a7214f49eafeafd3bd5b75cc95831dd0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JRadioButton</type>
+        <definition>JRadioButton gui.MainGUI.getRdbtnNewRadioButton_2</definition>
+        <argsstring>()</argsstring>
+        <name>getRdbtnNewRadioButton_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="189" column="1" bodyfile="src/gui/MainGUI.java" bodystart="189" bodyend="202"/>
+        <references refid="classgui_1_1_main_g_u_i_1a111cafa03ab93711fb6e403de89b9f34" compoundref="_main_g_u_i_8java" startline="56">gui.MainGUI.buttonGroup</references>
+        <references refid="classgui_1_1_main_g_u_i_1ad3dcb9314fa6097b181df71e981de64e" compoundref="_main_g_u_i_8java" startline="54">gui.MainGUI.rdbtnNewRadioButton_2</references>
+        <references refid="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" compoundref="_main_g_u_i_8java" startline="214" endline="218">gui.MainGUI.redibujar</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" compoundref="_main_g_u_i_8java" startline="203" endline="212">gui.MainGUI.getPanel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JPanel</type>
+        <definition>JPanel gui.MainGUI.getPanel</definition>
+        <argsstring>()</argsstring>
+        <name>getPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="203" column="1" bodyfile="src/gui/MainGUI.java" bodystart="203" bodyend="212"/>
+        <references refid="classgui_1_1_main_g_u_i_1ace07e2034a9e3c211356c32c3debfa1f" compoundref="_main_g_u_i_8java" startline="163" endline="175">gui.MainGUI.getRdbtnNewRadioButton</references>
+        <references refid="classgui_1_1_main_g_u_i_1a6a97236533457307ac0775a16925c461" compoundref="_main_g_u_i_8java" startline="176" endline="188">gui.MainGUI.getRdbtnNewRadioButton_1</references>
+        <references refid="classgui_1_1_main_g_u_i_1a7214f49eafeafd3bd5b75cc95831dd0b" compoundref="_main_g_u_i_8java" startline="189" endline="202">gui.MainGUI.getRdbtnNewRadioButton_2</references>
+        <references refid="classgui_1_1_main_g_u_i_1a0fee89799e637ac087877c50b36b8fbb" compoundref="_main_g_u_i_8java" startline="55">gui.MainGUI.panel</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" compoundref="_main_g_u_i_8java" startline="105" endline="129">gui.MainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gui.MainGUI.redibujar</definition>
+        <argsstring>()</argsstring>
+        <name>redibujar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="214" column="1" bodyfile="src/gui/MainGUI.java" bodystart="214" bodyend="218"/>
+        <references refid="classgui_1_1_main_g_u_i_1a4ea50bfcac59d520e64e3fcfdec1457c" compoundref="_main_g_u_i_8java" startline="40">gui.MainGUI.boton3</references>
+        <references refid="classgui_1_1_main_g_u_i_1a0fc72962f06022026150f3d01638f929" compoundref="_main_g_u_i_8java" startline="51">gui.MainGUI.lblNewLabel</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ace07e2034a9e3c211356c32c3debfa1f" compoundref="_main_g_u_i_8java" startline="163" endline="175">gui.MainGUI.getRdbtnNewRadioButton</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a6a97236533457307ac0775a16925c461" compoundref="_main_g_u_i_8java" startline="176" endline="188">gui.MainGUI.getRdbtnNewRadioButton_1</referencedby>
+        <referencedby refid="classgui_1_1_main_g_u_i_1a7214f49eafeafd3bd5b75cc95831dd0b" compoundref="_main_g_u_i_8java" startline="189" endline="202">gui.MainGUI.getRdbtnNewRadioButton_2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a09b875b4f670febbeae0e5fec8ff420d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JLabel</type>
+        <definition>JLabel gui.MainGUI.getLblLogedInAs</definition>
+        <argsstring>()</argsstring>
+        <name>getLblLogedInAs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="219" column="1" bodyfile="src/gui/MainGUI.java" bodystart="219" bodyend="226"/>
+        <references refid="classgui_1_1_main_g_u_i_1af3b413265c0986faec49a4859f97416d" compoundref="_main_g_u_i_8java" startline="57">gui.MainGUI.lblLogedInAs</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" compoundref="_main_g_u_i_8java" startline="105" endline="129">gui.MainGUI.getJContentPane</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1a0a6205c847b5d4138b54f939fc9c3487" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JLabel</type>
+        <definition>JLabel gui.MainGUI.getLblType</definition>
+        <argsstring>()</argsstring>
+        <name>getLblType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="227" column="1" bodyfile="src/gui/MainGUI.java" bodystart="227" bodyend="233"/>
+        <references refid="classgui_1_1_main_g_u_i_1a765a67a47cfcc50fd64e1ce0c2571c0d" compoundref="_main_g_u_i_8java" startline="58">gui.MainGUI.lblType</references>
+        <referencedby refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" compoundref="_main_g_u_i_8java" startline="105" endline="129">gui.MainGUI.getJContentPane</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner gui.MainGUI.getMainOwner</definition>
+        <argsstring>()</argsstring>
+        <name>getMainOwner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/MainGUI.java" line="234" column="1" bodyfile="src/gui/MainGUI.java" bodystart="234" bodyend="237"/>
+        <references refid="classgui_1_1_main_g_u_i_1a27d911b7abcbb68661bbd3388cabcab0" compoundref="_main_g_u_i_8java" startline="42">gui.MainGUI.facade</references>
+        <references refid="interfacebusiness_logic_1_1_application_facade_interface_w_s_1a0f38b3b41794e2ec57b019b89ef255c3">businessLogic.ApplicationFacadeInterfaceWS.getOwnerByUsername</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" compoundref="_main_g_u_i_8java" startline="59">gui.MainGUI.owner</references>
+        <referencedby refid="classgui_1_1_modify_house_g_u_i_1a4639580e463c76396d39474fbcd5cff5" compoundref="_modify_house_g_u_i_8java" startline="51" endline="157">gui.ModifyHouseGUI.ModifyHouseGUI</referencedby>
+        <referencedby refid="classgui_1_1_owner_g_u_i_1ae4efc071e5f519db154b9fc128239e89" compoundref="_owner_g_u_i_8java" startline="37" endline="142">gui.OwnerGUI.OwnerGUI</referencedby>
+        <referencedby refid="classgui_1_1_set_house_1aa47531b2839fe7b13dbde7fa421b03d6" compoundref="_set_house_8java" startline="47" endline="156">gui.SetHouse.SetHouse</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="124">
+        <label>JFrame</label>
+      </node>
+      <node id="123">
+        <label>gui.MainGUI</label>
+        <link refid="classgui_1_1_main_g_u_i"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>JPanel</label>
+      </node>
+      <node id="130">
+        <label>Vector&lt; domain.Reserva &gt;</label>
+      </node>
+      <node id="133">
+        <label>ButtonGroup</label>
+      </node>
+      <node id="128">
+        <label>domain.Client</label>
+        <link refid="classdomain_1_1_client"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+        <childnode refid="130" relation="usage">
+          <edgelabel>listaReserva</edgelabel>
+        </childnode>
+      </node>
+      <node id="135">
+        <label>JLabel</label>
+      </node>
+      <node id="129">
+        <label>Serializable</label>
+      </node>
+      <node id="126">
+        <label>JFrame</label>
+      </node>
+      <node id="131">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+        <childnode refid="132" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="137">
+        <label>JRadioButton</label>
+      </node>
+      <node id="132">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="125">
+        <label>gui.MainGUI</label>
+        <link refid="classgui_1_1_main_g_u_i"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+        <childnode refid="127" relation="usage">
+          <edgelabel>boton3</edgelabel>
+          <edgelabel>boton1</edgelabel>
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>client</edgelabel>
+        </childnode>
+        <childnode refid="131" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="133" relation="usage">
+          <edgelabel>buttonGroup</edgelabel>
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>facade</edgelabel>
+        </childnode>
+        <childnode refid="135" relation="usage">
+          <edgelabel>lblType</edgelabel>
+          <edgelabel>lblNewLabel</edgelabel>
+          <edgelabel>lblLogedInAs</edgelabel>
+        </childnode>
+        <childnode refid="136" relation="usage">
+          <edgelabel>jContentPane</edgelabel>
+          <edgelabel>panel</edgelabel>
+        </childnode>
+        <childnode refid="137" relation="usage">
+          <edgelabel>rdbtnNewRadioButton</edgelabel>
+          <edgelabel>rdbtnNewRadioButton_1</edgelabel>
+          <edgelabel>rdbtnNewRadioButton_2</edgelabel>
+        </childnode>
+      </node>
+      <node id="134">
+        <label>businessLogic.ApplicationFacadeInterfaceWS</label>
+        <link refid="interfacebusiness_logic_1_1_application_facade_interface_w_s"/>
+      </node>
+      <node id="127">
+        <label>JButton</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/MainGUI.java" line="34" column="1" bodyfile="src/gui/MainGUI.java" bodystart="34" bodyend="238"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_main_g_u_i_1ad619899aca3a67d7a82028de85ddfbcd" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>boton1</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a4ea50bfcac59d520e64e3fcfdec1457c" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>boton3</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a111cafa03ab93711fb6e403de89b9f34" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>buttonGroup</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1ac0f95c6d3d66c5e0077f0497dfe327ad" prot="protected" virt="non-virtual"><scope>gui::MainGUI</scope><name>client</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a27d911b7abcbb68661bbd3388cabcab0" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>facade</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a57ef624d5e53ea6591fdf4dfc776b399" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getBoton3</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a037b3ca54b0c61d6899721ff55cca365" prot="public" virt="non-virtual"><scope>gui::MainGUI</scope><name>getBusinessLogic</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1ae3ce89a59dcf27273ec658ee42cd61b8" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getJContentPane</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a09b875b4f670febbeae0e5fec8ff420d" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getLblLogedInAs</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a77a13e7a135020c180cec4b1d73a9cd9" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getLblNewLabel</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a0a6205c847b5d4138b54f939fc9c3487" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getLblType</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1afceb38ceda3cd700a57327b048ab7b10" prot="protected" virt="non-virtual"><scope>gui::MainGUI</scope><name>getMainOwner</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a492b26c3644e8d9eec681f49263b99a5" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getPanel</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1ace07e2034a9e3c211356c32c3debfa1f" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getRdbtnNewRadioButton</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a6a97236533457307ac0775a16925c461" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getRdbtnNewRadioButton_1</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a7214f49eafeafd3bd5b75cc95831dd0b" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>getRdbtnNewRadioButton_2</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a2659b4cdf4e94d6ffc332f16afc46462" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>initialize</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a06836509371b16181fdff6732938b7d3" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>jContentPane</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1af3b413265c0986faec49a4859f97416d" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>lblLogedInAs</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a0fc72962f06022026150f3d01638f929" prot="protected" virt="non-virtual"><scope>gui::MainGUI</scope><name>lblNewLabel</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a765a67a47cfcc50fd64e1ce0c2571c0d" prot="public" virt="non-virtual"><scope>gui::MainGUI</scope><name>lblType</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a6968ef45452fe10bd544a46d6e099c32" prot="public" virt="non-virtual"><scope>gui::MainGUI</scope><name>MainGUI</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1af293b8b4096d52f9b4747f898f5599b3" prot="protected" virt="non-virtual"><scope>gui::MainGUI</scope><name>owner</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a0fee89799e637ac087877c50b36b8fbb" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>panel</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1ac5a0c08593d1be1d14216cb694dd7941" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>rdbtnNewRadioButton</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a1aac1b64ce419c18765911c59fe88c19" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>rdbtnNewRadioButton_1</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1ad3dcb9314fa6097b181df71e981de64e" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>rdbtnNewRadioButton_2</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a59bcdd16b1eea8840984065159d16416" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>redibujar</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a75dfef8d845a0c8de7a6476c7f7d35e1" prot="private" virt="non-virtual"><scope>gui::MainGUI</scope><name>serialVersionUID</name></member>
+      <member refid="classgui_1_1_main_g_u_i_1a306310290095fdaa31a668470fd6380d" prot="public" virt="non-virtual"><scope>gui::MainGUI</scope><name>setBussinessLogic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

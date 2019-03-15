@@ -1,0 +1,1049 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdata_access_1_1_data_access" kind="class" language="Java" prot="public">
+    <compoundname>dataAccess::DataAccess</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classdata_access_1_1_data_access_1aba38e7b60b8d2dc1d112ac7b5e5e4693" prot="public" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String dataAccess.DataAccess.fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="34" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classdata_access_1_1_data_access_1a158d2718ef5a80f4f296b14937cc1775" prot="protected" static="yes" mutable="no">
+        <type>EntityManagerFactory</type>
+        <definition>EntityManagerFactory dataAccess.DataAccess.emf</definition>
+        <argsstring></argsstring>
+        <name>emf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="35" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" prot="protected" static="yes" mutable="no">
+        <type>EntityManager</type>
+        <definition>EntityManager dataAccess.DataAccess.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="36" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" compoundref="_data_access_8java" startline="185" endline="194">dataAccess.DataAccess.addImageToRH</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a58d3d443d0a2f5d74b6240248a257fd5" compoundref="_data_access_8java" startline="364" endline="367">dataAccess.DataAccess.close</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a660f0677b4ead89efe35c8f8f13c48ec" compoundref="_data_access_8java" startline="78" endline="93">dataAccess.DataAccess.createClient</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ab4812e588500fe2483a82a339a21e17a" compoundref="_data_access_8java" startline="416" endline="425">dataAccess.DataAccess.createFeedBack</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ac07343daf9aa06679c7b28c082950ab0" compoundref="_data_access_8java" startline="164" endline="183">dataAccess.DataAccess.createOffer</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a786f6a4bbd1f36ee68d8cebfd1ebc626" compoundref="_data_access_8java" startline="105" endline="120">dataAccess.DataAccess.createOwner</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" compoundref="_data_access_8java" startline="122" endline="134">dataAccess.DataAccess.createReserva</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" compoundref="_data_access_8java" startline="148" endline="162">dataAccess.DataAccess.createRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ab6b1332b8bb17a4f65457043247d0b5e" compoundref="_data_access_8java" startline="320" endline="331">dataAccess.DataAccess.existsOverlappingOffer</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a13b08775ff3b4b3859a7772de6592fb0" compoundref="_data_access_8java" startline="254" endline="269">dataAccess.DataAccess.getAllRuralHouses</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" compoundref="_data_access_8java" startline="286" endline="299">dataAccess.DataAccess.getClientByUsername</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a11f6dae8ff930c2552445dbf4d292268" compoundref="_data_access_8java" startline="219" endline="232">dataAccess.DataAccess.getImagesFromRH</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a542a2ce3e970075b63c22b8cefac42ee" compoundref="_data_access_8java" startline="214" endline="217">dataAccess.DataAccess.getOfferByNum</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ab8f58c04c48032a83b000d6de7f47d4e" compoundref="_data_access_8java" startline="271" endline="277">dataAccess.DataAccess.getOffers</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a61836150ad3401ad7e326f263993c7bc" compoundref="_data_access_8java" startline="307" endline="318">dataAccess.DataAccess.getOwnerByUsername</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ad2661c3e2d7e0550b837b2763456683d" compoundref="_data_access_8java" startline="196" endline="199">dataAccess.DataAccess.getReservaByNum</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" compoundref="_data_access_8java" startline="234" endline="252">dataAccess.DataAccess.getRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a652083447d2e9e5fd5b6228bc67a8ca4" compoundref="_data_access_8java" startline="349" endline="352">dataAccess.DataAccess.getRuralHouseByHouseNumber</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ab4e4324392bb85a0f2a2c209f463d1fa" compoundref="_data_access_8java" startline="385" endline="387">dataAccess.DataAccess.remove2</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" compoundref="_data_access_8java" startline="201" endline="212">dataAccess.DataAccess.removeReserva</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a3317cddb0e49d7e884f5f89795e20317" compoundref="_data_access_8java" startline="354" endline="362">dataAccess.DataAccess.removeRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1afe99432043c4bf8bc7032858b51badbf" compoundref="_data_access_8java" startline="427" endline="433">dataAccess.DataAccess.setRated</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ad9bd59be12508bde6bffd40397ed6caa" compoundref="_data_access_8java" startline="369" endline="375">dataAccess.DataAccess.updateClinetValidation</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" compoundref="_data_access_8java" startline="403" endline="414">dataAccess.DataAccess.updateOwner</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a5ecedf103c63cc76c84c664e29f64f7b" compoundref="_data_access_8java" startline="377" endline="383">dataAccess.DataAccess.updateOwnerValidation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" prot="package" static="no" mutable="no">
+        <type><ref refid="classconfiguration_1_1_config_x_m_l" kindref="compound">ConfigXML</ref></type>
+        <definition>ConfigXML dataAccess.DataAccess.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="38" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" compoundref="_data_access_8java" startline="122" endline="134">dataAccess.DataAccess.createReserva</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" compoundref="_data_access_8java" startline="41" endline="66">dataAccess.DataAccess.DataAccess</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" compoundref="_data_access_8java" startline="201" endline="212">dataAccess.DataAccess.removeReserva</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" compoundref="_data_access_8java" startline="389" endline="401">dataAccess.DataAccess.updateClient</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1ad9bd59be12508bde6bffd40397ed6caa" compoundref="_data_access_8java" startline="369" endline="375">dataAccess.DataAccess.updateClinetValidation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean dataAccess.DataAccess.debuger</definition>
+        <argsstring></argsstring>
+        <name>debuger</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="39" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" compoundref="_data_access_8java" startline="185" endline="194">dataAccess.DataAccess.addImageToRH</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a660f0677b4ead89efe35c8f8f13c48ec" compoundref="_data_access_8java" startline="78" endline="93">dataAccess.DataAccess.createClient</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a786f6a4bbd1f36ee68d8cebfd1ebc626" compoundref="_data_access_8java" startline="105" endline="120">dataAccess.DataAccess.createOwner</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" compoundref="_data_access_8java" startline="148" endline="162">dataAccess.DataAccess.createRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" compoundref="_data_access_8java" startline="286" endline="299">dataAccess.DataAccess.getClientByUsername</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a11f6dae8ff930c2552445dbf4d292268" compoundref="_data_access_8java" startline="219" endline="232">dataAccess.DataAccess.getImagesFromRH</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" compoundref="_data_access_8java" startline="234" endline="252">dataAccess.DataAccess.getRuralHouse</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>dataAccess.DataAccess.DataAccess</definition>
+        <argsstring>()</argsstring>
+        <name>DataAccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="41" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="41" bodyend="66"/>
+        <references refid="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" compoundref="_data_access_8java" startline="38">dataAccess.DataAccess.c</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a158d2718ef5a80f4f296b14937cc1775" compoundref="_data_access_8java" startline="35">dataAccess.DataAccess.emf</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a622fdcb9a55b406b6bc2fa63509dae72" compoundref="_config_x_m_l_8java" startline="167" endline="169">configuration.ConfigXML.getDatabaseNode</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1abf4649caafdcfb0b506af7402f09728c" compoundref="_config_x_m_l_8java" startline="44" endline="46">configuration.ConfigXML.getDatabasePort</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a403cc4242d937a87dfea24caabaf535d" compoundref="_config_x_m_l_8java" startline="159" endline="161">configuration.ConfigXML.getDbFilename</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a74c5e0c09c0139554ede8d786cb808ff" compoundref="_config_x_m_l_8java" startline="143" endline="145">configuration.ConfigXML.getInstance</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a70146fb5f8cda65220413959691e3616" compoundref="_config_x_m_l_8java" startline="52" endline="54">configuration.ConfigXML.getPassword</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a98e53bd841ca5f520af914f96ff2afef" compoundref="_config_x_m_l_8java" startline="48" endline="50">configuration.ConfigXML.getUser</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a2ee9afbde36aa3f5c0d0158a8b5449fb" compoundref="_config_x_m_l_8java" startline="57" endline="59">configuration.ConfigXML.isDatabaseLocal</references>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a660f0677b4ead89efe35c8f8f13c48ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client dataAccess.DataAccess.createClient</definition>
+        <argsstring>(String username, String password, String telegramId, String cuentaBancaria, String email)</argsstring>
+        <name>createClient</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <exceptions> throws <ref refid="classexceptions_1_1_overlapping_client_exists" kindref="compound">OverlappingClientExists</ref> </exceptions>
+        <briefdescription>
+<para>Crea un cliente en la base de datos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>OverlappingClientExists</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="78" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="78" bodyend="93"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" compoundref="_data_access_8java" startline="39">dataAccess.DataAccess.debuger</references>
+        <references refid="classdata_access_1_1_data_access_1a0023d35ffec2c84262c6dad259f812ae" compoundref="_data_access_8java" startline="333" endline="339">dataAccess.DataAccess.existClient</references>
+        <references refid="classdomain_1_1_client_1a5fc558240fa2d8ee6a87c41d373069fc" compoundref="_client_8java" startline="139" endline="146">domain.Client.toString</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2c5f0e41c6463d8e5c7d4b89ea3f676f" compoundref="_facade_implementation_w_s_8java" startline="67" endline="76">businessLogic.FacadeImplementationWS.createClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a786f6a4bbd1f36ee68d8cebfd1ebc626" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner dataAccess.DataAccess.createOwner</definition>
+        <argsstring>(String username, String password, String telegramId, String cuentaBancaria, String email)</argsstring>
+        <name>createOwner</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>telegramId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cuentaBancaria</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <exceptions> throws <ref refid="classexceptions_1_1_overlapping_owner_exist" kindref="compound">OverlappingOwnerExist</ref> </exceptions>
+        <briefdescription>
+<para>Crea un propietario en la base de datos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>OverlappingOwnerExist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="105" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="105" bodyend="120"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" compoundref="_data_access_8java" startline="39">dataAccess.DataAccess.debuger</references>
+        <references refid="classdata_access_1_1_data_access_1a50b55de13fbd4c9848f7c3ee8a57db93" compoundref="_data_access_8java" startline="341" endline="347">dataAccess.DataAccess.existOwner</references>
+        <references refid="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" compoundref="_owner_8java" startline="136" endline="147">domain.Owner.toString</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ad7a2f26be66f4ae4cbc2a4ad89e74e53" compoundref="_facade_implementation_w_s_8java" startline="78" endline="86">businessLogic.FacadeImplementationWS.createOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva dataAccess.DataAccess.createReserva</definition>
+        <argsstring>(Offer offer, Client cliente, Date bookDate)</argsstring>
+        <name>createReserva</name>
+        <param>
+          <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+          <declname>offer</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>cliente</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>bookDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="122" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="122" bodyend="134"/>
+        <references refid="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" compoundref="_data_access_8java" startline="38">dataAccess.DataAccess.c</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" compoundref="_data_access_8java" startline="286" endline="299">dataAccess.DataAccess.getClientByUsername</references>
+        <references refid="classdata_access_1_1_data_access_1a542a2ce3e970075b63c22b8cefac42ee" compoundref="_data_access_8java" startline="214" endline="217">dataAccess.DataAccess.getOfferByNum</references>
+        <references refid="classdomain_1_1_offer_1ab9e27c474ec6819a27eac1847d876c3a" compoundref="_offer_8java" startline="89" endline="91">domain.Offer.getOfferNumber</references>
+        <references refid="classdomain_1_1_client_1aa3cb01ad1be8a3ad758ef94bbf60c69c" compoundref="_client_8java" startline="122" endline="124">domain.Client.getUserName</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5bbdf1cf4235a84736744f3516ec1dae" compoundref="_facade_implementation_w_s_8java" startline="33" endline="39">businessLogic.FacadeImplementationWS.createReserva</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse dataAccess.DataAccess.createRuralHouse</definition>
+        <argsstring>(Owner o, String city, String description, String address, String roomsNumber)</argsstring>
+        <name>createRuralHouse</name>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>roomsNumber</declname>
+        </param>
+        <briefdescription>
+<para>Crea una casa rural en la base de datos y actualiza la lista de casas del propietario con esta casa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>city </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>o </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="148" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="148" bodyend="162"/>
+        <references refid="classdomain_1_1_owner_1a01e969e9f1e86c08e90195d6cc01132d" compoundref="_owner_8java" startline="111" endline="113">domain.Owner.addRhList</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" compoundref="_data_access_8java" startline="39">dataAccess.DataAccess.debuger</references>
+        <references refid="classdata_access_1_1_data_access_1a61836150ad3401ad7e326f263993c7bc" compoundref="_data_access_8java" startline="307" endline="318">dataAccess.DataAccess.getOwnerByUsername</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" compoundref="_owner_8java" startline="136" endline="147">domain.Owner.toString</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2df596d357c02b4aef6711526347c951" compoundref="_facade_implementation_w_s_8java" startline="100" endline="108">businessLogic.FacadeImplementationWS.createRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ac07343daf9aa06679c7b28c082950ab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer dataAccess.DataAccess.createOffer</definition>
+        <argsstring>(RuralHouse ruralHouse, Date firstDay, Date lastDay, float price)</argsstring>
+        <name>createOffer</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>ruralHouse</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="164" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="164" bodyend="183"/>
+        <references refid="classdomain_1_1_rural_house_1a58e17e08a7b28a75bc1b8e3d6ac01764" compoundref="_rural_house_8java" startline="141" endline="148">domain.RuralHouse.createOffer</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ac7b3bdfd0815ea7c787da312de594cce" compoundref="_facade_implementation_w_s_8java" startline="47" endline="65">businessLogic.FacadeImplementationWS.createOffer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.addImageToRH</definition>
+        <argsstring>(byte[] img, RuralHouse rh, Owner owner)</argsstring>
+        <name>addImageToRH</name>
+        <param>
+          <type>byte []</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="185" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="185" bodyend="194"/>
+        <references refid="classdomain_1_1_rural_house_1a0d4787f58507c40f9474f2bec0a1250a" compoundref="_rural_house_8java" startline="83" endline="87">domain.RuralHouse.addImage</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" compoundref="_data_access_8java" startline="39">dataAccess.DataAccess.debuger</references>
+        <references refid="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" compoundref="_data_access_8java" startline="234" endline="252">dataAccess.DataAccess.getRuralHouse</references>
+        <references refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" compoundref="_rural_house_8java" startline="159" endline="163">domain.RuralHouse.toString</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa05fbf6e32c0939508a542b857dce1d1" compoundref="_facade_implementation_w_s_8java" startline="150" endline="155">businessLogic.FacadeImplementationWS.addImageToRH</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ad2661c3e2d7e0550b837b2763456683d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva dataAccess.DataAccess.getReservaByNum</definition>
+        <argsstring>(int n)</argsstring>
+        <name>getReservaByNum</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="196" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="196" bodyend="199"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7b8deff7fb54e2ea7fa884fc13870d6d" compoundref="_facade_implementation_w_s_8java" startline="189" endline="194">businessLogic.FacadeImplementationWS.getReservaByNum</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" compoundref="_data_access_8java" startline="201" endline="212">dataAccess.DataAccess.removeReserva</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.removeReserva</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>removeReserva</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="201" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="201" bodyend="212"/>
+        <references refid="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" compoundref="_data_access_8java" startline="38">dataAccess.DataAccess.c</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_reserva_1ac66925fa2326619705c487e27eef46bb" compoundref="_reserva_8java" startline="66" endline="68">domain.Reserva.getCliente</references>
+        <references refid="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" compoundref="_reserva_8java" startline="58" endline="60">domain.Reserva.getNumResrva</references>
+        <references refid="classdomain_1_1_reserva_1ad1da3466712c5ccaf43cb6f9fe9f5045" compoundref="_reserva_8java" startline="43" endline="45">domain.Reserva.getOffer</references>
+        <references refid="classdata_access_1_1_data_access_1ad2661c3e2d7e0550b837b2763456683d" compoundref="_data_access_8java" startline="196" endline="199">dataAccess.DataAccess.getReservaByNum</references>
+        <references refid="classdomain_1_1_offer_1a78634284385de3610a3fdc8ef08763fa" compoundref="_offer_8java" startline="61" endline="64">domain.Offer.removeReserva</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ae4cb91caac6aed10801d61b70702fd30" compoundref="_facade_implementation_w_s_8java" startline="41" endline="45">businessLogic.FacadeImplementationWS.removeReserva</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a542a2ce3e970075b63c22b8cefac42ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer dataAccess.DataAccess.getOfferByNum</definition>
+        <argsstring>(int n)</argsstring>
+        <name>getOfferByNum</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="214" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="214" bodyend="217"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <referencedby refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" compoundref="_data_access_8java" startline="122" endline="134">dataAccess.DataAccess.createReserva</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a11f6dae8ff930c2552445dbf4d292268" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; byte[]&gt;</type>
+        <definition>Vector&lt;byte[]&gt; dataAccess.DataAccess.getImagesFromRH</definition>
+        <argsstring>(RuralHouse rh, Owner owner)</argsstring>
+        <name>getImagesFromRH</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="219" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="219" bodyend="232"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" compoundref="_data_access_8java" startline="39">dataAccess.DataAccess.debuger</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse dataAccess.DataAccess.getRuralHouse</definition>
+        <argsstring>(Owner owner, RuralHouse rh)</argsstring>
+        <name>getRuralHouse</name>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="234" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="234" bodyend="252"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" compoundref="_data_access_8java" startline="39">dataAccess.DataAccess.debuger</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <references refid="classdomain_1_1_rural_house_1a2937650ac9e726b75be724d264fa1bee" compoundref="_rural_house_8java" startline="159" endline="163">domain.RuralHouse.toString</references>
+        <referencedby refid="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" compoundref="_data_access_8java" startline="185" endline="194">dataAccess.DataAccess.addImageToRH</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a22945417275898b39f1fcbdd8961b1cf" compoundref="_facade_implementation_w_s_8java" startline="158" endline="164">businessLogic.FacadeImplementationWS.getRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a13b08775ff3b4b3859a7772de6592fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref> &gt;</type>
+        <definition>Vector&lt;RuralHouse&gt; dataAccess.DataAccess.getAllRuralHouses</definition>
+        <argsstring>()</argsstring>
+        <name>getAllRuralHouses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="254" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="254" bodyend="269"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa6f21ddb40ca6cd752a13e31ff016e7e" compoundref="_facade_implementation_w_s_8java" startline="111" endline="118">businessLogic.FacadeImplementationWS.getAllRuralHouses</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ab8f58c04c48032a83b000d6de7f47d4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector&lt; <ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref> &gt;</type>
+        <definition>Vector&lt;Offer&gt; dataAccess.DataAccess.getOffers</definition>
+        <argsstring>(RuralHouse rh, Date firstDay, Date lastDay)</argsstring>
+        <name>getOffers</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="271" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="271" bodyend="277"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <references refid="classdomain_1_1_rural_house_1ae653409c7556fa8b3ccabd0c17604666" compoundref="_rural_house_8java" startline="67" endline="69">domain.RuralHouse.getOffers</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7489fb15fdb8206b16daf6ed24fdfea0" compoundref="_facade_implementation_w_s_8java" startline="121" endline="129">businessLogic.FacadeImplementationWS.getOffers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client dataAccess.DataAccess.getClientByUsername</definition>
+        <argsstring>(String username)</argsstring>
+        <name>getClientByUsername</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>devuelve un cliente dado su &quot;username&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Client </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="286" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="286" bodyend="299"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" compoundref="_data_access_8java" startline="39">dataAccess.DataAccess.debuger</references>
+        <references refid="classdomain_1_1_client_1a5fc558240fa2d8ee6a87c41d373069fc" compoundref="_client_8java" startline="139" endline="146">domain.Client.toString</references>
+        <referencedby refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" compoundref="_data_access_8java" startline="122" endline="134">dataAccess.DataAccess.createReserva</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a0023d35ffec2c84262c6dad259f812ae" compoundref="_data_access_8java" startline="333" endline="339">dataAccess.DataAccess.existClient</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a49e8bd0f75fee0f774c78f1631509a12" compoundref="_facade_implementation_w_s_8java" startline="132" endline="138">businessLogic.FacadeImplementationWS.getClientByUsername</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a61836150ad3401ad7e326f263993c7bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner dataAccess.DataAccess.getOwnerByUsername</definition>
+        <argsstring>(String username)</argsstring>
+        <name>getOwnerByUsername</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="307" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="307" bodyend="318"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_owner_1ae9a6d647ea64719befbaf351f74a074c" compoundref="_owner_8java" startline="136" endline="147">domain.Owner.toString</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" compoundref="_data_access_8java" startline="148" endline="162">dataAccess.DataAccess.createRuralHouse</referencedby>
+        <referencedby refid="classdata_access_1_1_data_access_1a50b55de13fbd4c9848f7c3ee8a57db93" compoundref="_data_access_8java" startline="341" endline="347">dataAccess.DataAccess.existOwner</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2e7c07eb23b062294ea3f5aaa48285a5" compoundref="_facade_implementation_w_s_8java" startline="141" endline="147">businessLogic.FacadeImplementationWS.getOwnerByUsername</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ab6b1332b8bb17a4f65457043247d0b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean dataAccess.DataAccess.existsOverlappingOffer</definition>
+        <argsstring>(RuralHouse rh, Date firstDay, Date lastDay)</argsstring>
+        <name>existsOverlappingOffer</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>firstDay</declname>
+        </param>
+        <param>
+          <type>Date</type>
+          <declname>lastDay</declname>
+        </param>
+        <exceptions> throws <ref refid="classexceptions_1_1_overlapping_offer_exists" kindref="compound">OverlappingOfferExists</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="320" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="320" bodyend="331"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <references refid="classdomain_1_1_rural_house_1ac5596b06728d8bf377993088520fbc9e" compoundref="_rural_house_8java" startline="232" endline="243">domain.RuralHouse.overlapsWith</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ac7b3bdfd0815ea7c787da312de594cce" compoundref="_facade_implementation_w_s_8java" startline="47" endline="65">businessLogic.FacadeImplementationWS.createOffer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a0023d35ffec2c84262c6dad259f812ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean dataAccess.DataAccess.existClient</definition>
+        <argsstring>(String username)</argsstring>
+        <name>existClient</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="333" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="333" bodyend="339"/>
+        <references refid="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" compoundref="_data_access_8java" startline="286" endline="299">dataAccess.DataAccess.getClientByUsername</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a660f0677b4ead89efe35c8f8f13c48ec" compoundref="_data_access_8java" startline="78" endline="93">dataAccess.DataAccess.createClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a50b55de13fbd4c9848f7c3ee8a57db93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean dataAccess.DataAccess.existOwner</definition>
+        <argsstring>(String username)</argsstring>
+        <name>existOwner</name>
+        <param>
+          <type>String</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="341" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="341" bodyend="347"/>
+        <references refid="classdata_access_1_1_data_access_1a61836150ad3401ad7e326f263993c7bc" compoundref="_data_access_8java" startline="307" endline="318">dataAccess.DataAccess.getOwnerByUsername</references>
+        <referencedby refid="classdata_access_1_1_data_access_1a786f6a4bbd1f36ee68d8cebfd1ebc626" compoundref="_data_access_8java" startline="105" endline="120">dataAccess.DataAccess.createOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a652083447d2e9e5fd5b6228bc67a8ca4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse dataAccess.DataAccess.getRuralHouseByHouseNumber</definition>
+        <argsstring>(int num)</argsstring>
+        <name>getRuralHouseByHouseNumber</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="349" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="349" bodyend="352"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4b08e36f8de023cb541f63a5e772e2be" compoundref="_facade_implementation_w_s_8java" startline="167" endline="173">businessLogic.FacadeImplementationWS.getRuralHousebyHouseNumber</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a3317cddb0e49d7e884f5f89795e20317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.removeRuralHouse</definition>
+        <argsstring>(int num)</argsstring>
+        <name>removeRuralHouse</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="354" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="354" bodyend="362"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_rural_house_1a1e5ccf38c0d875763f2e9120e36e412b" compoundref="_rural_house_8java" startline="71" endline="73">domain.RuralHouse.getOwner</references>
+        <references refid="classdomain_1_1_owner_1a520de8a66f25117d263ea4c7cd5f08fa" compoundref="_owner_8java" startline="131" endline="133">domain.Owner.removeRuralHouse</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4d0fe8c220dc334e527a3e7b4cc9edca" compoundref="_facade_implementation_w_s_8java" startline="176" endline="180">businessLogic.FacadeImplementationWS.removeRuralHouse</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a58d3d443d0a2f5d74b6240248a257fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="364" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="364" bodyend="367"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa05fbf6e32c0939508a542b857dce1d1" compoundref="_facade_implementation_w_s_8java" startline="150" endline="155">businessLogic.FacadeImplementationWS.addImageToRH</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aaf150e07dd6d71319c6f2f4bf6be1647" compoundref="_facade_implementation_w_s_8java" startline="183" endline="186">businessLogic.FacadeImplementationWS.close</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2c5f0e41c6463d8e5c7d4b89ea3f676f" compoundref="_facade_implementation_w_s_8java" startline="67" endline="76">businessLogic.FacadeImplementationWS.createClient</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a415b0ef5c66ce3bcec46a33750dc469f" compoundref="_facade_implementation_w_s_8java" startline="228" endline="233">businessLogic.FacadeImplementationWS.createFeedBack</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ac7b3bdfd0815ea7c787da312de594cce" compoundref="_facade_implementation_w_s_8java" startline="47" endline="65">businessLogic.FacadeImplementationWS.createOffer</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ad7a2f26be66f4ae4cbc2a4ad89e74e53" compoundref="_facade_implementation_w_s_8java" startline="78" endline="86">businessLogic.FacadeImplementationWS.createOwner</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5bbdf1cf4235a84736744f3516ec1dae" compoundref="_facade_implementation_w_s_8java" startline="33" endline="39">businessLogic.FacadeImplementationWS.createReserva</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2df596d357c02b4aef6711526347c951" compoundref="_facade_implementation_w_s_8java" startline="100" endline="108">businessLogic.FacadeImplementationWS.createRuralHouse</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa6f21ddb40ca6cd752a13e31ff016e7e" compoundref="_facade_implementation_w_s_8java" startline="111" endline="118">businessLogic.FacadeImplementationWS.getAllRuralHouses</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a49e8bd0f75fee0f774c78f1631509a12" compoundref="_facade_implementation_w_s_8java" startline="132" endline="138">businessLogic.FacadeImplementationWS.getClientByUsername</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7489fb15fdb8206b16daf6ed24fdfea0" compoundref="_facade_implementation_w_s_8java" startline="121" endline="129">businessLogic.FacadeImplementationWS.getOffers</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a2e7c07eb23b062294ea3f5aaa48285a5" compoundref="_facade_implementation_w_s_8java" startline="141" endline="147">businessLogic.FacadeImplementationWS.getOwnerByUsername</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a7b8deff7fb54e2ea7fa884fc13870d6d" compoundref="_facade_implementation_w_s_8java" startline="189" endline="194">businessLogic.FacadeImplementationWS.getReservaByNum</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a22945417275898b39f1fcbdd8961b1cf" compoundref="_facade_implementation_w_s_8java" startline="158" endline="164">businessLogic.FacadeImplementationWS.getRuralHouse</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4b08e36f8de023cb541f63a5e772e2be" compoundref="_facade_implementation_w_s_8java" startline="167" endline="173">businessLogic.FacadeImplementationWS.getRuralHousebyHouseNumber</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1ae4cb91caac6aed10801d61b70702fd30" compoundref="_facade_implementation_w_s_8java" startline="41" endline="45">businessLogic.FacadeImplementationWS.removeReserva</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4d0fe8c220dc334e527a3e7b4cc9edca" compoundref="_facade_implementation_w_s_8java" startline="176" endline="180">businessLogic.FacadeImplementationWS.removeRuralHouse</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4ed81cb9f24d501da830d80dda086fce" compoundref="_facade_implementation_w_s_8java" startline="235" endline="239">businessLogic.FacadeImplementationWS.setRated</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5918c2957b02255254ae252aabfe3fc1" compoundref="_facade_implementation_w_s_8java" startline="196" endline="201">businessLogic.FacadeImplementationWS.updateClient</referencedby>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a6ee2c273a768beed556dd83d9e5ad035" compoundref="_facade_implementation_w_s_8java" startline="203" endline="208">businessLogic.FacadeImplementationWS.updateOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ad9bd59be12508bde6bffd40397ed6caa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.updateClinetValidation</definition>
+        <argsstring>(Client c)</argsstring>
+        <name>updateClinetValidation</name>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="369" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="369" bodyend="375"/>
+        <references refid="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" compoundref="_data_access_8java" startline="38">dataAccess.DataAccess.c</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_client_1aef4786d9a92347815e4494c8fc0b8bd2" compoundref="_client_8java" startline="73" endline="75">domain.Client.setValidated</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1aa1ef9c26fc3278ef6c4170094ed6dcaa" compoundref="_facade_implementation_w_s_8java" startline="88" endline="91">businessLogic.FacadeImplementationWS.updateClinetValidation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a5ecedf103c63cc76c84c664e29f64f7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.updateOwnerValidation</definition>
+        <argsstring>(Owner o)</argsstring>
+        <name>updateOwnerValidation</name>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="377" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="377" bodyend="383"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classdomain_1_1_owner_1a6c9df0354092ead37755351953846cbe" compoundref="_owner_8java" startline="63" endline="65">domain.Owner.setValidated</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a9c3c6f8a2ec5a4d19defc324fc60c523" compoundref="_facade_implementation_w_s_8java" startline="94" endline="97">businessLogic.FacadeImplementationWS.updateOwnerValidation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ab4e4324392bb85a0f2a2c209f463d1fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.remove2</definition>
+        <argsstring>(RuralHouse rh)</argsstring>
+        <name>remove2</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="385" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="385" bodyend="387"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+        <definition>Client dataAccess.DataAccess.updateClient</definition>
+        <argsstring>(Client c)</argsstring>
+        <name>updateClient</name>
+        <param>
+          <type><ref refid="classdomain_1_1_client" kindref="compound">Client</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="389" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="389" bodyend="401"/>
+        <references refid="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" compoundref="_data_access_8java" startline="38">dataAccess.DataAccess.c</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classconfiguration_1_1_config_x_m_l_1a70146fb5f8cda65220413959691e3616" compoundref="_config_x_m_l_8java" startline="52" endline="54">configuration.ConfigXML.getPassword</references>
+        <references refid="classdomain_1_1_client_1a02858d702a1b74589412777da82111ca" compoundref="_client_8java" startline="118" endline="120">domain.Client.setCuentaBancaria</references>
+        <references refid="classdomain_1_1_client_1a525e1e3b7447d73947fa880f4c836872" compoundref="_client_8java" startline="102" endline="104">domain.Client.setEmail</references>
+        <references refid="classdomain_1_1_client_1ae13843f725fdfd5d85a3a4176b9ee8a9" compoundref="_client_8java" startline="134" endline="136">domain.Client.setPassword</references>
+        <references refid="classdomain_1_1_client_1acf27654cd7efbc18bb8867a58a272eef" compoundref="_client_8java" startline="61" endline="63">domain.Client.setSendBookByEmail</references>
+        <references refid="classdomain_1_1_client_1af38389540adb7dba2798d6b9912b220f" compoundref="_client_8java" startline="69" endline="71">domain.Client.setSendBookByTelegram</references>
+        <references refid="classdomain_1_1_client_1aa0ab199ddacd36d8feb16cff4c01a506" compoundref="_client_8java" startline="110" endline="112">domain.Client.setTelegramId</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a5918c2957b02255254ae252aabfe3fc1" compoundref="_facade_implementation_w_s_8java" startline="196" endline="201">businessLogic.FacadeImplementationWS.updateClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner dataAccess.DataAccess.updateOwner</definition>
+        <argsstring>(Owner o)</argsstring>
+        <name>updateOwner</name>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="403" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="403" bodyend="414"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_owner_1a6d24ccea9d518464f4c6185a33ff4c6c" compoundref="_owner_8java" startline="75" endline="77">domain.Owner.getCuentaBancaria</references>
+        <references refid="classdomain_1_1_owner_1afb08255ba011740f10d8dfe35b8168bb" compoundref="_owner_8java" startline="83" endline="85">domain.Owner.getEmail</references>
+        <references refid="classdomain_1_1_owner_1a111db748c1d8f6451efb9486566b2df5" compoundref="_owner_8java" startline="123" endline="125">domain.Owner.getPassword</references>
+        <references refid="classdomain_1_1_owner_1a6aef327c7dde889395788d062a64f102" compoundref="_owner_8java" startline="67" endline="69">domain.Owner.getTelegramId</references>
+        <references refid="classdomain_1_1_owner_1a912ac7ca2dffa65d6b4c26540cc33605" compoundref="_owner_8java" startline="115" endline="117">domain.Owner.getUserName</references>
+        <references refid="classdomain_1_1_owner_1a89052fe74fcb66cc60d3c7ee7d3e2d75" compoundref="_owner_8java" startline="51" endline="53">domain.Owner.isSendBookByTelegram</references>
+        <references refid="classdomain_1_1_owner_1a585ddd63f0f59a3198fa98689b07635e" compoundref="_owner_8java" startline="79" endline="81">domain.Owner.setCuentaBancaria</references>
+        <references refid="classdomain_1_1_owner_1a021c9e357ca913eb88688a7aaa3e298d" compoundref="_owner_8java" startline="87" endline="89">domain.Owner.setEmail</references>
+        <references refid="classdomain_1_1_owner_1a9b6bea08f2f6af298a4e7af22fc900dc" compoundref="_owner_8java" startline="127" endline="129">domain.Owner.setPassword</references>
+        <references refid="classdomain_1_1_owner_1a4541457ba4d275025e6134f9402a6c5e" compoundref="_owner_8java" startline="55" endline="57">domain.Owner.setSendBookByTelegram</references>
+        <references refid="classdomain_1_1_owner_1ac024ef11aaf4d4875f421c75365e3c9e" compoundref="_owner_8java" startline="71" endline="73">domain.Owner.setTelegramId</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a6ee2c273a768beed556dd83d9e5ad035" compoundref="_facade_implementation_w_s_8java" startline="203" endline="208">businessLogic.FacadeImplementationWS.updateOwner</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1ab4812e588500fe2483a82a339a21e17a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_feed_back" kindref="compound">FeedBack</ref></type>
+        <definition>FeedBack dataAccess.DataAccess.createFeedBack</definition>
+        <argsstring>(int i, String s, RuralHouse rh)</argsstring>
+        <name>createFeedBack</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="416" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="416" bodyend="425"/>
+        <references refid="classdomain_1_1_rural_house_1a4660dbd4e788ded7496bc96e4e29a47b" compoundref="_rural_house_8java" startline="60" endline="62">domain.RuralHouse.addFeedBack</references>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_rural_house_1a849faba68dc8c0a71ed936bc509f5568" compoundref="_rural_house_8java" startline="109" endline="111">domain.RuralHouse.getHouseNumber</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a415b0ef5c66ce3bcec46a33750dc469f" compoundref="_facade_implementation_w_s_8java" startline="228" endline="233">businessLogic.FacadeImplementationWS.createFeedBack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdata_access_1_1_data_access_1afe99432043c4bf8bc7032858b51badbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dataAccess.DataAccess.setRated</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>setRated</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/dataAccess/DataAccess.java" line="427" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="427" bodyend="433"/>
+        <references refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" compoundref="_data_access_8java" startline="36">dataAccess.DataAccess.db</references>
+        <references refid="classdomain_1_1_reserva_1ad33437c61a742b36c49e5fbf3ae7d715" compoundref="_reserva_8java" startline="58" endline="60">domain.Reserva.getNumResrva</references>
+        <references refid="classdomain_1_1_reserva_1a60d958be9830f0e8fd70e2bac91ebc21" compoundref="_reserva_8java" startline="51" endline="53">domain.Reserva.setRated</references>
+        <referencedby refid="classbusiness_logic_1_1_facade_implementation_w_s_1a4ed81cb9f24d501da830d80dda086fce" compoundref="_facade_implementation_w_s_8java" startline="235" endline="239">businessLogic.FacadeImplementationWS.setRated</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="40">
+        <label>dataAccess.DataAccess</label>
+        <link refid="classdata_access_1_1_data_access"/>
+        <childnode refid="41" relation="usage">
+          <edgelabel>c</edgelabel>
+        </childnode>
+        <childnode refid="42" relation="usage">
+          <edgelabel>db</edgelabel>
+        </childnode>
+        <childnode refid="43" relation="usage">
+          <edgelabel>emf</edgelabel>
+        </childnode>
+      </node>
+      <node id="43">
+        <label>EntityManagerFactory</label>
+      </node>
+      <node id="42">
+        <label>EntityManager</label>
+      </node>
+      <node id="41">
+        <label>configuration.ConfigXML</label>
+        <link refid="classconfiguration_1_1_config_x_m_l"/>
+        <childnode refid="41" relation="usage">
+          <edgelabel>theInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/dataAccess/DataAccess.java" line="32" column="1" bodyfile="src/dataAccess/DataAccess.java" bodystart="32" bodyend="434"/>
+    <listofallmembers>
+      <member refid="classdata_access_1_1_data_access_1ac3b7d95db57811e7a7e41c74d1d8a807" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>addImageToRH</name></member>
+      <member refid="classdata_access_1_1_data_access_1ad09e2bb7e62d0624ad4ed15307cb2e3e" prot="package" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>c</name></member>
+      <member refid="classdata_access_1_1_data_access_1a58d3d443d0a2f5d74b6240248a257fd5" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>close</name></member>
+      <member refid="classdata_access_1_1_data_access_1a660f0677b4ead89efe35c8f8f13c48ec" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>createClient</name></member>
+      <member refid="classdata_access_1_1_data_access_1ab4812e588500fe2483a82a339a21e17a" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>createFeedBack</name></member>
+      <member refid="classdata_access_1_1_data_access_1ac07343daf9aa06679c7b28c082950ab0" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>createOffer</name></member>
+      <member refid="classdata_access_1_1_data_access_1a786f6a4bbd1f36ee68d8cebfd1ebc626" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>createOwner</name></member>
+      <member refid="classdata_access_1_1_data_access_1af251e5b2044f3db7d7e9e4ca687808f2" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>createReserva</name></member>
+      <member refid="classdata_access_1_1_data_access_1a285dc85c28f00942caf20622fc619541" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>createRuralHouse</name></member>
+      <member refid="classdata_access_1_1_data_access_1a4f66a4eefd8656ede2ffc4403af77346" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>DataAccess</name></member>
+      <member refid="classdata_access_1_1_data_access_1a0920d5a9c61bdae39ef950d6e4e187e4" prot="protected" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>db</name></member>
+      <member refid="classdata_access_1_1_data_access_1a3a2da087d6452771264c177c02ecab4a" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>debuger</name></member>
+      <member refid="classdata_access_1_1_data_access_1a158d2718ef5a80f4f296b14937cc1775" prot="protected" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>emf</name></member>
+      <member refid="classdata_access_1_1_data_access_1a0023d35ffec2c84262c6dad259f812ae" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>existClient</name></member>
+      <member refid="classdata_access_1_1_data_access_1a50b55de13fbd4c9848f7c3ee8a57db93" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>existOwner</name></member>
+      <member refid="classdata_access_1_1_data_access_1ab6b1332b8bb17a4f65457043247d0b5e" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>existsOverlappingOffer</name></member>
+      <member refid="classdata_access_1_1_data_access_1aba38e7b60b8d2dc1d112ac7b5e5e4693" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>fileName</name></member>
+      <member refid="classdata_access_1_1_data_access_1a13b08775ff3b4b3859a7772de6592fb0" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getAllRuralHouses</name></member>
+      <member refid="classdata_access_1_1_data_access_1af7f43a6feb37bdb96c5d80a9e6344f8f" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getClientByUsername</name></member>
+      <member refid="classdata_access_1_1_data_access_1a11f6dae8ff930c2552445dbf4d292268" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getImagesFromRH</name></member>
+      <member refid="classdata_access_1_1_data_access_1a542a2ce3e970075b63c22b8cefac42ee" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getOfferByNum</name></member>
+      <member refid="classdata_access_1_1_data_access_1ab8f58c04c48032a83b000d6de7f47d4e" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getOffers</name></member>
+      <member refid="classdata_access_1_1_data_access_1a61836150ad3401ad7e326f263993c7bc" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getOwnerByUsername</name></member>
+      <member refid="classdata_access_1_1_data_access_1ad2661c3e2d7e0550b837b2763456683d" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getReservaByNum</name></member>
+      <member refid="classdata_access_1_1_data_access_1a8addeaaedd74ad2fb8e285672c22d216" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getRuralHouse</name></member>
+      <member refid="classdata_access_1_1_data_access_1a652083447d2e9e5fd5b6228bc67a8ca4" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>getRuralHouseByHouseNumber</name></member>
+      <member refid="classdata_access_1_1_data_access_1ab4e4324392bb85a0f2a2c209f463d1fa" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>remove2</name></member>
+      <member refid="classdata_access_1_1_data_access_1a2980497a576b4e113f96daf113620b7e" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>removeReserva</name></member>
+      <member refid="classdata_access_1_1_data_access_1a3317cddb0e49d7e884f5f89795e20317" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>removeRuralHouse</name></member>
+      <member refid="classdata_access_1_1_data_access_1afe99432043c4bf8bc7032858b51badbf" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>setRated</name></member>
+      <member refid="classdata_access_1_1_data_access_1a403975bb8b87dbfa856d90ef362e7b60" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>updateClient</name></member>
+      <member refid="classdata_access_1_1_data_access_1ad9bd59be12508bde6bffd40397ed6caa" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>updateClinetValidation</name></member>
+      <member refid="classdata_access_1_1_data_access_1af4bcb54cc90c7376889c7c9357d93416" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>updateOwner</name></member>
+      <member refid="classdata_access_1_1_data_access_1a5ecedf103c63cc76c84c664e29f64f7b" prot="public" virt="non-virtual"><scope>dataAccess::DataAccess</scope><name>updateOwnerValidation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

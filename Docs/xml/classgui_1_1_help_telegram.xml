@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classgui_1_1_help_telegram" kind="class" language="Java" prot="public">
+    <compoundname>gui::HelpTelegram</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgui_1_1_help_telegram_1add5420f3af5cd44b1e10bd946e8a8906" prot="private" static="no" mutable="no">
+        <type>final JPanel</type>
+        <definition>final JPanel gui.HelpTelegram.contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <initializer>= new JPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/HelpTelegram.java" line="16" column="1" bodyfile="src/gui/HelpTelegram.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classgui_1_1_help_telegram_1a74bf844c45b4063a5c7d4956b13af89c" compoundref="_help_telegram_8java" startline="34" endline="65">gui.HelpTelegram.HelpTelegram</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgui_1_1_help_telegram_1a61edf978593e59290943e50a2a5ff367" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gui.HelpTelegram.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Launch the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/HelpTelegram.java" line="21" column="1" bodyfile="src/gui/HelpTelegram.java" bodystart="21" bodyend="29"/>
+        <references refid="classgui_1_1_help_telegram_1a74bf844c45b4063a5c7d4956b13af89c" compoundref="_help_telegram_8java" startline="34" endline="65">gui.HelpTelegram.HelpTelegram</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgui_1_1_help_telegram_1a74bf844c45b4063a5c7d4956b13af89c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gui.HelpTelegram.HelpTelegram</definition>
+        <argsstring>()</argsstring>
+        <name>HelpTelegram</name>
+        <briefdescription>
+<para>Create the dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/gui/HelpTelegram.java" line="34" column="1" bodyfile="src/gui/HelpTelegram.java" bodystart="34" bodyend="65"/>
+        <references refid="classgui_1_1_help_telegram_1add5420f3af5cd44b1e10bd946e8a8906" compoundref="_help_telegram_8java" startline="16">gui.HelpTelegram.contentPanel</references>
+        <referencedby refid="classgui_1_1_help_telegram_1a61edf978593e59290943e50a2a5ff367" compoundref="_help_telegram_8java" startline="21" endline="29">gui.HelpTelegram.main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="101">
+        <label>JDialog</label>
+      </node>
+      <node id="100">
+        <label>gui.HelpTelegram</label>
+        <link refid="classgui_1_1_help_telegram"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>JPanel</label>
+      </node>
+      <node id="103">
+        <label>JDialog</label>
+      </node>
+      <node id="102">
+        <label>gui.HelpTelegram</label>
+        <link refid="classgui_1_1_help_telegram"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>contentPanel</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/gui/HelpTelegram.java" line="14" column="1" bodyfile="src/gui/HelpTelegram.java" bodystart="14" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classgui_1_1_help_telegram_1add5420f3af5cd44b1e10bd946e8a8906" prot="private" virt="non-virtual"><scope>gui::HelpTelegram</scope><name>contentPanel</name></member>
+      <member refid="classgui_1_1_help_telegram_1a74bf844c45b4063a5c7d4956b13af89c" prot="public" virt="non-virtual"><scope>gui::HelpTelegram</scope><name>HelpTelegram</name></member>
+      <member refid="classgui_1_1_help_telegram_1a61edf978593e59290943e50a2a5ff367" prot="public" virt="non-virtual"><scope>gui::HelpTelegram</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

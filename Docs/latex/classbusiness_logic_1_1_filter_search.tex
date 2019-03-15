@@ -1,0 +1,379 @@
+\hypertarget{classbusiness_logic_1_1_filter_search}{}\section{Referencia de la Clase business\+Logic.\+Filter\+Search}
+\label{classbusiness_logic_1_1_filter_search}\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a560e1672c146a2afd16156a103f282ef}{get\+Max\+Price}} (Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ list)
+\item 
+int \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a25565270bec567f6e77b674396f021e7}{get\+Min\+Price}} (Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ list)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a9cf43f80893307e2a79eb1c67ea9463e}{filter\+Offer\+By\+Price}} (Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ list, int max\+Price)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_acaa9148a7aab2c5185a6de377f0773cd}{filter\+Offer\+By\+Rh}} (\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} rh, Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ list)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a6c76035ba9f40e420fab31f169a63b89}{filter\+By\+City}} (String city, Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ list)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a067f20824f8badab885b1711f8728c31}{filter\+Offer\+By\+City}} (String city, Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ list)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a4c7e6a5749fef2162a22047d4d22dded}{filter\+Offer\+By\+First\+Day}} (Date first\+Day, Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ list)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_ae2b3e3d306b1d2d9645fb6f3b7634420}{filter\+Offer\+By\+Last\+Day}} (Date last\+Day, Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ list)
+\item 
+Vector$<$ String $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a2efcdd2daef7808679d722f5ab26ced0}{get\+All\+City}} (Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ list)
+\item 
+Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$ \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a14d70d3dd59998c944b97e0dbf785629}{filter\+Offer\+By\+Nights}} (String s, Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$ list)
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+java.\+util.\+Calendar \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a515df1bba64c967c9831377e7e7a9579}{cal}} = Gregorian\+Calendar.\+get\+Instance()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 12 del archivo Filter\+Search.\+java.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a6c76035ba9f40e420fab31f169a63b89}\label{classbusiness_logic_1_1_filter_search_a6c76035ba9f40e420fab31f169a63b89}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!filterByCity@{filterByCity}}
+\index{filterByCity@{filterByCity}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{filterByCity()}{filterByCity()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}$>$ business\+Logic.\+Filter\+Search.\+filter\+By\+City (\begin{DoxyParamCaption}\item[{String}]{city,  }\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 63 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{63                                                                                 \{}
+\DoxyCodeLine{64         Vector<RuralHouse> list2 = \textcolor{keyword}{new} Vector<RuralHouse>();}
+\DoxyCodeLine{65         \textcolor{keywordflow}{if}(!city.equals(\textcolor{stringliteral}{"ALL"}))\{}
+\DoxyCodeLine{66         \textcolor{keywordflow}{for}(RuralHouse rh:list)\{}
+\DoxyCodeLine{67             \textcolor{keywordflow}{if}(rh.getCity().equals(city))\{}
+\DoxyCodeLine{68                 list2.add(rh);}
+\DoxyCodeLine{69             \}}
+\DoxyCodeLine{70         \}}
+\DoxyCodeLine{71         \textcolor{keywordflow}{return} list2;\}}
+\DoxyCodeLine{72         \textcolor{keywordflow}{else}\{ \textcolor{keywordflow}{return} list;\}}
+\DoxyCodeLine{73     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a067f20824f8badab885b1711f8728c31}\label{classbusiness_logic_1_1_filter_search_a067f20824f8badab885b1711f8728c31}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!filterOfferByCity@{filterOfferByCity}}
+\index{filterOfferByCity@{filterOfferByCity}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{filterOfferByCity()}{filterOfferByCity()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Filter\+Search.\+filter\+Offer\+By\+City (\begin{DoxyParamCaption}\item[{String}]{city,  }\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 74 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{74                                                                            \{}
+\DoxyCodeLine{75         Vector<Offer> list2 = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{76         \textcolor{keywordflow}{for}(Offer o:list)\{}
+\DoxyCodeLine{77             \textcolor{keywordflow}{if}(o.getRuralHouse().getCity().equals(city))\{}
+\DoxyCodeLine{78                 list2.add(o);}
+\DoxyCodeLine{79             \}}
+\DoxyCodeLine{80         \}}
+\DoxyCodeLine{81         \textcolor{keywordflow}{return} list2;\}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a4c7e6a5749fef2162a22047d4d22dded}\label{classbusiness_logic_1_1_filter_search_a4c7e6a5749fef2162a22047d4d22dded}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!filterOfferByFirstDay@{filterOfferByFirstDay}}
+\index{filterOfferByFirstDay@{filterOfferByFirstDay}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{filterOfferByFirstDay()}{filterOfferByFirstDay()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Filter\+Search.\+filter\+Offer\+By\+First\+Day (\begin{DoxyParamCaption}\item[{Date}]{first\+Day,  }\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 84 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{84                                                                                 \{}
+\DoxyCodeLine{85         Vector<Offer> listO = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{86         \textcolor{keywordflow}{for}(Offer o: list)\{}
+\DoxyCodeLine{87             System.out.println(\textcolor{stringliteral}{"Data offer:  "}+ o.getFirstDay() +\textcolor{stringliteral}{"    Date first Day:  "}+firstDay + \textcolor{stringliteral}{" resultado comparacion :"} +o.getFirstDay().compareTo(firstDay) );}
+\DoxyCodeLine{88             \textcolor{keywordflow}{if} (o.getFirstDay().compareTo(firstDay)>=0\&\& !o.isBooked())\{}
+\DoxyCodeLine{89                 listO.add(o);}
+\DoxyCodeLine{90             \}}
+\DoxyCodeLine{91         \}}
+\DoxyCodeLine{92         \textcolor{keywordflow}{return} listO;}
+\DoxyCodeLine{93     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_ae2b3e3d306b1d2d9645fb6f3b7634420}\label{classbusiness_logic_1_1_filter_search_ae2b3e3d306b1d2d9645fb6f3b7634420}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!filterOfferByLastDay@{filterOfferByLastDay}}
+\index{filterOfferByLastDay@{filterOfferByLastDay}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{filterOfferByLastDay()}{filterOfferByLastDay()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Filter\+Search.\+filter\+Offer\+By\+Last\+Day (\begin{DoxyParamCaption}\item[{Date}]{last\+Day,  }\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 94 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{94                                                                               \{}
+\DoxyCodeLine{95         Vector<Offer> listO = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{96         \textcolor{keywordflow}{for}(Offer o: list)\{}
+\DoxyCodeLine{97             \textcolor{keywordflow}{if} (o.getLastDay().compareTo(lastDay)<=0 \&\& !o.isBooked())\{}
+\DoxyCodeLine{98                 System.out.println(\textcolor{stringliteral}{"Menor o igual que"});}
+\DoxyCodeLine{99                 listO.add(o);}
+\DoxyCodeLine{100             \}}
+\DoxyCodeLine{101         \}}
+\DoxyCodeLine{102         \textcolor{keywordflow}{return} listO;}
+\DoxyCodeLine{103     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a14d70d3dd59998c944b97e0dbf785629}\label{classbusiness_logic_1_1_filter_search_a14d70d3dd59998c944b97e0dbf785629}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!filterOfferByNights@{filterOfferByNights}}
+\index{filterOfferByNights@{filterOfferByNights}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{filterOfferByNights()}{filterOfferByNights()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Filter\+Search.\+filter\+Offer\+By\+Nights (\begin{DoxyParamCaption}\item[{String}]{s,  }\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 114 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{114                                                                               \{}
+\DoxyCodeLine{115         \textcolor{keywordflow}{if}(s.equals(\textcolor{stringliteral}{"none"}))\{}
+\DoxyCodeLine{116             Vector<Offer> listO = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{117             \textcolor{keywordflow}{for}(RuralHouse rh : list)\{}
+\DoxyCodeLine{118                     \textcolor{keywordflow}{for}(Offer o: rh.offers)\{}
+\DoxyCodeLine{119                         \textcolor{keywordflow}{if}(!o.isBooked())}
+\DoxyCodeLine{120                     listO.add(o);}
+\DoxyCodeLine{121                 \}}
+\DoxyCodeLine{122             \}}
+\DoxyCodeLine{123             \textcolor{keywordflow}{return} listO;}
+\DoxyCodeLine{124         \}\textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{125         \textcolor{keywordtype}{int} n = Integer.parseInt(s);}
+\DoxyCodeLine{126         Vector<Offer> listO = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{127         Vector<Offer> listO2 = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{128         \textcolor{keywordflow}{for}(RuralHouse rh : list)\{}
+\DoxyCodeLine{129                 \textcolor{keywordflow}{for}(Offer o: rh.offers)\{}
+\DoxyCodeLine{130                     \textcolor{keywordflow}{if}(!o.isBooked())}
+\DoxyCodeLine{131                 listO.add(o);}
+\DoxyCodeLine{132             \}}
+\DoxyCodeLine{133         \}}
+\DoxyCodeLine{134         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0; i<listO.size(); i++ )\{}
+\DoxyCodeLine{135             Offer o = listO.get(i);}
+\DoxyCodeLine{136             System.out.println(\textcolor{stringliteral}{"tama�oLista = "} +listO.size() + \textcolor{stringliteral}{"  iteracion   "} + i);}
+\DoxyCodeLine{137             \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a515df1bba64c967c9831377e7e7a9579}{cal}}.setTime(o.getFirstDay());}
+\DoxyCodeLine{138             \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a515df1bba64c967c9831377e7e7a9579}{cal}}.add(Calendar.DAY\_OF\_MONTH, + n);}
+\DoxyCodeLine{139             Date date2 = \mbox{\hyperlink{classbusiness_logic_1_1_filter_search_a515df1bba64c967c9831377e7e7a9579}{cal}}.getTime();  }
+\DoxyCodeLine{140             System.out.println();}
+\DoxyCodeLine{141             System.out.println(\textcolor{stringliteral}{"FROM : rh num "}+o.getRuralHouse().getHouseNumber());}
+\DoxyCodeLine{142             System.out.println(\textcolor{stringliteral}{"input:     "} + o.getFirstDay().toString());}
+\DoxyCodeLine{143             System.out.println(\textcolor{stringliteral}{"output:    "} + date2.toString());}
+\DoxyCodeLine{144             System.out.println(\textcolor{stringliteral}{"compare to:"} + o.getLastDay().toString());}
+\DoxyCodeLine{145             System.out.println(date2.compareTo(o.getLastDay())!=0);}
+\DoxyCodeLine{146             \textcolor{keywordflow}{if} (date2.compareTo(o.getLastDay())==0)\{}
+\DoxyCodeLine{147                 listO2.add(o);}
+\DoxyCodeLine{148             \}}
+\DoxyCodeLine{149         \}}
+\DoxyCodeLine{150         \textcolor{keywordflow}{for}(Offer o:listO2)\{}
+\DoxyCodeLine{151             System.out.println(o);}
+\DoxyCodeLine{152         \}}
+\DoxyCodeLine{153         \textcolor{keywordflow}{return} listO2;}
+\DoxyCodeLine{154     \}\}}
+
+\end{DoxyCode}
+
+
+Hace referencia a business\+Logic.\+Filter\+Search.\+cal, domain.\+Offer.\+get\+First\+Day(), domain.\+Rural\+House.\+get\+House\+Number(), domain.\+Offer.\+get\+Last\+Day(), domain.\+Offer.\+get\+Rural\+House() y domain.\+Offer.\+is\+Booked().
+
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a9cf43f80893307e2a79eb1c67ea9463e}\label{classbusiness_logic_1_1_filter_search_a9cf43f80893307e2a79eb1c67ea9463e}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!filterOfferByPrice@{filterOfferByPrice}}
+\index{filterOfferByPrice@{filterOfferByPrice}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{filterOfferByPrice()}{filterOfferByPrice()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Filter\+Search.\+filter\+Offer\+By\+Price (\begin{DoxyParamCaption}\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$}]{list,  }\item[{int}]{max\+Price }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 43 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{43                                                                               \{}
+\DoxyCodeLine{44         Vector<Offer> list2 = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{45         \textcolor{keywordflow}{for}(Offer o:list)\{}
+\DoxyCodeLine{46             \textcolor{keywordflow}{if} (o.getPrice()<=maxPrice)\{}
+\DoxyCodeLine{47                 list2.add(o);}
+\DoxyCodeLine{48             \}}
+\DoxyCodeLine{49         \}}
+\DoxyCodeLine{50         \textcolor{keywordflow}{return} list2;}
+\DoxyCodeLine{51     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_acaa9148a7aab2c5185a6de377f0773cd}\label{classbusiness_logic_1_1_filter_search_acaa9148a7aab2c5185a6de377f0773cd}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!filterOfferByRh@{filterOfferByRh}}
+\index{filterOfferByRh@{filterOfferByRh}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{filterOfferByRh()}{filterOfferByRh()}}
+{\footnotesize\ttfamily Vector$<$\mbox{\hyperlink{classdomain_1_1_offer}{Offer}}$>$ business\+Logic.\+Filter\+Search.\+filter\+Offer\+By\+Rh (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}}}]{rh,  }\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_offer}{Offer}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 53 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53                                                                            \{}
+\DoxyCodeLine{54         Vector<Offer> list2 = \textcolor{keyword}{new} Vector<Offer>();}
+\DoxyCodeLine{55         \textcolor{keywordflow}{for}(Offer o:list)\{}
+\DoxyCodeLine{56             System.out.println(o.getRuralHouse().getHouseNumber().equals(rh.getHouseNumber()));}
+\DoxyCodeLine{57             \textcolor{keywordflow}{if}(o.getRuralHouse().getHouseNumber().equals(rh.getHouseNumber()))\{}
+\DoxyCodeLine{58                 list2.add(o);}
+\DoxyCodeLine{59             \}}
+\DoxyCodeLine{60         \}}
+\DoxyCodeLine{61         \textcolor{keywordflow}{return} list2;\}}
+
+\end{DoxyCode}
+
+
+Hace referencia a domain.\+Rural\+House.\+get\+House\+Number().
+
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a2efcdd2daef7808679d722f5ab26ced0}\label{classbusiness_logic_1_1_filter_search_a2efcdd2daef7808679d722f5ab26ced0}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!getAllCity@{getAllCity}}
+\index{getAllCity@{getAllCity}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{getAllCity()}{getAllCity()}}
+{\footnotesize\ttfamily Vector$<$String$>$ business\+Logic.\+Filter\+Search.\+get\+All\+City (\begin{DoxyParamCaption}\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 104 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{104                                                               \{}
+\DoxyCodeLine{105         Vector<String> lista = \textcolor{keyword}{new} Vector<String>();}
+\DoxyCodeLine{106         \textcolor{keywordflow}{for} (RuralHouse rh:list)\{}
+\DoxyCodeLine{107             \textcolor{keywordflow}{if} (!lista.contains(rh.getCity()))\{}
+\DoxyCodeLine{108                 lista.add(rh.getCity());}
+\DoxyCodeLine{109             \}}
+\DoxyCodeLine{110         \}}
+\DoxyCodeLine{111         \textcolor{keywordflow}{return} lista;}
+\DoxyCodeLine{112     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a560e1672c146a2afd16156a103f282ef}\label{classbusiness_logic_1_1_filter_search_a560e1672c146a2afd16156a103f282ef}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!getMaxPrice@{getMaxPrice}}
+\index{getMaxPrice@{getMaxPrice}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{getMaxPrice()}{getMaxPrice()}}
+{\footnotesize\ttfamily int business\+Logic.\+Filter\+Search.\+get\+Max\+Price (\begin{DoxyParamCaption}\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 16 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{16                                                    \{}
+\DoxyCodeLine{17         \textcolor{keywordtype}{int} max = -1;}
+\DoxyCodeLine{18         \textcolor{keywordflow}{for} (RuralHouse rh: list)\{}
+\DoxyCodeLine{19             \textcolor{keywordflow}{for} (Offer o: rh.getOffers())\{}
+\DoxyCodeLine{20                 \textcolor{keywordflow}{if} (!o.isBooked())\{}
+\DoxyCodeLine{21                     \textcolor{keywordflow}{if} (o.getPrice()>max)\{}
+\DoxyCodeLine{22                         max=(int) o.getPrice();}
+\DoxyCodeLine{23                     \}}
+\DoxyCodeLine{24                 \}}
+\DoxyCodeLine{25             \}}
+\DoxyCodeLine{26         \}}
+\DoxyCodeLine{27         \textcolor{keywordflow}{return} max;}
+\DoxyCodeLine{28     \}}
+
+\end{DoxyCode}
+
+
+Referenciado por gui.\+Query\+Availability\+Client\+Advaced\+G\+U\+I.\+jb\+Init().
+
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a25565270bec567f6e77b674396f021e7}\label{classbusiness_logic_1_1_filter_search_a25565270bec567f6e77b674396f021e7}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!getMinPrice@{getMinPrice}}
+\index{getMinPrice@{getMinPrice}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{getMinPrice()}{getMinPrice()}}
+{\footnotesize\ttfamily int business\+Logic.\+Filter\+Search.\+get\+Min\+Price (\begin{DoxyParamCaption}\item[{Vector$<$ \mbox{\hyperlink{classdomain_1_1_rural_house}{Rural\+House}} $>$}]{list }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 30 del archivo Filter\+Search.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{30                                                    \{}
+\DoxyCodeLine{31         \textcolor{keywordtype}{int} min = -1;}
+\DoxyCodeLine{32         \textcolor{keywordflow}{for} (RuralHouse rh: list)\{}
+\DoxyCodeLine{33             \textcolor{keywordflow}{for} (Offer o: rh.getOffers())\{}
+\DoxyCodeLine{34                 \textcolor{keywordflow}{if} (!o.isBooked())\{}
+\DoxyCodeLine{35                     \textcolor{keywordflow}{if} (o.getPrice()<min)\{}
+\DoxyCodeLine{36                         min=(int) o.getPrice();}
+\DoxyCodeLine{37                     \}}
+\DoxyCodeLine{38                 \}}
+\DoxyCodeLine{39             \}}
+\DoxyCodeLine{40         \}}
+\DoxyCodeLine{41         \textcolor{keywordflow}{return} min;}
+\DoxyCodeLine{42     \}}
+
+\end{DoxyCode}
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classbusiness_logic_1_1_filter_search_a515df1bba64c967c9831377e7e7a9579}\label{classbusiness_logic_1_1_filter_search_a515df1bba64c967c9831377e7e7a9579}} 
+\index{businessLogic.FilterSearch@{businessLogic.FilterSearch}!cal@{cal}}
+\index{cal@{cal}!businessLogic.FilterSearch@{businessLogic.FilterSearch}}
+\subsubsection{\texorpdfstring{cal}{cal}}
+{\footnotesize\ttfamily java.\+util.\+Calendar business\+Logic.\+Filter\+Search.\+cal = Gregorian\+Calendar.\+get\+Instance()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 14 del archivo Filter\+Search.\+java.
+
+
+
+Referenciado por business\+Logic.\+Filter\+Search.\+filter\+Offer\+By\+Nights().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/business\+Logic/\mbox{\hyperlink{_filter_search_8java}{Filter\+Search.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classdomain_1_1_reserva_offer_rh_owner_container" kind="class" language="Java" prot="public">
+    <compoundname>domain::ReservaOfferRhOwnerContainer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdomain_1_1_reserva_offer_rh_owner_container_1afcbc4f46e44afcfe5f441462b8628198" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva domain.ReservaOfferRhOwnerContainer.reserva</definition>
+        <argsstring></argsstring>
+        <name>reserva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="8" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_reserva_offer_rh_owner_container_1ad8659a141937db6a13a2afc94ee10302" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer domain.ReservaOfferRhOwnerContainer.offer</definition>
+        <argsstring></argsstring>
+        <name>offer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="9" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_reserva_offer_rh_owner_container_1a96ee8f1952c3b10e5ca8cbf71fdf95cf" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse domain.ReservaOfferRhOwnerContainer.rh</definition>
+        <argsstring></argsstring>
+        <name>rh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="10" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdomain_1_1_reserva_offer_rh_owner_container_1a6d643c4ac5605393774d6a69886d7c3d" prot="private" static="no" mutable="no">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner domain.ReservaOfferRhOwnerContainer.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="11" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a8dd8e74751c3687311a3dc879bf4ec1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.ReservaOfferRhOwnerContainer.ReservaOfferRhOwnerContainer</definition>
+        <argsstring>(Reserva r)</argsstring>
+        <name>ReservaOfferRhOwnerContainer</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="13" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="13" bodyend="18"/>
+        <references refid="classdomain_1_1_reserva_1ad1da3466712c5ccaf43cb6f9fe9f5045" compoundref="_reserva_8java" startline="43" endline="45">domain.Reserva.getOffer</references>
+        <references refid="classdomain_1_1_rural_house_1a1e5ccf38c0d875763f2e9120e36e412b" compoundref="_rural_house_8java" startline="71" endline="73">domain.RuralHouse.getOwner</references>
+        <references refid="classdomain_1_1_offer_1a3804f5f9ad3a3bf380e55389ccfa9dba" compoundref="_offer_8java" startline="70" endline="72">domain.Offer.getRuralHouse</references>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1ad9d429d5bde3581517b0029a825aefb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>domain.ReservaOfferRhOwnerContainer.ReservaOfferRhOwnerContainer</definition>
+        <argsstring>()</argsstring>
+        <name>ReservaOfferRhOwnerContainer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="20" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1aac4cc25208d928d5a68f72611c64fc3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+        <definition>Reserva domain.ReservaOfferRhOwnerContainer.getReserva</definition>
+        <argsstring>()</argsstring>
+        <name>getReserva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="24" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="24" bodyend="26"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a756c562dcce796edc2fc9a6c395fac80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.ReservaOfferRhOwnerContainer.setReserva</definition>
+        <argsstring>(Reserva reserva)</argsstring>
+        <name>setReserva</name>
+        <param>
+          <type><ref refid="classdomain_1_1_reserva" kindref="compound">Reserva</ref></type>
+          <declname>reserva</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="28" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1af4089b377fb75d45f5178ddcb13d244d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+        <definition>Offer domain.ReservaOfferRhOwnerContainer.getOffer</definition>
+        <argsstring>()</argsstring>
+        <name>getOffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="32" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="32" bodyend="34"/>
+        <referencedby refid="classgui_1_1_mis_reservas_g_u_i_1a1ebc31bd1d49fb416e11887848fe61b3" compoundref="_mis_reservas_g_u_i_8java" startline="48" endline="152">gui.MisReservasGUI.MisReservasGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a9bde23e4776b3ab5f1a3ca0c2383eec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.ReservaOfferRhOwnerContainer.setOffer</definition>
+        <argsstring>(Offer offer)</argsstring>
+        <name>setOffer</name>
+        <param>
+          <type><ref refid="classdomain_1_1_offer" kindref="compound">Offer</ref></type>
+          <declname>offer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="36" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1ae420b93f550cdc6ce38e896b1371e051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+        <definition>RuralHouse domain.ReservaOfferRhOwnerContainer.getRh</definition>
+        <argsstring>()</argsstring>
+        <name>getRh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="40" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a99a20474815a9663239605aa3b5ca2ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.ReservaOfferRhOwnerContainer.setRh</definition>
+        <argsstring>(RuralHouse rh)</argsstring>
+        <name>setRh</name>
+        <param>
+          <type><ref refid="classdomain_1_1_rural_house" kindref="compound">RuralHouse</ref></type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="44" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a910d36a8ee7f6bcdd7611ec046e91fce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+        <definition>Owner domain.ReservaOfferRhOwnerContainer.getOwner</definition>
+        <argsstring>()</argsstring>
+        <name>getOwner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="48" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="48" bodyend="50"/>
+        <referencedby refid="classgui_1_1_query_availability_client_advaced_g_u_i_1ae4951cca264e51c1017cd358da5bec56" compoundref="_query_availability_client_advaced_g_u_i_8java" startline="534" endline="580">gui.QueryAvailabilityClientAdvacedGUI.jButton1_actionPerformed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a90dec9bd67969de90e8c99877a810323" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void domain.ReservaOfferRhOwnerContainer.setOwner</definition>
+        <argsstring>(Owner owner)</argsstring>
+        <name>setOwner</name>
+        <param>
+          <type><ref refid="classdomain_1_1_owner" kindref="compound">Owner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="52" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a784483e076f918173509251d9b88bd4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.ReservaOfferRhOwnerContainer.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="55" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classdomain_1_1_reserva_offer_rh_owner_container_1a44dfc6ad7f9d01332112f4cf9a07dc4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String domain.ReservaOfferRhOwnerContainer.toStringOfferRh</definition>
+        <argsstring>()</argsstring>
+        <name>toStringOfferRh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="58" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="291">
+        <label>Vector&lt; domain.Reserva &gt;</label>
+      </node>
+      <node id="290">
+        <label>domain.Client</label>
+        <link refid="classdomain_1_1_client"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+        <childnode refid="291" relation="usage">
+          <edgelabel>listaReserva</edgelabel>
+        </childnode>
+      </node>
+      <node id="287">
+        <label>Vector&lt; domain.FeedBack &gt;</label>
+      </node>
+      <node id="281">
+        <label>domain.Offer</label>
+        <link refid="classdomain_1_1_offer"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+        <childnode refid="283" relation="usage">
+          <edgelabel>ruralHouse</edgelabel>
+        </childnode>
+        <childnode refid="289" relation="usage">
+          <edgelabel>reservaActual</edgelabel>
+        </childnode>
+        <childnode refid="292" relation="usage">
+          <edgelabel>lastDay</edgelabel>
+          <edgelabel>firstDay</edgelabel>
+        </childnode>
+      </node>
+      <node id="280">
+        <label>domain.ReservaOfferRhOwnerContainer</label>
+        <link refid="classdomain_1_1_reserva_offer_rh_owner_container"/>
+        <childnode refid="281" relation="usage">
+          <edgelabel>offer</edgelabel>
+        </childnode>
+        <childnode refid="283" relation="usage">
+          <edgelabel>rh</edgelabel>
+        </childnode>
+        <childnode refid="284" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="289" relation="usage">
+          <edgelabel>reserva</edgelabel>
+        </childnode>
+      </node>
+      <node id="283">
+        <label>domain.RuralHouse</label>
+        <link refid="classdomain_1_1_rural_house"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+        <childnode refid="284" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="286" relation="usage">
+          <edgelabel>offers</edgelabel>
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>listaFeedBack</edgelabel>
+        </childnode>
+        <childnode refid="288" relation="usage">
+          <edgelabel>images</edgelabel>
+        </childnode>
+      </node>
+      <node id="282">
+        <label>Serializable</label>
+      </node>
+      <node id="284">
+        <label>domain.Owner</label>
+        <link refid="classdomain_1_1_owner"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+        <childnode refid="285" relation="usage">
+          <edgelabel>rhList</edgelabel>
+        </childnode>
+      </node>
+      <node id="285">
+        <label>ArrayList&lt; domain.RuralHouse &gt;</label>
+      </node>
+      <node id="289">
+        <label>domain.Reserva</label>
+        <link refid="classdomain_1_1_reserva"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+        <childnode refid="281" relation="usage">
+          <edgelabel>offer</edgelabel>
+        </childnode>
+        <childnode refid="290" relation="usage">
+          <edgelabel>cliente</edgelabel>
+        </childnode>
+        <childnode refid="292" relation="usage">
+          <edgelabel>bookDate</edgelabel>
+        </childnode>
+      </node>
+      <node id="292">
+        <label>Date</label>
+      </node>
+      <node id="288">
+        <label>Vector&lt; byte[]&gt;</label>
+      </node>
+      <node id="286">
+        <label>Vector&lt; domain.Offer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/domain/ReservaOfferRhOwnerContainer.java" line="7" column="1" bodyfile="src/domain/ReservaOfferRhOwnerContainer.java" bodystart="7" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1af4089b377fb75d45f5178ddcb13d244d" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>getOffer</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a910d36a8ee7f6bcdd7611ec046e91fce" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>getOwner</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1aac4cc25208d928d5a68f72611c64fc3e" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>getReserva</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1ae420b93f550cdc6ce38e896b1371e051" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>getRh</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1ad8659a141937db6a13a2afc94ee10302" prot="private" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>offer</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a6d643c4ac5605393774d6a69886d7c3d" prot="private" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>owner</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1afcbc4f46e44afcfe5f441462b8628198" prot="private" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>reserva</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a8dd8e74751c3687311a3dc879bf4ec1c" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>ReservaOfferRhOwnerContainer</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1ad9d429d5bde3581517b0029a825aefb6" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>ReservaOfferRhOwnerContainer</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a96ee8f1952c3b10e5ca8cbf71fdf95cf" prot="private" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>rh</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a9bde23e4776b3ab5f1a3ca0c2383eec1" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>setOffer</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a90dec9bd67969de90e8c99877a810323" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>setOwner</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a756c562dcce796edc2fc9a6c395fac80" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>setReserva</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a99a20474815a9663239605aa3b5ca2ce" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>setRh</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a784483e076f918173509251d9b88bd4f" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>toString</name></member>
+      <member refid="classdomain_1_1_reserva_offer_rh_owner_container_1a44dfc6ad7f9d01332112f4cf9a07dc4c" prot="public" virt="non-virtual"><scope>domain::ReservaOfferRhOwnerContainer</scope><name>toStringOfferRh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

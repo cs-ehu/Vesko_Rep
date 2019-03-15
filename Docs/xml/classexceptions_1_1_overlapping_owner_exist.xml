@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classexceptions_1_1_overlapping_owner_exist" kind="class" language="Java" prot="public">
+    <compoundname>exceptions::OverlappingOwnerExist</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classexceptions_1_1_overlapping_owner_exist_1a6b81e5ae08ae481fc4ca932285ecdac7" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long exceptions.OverlappingOwnerExist.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingOwnerExist.java" line="4" column="1" bodyfile="src/exceptions/OverlappingOwnerExist.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexceptions_1_1_overlapping_owner_exist_1a6135a6f0a5fa6f50d1886357e8269d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.OverlappingOwnerExist.OverlappingOwnerExist</definition>
+        <argsstring>()</argsstring>
+        <name>OverlappingOwnerExist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingOwnerExist.java" line="6" column="1" bodyfile="src/exceptions/OverlappingOwnerExist.java" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classexceptions_1_1_overlapping_owner_exist_1aec7af33ff914f6c8e4452860bdb3298b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>exceptions.OverlappingOwnerExist.OverlappingOwnerExist</definition>
+        <argsstring>(String s)</argsstring>
+        <name>OverlappingOwnerExist</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/exceptions/OverlappingOwnerExist.java" line="9" column="1" bodyfile="src/exceptions/OverlappingOwnerExist.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="218">
+        <label>Exception</label>
+      </node>
+      <node id="217">
+        <label>exceptions.OverlappingOwnerExist</label>
+        <link refid="classexceptions_1_1_overlapping_owner_exist"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="220">
+        <label>Exception</label>
+      </node>
+      <node id="219">
+        <label>exceptions.OverlappingOwnerExist</label>
+        <link refid="classexceptions_1_1_overlapping_owner_exist"/>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/exceptions/OverlappingOwnerExist.java" line="3" column="1" bodyfile="src/exceptions/OverlappingOwnerExist.java" bodystart="3" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classexceptions_1_1_overlapping_owner_exist_1a6135a6f0a5fa6f50d1886357e8269d5d" prot="public" virt="non-virtual"><scope>exceptions::OverlappingOwnerExist</scope><name>OverlappingOwnerExist</name></member>
+      <member refid="classexceptions_1_1_overlapping_owner_exist_1aec7af33ff914f6c8e4452860bdb3298b" prot="public" virt="non-virtual"><scope>exceptions::OverlappingOwnerExist</scope><name>OverlappingOwnerExist</name></member>
+      <member refid="classexceptions_1_1_overlapping_owner_exist_1a6b81e5ae08ae481fc4ca932285ecdac7" prot="private" virt="non-virtual"><scope>exceptions::OverlappingOwnerExist</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

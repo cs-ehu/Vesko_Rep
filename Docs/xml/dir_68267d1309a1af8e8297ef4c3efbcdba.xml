@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerdir refid="dir_29d667bb07f05bb7400afdc76794b290">src/bot</innerdir>
+    <innerdir refid="dir_108520459aa9d4bb59b3b177709be0f6">src/businessLogic</innerdir>
+    <innerdir refid="dir_4939e1535a9c78a4a46737b61ec76827">src/configuration</innerdir>
+    <innerdir refid="dir_4c6382d940b8114a9f3b254bc8169ae4">src/dataAccess</innerdir>
+    <innerdir refid="dir_59e154daa71ab644ff60a4d6c4d01bbf">src/domain</innerdir>
+    <innerdir refid="dir_6e33d6500a76933db4361f663e54ab12">src/exceptions</innerdir>
+    <innerdir refid="dir_99d0482cf009f9d97a0877749b817f19">src/gui</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/"/>
+  </compounddef>
+</doxygen>

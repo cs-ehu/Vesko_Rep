@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_generate_validation_code_8java" kind="file" language="Java">
+    <compoundname>GenerateValidationCode.java</compoundname>
+    <innerclass refid="classbusiness_logic_1_1_generate_validation_code" prot="public">businessLogic::GenerateValidationCode</innerclass>
+    <innernamespace refid="namespacebusiness_logic">businessLogic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">businessLogic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Random;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classbusiness_logic_1_1_generate_validation_code" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbusiness_logic_1_1_generate_validation_code" kindref="compound">GenerateValidationCode</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" kindref="member">validationNumber</ref>;</highlight></codeline>
+<codeline lineno="8" refid="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" kindref="member">min</ref><sp/>=<sp/>1000;</highlight></codeline>
+<codeline lineno="9" refid="classbusiness_logic_1_1_generate_validation_code_1a1b44dd596967e6ea88216fb4f8474dd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a1b44dd596967e6ea88216fb4f8474dd0" kindref="member">max</ref><sp/>=<sp/>9999;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a92bd48c1823c3ebc03405e05eb465f96" kindref="member">GenerateValidationCode</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Random<sp/>random<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Random();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" kindref="member">validationNumber</ref><sp/>=<sp/>random.nextInt(<ref refid="classbusiness_logic_1_1_generate_validation_code_1a1b44dd596967e6ea88216fb4f8474dd0" kindref="member">max</ref><sp/>-<sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" kindref="member">min</ref><sp/>+<sp/>1)<sp/>+<sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a06e827547295d178ab349104c2aa93fb" kindref="member">min</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1aaf6487d6c3a94c31333672635ae9cd28" kindref="member">getValidationNumber</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classbusiness_logic_1_1_generate_validation_code_1a070be2bda64238cec0f5951e03cadd07" kindref="member">validationNumber</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/businessLogic/GenerateValidationCode.java"/>
+  </compounddef>
+</doxygen>

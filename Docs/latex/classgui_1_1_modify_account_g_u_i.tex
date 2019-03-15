@@ -1,0 +1,437 @@
+\hypertarget{classgui_1_1_modify_account_g_u_i}{}\section{Referencia de la Clase gui.\+Modify\+Account\+G\+UI}
+\label{classgui_1_1_modify_account_g_u_i}\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+Diagrama de herencias de gui.\+Modify\+Account\+G\+UI\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgui_1_1_modify_account_g_u_i}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a6736caf57c7119ae2cdbb68ee38dd7bb}{Modify\+Account\+G\+UI}} (String type)
+\begin{DoxyCompactList}\small\item\em Create the frame. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_afacb446b63aaccea7ffc445a726bea94}{update\+Txt\+Fields}} (String type)
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{content\+Pane}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txt\+Username}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txt\+Password}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txt\+Email}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txt\+Telegram\+Id}}
+\item 
+J\+Text\+Field \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txt\+Banc\+Account}}
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtn\+Send\+Book\+Via\+\_\+1}} = new J\+Radio\+Button(\char`\"{}Send book via Email\char`\"{})
+\item 
+J\+Radio\+Button \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtn\+Send\+Book\+Via}} = new J\+Radio\+Button(\char`\"{}Send book via Telegram\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a5df2167d933511b49e57a083d10f7cb7}{lbl\+New\+Label}} = new J\+Label(\char`\"{}New label\char`\"{})
+\item 
+J\+Label \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}{lbl\+Validation\+Succesfully}} = new J\+Label(\char`\"{}1\char`\"{})
+\item 
+\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aaadd5325f9f2b8ac9cb5d4bbe848d5b8}{facade}} = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 29 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a6736caf57c7119ae2cdbb68ee38dd7bb}\label{classgui_1_1_modify_account_g_u_i_a6736caf57c7119ae2cdbb68ee38dd7bb}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!ModifyAccountGUI@{ModifyAccountGUI}}
+\index{ModifyAccountGUI@{ModifyAccountGUI}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{ModifyAccountGUI()}{ModifyAccountGUI()}}
+{\footnotesize\ttfamily gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+UI (\begin{DoxyParamCaption}\item[{String}]{type }\end{DoxyParamCaption})}
+
+
+
+Create the frame. 
+
+
+
+Definición en la línea 49 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{49                                          \{}
+\DoxyCodeLine{50         MainGUI a = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{51         Owner o = a.owner;}
+\DoxyCodeLine{52         Client c = a.client;}
+\DoxyCodeLine{53         setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);}
+\DoxyCodeLine{54         setBounds(100, 100, 468, 420);}
+\DoxyCodeLine{55         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}} = \textcolor{keyword}{new} JPanel();}
+\DoxyCodeLine{56         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.setBorder(\textcolor{keyword}{new} EmptyBorder(5, 5, 5, 5));}
+\DoxyCodeLine{57         setContentPane(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}});}
+\DoxyCodeLine{58         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.setLayout(\textcolor{keyword}{null});}
+\DoxyCodeLine{59         }
+\DoxyCodeLine{60         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{61         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}}.setEditable(\textcolor{keyword}{false});}
+\DoxyCodeLine{62         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}}.setBounds(137, 13, 160, 22);}
+\DoxyCodeLine{63         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}});}
+\DoxyCodeLine{64         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}}.setColumns(10);}
+\DoxyCodeLine{65         }
+\DoxyCodeLine{66         JLabel lblUsername = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Username"});}
+\DoxyCodeLine{67         lblUsername.setBounds(50, 13, 75, 22);}
+\DoxyCodeLine{68         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(lblUsername);}
+\DoxyCodeLine{69         }
+\DoxyCodeLine{70         JLabel lblPassword = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Password"});}
+\DoxyCodeLine{71         lblPassword.setBounds(50, 48, 75, 22);}
+\DoxyCodeLine{72         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(lblPassword);}
+\DoxyCodeLine{73         }
+\DoxyCodeLine{74         JLabel lblEmail = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Email"});}
+\DoxyCodeLine{75         lblEmail.setBounds(50, 83, 75, 22);}
+\DoxyCodeLine{76         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(lblEmail);}
+\DoxyCodeLine{77         }
+\DoxyCodeLine{78         JLabel lblTelegramId = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Telegram Id"});}
+\DoxyCodeLine{79         lblTelegramId.setBounds(50, 114, 75, 22);}
+\DoxyCodeLine{80         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(lblTelegramId);}
+\DoxyCodeLine{81         }
+\DoxyCodeLine{82         JLabel lblBancAccount = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Banc account"});}
+\DoxyCodeLine{83         lblBancAccount.setBounds(50, 151, 75, 22);}
+\DoxyCodeLine{84         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(lblBancAccount);}
+\DoxyCodeLine{85         }
+\DoxyCodeLine{86         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{87         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.setColumns(10);}
+\DoxyCodeLine{88         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.setBounds(137, 48, 160, 22);}
+\DoxyCodeLine{89         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}});}
+\DoxyCodeLine{90         }
+\DoxyCodeLine{91         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{92         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.setColumns(10);}
+\DoxyCodeLine{93         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.setBounds(137, 83, 160, 22);}
+\DoxyCodeLine{94         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}});}
+\DoxyCodeLine{95         }
+\DoxyCodeLine{96         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{97         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.setColumns(10);}
+\DoxyCodeLine{98         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.setBounds(137, 114, 160, 22);}
+\DoxyCodeLine{99         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}});}
+\DoxyCodeLine{100         }
+\DoxyCodeLine{101         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}} = \textcolor{keyword}{new} JTextField();}
+\DoxyCodeLine{102         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.setColumns(10);}
+\DoxyCodeLine{103         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.setBounds(137, 151, 160, 22);}
+\DoxyCodeLine{104         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}});}
+\DoxyCodeLine{105         }
+\DoxyCodeLine{106         JButton btnAceptChanges = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Validate changes"});}
+\DoxyCodeLine{107         btnAceptChanges.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{108             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
+\DoxyCodeLine{109                 \textcolor{keywordflow}{if}(c!=\textcolor{keyword}{null})\{}
+\DoxyCodeLine{110                     MainGUI a = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{111                     c.setCuentaBancaria(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.getText());}
+\DoxyCodeLine{112                     c.setPassword(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.getText());}
+\DoxyCodeLine{113                     c.setEmail(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.getText());}
+\DoxyCodeLine{114                     c.setTelegramId(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.getText());}
+\DoxyCodeLine{115                     c.setSendBookByEmail(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.isSelected());}
+\DoxyCodeLine{116                     c.setSendBookByTelegram(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.isSelected());}
+\DoxyCodeLine{117                     a.client=\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aaadd5325f9f2b8ac9cb5d4bbe848d5b8}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_a2d053769d923bd1987f8fd1f875905e7}{updateClient}}(c);}
+\DoxyCodeLine{118                 \}}
+\DoxyCodeLine{119                 \textcolor{keywordflow}{if}(o!=\textcolor{keyword}{null})\{}
+\DoxyCodeLine{120                     o.\mbox{\hyperlink{classdomain_1_1_client_a02858d702a1b74589412777da82111ca}{setCuentaBancaria}}(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.getText());}
+\DoxyCodeLine{121                     o.setPassword(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.getText());}
+\DoxyCodeLine{122                     o.setEmail(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.getText());}
+\DoxyCodeLine{123                     o.setTelegramId(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.getText());}
+\DoxyCodeLine{124                     o.setSendBookByTelegram(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.isSelected());}
+\DoxyCodeLine{125                     a.owner=\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aaadd5325f9f2b8ac9cb5d4bbe848d5b8}{facade}}.\mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s_af0ef759ffef69a39428870eada0221cd}{updateOwner}}(o); }
+\DoxyCodeLine{126                 \}}
+\DoxyCodeLine{127                 \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}{lblValidationSuccesfully}}.setText(\textcolor{stringliteral}{"The account has been succesfully updated"});}
+\DoxyCodeLine{128                 \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_afacb446b63aaccea7ffc445a726bea94}{updateTxtFields}}(type);}
+\DoxyCodeLine{129             \}}
+\DoxyCodeLine{130         \});}
+\DoxyCodeLine{131         }
+\DoxyCodeLine{132         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}{lblValidationSuccesfully}}.setForeground(\textcolor{keyword}{new} Color(0, 128, 0));}
+\DoxyCodeLine{133         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}{lblValidationSuccesfully}}.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 15));}
+\DoxyCodeLine{134         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}{lblValidationSuccesfully}}.setBounds(50, 344, 378, 16);}
+\DoxyCodeLine{135         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}{lblValidationSuccesfully}}.setText(\textcolor{stringliteral}{""});}
+\DoxyCodeLine{136         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}{lblValidationSuccesfully}});}
+\DoxyCodeLine{137         }
+\DoxyCodeLine{138         btnAceptChanges.setBounds(45, 303, 134, 25);}
+\DoxyCodeLine{139         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(btnAceptChanges);}
+\DoxyCodeLine{140         }
+\DoxyCodeLine{141         JButton btnBack = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{"Back"});}
+\DoxyCodeLine{142         btnBack.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
+\DoxyCodeLine{143             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
+\DoxyCodeLine{144                 dispose();}
+\DoxyCodeLine{145                 \textcolor{keywordflow}{if}(type.equals(\textcolor{stringliteral}{"Owner"}))\{}
+\DoxyCodeLine{146                     OwnerGUI a = \textcolor{keyword}{new} OwnerGUI();}
+\DoxyCodeLine{147                     a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{148                 \}}
+\DoxyCodeLine{149                 \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{150                     ClientMainGUI a = \textcolor{keyword}{new} ClientMainGUI();}
+\DoxyCodeLine{151                     a.setVisible(\textcolor{keyword}{true});}
+\DoxyCodeLine{152                 \}}
+\DoxyCodeLine{153             \}}
+\DoxyCodeLine{154         \});}
+\DoxyCodeLine{155         btnBack.setBounds(202, 303, 120, 25);}
+\DoxyCodeLine{156         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(btnBack);}
+\DoxyCodeLine{157         }
+\DoxyCodeLine{158         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setBounds(50, 209, 167, 25);}
+\DoxyCodeLine{159         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}});}
+\DoxyCodeLine{160         \textcolor{keywordflow}{if} (c != \textcolor{keyword}{null})}
+\DoxyCodeLine{161             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setSelected(c.isSendBookByTelegram());}
+\DoxyCodeLine{162         \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{163             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{164         \}}
+\DoxyCodeLine{165         }
+\DoxyCodeLine{166         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.setBounds(50, 241, 167, 25);}
+\DoxyCodeLine{167         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}});}
+\DoxyCodeLine{168         }
+\DoxyCodeLine{169         JLabel lblType = \textcolor{keyword}{new} JLabel(\textcolor{stringliteral}{"Type:"});}
+\DoxyCodeLine{170         lblType.setBounds(372, 16, 56, 16);}
+\DoxyCodeLine{171         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(lblType);}
+\DoxyCodeLine{172         }
+\DoxyCodeLine{173         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a5df2167d933511b49e57a083d10f7cb7}{lblNewLabel}}.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"Tahoma"}, Font.BOLD, 13));}
+\DoxyCodeLine{174         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a5df2167d933511b49e57a083d10f7cb7}{lblNewLabel}}.setBounds(372, 35, 75, 16);}
+\DoxyCodeLine{175         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}{contentPane}}.add(\mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a5df2167d933511b49e57a083d10f7cb7}{lblNewLabel}});}
+\DoxyCodeLine{176         \textcolor{keywordflow}{if} (c != \textcolor{keyword}{null})}
+\DoxyCodeLine{177             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.setSelected(c.isSendBookByEmail());}
+\DoxyCodeLine{178         \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{179             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.setEnabled(\textcolor{keyword}{false});}
+\DoxyCodeLine{180         \}}
+\DoxyCodeLine{181         \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a5df2167d933511b49e57a083d10f7cb7}{lblNewLabel}}.setText(type);}
+\DoxyCodeLine{182         \textcolor{keywordflow}{if} (type.equals(\textcolor{stringliteral}{"Owner"}))\{}
+\DoxyCodeLine{183             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}}.setText(o.getUserName());}
+\DoxyCodeLine{184             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.setText(o.getPassword());}
+\DoxyCodeLine{185             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.setText(o.getCuentaBancaria());}
+\DoxyCodeLine{186             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.setText(o.getEmail());}
+\DoxyCodeLine{187             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.setText(o.getTelegramId());}
+\DoxyCodeLine{188             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setSelected(o.isSendBookByTelegram());}
+\DoxyCodeLine{189             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{190             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.setSelected(\textcolor{keyword}{true});}
+\DoxyCodeLine{191         \}}
+\DoxyCodeLine{192         \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{193             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}}.setText(c.getUserName());}
+\DoxyCodeLine{194             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.setText(c.getPassword());}
+\DoxyCodeLine{195             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.setText(c.getCuentaBancaria());}
+\DoxyCodeLine{196             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.setText(c.getEmail());}
+\DoxyCodeLine{197             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.setText(c.getTelegramId());}
+\DoxyCodeLine{198             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setSelected(c.isSendBookByTelegram());}
+\DoxyCodeLine{199             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.setSelected(c.isSendBookByEmail());}
+\DoxyCodeLine{200             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{201             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.setEnabled(\textcolor{keyword}{true});}
+\DoxyCodeLine{202         \}}
+\DoxyCodeLine{203     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Main\+G\+U\+I.\+client, gui.\+Modify\+Account\+G\+U\+I.\+content\+Pane, gui.\+Modify\+Account\+G\+U\+I.\+facade, domain.\+Owner.\+get\+Cuenta\+Bancaria(), domain.\+Client.\+get\+Cuenta\+Bancaria(), domain.\+Owner.\+get\+Email(), domain.\+Client.\+get\+Email(), domain.\+Owner.\+get\+Password(), domain.\+Client.\+get\+Password(), domain.\+Owner.\+get\+Telegram\+Id(), domain.\+Client.\+get\+Telegram\+Id(), domain.\+Owner.\+get\+User\+Name(), domain.\+Client.\+get\+User\+Name(), domain.\+Client.\+is\+Send\+Book\+By\+Email(), domain.\+Owner.\+is\+Send\+Book\+By\+Telegram(), domain.\+Client.\+is\+Send\+Book\+By\+Telegram(), gui.\+Modify\+Account\+G\+U\+I.\+lbl\+New\+Label, gui.\+Modify\+Account\+G\+U\+I.\+lbl\+Validation\+Succesfully, gui.\+Main\+G\+U\+I.\+owner, gui.\+Modify\+Account\+G\+U\+I.\+rdbtn\+Send\+Book\+Via, gui.\+Modify\+Account\+G\+U\+I.\+rdbtn\+Send\+Book\+Via\+\_\+1, domain.\+Owner.\+set\+Cuenta\+Bancaria(), domain.\+Client.\+set\+Cuenta\+Bancaria(), domain.\+Owner.\+set\+Email(), domain.\+Client.\+set\+Email(), domain.\+Owner.\+set\+Password(), domain.\+Client.\+set\+Password(), domain.\+Client.\+set\+Send\+Book\+By\+Email(), domain.\+Owner.\+set\+Send\+Book\+By\+Telegram(), domain.\+Client.\+set\+Send\+Book\+By\+Telegram(), domain.\+Owner.\+set\+Telegram\+Id(), domain.\+Client.\+set\+Telegram\+Id(), gui.\+Modify\+Account\+G\+U\+I.\+txt\+Banc\+Account, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Email, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Password, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Telegram\+Id, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Username, business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Client(), business\+Logic.\+Application\+Facade\+Interface\+W\+S.\+update\+Owner() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_afacb446b63aaccea7ffc445a726bea94}\label{classgui_1_1_modify_account_g_u_i_afacb446b63aaccea7ffc445a726bea94}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!updateTxtFields@{updateTxtFields}}
+\index{updateTxtFields@{updateTxtFields}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{updateTxtFields()}{updateTxtFields()}}
+{\footnotesize\ttfamily void gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields (\begin{DoxyParamCaption}\item[{String}]{type }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 204 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{204                                             \{}
+\DoxyCodeLine{205         MainGUI a  = \textcolor{keyword}{new} MainGUI();}
+\DoxyCodeLine{206         Owner o = a.owner;}
+\DoxyCodeLine{207         Client c = a.client;}
+\DoxyCodeLine{208         \textcolor{keywordflow}{if} (type.equals(\textcolor{stringliteral}{"Owner"}))\{}
+\DoxyCodeLine{209             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}}.setText(o.getUserName());}
+\DoxyCodeLine{210             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.setText(o.getPassword());}
+\DoxyCodeLine{211             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.setText(o.getCuentaBancaria());}
+\DoxyCodeLine{212             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.setText(o.getEmail());}
+\DoxyCodeLine{213             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.setText(o.getTelegramId());}
+\DoxyCodeLine{214             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setEnabled(o.isSendBookByTelegram());}
+\DoxyCodeLine{215 }
+\DoxyCodeLine{216         \}}
+\DoxyCodeLine{217         \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{218             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}{txtUsername}}.setText(c.getUserName());}
+\DoxyCodeLine{219             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}{txtPassword}}.setText(c.getPassword());}
+\DoxyCodeLine{220             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}{txtBancAccount}}.setText(c.getCuentaBancaria());}
+\DoxyCodeLine{221             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}{txtEmail}}.setText(c.getEmail());}
+\DoxyCodeLine{222             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}{txtTelegramId}}.setText(c.getTelegramId());}
+\DoxyCodeLine{223             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}{rdbtnSendBookVia}}.setEnabled(c.isSendBookByTelegram());}
+\DoxyCodeLine{224             \mbox{\hyperlink{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}{rdbtnSendBookVia\_1}}.setEnabled(c.isSendBookByEmail());}
+\DoxyCodeLine{225         \}}
+\DoxyCodeLine{226     \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a gui.\+Main\+G\+U\+I.\+client, domain.\+Owner.\+get\+Cuenta\+Bancaria(), domain.\+Client.\+get\+Cuenta\+Bancaria(), domain.\+Owner.\+get\+Email(), domain.\+Client.\+get\+Email(), domain.\+Owner.\+get\+Password(), domain.\+Client.\+get\+Password(), domain.\+Owner.\+get\+Telegram\+Id(), domain.\+Client.\+get\+Telegram\+Id(), domain.\+Owner.\+get\+User\+Name(), domain.\+Client.\+get\+User\+Name(), domain.\+Client.\+is\+Send\+Book\+By\+Email(), domain.\+Owner.\+is\+Send\+Book\+By\+Telegram(), domain.\+Client.\+is\+Send\+Book\+By\+Telegram(), gui.\+Main\+G\+U\+I.\+owner, gui.\+Modify\+Account\+G\+U\+I.\+rdbtn\+Send\+Book\+Via, gui.\+Modify\+Account\+G\+U\+I.\+rdbtn\+Send\+Book\+Via\+\_\+1, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Banc\+Account, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Email, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Password, gui.\+Modify\+Account\+G\+U\+I.\+txt\+Telegram\+Id y gui.\+Modify\+Account\+G\+U\+I.\+txt\+Username.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}\label{classgui_1_1_modify_account_g_u_i_a381fa9bf3fbd1dbbe3166aa501fab1fc}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!contentPane@{contentPane}}
+\index{contentPane@{contentPane}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{contentPane}{contentPane}}
+{\footnotesize\ttfamily J\+Panel gui.\+Modify\+Account\+G\+U\+I.\+content\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 31 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_aaadd5325f9f2b8ac9cb5d4bbe848d5b8}\label{classgui_1_1_modify_account_g_u_i_aaadd5325f9f2b8ac9cb5d4bbe848d5b8}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!facade@{facade}}
+\index{facade@{facade}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{facade}{facade}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacebusiness_logic_1_1_application_facade_interface_w_s}{Application\+Facade\+Interface\+WS}} gui.\+Modify\+Account\+G\+U\+I.\+facade = new \mbox{\hyperlink{classgui_1_1_main_g_u_i}{Main\+G\+UI}}().get\+Business\+Logic()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 43 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a5df2167d933511b49e57a083d10f7cb7}\label{classgui_1_1_modify_account_g_u_i_a5df2167d933511b49e57a083d10f7cb7}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!lblNewLabel@{lblNewLabel}}
+\index{lblNewLabel@{lblNewLabel}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{lblNewLabel}{lblNewLabel}}
+{\footnotesize\ttfamily J\+Label gui.\+Modify\+Account\+G\+U\+I.\+lbl\+New\+Label = new J\+Label(\char`\"{}New label\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 39 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}\label{classgui_1_1_modify_account_g_u_i_a152e659fd97ffc8f00d87e437dbf53a8}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!lblValidationSuccesfully@{lblValidationSuccesfully}}
+\index{lblValidationSuccesfully@{lblValidationSuccesfully}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{lblValidationSuccesfully}{lblValidationSuccesfully}}
+{\footnotesize\ttfamily J\+Label gui.\+Modify\+Account\+G\+U\+I.\+lbl\+Validation\+Succesfully = new J\+Label(\char`\"{}1\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 40 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}\label{classgui_1_1_modify_account_g_u_i_a77129e74749dc0b350d05de4f5137c52}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!rdbtnSendBookVia@{rdbtnSendBookVia}}
+\index{rdbtnSendBookVia@{rdbtnSendBookVia}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{rdbtnSendBookVia}{rdbtnSendBookVia}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Modify\+Account\+G\+U\+I.\+rdbtn\+Send\+Book\+Via = new J\+Radio\+Button(\char`\"{}Send book via Telegram\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 38 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}\label{classgui_1_1_modify_account_g_u_i_aa53f8e44219679688600395a16df9c1f}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!rdbtnSendBookVia\_1@{rdbtnSendBookVia\_1}}
+\index{rdbtnSendBookVia\_1@{rdbtnSendBookVia\_1}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{rdbtnSendBookVia\_1}{rdbtnSendBookVia\_1}}
+{\footnotesize\ttfamily J\+Radio\+Button gui.\+Modify\+Account\+G\+U\+I.\+rdbtn\+Send\+Book\+Via\+\_\+1 = new J\+Radio\+Button(\char`\"{}Send book via Email\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 37 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}\label{classgui_1_1_modify_account_g_u_i_a4ae8a0fdffbec7405e1baf27e485f768}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!txtBancAccount@{txtBancAccount}}
+\index{txtBancAccount@{txtBancAccount}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{txtBancAccount}{txtBancAccount}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Modify\+Account\+G\+U\+I.\+txt\+Banc\+Account\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 36 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}\label{classgui_1_1_modify_account_g_u_i_a52839f2a7edd45f9c756f0012e4dc1d6}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!txtEmail@{txtEmail}}
+\index{txtEmail@{txtEmail}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{txtEmail}{txtEmail}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Modify\+Account\+G\+U\+I.\+txt\+Email\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 34 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}\label{classgui_1_1_modify_account_g_u_i_a589fabddc834cc42a2acaa2ad904ae3f}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!txtPassword@{txtPassword}}
+\index{txtPassword@{txtPassword}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{txtPassword}{txtPassword}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Modify\+Account\+G\+U\+I.\+txt\+Password\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 33 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}\label{classgui_1_1_modify_account_g_u_i_ab28de7ad0595e732310c6d55c763bf5d}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!txtTelegramId@{txtTelegramId}}
+\index{txtTelegramId@{txtTelegramId}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{txtTelegramId}{txtTelegramId}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Modify\+Account\+G\+U\+I.\+txt\+Telegram\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 35 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+\mbox{\Hypertarget{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}\label{classgui_1_1_modify_account_g_u_i_af8c1603f6af69f39c0d0a29a8aa2b568}} 
+\index{gui.ModifyAccountGUI@{gui.ModifyAccountGUI}!txtUsername@{txtUsername}}
+\index{txtUsername@{txtUsername}!gui.ModifyAccountGUI@{gui.ModifyAccountGUI}}
+\subsubsection{\texorpdfstring{txtUsername}{txtUsername}}
+{\footnotesize\ttfamily J\+Text\+Field gui.\+Modify\+Account\+G\+U\+I.\+txt\+Username\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 32 del archivo Modify\+Account\+G\+U\+I.\+java.
+
+
+
+Referenciado por gui.\+Modify\+Account\+G\+U\+I.\+Modify\+Account\+G\+U\+I() y gui.\+Modify\+Account\+G\+U\+I.\+update\+Txt\+Fields().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/\mbox{\hyperlink{_modify_account_g_u_i_8java}{Modify\+Account\+G\+U\+I.\+java}}\end{DoxyCompactItemize}
